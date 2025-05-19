@@ -1,4 +1,11 @@
-----
+## Elms Sans----
+
+Elms Sans is a utilitarian geometric sans serif typeface designed to perform reliably across a wide range of modern applications.
+
+Its construction draws from early geometric models, with particular attention to openness, rhythm, and optical clarity. The result is a typeface that maintains functional neutrality while offering enough warmth to feel approachable at both large and small sizes.
+
+The name references the elm tree—long associated with craftsmanship, resilience, and quiet strength. While not overtly expressive, Elms Sans was developed with care and long-term usability as its guiding values.
+
 
 ## Setting up your font
 
