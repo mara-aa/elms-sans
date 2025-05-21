@@ -75,7 +75,7 @@ jobs:
         name: ${{ env.ZIP_NAME }}
         path: |
           fonts
-          out
+          
     outputs:
       zip_name: ${{ env.ZIP_NAME }}
 
