@@ -72,8 +72,9 @@ jobs:
     - name: Archive artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: fonts-only
-        path: fonts
+        name: ${{ env.ZIP_NAME }}
+        path: |
+          fonts
           
     outputs:
       zip_name: ${{ env.ZIP_NAME }}
@@ -111,8 +112,8 @@ jobs:
       - name: Download font artefact files
         uses: actions/download-artifact@v4
         with:
-          name: fonts-only
-          path: fonts-only
+          name: ${{ env.ZIP_NAME }}
+          path: ${{ env.ZIP_NAME }}
       - name: Copy DESCRIPTION.en_us.html to artefact directory
         run: cp documentation/DESCRIPTION.en_us.html ${{ env.ZIP_NAME }}/DESCRIPTION.en_us.html
       - name: Copy ARTICLE.en_us.html to artefact directory
@@ -123,10 +124,10 @@ jobs:
       - name: Remove proof/fontbakery stuff from release
         run: rm -rf ${{ env.ZIP_NAME }}/out
       - name: gen release file name
-      - shell: bash 
-      - run: echo "RELEASE_ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-${{github.ref_name}}" >> $GITHUB_ENV
+        shell: bash
+        run: echo "RELEASE_ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-${{github.ref_name}}" >> $GITHUB_ENV
       - name: Create release bundle
-      - run: mv fonts-only ${{ env.RELEASE_ZIP_NAME }}; zip -r ${{ env.RELEASE_ZIP_NAME }}.zip ${{ env.RELEASE_ZIP_NAME }}
+        run: mv ${{ env.ZIP_NAME }} ${{ env.RELEASE_ZIP_NAME }}; zip -r ${{ env.RELEASE_ZIP_NAME }}.zip ${{ env.RELEASE_ZIP_NAME }}
       - name: Check for release
         id: create_release
         run: |
@@ -140,3 +141,8 @@ jobs:
         run: |
           gh release edit ${{ github.ref_name }} --draft=false
 
+
+
+
+
+          
