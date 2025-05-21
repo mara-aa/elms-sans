@@ -25,8 +25,8 @@ The name Elms is a dedication to three individuals whose mentorship shaped the d
 The current version supports Latin-script languages, with additional Sub-Saharan Latin support in development.
 
 
-![Sample Image](documentation/image1.png)
-![Sample Image](documentation/image2.png)
+![Sample Image](/Users/amarachinwauwa/Documents/GitHub/elms-sans/documentation/image1.png)
+![Sample Image] (/Users/amarachinwauwa/Documents/GitHub/elms-sans/documentation/image2.png)
 
 
 ## About
