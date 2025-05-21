@@ -1,3 +1,7 @@
+# Add a dummy gftools target to satisfy gftools packager
+gftools:
+	@echo "gftools make target placeholder"
+
 SOURCES=$(shell python3 scripts/read-config.py --sources )
 FAMILY=$(shell python3 scripts/read-config.py --family )
 DRAWBOT_SCRIPTS=$(shell ls documentation/*.py)
