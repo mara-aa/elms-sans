@@ -4,6 +4,7 @@
 [![][Universal]](https://mara-aa.github.io/elms-sans.git/fontbakery/fontbakery-report.html)
 [![][GF Profile]](https://mara-aa.github.io/elms-sans.git/fontbakery/fontbakery-report.html)
 [![][Shaping]](https://mara-aa.github.io/elms-sans.git/fontbakery/fontbakery-report.html)
+[![Build font and specimen](https://github.com/mara-aa/elms-sans/actions/workflows/build.yaml/badge.svg)](https://github.com/mara-aa/elms-sans/actions/workflows/build.yaml)
 
 [Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmara-aa%2Felms-sans.git%2Fgh-pages%2Fbadges%2Foverall.json
 [GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmara-aa%2Felms-sans.git%2Fgh-pages%2Fbadges%2FGoogleFonts.json
