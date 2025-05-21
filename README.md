@@ -1,6 +1,6 @@
 ## Elms Sans
 
-[![][Fontbakery]](https://mara-aa.github.io/elms-sans.git/fontbakery/fontbakery-report.html)
+[![][Fontbakery]](https://mara-aa.github.io/elms-sans/fontbakery/fontbakery-report.html)
 [![][Universal]](https://mara-aa.github.io/elms-sans.git/fontbakery/fontbakery-report.html)
 [![][GF Profile]](https://mara-aa.github.io/elms-sans.git/fontbakery/fontbakery-report.html)
 [![][Shaping]](https://mara-aa.github.io/elms-sans.git/fontbakery/fontbakery-report.html)
