@@ -28,7 +28,7 @@ familyName: "Elms Sans"
 
 # buildVariable: false
 # buildStatic: true
-# buildTTF: true
+buildTTF: true
 buildOTF: false
 # buildSmallCap: true
 
