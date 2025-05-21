@@ -17,7 +17,7 @@ Elms Sans is a utilitarian geometric sans serif typeface designed for clarity, c
 
 The design draws from early geometric models, with particular attention to rhythm, openness, and optical clarity. While maintaining functional neutrality, Elms Sans introduces subtle warmth in its proportions, making it suitable for both display and text use.
 
-Elms Sans includes a single variable axis, wght (weight), and spans eight weights: Thin, ExtraLight, Light, Regular, Medium, SemiBold, Bold, and Heavy, created with 3 masters.
+Elms Sans includes a single variable axis, `wght` (weight), and spans eight weights: `Thin`, `ExtraLight`, `Light`, `Regular`, `Medium`, `SemiBold`, `Bold`, and `Heavy`, created with 3 masters.
 
 The name Elms is a dedication to three individuals whose mentorship shaped the designer’s career—Elijah Affi, Makua Afiomah, and Solomon Dawudu. It also references the elm tree, often associated with craftsmanship, quiet strength, and resilience—values that guided the design process, both in form and function.
 
