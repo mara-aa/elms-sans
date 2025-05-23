@@ -953,7 +953,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 * ⚠️ **WARN** <p>The most common width is 452 among a set of 2 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 456:
-less, greater</p>
+greater, less</p>
 <p>Width = 388:
 equal</p>
 <p>Width = 464:
@@ -1176,18 +1176,18 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, malayalam, tai-le, canadian-aboriginal, hebrew, coptic, todhri, duployan, old-permic, tifinagh, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, old-permic, tifinagh, math, syriac, coptic, tai-le, canadian-aboriginal, todhri, hebrew, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, sunuwar, gothic, tifinagh, cherokee, thai, caucasian-albanian</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, gothic, caucasian-albanian, tifinagh, syriac, cherokee, sunuwar</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -1211,7 +1211,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tai-le, old-permic, bengali, masaram-gondi, pahawh-hmong, gujarati, tifinagh, tamil, mahajani, zanabazar-square, bassa-vah, khojki, hanunoo, meetei-mayek, tai-tham, thaana, wancho, duployan, mandaic, devanagari, phags-pa, gurmukhi, music, math, malayalam, kannada, mende-kikakui, buhid, new-tai-lue, sinhala, brahmi, coptic, caucasian-albanian, soyombo, adlam, modi, myanmar, syriac, batak, sogdian, psalter-pahlavi, osage, canadian-aboriginal, tagalog, cham, balinese, limbu, manichaean, tagbanwa, thai, nko, kayah-li, marchen, hanifi-rohingya, saurashtra, elbasan, kaithi, rejang, tirhuta, lepcha, takri, tibetan, mongolian, oriya, armenian, miao, javanese, chakma, gunjala-gondi, khmer, tai-viet, sundanese, lao, newa, symbols, khudawadi, yi, syloti-nagri, sharada, bhaiksuki, siddham, kharoshthi, warang-citi, hebrew, ahom, buginese, telugu, dogra, grantha</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bengali, devanagari, tai-tham, telugu, thai, myanmar, soyombo, takri, khmer, manichaean, thaana, pahawh-hmong, mende-kikakui, nko, balinese, sogdian, hebrew, khojki, tirhuta, gunjala-gondi, warang-citi, psalter-pahlavi, tai-le, hanifi-rohingya, grantha, syloti-nagri, lepcha, bassa-vah, syriac, mandaic, hanunoo, rejang, saurashtra, phags-pa, oriya, tibetan, kayah-li, malayalam, symbols, elbasan, gurmukhi, lao, mahajani, sinhala, canadian-aboriginal, mongolian, gujarati, tamil, modi, music, siddham, chakma, adlam, newa, ahom, duployan, tagbanwa, masaram-gondi, cham, sharada, kannada, tagalog, yi, kharoshthi, buhid, old-permic, khudawadi, brahmi, coptic, bhaiksuki, osage, marchen, javanese, meetei-mayek, kaithi, new-tai-lue, dogra, batak, math, zanabazar-square, caucasian-albanian, wancho, tai-viet, sundanese, buginese, limbu, tifinagh, miao, armenian</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -2404,7 +2404,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 * ⚠️ **WARN** <p>The most common width is 460 among a set of 2 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 456:
-less, greater</p>
+greater, less</p>
 <p>Width = 396:
 equal</p>
 <p>Width = 464:
@@ -2627,18 +2627,18 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, malayalam, tai-le, canadian-aboriginal, hebrew, coptic, todhri, duployan, old-permic, tifinagh, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, old-permic, tifinagh, math, syriac, coptic, tai-le, canadian-aboriginal, todhri, hebrew, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, sunuwar, gothic, tifinagh, cherokee, thai, caucasian-albanian</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, gothic, caucasian-albanian, tifinagh, syriac, cherokee, sunuwar</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -2662,7 +2662,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tai-le, old-permic, bengali, masaram-gondi, pahawh-hmong, gujarati, tifinagh, tamil, mahajani, zanabazar-square, bassa-vah, khojki, hanunoo, meetei-mayek, tai-tham, thaana, wancho, duployan, mandaic, devanagari, phags-pa, gurmukhi, music, math, malayalam, kannada, mende-kikakui, buhid, new-tai-lue, sinhala, brahmi, coptic, caucasian-albanian, soyombo, adlam, modi, myanmar, syriac, batak, sogdian, psalter-pahlavi, osage, canadian-aboriginal, tagalog, cham, balinese, limbu, manichaean, tagbanwa, thai, nko, kayah-li, marchen, hanifi-rohingya, saurashtra, elbasan, kaithi, rejang, tirhuta, lepcha, takri, tibetan, mongolian, oriya, armenian, miao, javanese, chakma, gunjala-gondi, khmer, tai-viet, sundanese, lao, newa, symbols, khudawadi, yi, syloti-nagri, sharada, bhaiksuki, siddham, kharoshthi, warang-citi, hebrew, ahom, buginese, telugu, dogra, grantha</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bengali, devanagari, tai-tham, telugu, thai, myanmar, soyombo, takri, khmer, manichaean, thaana, pahawh-hmong, mende-kikakui, nko, balinese, sogdian, hebrew, khojki, tirhuta, gunjala-gondi, warang-citi, psalter-pahlavi, tai-le, hanifi-rohingya, grantha, syloti-nagri, lepcha, bassa-vah, syriac, mandaic, hanunoo, rejang, saurashtra, phags-pa, oriya, tibetan, kayah-li, malayalam, symbols, elbasan, gurmukhi, lao, mahajani, sinhala, canadian-aboriginal, mongolian, gujarati, tamil, modi, music, siddham, chakma, adlam, newa, ahom, duployan, tagbanwa, masaram-gondi, cham, sharada, kannada, tagalog, yi, kharoshthi, buhid, old-permic, khudawadi, brahmi, coptic, bhaiksuki, osage, marchen, javanese, meetei-mayek, kaithi, new-tai-lue, dogra, batak, math, zanabazar-square, caucasian-albanian, wancho, tai-viet, sundanese, buginese, limbu, tifinagh, miao, armenian</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -3773,9 +3773,9 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 * ⚠️ **WARN** <p>The most common width is 424 among a set of 2 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 456:
-less, greater</p>
+greater, less</p>
 <p>Width = 360:
-notequal, equal</p>
+equal, notequal</p>
 <p>Width = 464:
 plusminus, logicalnot</p>
 <p>Width = 351:
@@ -3994,18 +3994,18 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, malayalam, tai-le, canadian-aboriginal, hebrew, coptic, todhri, duployan, old-permic, tifinagh, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, old-permic, tifinagh, math, syriac, coptic, tai-le, canadian-aboriginal, todhri, hebrew, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, sunuwar, gothic, tifinagh, cherokee, thai, caucasian-albanian</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, gothic, caucasian-albanian, tifinagh, syriac, cherokee, sunuwar</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -4029,7 +4029,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tai-le, old-permic, bengali, masaram-gondi, pahawh-hmong, gujarati, tifinagh, tamil, mahajani, zanabazar-square, bassa-vah, khojki, hanunoo, meetei-mayek, tai-tham, thaana, wancho, duployan, mandaic, devanagari, phags-pa, gurmukhi, music, math, malayalam, kannada, mende-kikakui, buhid, new-tai-lue, sinhala, brahmi, coptic, caucasian-albanian, soyombo, adlam, modi, myanmar, syriac, batak, sogdian, psalter-pahlavi, osage, canadian-aboriginal, tagalog, cham, balinese, limbu, manichaean, tagbanwa, thai, nko, kayah-li, marchen, hanifi-rohingya, saurashtra, elbasan, kaithi, rejang, tirhuta, lepcha, takri, tibetan, mongolian, oriya, armenian, miao, javanese, chakma, gunjala-gondi, khmer, tai-viet, sundanese, lao, newa, symbols, khudawadi, yi, syloti-nagri, sharada, bhaiksuki, siddham, kharoshthi, warang-citi, hebrew, ahom, buginese, telugu, dogra, grantha</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bengali, devanagari, tai-tham, telugu, thai, myanmar, soyombo, takri, khmer, manichaean, thaana, pahawh-hmong, mende-kikakui, nko, balinese, sogdian, hebrew, khojki, tirhuta, gunjala-gondi, warang-citi, psalter-pahlavi, tai-le, hanifi-rohingya, grantha, syloti-nagri, lepcha, bassa-vah, syriac, mandaic, hanunoo, rejang, saurashtra, phags-pa, oriya, tibetan, kayah-li, malayalam, symbols, elbasan, gurmukhi, lao, mahajani, sinhala, canadian-aboriginal, mongolian, gujarati, tamil, modi, music, siddham, chakma, adlam, newa, ahom, duployan, tagbanwa, masaram-gondi, cham, sharada, kannada, tagalog, yi, kharoshthi, buhid, old-permic, khudawadi, brahmi, coptic, bhaiksuki, osage, marchen, javanese, meetei-mayek, kaithi, new-tai-lue, dogra, batak, math, zanabazar-square, caucasian-albanian, wancho, tai-viet, sundanese, buginese, limbu, tifinagh, miao, armenian</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -5349,18 +5349,18 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, malayalam, tai-le, canadian-aboriginal, hebrew, coptic, todhri, duployan, old-permic, tifinagh, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, old-permic, tifinagh, math, syriac, coptic, tai-le, canadian-aboriginal, todhri, hebrew, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, sunuwar, gothic, tifinagh, cherokee, thai, caucasian-albanian</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, gothic, caucasian-albanian, tifinagh, syriac, cherokee, sunuwar</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -5384,7 +5384,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tai-le, old-permic, bengali, masaram-gondi, pahawh-hmong, gujarati, tifinagh, tamil, mahajani, zanabazar-square, bassa-vah, khojki, hanunoo, meetei-mayek, tai-tham, thaana, wancho, duployan, mandaic, devanagari, phags-pa, gurmukhi, music, math, malayalam, kannada, mende-kikakui, buhid, new-tai-lue, sinhala, brahmi, coptic, caucasian-albanian, soyombo, adlam, modi, myanmar, syriac, batak, sogdian, psalter-pahlavi, osage, canadian-aboriginal, tagalog, cham, balinese, limbu, manichaean, tagbanwa, thai, nko, kayah-li, marchen, hanifi-rohingya, saurashtra, elbasan, kaithi, rejang, tirhuta, lepcha, takri, tibetan, mongolian, oriya, armenian, miao, javanese, chakma, gunjala-gondi, khmer, tai-viet, sundanese, lao, newa, symbols, khudawadi, yi, syloti-nagri, sharada, bhaiksuki, siddham, kharoshthi, warang-citi, hebrew, ahom, buginese, telugu, dogra, grantha</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bengali, devanagari, tai-tham, telugu, thai, myanmar, soyombo, takri, khmer, manichaean, thaana, pahawh-hmong, mende-kikakui, nko, balinese, sogdian, hebrew, khojki, tirhuta, gunjala-gondi, warang-citi, psalter-pahlavi, tai-le, hanifi-rohingya, grantha, syloti-nagri, lepcha, bassa-vah, syriac, mandaic, hanunoo, rejang, saurashtra, phags-pa, oriya, tibetan, kayah-li, malayalam, symbols, elbasan, gurmukhi, lao, mahajani, sinhala, canadian-aboriginal, mongolian, gujarati, tamil, modi, music, siddham, chakma, adlam, newa, ahom, duployan, tagbanwa, masaram-gondi, cham, sharada, kannada, tagalog, yi, kharoshthi, buhid, old-permic, khudawadi, brahmi, coptic, bhaiksuki, osage, marchen, javanese, meetei-mayek, kaithi, new-tai-lue, dogra, batak, math, zanabazar-square, caucasian-albanian, wancho, tai-viet, sundanese, buginese, limbu, tifinagh, miao, armenian</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -6555,9 +6555,9 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 * ⚠️ **WARN** <p>The most common width is 437 among a set of 2 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 456:
-less, greater</p>
+greater, less</p>
 <p>Width = 373:
-notequal, equal</p>
+equal, notequal</p>
 <p>Width = 464:
 plusminus, logicalnot</p>
 <p>Width = 374:
@@ -6776,18 +6776,18 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, malayalam, tai-le, canadian-aboriginal, hebrew, coptic, todhri, duployan, old-permic, tifinagh, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, old-permic, tifinagh, math, syriac, coptic, tai-le, canadian-aboriginal, todhri, hebrew, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, sunuwar, gothic, tifinagh, cherokee, thai, caucasian-albanian</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, gothic, caucasian-albanian, tifinagh, syriac, cherokee, sunuwar</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -6811,7 +6811,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tai-le, old-permic, bengali, masaram-gondi, pahawh-hmong, gujarati, tifinagh, tamil, mahajani, zanabazar-square, bassa-vah, khojki, hanunoo, meetei-mayek, tai-tham, thaana, wancho, duployan, mandaic, devanagari, phags-pa, gurmukhi, music, math, malayalam, kannada, mende-kikakui, buhid, new-tai-lue, sinhala, brahmi, coptic, caucasian-albanian, soyombo, adlam, modi, myanmar, syriac, batak, sogdian, psalter-pahlavi, osage, canadian-aboriginal, tagalog, cham, balinese, limbu, manichaean, tagbanwa, thai, nko, kayah-li, marchen, hanifi-rohingya, saurashtra, elbasan, kaithi, rejang, tirhuta, lepcha, takri, tibetan, mongolian, oriya, armenian, miao, javanese, chakma, gunjala-gondi, khmer, tai-viet, sundanese, lao, newa, symbols, khudawadi, yi, syloti-nagri, sharada, bhaiksuki, siddham, kharoshthi, warang-citi, hebrew, ahom, buginese, telugu, dogra, grantha</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bengali, devanagari, tai-tham, telugu, thai, myanmar, soyombo, takri, khmer, manichaean, thaana, pahawh-hmong, mende-kikakui, nko, balinese, sogdian, hebrew, khojki, tirhuta, gunjala-gondi, warang-citi, psalter-pahlavi, tai-le, hanifi-rohingya, grantha, syloti-nagri, lepcha, bassa-vah, syriac, mandaic, hanunoo, rejang, saurashtra, phags-pa, oriya, tibetan, kayah-li, malayalam, symbols, elbasan, gurmukhi, lao, mahajani, sinhala, canadian-aboriginal, mongolian, gujarati, tamil, modi, music, siddham, chakma, adlam, newa, ahom, duployan, tagbanwa, masaram-gondi, cham, sharada, kannada, tagalog, yi, kharoshthi, buhid, old-permic, khudawadi, brahmi, coptic, bhaiksuki, osage, marchen, javanese, meetei-mayek, kaithi, new-tai-lue, dogra, batak, math, zanabazar-square, caucasian-albanian, wancho, tai-viet, sundanese, buginese, limbu, tifinagh, miao, armenian</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -7972,9 +7972,9 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 * ⚠️ **WARN** <p>The most common width is 451 among a set of 2 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 456:
-less, greater</p>
+greater, less</p>
 <p>Width = 387:
-notequal, equal</p>
+equal, notequal</p>
 <p>Width = 464:
 plusminus, logicalnot</p>
 <p>Width = 397:
@@ -8193,18 +8193,18 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, malayalam, tai-le, canadian-aboriginal, hebrew, coptic, todhri, duployan, old-permic, tifinagh, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, old-permic, tifinagh, math, syriac, coptic, tai-le, canadian-aboriginal, todhri, hebrew, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, sunuwar, gothic, tifinagh, cherokee, thai, caucasian-albanian</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, gothic, caucasian-albanian, tifinagh, syriac, cherokee, sunuwar</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -8228,7 +8228,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tai-le, old-permic, bengali, masaram-gondi, pahawh-hmong, gujarati, tifinagh, tamil, mahajani, zanabazar-square, bassa-vah, khojki, hanunoo, meetei-mayek, tai-tham, thaana, wancho, duployan, mandaic, devanagari, phags-pa, gurmukhi, music, math, malayalam, kannada, mende-kikakui, buhid, new-tai-lue, sinhala, brahmi, coptic, caucasian-albanian, soyombo, adlam, modi, myanmar, syriac, batak, sogdian, psalter-pahlavi, osage, canadian-aboriginal, tagalog, cham, balinese, limbu, manichaean, tagbanwa, thai, nko, kayah-li, marchen, hanifi-rohingya, saurashtra, elbasan, kaithi, rejang, tirhuta, lepcha, takri, tibetan, mongolian, oriya, armenian, miao, javanese, chakma, gunjala-gondi, khmer, tai-viet, sundanese, lao, newa, symbols, khudawadi, yi, syloti-nagri, sharada, bhaiksuki, siddham, kharoshthi, warang-citi, hebrew, ahom, buginese, telugu, dogra, grantha</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bengali, devanagari, tai-tham, telugu, thai, myanmar, soyombo, takri, khmer, manichaean, thaana, pahawh-hmong, mende-kikakui, nko, balinese, sogdian, hebrew, khojki, tirhuta, gunjala-gondi, warang-citi, psalter-pahlavi, tai-le, hanifi-rohingya, grantha, syloti-nagri, lepcha, bassa-vah, syriac, mandaic, hanunoo, rejang, saurashtra, phags-pa, oriya, tibetan, kayah-li, malayalam, symbols, elbasan, gurmukhi, lao, mahajani, sinhala, canadian-aboriginal, mongolian, gujarati, tamil, modi, music, siddham, chakma, adlam, newa, ahom, duployan, tagbanwa, masaram-gondi, cham, sharada, kannada, tagalog, yi, kharoshthi, buhid, old-permic, khudawadi, brahmi, coptic, bhaiksuki, osage, marchen, javanese, meetei-mayek, kaithi, new-tai-lue, dogra, batak, math, zanabazar-square, caucasian-albanian, wancho, tai-viet, sundanese, buginese, limbu, tifinagh, miao, armenian</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -9426,7 +9426,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 * ⚠️ **WARN** <p>The most common width is 452 among a set of 2 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 456:
-less, greater</p>
+greater, less</p>
 <p>Width = 388:
 equal</p>
 <p>Width = 464:
@@ -9649,18 +9649,18 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, malayalam, tai-le, canadian-aboriginal, hebrew, coptic, todhri, duployan, old-permic, tifinagh, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, old-permic, tifinagh, math, syriac, coptic, tai-le, canadian-aboriginal, todhri, hebrew, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, sunuwar, gothic, tifinagh, cherokee, thai, caucasian-albanian</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, gothic, caucasian-albanian, tifinagh, syriac, cherokee, sunuwar</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -9684,7 +9684,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tai-le, old-permic, bengali, masaram-gondi, pahawh-hmong, gujarati, tifinagh, tamil, mahajani, zanabazar-square, bassa-vah, khojki, hanunoo, meetei-mayek, tai-tham, thaana, wancho, duployan, mandaic, devanagari, phags-pa, gurmukhi, music, math, malayalam, kannada, mende-kikakui, buhid, new-tai-lue, sinhala, brahmi, coptic, caucasian-albanian, soyombo, adlam, modi, myanmar, syriac, batak, sogdian, psalter-pahlavi, osage, canadian-aboriginal, tagalog, cham, balinese, limbu, manichaean, tagbanwa, thai, nko, kayah-li, marchen, hanifi-rohingya, saurashtra, elbasan, kaithi, rejang, tirhuta, lepcha, takri, tibetan, mongolian, oriya, armenian, miao, javanese, chakma, gunjala-gondi, khmer, tai-viet, sundanese, lao, newa, symbols, khudawadi, yi, syloti-nagri, sharada, bhaiksuki, siddham, kharoshthi, warang-citi, hebrew, ahom, buginese, telugu, dogra, grantha</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bengali, devanagari, tai-tham, telugu, thai, myanmar, soyombo, takri, khmer, manichaean, thaana, pahawh-hmong, mende-kikakui, nko, balinese, sogdian, hebrew, khojki, tirhuta, gunjala-gondi, warang-citi, psalter-pahlavi, tai-le, hanifi-rohingya, grantha, syloti-nagri, lepcha, bassa-vah, syriac, mandaic, hanunoo, rejang, saurashtra, phags-pa, oriya, tibetan, kayah-li, malayalam, symbols, elbasan, gurmukhi, lao, mahajani, sinhala, canadian-aboriginal, mongolian, gujarati, tamil, modi, music, siddham, chakma, adlam, newa, ahom, duployan, tagbanwa, masaram-gondi, cham, sharada, kannada, tagalog, yi, kharoshthi, buhid, old-permic, khudawadi, brahmi, coptic, bhaiksuki, osage, marchen, javanese, meetei-mayek, kaithi, new-tai-lue, dogra, batak, math, zanabazar-square, caucasian-albanian, wancho, tai-viet, sundanese, buginese, limbu, tifinagh, miao, armenian</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -10889,7 +10889,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 * ⚠️ **WARN** <p>The most common width is 460 among a set of 2 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 456:
-less, greater</p>
+greater, less</p>
 <p>Width = 396:
 equal</p>
 <p>Width = 464:
@@ -11112,18 +11112,18 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, malayalam, tai-le, canadian-aboriginal, hebrew, coptic, todhri, duployan, old-permic, tifinagh, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, old-permic, tifinagh, math, syriac, coptic, tai-le, canadian-aboriginal, todhri, hebrew, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, sunuwar, gothic, tifinagh, cherokee, thai, caucasian-albanian</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, gothic, caucasian-albanian, tifinagh, syriac, cherokee, sunuwar</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -11147,7 +11147,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tai-le, old-permic, bengali, masaram-gondi, pahawh-hmong, gujarati, tifinagh, tamil, mahajani, zanabazar-square, bassa-vah, khojki, hanunoo, meetei-mayek, tai-tham, thaana, wancho, duployan, mandaic, devanagari, phags-pa, gurmukhi, music, math, malayalam, kannada, mende-kikakui, buhid, new-tai-lue, sinhala, brahmi, coptic, caucasian-albanian, soyombo, adlam, modi, myanmar, syriac, batak, sogdian, psalter-pahlavi, osage, canadian-aboriginal, tagalog, cham, balinese, limbu, manichaean, tagbanwa, thai, nko, kayah-li, marchen, hanifi-rohingya, saurashtra, elbasan, kaithi, rejang, tirhuta, lepcha, takri, tibetan, mongolian, oriya, armenian, miao, javanese, chakma, gunjala-gondi, khmer, tai-viet, sundanese, lao, newa, symbols, khudawadi, yi, syloti-nagri, sharada, bhaiksuki, siddham, kharoshthi, warang-citi, hebrew, ahom, buginese, telugu, dogra, grantha</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bengali, devanagari, tai-tham, telugu, thai, myanmar, soyombo, takri, khmer, manichaean, thaana, pahawh-hmong, mende-kikakui, nko, balinese, sogdian, hebrew, khojki, tirhuta, gunjala-gondi, warang-citi, psalter-pahlavi, tai-le, hanifi-rohingya, grantha, syloti-nagri, lepcha, bassa-vah, syriac, mandaic, hanunoo, rejang, saurashtra, phags-pa, oriya, tibetan, kayah-li, malayalam, symbols, elbasan, gurmukhi, lao, mahajani, sinhala, canadian-aboriginal, mongolian, gujarati, tamil, modi, music, siddham, chakma, adlam, newa, ahom, duployan, tagbanwa, masaram-gondi, cham, sharada, kannada, tagalog, yi, kharoshthi, buhid, old-permic, khudawadi, brahmi, coptic, bhaiksuki, osage, marchen, javanese, meetei-mayek, kaithi, new-tai-lue, dogra, batak, math, zanabazar-square, caucasian-albanian, wancho, tai-viet, sundanese, buginese, limbu, tifinagh, miao, armenian</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -12335,9 +12335,9 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 * ⚠️ **WARN** <p>The most common width is 464 among a set of 4 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 456:
-less, greater</p>
+greater, less</p>
 <p>Width = 400:
-notequal, equal</p>
+equal, notequal</p>
 <p>Width = 420:
 multiply</p>
 <p>Width = 430:
@@ -12574,18 +12574,18 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, malayalam, tai-le, canadian-aboriginal, hebrew, coptic, todhri, duployan, old-permic, tifinagh, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, old-permic, tifinagh, math, syriac, coptic, tai-le, canadian-aboriginal, todhri, hebrew, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, sunuwar, gothic, tifinagh, cherokee, thai, caucasian-albanian</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, gothic, caucasian-albanian, tifinagh, syriac, cherokee, sunuwar</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -12609,7 +12609,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tai-le, old-permic, bengali, masaram-gondi, pahawh-hmong, gujarati, tifinagh, tamil, mahajani, zanabazar-square, bassa-vah, khojki, hanunoo, meetei-mayek, tai-tham, thaana, wancho, duployan, mandaic, devanagari, phags-pa, gurmukhi, music, math, malayalam, kannada, mende-kikakui, buhid, new-tai-lue, sinhala, brahmi, coptic, caucasian-albanian, soyombo, adlam, modi, myanmar, syriac, batak, sogdian, psalter-pahlavi, osage, canadian-aboriginal, tagalog, cham, balinese, limbu, manichaean, tagbanwa, thai, nko, kayah-li, marchen, hanifi-rohingya, saurashtra, elbasan, kaithi, rejang, tirhuta, lepcha, takri, tibetan, mongolian, oriya, armenian, miao, javanese, chakma, gunjala-gondi, khmer, tai-viet, sundanese, lao, newa, symbols, khudawadi, yi, syloti-nagri, sharada, bhaiksuki, siddham, kharoshthi, warang-citi, hebrew, ahom, buginese, telugu, dogra, grantha</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bengali, devanagari, tai-tham, telugu, thai, myanmar, soyombo, takri, khmer, manichaean, thaana, pahawh-hmong, mende-kikakui, nko, balinese, sogdian, hebrew, khojki, tirhuta, gunjala-gondi, warang-citi, psalter-pahlavi, tai-le, hanifi-rohingya, grantha, syloti-nagri, lepcha, bassa-vah, syriac, mandaic, hanunoo, rejang, saurashtra, phags-pa, oriya, tibetan, kayah-li, malayalam, symbols, elbasan, gurmukhi, lao, mahajani, sinhala, canadian-aboriginal, mongolian, gujarati, tamil, modi, music, siddham, chakma, adlam, newa, ahom, duployan, tagbanwa, masaram-gondi, cham, sharada, kannada, tagalog, yi, kharoshthi, buhid, old-permic, khudawadi, brahmi, coptic, bhaiksuki, osage, marchen, javanese, meetei-mayek, kaithi, new-tai-lue, dogra, batak, math, zanabazar-square, caucasian-albanian, wancho, tai-viet, sundanese, buginese, limbu, tifinagh, miao, armenian</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -13905,18 +13905,18 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, malayalam, tai-le, canadian-aboriginal, hebrew, coptic, todhri, duployan, old-permic, tifinagh, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, old-permic, tifinagh, math, syriac, coptic, tai-le, canadian-aboriginal, todhri, hebrew, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, sunuwar, gothic, tifinagh, cherokee, thai, caucasian-albanian</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, gothic, caucasian-albanian, tifinagh, syriac, cherokee, sunuwar</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -13940,7 +13940,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tai-le, old-permic, bengali, masaram-gondi, pahawh-hmong, gujarati, tifinagh, tamil, mahajani, zanabazar-square, bassa-vah, khojki, hanunoo, meetei-mayek, tai-tham, thaana, wancho, duployan, mandaic, devanagari, phags-pa, gurmukhi, music, math, malayalam, kannada, mende-kikakui, buhid, new-tai-lue, sinhala, brahmi, coptic, caucasian-albanian, soyombo, adlam, modi, myanmar, syriac, batak, sogdian, psalter-pahlavi, osage, canadian-aboriginal, tagalog, cham, balinese, limbu, manichaean, tagbanwa, thai, nko, kayah-li, marchen, hanifi-rohingya, saurashtra, elbasan, kaithi, rejang, tirhuta, lepcha, takri, tibetan, mongolian, oriya, armenian, miao, javanese, chakma, gunjala-gondi, khmer, tai-viet, sundanese, lao, newa, symbols, khudawadi, yi, syloti-nagri, sharada, bhaiksuki, siddham, kharoshthi, warang-citi, hebrew, ahom, buginese, telugu, dogra, grantha</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bengali, devanagari, tai-tham, telugu, thai, myanmar, soyombo, takri, khmer, manichaean, thaana, pahawh-hmong, mende-kikakui, nko, balinese, sogdian, hebrew, khojki, tirhuta, gunjala-gondi, warang-citi, psalter-pahlavi, tai-le, hanifi-rohingya, grantha, syloti-nagri, lepcha, bassa-vah, syriac, mandaic, hanunoo, rejang, saurashtra, phags-pa, oriya, tibetan, kayah-li, malayalam, symbols, elbasan, gurmukhi, lao, mahajani, sinhala, canadian-aboriginal, mongolian, gujarati, tamil, modi, music, siddham, chakma, adlam, newa, ahom, duployan, tagbanwa, masaram-gondi, cham, sharada, kannada, tagalog, yi, kharoshthi, buhid, old-permic, khudawadi, brahmi, coptic, bhaiksuki, osage, marchen, javanese, meetei-mayek, kaithi, new-tai-lue, dogra, batak, math, zanabazar-square, caucasian-albanian, wancho, tai-viet, sundanese, buginese, limbu, tifinagh, miao, armenian</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -15123,9 +15123,9 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 * ⚠️ **WARN** <p>The most common width is 437 among a set of 2 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 456:
-less, greater</p>
+greater, less</p>
 <p>Width = 373:
-notequal, equal</p>
+equal, notequal</p>
 <p>Width = 464:
 plusminus, logicalnot</p>
 <p>Width = 374:
@@ -15344,18 +15344,18 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, malayalam, tai-le, canadian-aboriginal, hebrew, coptic, todhri, duployan, old-permic, tifinagh, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, old-permic, tifinagh, math, syriac, coptic, tai-le, canadian-aboriginal, todhri, hebrew, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, sunuwar, gothic, tifinagh, cherokee, thai, caucasian-albanian</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, gothic, caucasian-albanian, tifinagh, syriac, cherokee, sunuwar</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -15379,7 +15379,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tai-le, old-permic, bengali, masaram-gondi, pahawh-hmong, gujarati, tifinagh, tamil, mahajani, zanabazar-square, bassa-vah, khojki, hanunoo, meetei-mayek, tai-tham, thaana, wancho, duployan, mandaic, devanagari, phags-pa, gurmukhi, music, math, malayalam, kannada, mende-kikakui, buhid, new-tai-lue, sinhala, brahmi, coptic, caucasian-albanian, soyombo, adlam, modi, myanmar, syriac, batak, sogdian, psalter-pahlavi, osage, canadian-aboriginal, tagalog, cham, balinese, limbu, manichaean, tagbanwa, thai, nko, kayah-li, marchen, hanifi-rohingya, saurashtra, elbasan, kaithi, rejang, tirhuta, lepcha, takri, tibetan, mongolian, oriya, armenian, miao, javanese, chakma, gunjala-gondi, khmer, tai-viet, sundanese, lao, newa, symbols, khudawadi, yi, syloti-nagri, sharada, bhaiksuki, siddham, kharoshthi, warang-citi, hebrew, ahom, buginese, telugu, dogra, grantha</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bengali, devanagari, tai-tham, telugu, thai, myanmar, soyombo, takri, khmer, manichaean, thaana, pahawh-hmong, mende-kikakui, nko, balinese, sogdian, hebrew, khojki, tirhuta, gunjala-gondi, warang-citi, psalter-pahlavi, tai-le, hanifi-rohingya, grantha, syloti-nagri, lepcha, bassa-vah, syriac, mandaic, hanunoo, rejang, saurashtra, phags-pa, oriya, tibetan, kayah-li, malayalam, symbols, elbasan, gurmukhi, lao, mahajani, sinhala, canadian-aboriginal, mongolian, gujarati, tamil, modi, music, siddham, chakma, adlam, newa, ahom, duployan, tagbanwa, masaram-gondi, cham, sharada, kannada, tagalog, yi, kharoshthi, buhid, old-permic, khudawadi, brahmi, coptic, bhaiksuki, osage, marchen, javanese, meetei-mayek, kaithi, new-tai-lue, dogra, batak, math, zanabazar-square, caucasian-albanian, wancho, tai-viet, sundanese, buginese, limbu, tifinagh, miao, armenian</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -16636,7 +16636,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 * ⚠️ **WARN** <p>The most common width is 448 among a set of 2 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 456:
-less, greater</p>
+greater, less</p>
 <p>Width = 384:
 equal</p>
 <p>Width = 464:
@@ -16859,18 +16859,18 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, malayalam, tai-le, canadian-aboriginal, hebrew, coptic, todhri, duployan, old-permic, tifinagh, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, old-permic, tifinagh, math, syriac, coptic, tai-le, canadian-aboriginal, todhri, hebrew, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, sunuwar, gothic, tifinagh, cherokee, thai, caucasian-albanian</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, gothic, caucasian-albanian, tifinagh, syriac, cherokee, sunuwar</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -16894,7 +16894,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tai-le, old-permic, bengali, masaram-gondi, pahawh-hmong, gujarati, tifinagh, tamil, mahajani, zanabazar-square, bassa-vah, khojki, hanunoo, meetei-mayek, tai-tham, thaana, wancho, duployan, mandaic, devanagari, phags-pa, gurmukhi, music, math, malayalam, kannada, mende-kikakui, buhid, new-tai-lue, sinhala, brahmi, coptic, caucasian-albanian, soyombo, adlam, modi, myanmar, syriac, batak, sogdian, psalter-pahlavi, osage, canadian-aboriginal, tagalog, cham, balinese, limbu, manichaean, tagbanwa, thai, nko, kayah-li, marchen, hanifi-rohingya, saurashtra, elbasan, kaithi, rejang, tirhuta, lepcha, takri, tibetan, mongolian, oriya, armenian, miao, javanese, chakma, gunjala-gondi, khmer, tai-viet, sundanese, lao, newa, symbols, khudawadi, yi, syloti-nagri, sharada, bhaiksuki, siddham, kharoshthi, warang-citi, hebrew, ahom, buginese, telugu, dogra, grantha</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bengali, devanagari, tai-tham, telugu, thai, myanmar, soyombo, takri, khmer, manichaean, thaana, pahawh-hmong, mende-kikakui, nko, balinese, sogdian, hebrew, khojki, tirhuta, gunjala-gondi, warang-citi, psalter-pahlavi, tai-le, hanifi-rohingya, grantha, syloti-nagri, lepcha, bassa-vah, syriac, mandaic, hanunoo, rejang, saurashtra, phags-pa, oriya, tibetan, kayah-li, malayalam, symbols, elbasan, gurmukhi, lao, mahajani, sinhala, canadian-aboriginal, mongolian, gujarati, tamil, modi, music, siddham, chakma, adlam, newa, ahom, duployan, tagbanwa, masaram-gondi, cham, sharada, kannada, tagalog, yi, kharoshthi, buhid, old-permic, khudawadi, brahmi, coptic, bhaiksuki, osage, marchen, javanese, meetei-mayek, kaithi, new-tai-lue, dogra, batak, math, zanabazar-square, caucasian-albanian, wancho, tai-viet, sundanese, buginese, limbu, tifinagh, miao, armenian</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -18100,7 +18100,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 * ⚠️ **WARN** <p>The most common width is 448 among a set of 2 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 456:
-less, greater</p>
+greater, less</p>
 <p>Width = 384:
 equal</p>
 <p>Width = 464:
@@ -18323,18 +18323,18 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, malayalam, tai-le, canadian-aboriginal, hebrew, coptic, todhri, duployan, old-permic, tifinagh, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, old-permic, tifinagh, math, syriac, coptic, tai-le, canadian-aboriginal, todhri, hebrew, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, sunuwar, gothic, tifinagh, cherokee, thai, caucasian-albanian</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, gothic, caucasian-albanian, tifinagh, syriac, cherokee, sunuwar</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -18358,7 +18358,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tai-le, old-permic, bengali, masaram-gondi, pahawh-hmong, gujarati, tifinagh, tamil, mahajani, zanabazar-square, bassa-vah, khojki, hanunoo, meetei-mayek, tai-tham, thaana, wancho, duployan, mandaic, devanagari, phags-pa, gurmukhi, music, math, malayalam, kannada, mende-kikakui, buhid, new-tai-lue, sinhala, brahmi, coptic, caucasian-albanian, soyombo, adlam, modi, myanmar, syriac, batak, sogdian, psalter-pahlavi, osage, canadian-aboriginal, tagalog, cham, balinese, limbu, manichaean, tagbanwa, thai, nko, kayah-li, marchen, hanifi-rohingya, saurashtra, elbasan, kaithi, rejang, tirhuta, lepcha, takri, tibetan, mongolian, oriya, armenian, miao, javanese, chakma, gunjala-gondi, khmer, tai-viet, sundanese, lao, newa, symbols, khudawadi, yi, syloti-nagri, sharada, bhaiksuki, siddham, kharoshthi, warang-citi, hebrew, ahom, buginese, telugu, dogra, grantha</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bengali, devanagari, tai-tham, telugu, thai, myanmar, soyombo, takri, khmer, manichaean, thaana, pahawh-hmong, mende-kikakui, nko, balinese, sogdian, hebrew, khojki, tirhuta, gunjala-gondi, warang-citi, psalter-pahlavi, tai-le, hanifi-rohingya, grantha, syloti-nagri, lepcha, bassa-vah, syriac, mandaic, hanunoo, rejang, saurashtra, phags-pa, oriya, tibetan, kayah-li, malayalam, symbols, elbasan, gurmukhi, lao, mahajani, sinhala, canadian-aboriginal, mongolian, gujarati, tamil, modi, music, siddham, chakma, adlam, newa, ahom, duployan, tagbanwa, masaram-gondi, cham, sharada, kannada, tagalog, yi, kharoshthi, buhid, old-permic, khudawadi, brahmi, coptic, bhaiksuki, osage, marchen, javanese, meetei-mayek, kaithi, new-tai-lue, dogra, batak, math, zanabazar-square, caucasian-albanian, wancho, tai-viet, sundanese, buginese, limbu, tifinagh, miao, armenian</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -19449,9 +19449,9 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 * ⚠️ **WARN** <p>The most common width is 424 among a set of 2 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 456:
-less, greater</p>
+greater, less</p>
 <p>Width = 360:
-notequal, equal</p>
+equal, notequal</p>
 <p>Width = 464:
 plusminus, logicalnot</p>
 <p>Width = 351:
@@ -19670,18 +19670,18 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, malayalam, tai-le, canadian-aboriginal, hebrew, coptic, todhri, duployan, old-permic, tifinagh, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, old-permic, tifinagh, math, syriac, coptic, tai-le, canadian-aboriginal, todhri, hebrew, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, sunuwar, gothic, tifinagh, cherokee, thai, caucasian-albanian</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, gothic, caucasian-albanian, tifinagh, syriac, cherokee, sunuwar</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -19705,7 +19705,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tai-le, old-permic, bengali, masaram-gondi, pahawh-hmong, gujarati, tifinagh, tamil, mahajani, zanabazar-square, bassa-vah, khojki, hanunoo, meetei-mayek, tai-tham, thaana, wancho, duployan, mandaic, devanagari, phags-pa, gurmukhi, music, math, malayalam, kannada, mende-kikakui, buhid, new-tai-lue, sinhala, brahmi, coptic, caucasian-albanian, soyombo, adlam, modi, myanmar, syriac, batak, sogdian, psalter-pahlavi, osage, canadian-aboriginal, tagalog, cham, balinese, limbu, manichaean, tagbanwa, thai, nko, kayah-li, marchen, hanifi-rohingya, saurashtra, elbasan, kaithi, rejang, tirhuta, lepcha, takri, tibetan, mongolian, oriya, armenian, miao, javanese, chakma, gunjala-gondi, khmer, tai-viet, sundanese, lao, newa, symbols, khudawadi, yi, syloti-nagri, sharada, bhaiksuki, siddham, kharoshthi, warang-citi, hebrew, ahom, buginese, telugu, dogra, grantha</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bengali, devanagari, tai-tham, telugu, thai, myanmar, soyombo, takri, khmer, manichaean, thaana, pahawh-hmong, mende-kikakui, nko, balinese, sogdian, hebrew, khojki, tirhuta, gunjala-gondi, warang-citi, psalter-pahlavi, tai-le, hanifi-rohingya, grantha, syloti-nagri, lepcha, bassa-vah, syriac, mandaic, hanunoo, rejang, saurashtra, phags-pa, oriya, tibetan, kayah-li, malayalam, symbols, elbasan, gurmukhi, lao, mahajani, sinhala, canadian-aboriginal, mongolian, gujarati, tamil, modi, music, siddham, chakma, adlam, newa, ahom, duployan, tagbanwa, masaram-gondi, cham, sharada, kannada, tagalog, yi, kharoshthi, buhid, old-permic, khudawadi, brahmi, coptic, bhaiksuki, osage, marchen, javanese, meetei-mayek, kaithi, new-tai-lue, dogra, batak, math, zanabazar-square, caucasian-albanian, wancho, tai-viet, sundanese, buginese, limbu, tifinagh, miao, armenian</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -20812,9 +20812,9 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 * ⚠️ **WARN** <p>The most common width is 451 among a set of 2 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 456:
-less, greater</p>
+greater, less</p>
 <p>Width = 387:
-notequal, equal</p>
+equal, notequal</p>
 <p>Width = 464:
 plusminus, logicalnot</p>
 <p>Width = 397:
@@ -21033,18 +21033,18 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, malayalam, tai-le, canadian-aboriginal, hebrew, coptic, todhri, duployan, old-permic, tifinagh, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, old-permic, tifinagh, math, syriac, coptic, tai-le, canadian-aboriginal, todhri, hebrew, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, sunuwar, gothic, tifinagh, cherokee, thai, caucasian-albanian</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, gothic, caucasian-albanian, tifinagh, syriac, cherokee, sunuwar</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -21068,7 +21068,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tai-le, old-permic, bengali, masaram-gondi, pahawh-hmong, gujarati, tifinagh, tamil, mahajani, zanabazar-square, bassa-vah, khojki, hanunoo, meetei-mayek, tai-tham, thaana, wancho, duployan, mandaic, devanagari, phags-pa, gurmukhi, music, math, malayalam, kannada, mende-kikakui, buhid, new-tai-lue, sinhala, brahmi, coptic, caucasian-albanian, soyombo, adlam, modi, myanmar, syriac, batak, sogdian, psalter-pahlavi, osage, canadian-aboriginal, tagalog, cham, balinese, limbu, manichaean, tagbanwa, thai, nko, kayah-li, marchen, hanifi-rohingya, saurashtra, elbasan, kaithi, rejang, tirhuta, lepcha, takri, tibetan, mongolian, oriya, armenian, miao, javanese, chakma, gunjala-gondi, khmer, tai-viet, sundanese, lao, newa, symbols, khudawadi, yi, syloti-nagri, sharada, bhaiksuki, siddham, kharoshthi, warang-citi, hebrew, ahom, buginese, telugu, dogra, grantha</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bengali, devanagari, tai-tham, telugu, thai, myanmar, soyombo, takri, khmer, manichaean, thaana, pahawh-hmong, mende-kikakui, nko, balinese, sogdian, hebrew, khojki, tirhuta, gunjala-gondi, warang-citi, psalter-pahlavi, tai-le, hanifi-rohingya, grantha, syloti-nagri, lepcha, bassa-vah, syriac, mandaic, hanunoo, rejang, saurashtra, phags-pa, oriya, tibetan, kayah-li, malayalam, symbols, elbasan, gurmukhi, lao, mahajani, sinhala, canadian-aboriginal, mongolian, gujarati, tamil, modi, music, siddham, chakma, adlam, newa, ahom, duployan, tagbanwa, masaram-gondi, cham, sharada, kannada, tagalog, yi, kharoshthi, buhid, old-permic, khudawadi, brahmi, coptic, bhaiksuki, osage, marchen, javanese, meetei-mayek, kaithi, new-tai-lue, dogra, batak, math, zanabazar-square, caucasian-albanian, wancho, tai-viet, sundanese, buginese, limbu, tifinagh, miao, armenian</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -22195,9 +22195,9 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 * ⚠️ **WARN** <p>The most common width is 464 among a set of 4 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 456:
-less, greater</p>
+greater, less</p>
 <p>Width = 400:
-notequal, equal</p>
+equal, notequal</p>
 <p>Width = 420:
 multiply</p>
 <p>Width = 430:
@@ -22434,18 +22434,18 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, malayalam, tai-le, canadian-aboriginal, hebrew, coptic, todhri, duployan, old-permic, tifinagh, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, old-permic, tifinagh, math, syriac, coptic, tai-le, canadian-aboriginal, todhri, hebrew, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, sunuwar, gothic, tifinagh, cherokee, thai, caucasian-albanian</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, gothic, caucasian-albanian, tifinagh, syriac, cherokee, sunuwar</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
@@ -22469,7 +22469,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tai-le, old-permic, bengali, masaram-gondi, pahawh-hmong, gujarati, tifinagh, tamil, mahajani, zanabazar-square, bassa-vah, khojki, hanunoo, meetei-mayek, tai-tham, thaana, wancho, duployan, mandaic, devanagari, phags-pa, gurmukhi, music, math, malayalam, kannada, mende-kikakui, buhid, new-tai-lue, sinhala, brahmi, coptic, caucasian-albanian, soyombo, adlam, modi, myanmar, syriac, batak, sogdian, psalter-pahlavi, osage, canadian-aboriginal, tagalog, cham, balinese, limbu, manichaean, tagbanwa, thai, nko, kayah-li, marchen, hanifi-rohingya, saurashtra, elbasan, kaithi, rejang, tirhuta, lepcha, takri, tibetan, mongolian, oriya, armenian, miao, javanese, chakma, gunjala-gondi, khmer, tai-viet, sundanese, lao, newa, symbols, khudawadi, yi, syloti-nagri, sharada, bhaiksuki, siddham, kharoshthi, warang-citi, hebrew, ahom, buginese, telugu, dogra, grantha</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bengali, devanagari, tai-tham, telugu, thai, myanmar, soyombo, takri, khmer, manichaean, thaana, pahawh-hmong, mende-kikakui, nko, balinese, sogdian, hebrew, khojki, tirhuta, gunjala-gondi, warang-citi, psalter-pahlavi, tai-le, hanifi-rohingya, grantha, syloti-nagri, lepcha, bassa-vah, syriac, mandaic, hanunoo, rejang, saurashtra, phags-pa, oriya, tibetan, kayah-li, malayalam, symbols, elbasan, gurmukhi, lao, mahajani, sinhala, canadian-aboriginal, mongolian, gujarati, tamil, modi, music, siddham, chakma, adlam, newa, ahom, duployan, tagbanwa, masaram-gondi, cham, sharada, kannada, tagalog, yi, kharoshthi, buhid, old-permic, khudawadi, brahmi, coptic, bhaiksuki, osage, marchen, javanese, meetei-mayek, kaithi, new-tai-lue, dogra, batak, math, zanabazar-square, caucasian-albanian, wancho, tai-viet, sundanese, buginese, limbu, tifinagh, miao, armenian</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
