@@ -12,6 +12,9 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: "3.10"
+    - uses: actions/setup-node@v4
+      with:
+       node-version: '20'
     - name: Download fontspector
       uses: dsaltares/fetch-gh-release-asset@master
       with:
@@ -64,6 +67,9 @@ jobs:
       run: make proof
     - name: setup site
       run: cp scripts/index.html out/index.html
+    # Run the badge update script
+    - name: Update Fontspector badge
+      run: node update-fontspector-badge.js
     - name: Deploy
       uses: actions/upload-pages-artifact@v3.0.1
       if: ${{ github.ref == 'refs/heads/main' }}
