@@ -1,10 +1,15 @@
-## Elms Sans
+# Elms Sans
 
+[![][Fontbakery]](https://mara-aa.github.io/elms-sans/fontbakery/fontbakery-report.html)
+[![][Universal]](https://mara-aa.github.io/elms-sans/fontbakery/fontbakery-report.html)
+[![][GF Profile]](https://mara-aa.github.io/elms-sans/fontbakery/fontbakery-report.html)
+[![][Shaping]](https://mara-aa.github.io/elms-sans/fontbakery/fontbakery-report.html)
 
-[![Build font and specimen](https://github.com/mara-aa/elms-sans/actions/workflows/build.yaml/badge.svg)](https://github.com/mara-aa/elms-sans/actions/workflows/build.yaml)
-[![Fontspector QA](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/mara-aa/elms-sans/gh-pages/badges/overall.json)](https://mara-aa.github.io/elms-sans/fontspector/fontspector-report.html)
-[![Fontspector](https://img.shields.io/badge/Fontspector-Report-blue)](https://mara-aa.github.io/elms-sans/fontspector/fontspector-report.html)
-
+[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmara-aa%2Felms-sans%2Fgh-pages%2Fbadges%2Foverall.json
+[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmara-aa%2Felms-sans%2Fgh-pages%2Fbadges%2FFontFileChecks.json
+[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmara-aa%2Felms-sans%2Fgh-pages%2Fbadges%2FOutlineChecks.json
+[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmara-aa%2Felms-sans%2Fgh-pages%2Fbadges%2FShapingChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmara-aa%2Felms-sans%2Fgh-pages%2Fbadges%2FUniversalProfileChecks.json
 
 
 Elms Sans is a utilitarian geometric sans serif typeface designed for clarity, consistency, and long-term adaptability. Developed to perform reliably across a wide range of modern applications—from digital interfaces to print environments—it brings a quiet precision to design systems.
