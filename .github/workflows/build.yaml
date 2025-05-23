@@ -3,6 +3,9 @@ name: Build font and specimen
 
 on: [push, release]
 
+permissions:
+  contents: write
+  
 jobs:
   build:
     runs-on: ubuntu-latest
