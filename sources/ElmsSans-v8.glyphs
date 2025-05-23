@@ -40613,24 +40613,10 @@ metricRight = hyphen;
 },
 {
 glyphname = hookabovecomb;
-lastChange = "2025-05-23 17:25:11 +0000";
+lastChange = "2025-05-23 18:31:19 +0000";
 layers = (
 {
 layerId = m01;
-shapes = (
-{
-closed = 1;
-nodes = (
-(108,666,l),
-(159,632,l),
-(99,583,l),
-(129,554,l),
-(220,642,l),
-(202,708,l),
-(108,721,l)
-);
-}
-);
 width = 300;
 },
 {
