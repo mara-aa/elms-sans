@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 // Paths - adjust as needed
-const reportPath = "fontspector/fontspector-report.html";  // Path to your report
+const reportPath = "https://mara-aa.github.io/elms-sans/fontspector/fontspector-report.html";  // Path to your report
 const badgePath = "badges/fontspector.json";               // Path to your badge output
 
 // Read the report HTML
