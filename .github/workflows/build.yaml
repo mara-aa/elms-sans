@@ -66,10 +66,7 @@ jobs:
     - name: proof
       run: make proof
     - name: setup site
-      run: cp scripts/index.html out/index.html
-    # Run the badge update script
-    - name: Update Fontspector badge
-      run: node update-fontspector-badge.js
+      run: cp scripts/index.html out/index.html  
     - name: Deploy
       uses: actions/upload-pages-artifact@v3.0.1
       if: ${{ github.ref == 'refs/heads/main' }}
