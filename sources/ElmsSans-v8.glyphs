@@ -1,6 +1,9 @@
 {
 .appVersion = "3306";
 .formatVersion = 3;
+DisplayStrings = (
+"̉"
+);
 axes = (
 {
 name = Weight;
@@ -65,22 +68,14 @@ sub t by t.ss01;
 labels = (
 {
 language = dflt;
-value = "";
+value = "Alternative characters for some of the letters";
 }
 );
 tag = ss01;
 },
 {
-code = "sub zero.lf by zero;
-sub one.lf by one;
-sub two.lf by two;
-sub three.lf by three;
-sub four.lf by four;
-sub five.lf by five;
-sub six.lf by six;
-sub seven.lf by seven;
-sub eight.lf by eight;
-sub nine.lf by nine;";
+automatic = 1;
+code = "";
 tag = lnum;
 },
 {
@@ -155,7 +150,7 @@ visible = 1;
 },
 {
 axesValues = (
-500
+400
 );
 id = m002;
 metricValues = (
@@ -203,7 +198,7 @@ visible = 1;
 },
 {
 axesValues = (
-800
+900
 );
 iconName = Bold;
 id = m003;
@@ -40618,10 +40613,24 @@ metricRight = hyphen;
 },
 {
 glyphname = hookabovecomb;
-lastChange = "2025-05-21 11:53:24 +0000";
+lastChange = "2025-05-23 17:25:11 +0000";
 layers = (
 {
 layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(108,666,l),
+(159,632,l),
+(99,583,l),
+(129,554,l),
+(220,642,l),
+(202,708,l),
+(108,721,l)
+);
+}
+);
 width = 300;
 },
 {
@@ -42467,8 +42476,8 @@ axesValues = (
 200
 );
 instanceInterpolations = {
-m002 = 0.25;
-m01 = 0.75;
+m002 = 0.33333;
+m01 = 0.66667;
 };
 name = ExtraLight;
 weightClass = 200;
@@ -42478,8 +42487,8 @@ axesValues = (
 300
 );
 instanceInterpolations = {
-m002 = 0.5;
-m01 = 0.5;
+m002 = 0.66667;
+m01 = 0.33333;
 };
 name = Light;
 weightClass = 300;
@@ -42489,8 +42498,7 @@ axesValues = (
 400
 );
 instanceInterpolations = {
-m002 = 0.75;
-m01 = 0.25;
+m002 = 1;
 };
 name = Regular;
 },
@@ -42499,7 +42507,8 @@ axesValues = (
 500
 );
 instanceInterpolations = {
-m002 = 1;
+m002 = 0.8;
+m003 = 0.2;
 };
 name = Medium;
 weightClass = 500;
@@ -42509,8 +42518,8 @@ axesValues = (
 600
 );
 instanceInterpolations = {
-m002 = 0.66667;
-m003 = 0.33333;
+m002 = 0.6;
+m003 = 0.4;
 };
 name = SemiBold;
 weightClass = 600;
@@ -42520,8 +42529,8 @@ axesValues = (
 700
 );
 instanceInterpolations = {
-m002 = 0.33333;
-m003 = 0.66667;
+m002 = 0.4;
+m003 = 0.6;
 };
 isBold = 1;
 linkStyle = Regular;
@@ -42533,7 +42542,8 @@ axesValues = (
 800
 );
 instanceInterpolations = {
-m003 = 1;
+m002 = 0.2;
+m003 = 0.8;
 };
 name = Heavy;
 weightClass = 800;
@@ -42583,8 +42593,8 @@ value = "Transformations;Slant:10;";
 }
 );
 instanceInterpolations = {
-m002 = 0.25;
-m01 = 0.75;
+m002 = 0.33333;
+m01 = 0.66667;
 };
 isItalic = 1;
 linkStyle = ExtraLight;
@@ -42610,8 +42620,8 @@ value = "Transformations;Slant:10;";
 }
 );
 instanceInterpolations = {
-m002 = 0.5;
-m01 = 0.5;
+m002 = 0.66667;
+m01 = 0.33333;
 };
 isItalic = 1;
 linkStyle = Light;
@@ -42637,8 +42647,7 @@ value = "Transformations;Slant:10;";
 }
 );
 instanceInterpolations = {
-m002 = 0.75;
-m01 = 0.25;
+m002 = 1;
 };
 isItalic = 1;
 linkStyle = Regular;
@@ -42663,7 +42672,8 @@ value = "Transformations;Slant:10;";
 }
 );
 instanceInterpolations = {
-m002 = 1;
+m002 = 0.8;
+m003 = 0.2;
 };
 isItalic = 1;
 linkStyle = Medium;
@@ -42689,8 +42699,8 @@ value = "Transformations;Slant:10;";
 }
 );
 instanceInterpolations = {
-m002 = 0.66667;
-m003 = 0.33333;
+m002 = 0.6;
+m003 = 0.4;
 };
 isItalic = 1;
 linkStyle = SemiBold;
@@ -42716,8 +42726,8 @@ value = "Transformations;Slant:10;";
 }
 );
 instanceInterpolations = {
-m002 = 0.33333;
-m003 = 0.66667;
+m002 = 0.4;
+m003 = 0.6;
 };
 isItalic = 1;
 linkStyle = Bold;
@@ -42743,7 +42753,8 @@ value = "Transformations;Slant:10;";
 }
 );
 instanceInterpolations = {
-m003 = 1;
+m002 = 0.2;
+m003 = 0.8;
 };
 isItalic = 1;
 linkStyle = Heavy;
@@ -44271,28 +44282,22 @@ Right now, I’m done drawing the basic alphabets for upper and lower case, what
 - Math
 
 
-{
-	customParameters = (
-		{
-			name = Filter;
-			value = \"Transformations;Slant:10;SlantCorrection:0;\";
-		}
-	);
-}
-
 
 
 19th May 
 
 All the superscript characters are scaled down 45% of the actual character and aligned to the cap height. 
-Italics specs is 10º slant.";
+Italics specs is 10º slant.
+
+23rd May
+The results from the fontspector test are in; it will turn out that there’s a lot I need to learn about Font Engineering & Mastering that I clearly do not know. ";
 properties = (
 {
 key = copyrights;
 values = (
 {
 language = ENG;
-value = "Copyright (c) 2025 by Amarachi Nwauwa. All rights reserved.";
+value = "Copyright 2025 The Elms Sans Project Authors (https://github.com/mara-aa/elms-sans.git)";
 }
 );
 },
