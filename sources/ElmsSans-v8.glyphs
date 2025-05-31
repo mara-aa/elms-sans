@@ -11,7 +11,8 @@ HHOHOHOO HHAHOAOO HHBHOBOO HHCHOCOO HHDHODOO HHEHOEOO HHFHOFOO HHGHOGOO HHIHOIOO
 ı̇iíǐî./dieresiscomb.narrow ïḯ/idotaccent ìỉį̄įɨĩiịĳĳtâî
 ïiíǐîḯ/idotaccent ìỉīįɨĩ",
 "ndnďlďhďoďndď*ď”",
-"ijȦǠḂĊḊĖĠİṄŻȧǡḃċḋėġi/idotaccent įɨṅż˙"
+"ijȦǠḂĊḊĖĠİṄŻȧǡḃċḋėġi/idotaccent įɨṅż˙",
+"ẞß"
 );
 axes = (
 {
@@ -39074,7 +39075,7 @@ unicode = 59;
 glyphname = ellipsis;
 kernLeft = period;
 kernRight = period;
-lastChange = "2025-05-26 14:00:05 +0000";
+lastChange = "2025-05-28 11:37:57 +0000";
 layers = (
 {
 layerId = m01;
@@ -39083,15 +39084,15 @@ shapes = (
 ref = period;
 },
 {
-pos = (100,0);
+pos = (140,0);
 ref = period;
 },
 {
-pos = (200,0);
+pos = (280,0);
 ref = period;
 }
 );
-width = 318;
+width = 398;
 },
 {
 layerId = m002;
