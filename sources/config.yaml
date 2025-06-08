@@ -83,4 +83,11 @@ stat:
           value: 700
         - name: ExtraBold
           value: 800
-  
+   - name: Italic
+      tag: ital
+      values:
+        - name: Roman
+          value: 0
+        - name: Italic
+          value: 1
+      
