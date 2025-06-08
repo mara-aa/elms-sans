@@ -789,7 +789,7 @@ pos = -280;
 pos = -10;
 }
 );
-name = Thin;
+name = "Thin Italic";
 stemValues = (
 28,
 22
@@ -878,7 +878,7 @@ pos = -280;
 pos = -10;
 }
 );
-name = Regular;
+name = "Regular Italic";
 stemValues = (
 88,
 80
@@ -968,7 +968,7 @@ pos = -280;
 pos = -10;
 }
 );
-name = Black;
+name = "Black Italic";
 stemValues = (
 164,
 156
