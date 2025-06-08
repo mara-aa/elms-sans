@@ -1,0 +1,537 @@
+# instantiateUfo: Create instance UFOs from a Glyphs or designspace file
+rule instantiateUfo
+  command = $
+      /Users/amarachinwauwa/Documents/GitHub/elms-sans/venv/bin/python3.11 $
+      -m gftools.builder.jobrunner fontmake -i "$instance_name" -o ufo $
+      $fontmake_type $in $args $stamp
+  description = instantiateUfo
+
+# buildTTF: Build a TTF from a source file
+rule buildTTF
+  command = $
+      /Users/amarachinwauwa/Documents/GitHub/elms-sans/venv/bin/python3.11 $
+      -m gftools.builder.jobrunner fontmake --output-path $out -o ttf $
+      $fontmake_type $in $args $stamp
+  description = buildTTF
+
+# autohint: Run gftools-autohint
+rule autohint
+  command = $
+      /Users/amarachinwauwa/Documents/GitHub/elms-sans/venv/bin/python3.11 $
+      -m gftools.builder.jobrunner gftools-autohint $args -o $out $in $stamp
+  description = autohint
+
+# fix: Run gftools-fix
+rule fix
+  command = $
+      /Users/amarachinwauwa/Documents/GitHub/elms-sans/venv/bin/python3.11 $
+      -m gftools.builder.jobrunner gftools-fix-font -o $out $args $in $stamp
+  description = fix
+
+# compress: Compress to webfont
+rule compress
+  command = $
+      /Users/amarachinwauwa/Documents/GitHub/elms-sans/venv/bin/python3.11 $
+      -m gftools.builder.jobrunner fonttools ttLib.woff2 compress -o $out $
+      $in $stamp
+  description = compress
+
+# copy: Copy a file
+rule copy
+  command = $
+      /Users/amarachinwauwa/Documents/GitHub/elms-sans/venv/bin/python3.11 $
+      -m gftools.builder.jobrunner cp $in $out $stamp
+  description = copy
+
+# Generating instance_ufos/ElmsSans-Thin.ufo.json
+build instance_ufos/ElmsSans-Thin.ufo.json: instantiateUfo ElmsSans-v8.glyphs
+  operation = instantiateUfo
+  instance_name = Elms Sans Thin
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/ElmsSans-ExtraLight.ufo.json
+build instance_ufos/ElmsSans-ExtraLight.ufo.json: instantiateUfo $
+    ElmsSans-v8.glyphs
+  operation = instantiateUfo
+  instance_name = Elms Sans ExtraLight
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/ElmsSans-Light.ufo.json
+build instance_ufos/ElmsSans-Light.ufo.json: instantiateUfo ElmsSans-v8.glyphs
+  operation = instantiateUfo
+  instance_name = Elms Sans Light
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/ElmsSans-Regular.ufo.json
+build instance_ufos/ElmsSans-Regular.ufo.json: instantiateUfo $
+    ElmsSans-v8.glyphs
+  operation = instantiateUfo
+  instance_name = Elms Sans Regular
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/ElmsSans-Medium.ufo.json
+build instance_ufos/ElmsSans-Medium.ufo.json: instantiateUfo $
+    ElmsSans-v8.glyphs
+  operation = instantiateUfo
+  instance_name = Elms Sans Medium
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/ElmsSans-SemiBold.ufo.json
+build instance_ufos/ElmsSans-SemiBold.ufo.json: instantiateUfo $
+    ElmsSans-v8.glyphs
+  operation = instantiateUfo
+  instance_name = Elms Sans SemiBold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/ElmsSans-Bold.ufo.json
+build instance_ufos/ElmsSans-Bold.ufo.json: instantiateUfo ElmsSans-v8.glyphs
+  operation = instantiateUfo
+  instance_name = Elms Sans Bold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/ElmsSans-ExtraBold.ufo.json
+build instance_ufos/ElmsSans-ExtraBold.ufo.json: instantiateUfo ElmsSans-v8.glyphs
+  operation = instantiateUfo
+  instance_name = Elms Sans ExtraBold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/ElmsSans-ThinItalic.ufo.json
+build instance_ufos/ElmsSans-ThinItalic.ufo.json: instantiateUfo $
+    ElmsSans-v8.glyphs
+  operation = instantiateUfo
+  instance_name = Elms Sans Thin Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/ElmsSans-ExtraLightItalic.ufo.json
+build instance_ufos/ElmsSans-ExtraLightItalic.ufo.json: instantiateUfo $
+    ElmsSans-v8.glyphs
+  operation = instantiateUfo
+  instance_name = Elms Sans ExtraLight Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/ElmsSans-LightItalic.ufo.json
+build instance_ufos/ElmsSans-LightItalic.ufo.json: instantiateUfo $
+    ElmsSans-v8.glyphs
+  operation = instantiateUfo
+  instance_name = Elms Sans Light Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/ElmsSans-RegularItalic.ufo.json
+build instance_ufos/ElmsSans-RegularItalic.ufo.json: instantiateUfo $
+    ElmsSans-v8.glyphs
+  operation = instantiateUfo
+  instance_name = Elms Sans Regular Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/ElmsSans-MediumItalic.ufo.json
+build instance_ufos/ElmsSans-MediumItalic.ufo.json: instantiateUfo $
+    ElmsSans-v8.glyphs
+  operation = instantiateUfo
+  instance_name = Elms Sans Medium Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/ElmsSans-SemiBoldItalic.ufo.json
+build instance_ufos/ElmsSans-SemiBoldItalic.ufo.json: instantiateUfo $
+    ElmsSans-v8.glyphs
+  operation = instantiateUfo
+  instance_name = Elms Sans SemiBold Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/ElmsSans-BoldItalic.ufo.json
+build instance_ufos/ElmsSans-BoldItalic.ufo.json: instantiateUfo $
+    ElmsSans-v8.glyphs
+  operation = instantiateUfo
+  instance_name = Elms Sans Bold Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/ElmsSans-ExtraBoldItalic.ufo.json
+build instance_ufos/ElmsSans-ExtraBoldItalic.ufo.json: instantiateUfo $
+    ElmsSans-v8.glyphs
+  operation = instantiateUfo
+  instance_name = Elms Sans ExtraBold Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating ../fonts/webfonts/ElmsSans-Thin.woff2
+build ../fonts/webfonts/ElmsSans-Thin.woff2: compress $
+    ../fonts/ttf/ElmsSans-Thin.ttf
+  operation = compress
+# Generating ../fonts/webfonts/ElmsSans-ExtraLight.woff2
+build ../fonts/webfonts/ElmsSans-ExtraLight.woff2: compress $
+    ../fonts/ttf/ElmsSans-ExtraLight.ttf
+  operation = compress
+# Generating ../fonts/webfonts/ElmsSans-Light.woff2
+build ../fonts/webfonts/ElmsSans-Light.woff2: compress $
+    ../fonts/ttf/ElmsSans-Light.ttf
+  operation = compress
+# Generating ../fonts/webfonts/ElmsSans-Regular.woff2
+build ../fonts/webfonts/ElmsSans-Regular.woff2: compress $
+    ../fonts/ttf/ElmsSans-Regular.ttf
+  operation = compress
+# Generating ../fonts/webfonts/ElmsSans-Medium.woff2
+build ../fonts/webfonts/ElmsSans-Medium.woff2: compress $
+    ../fonts/ttf/ElmsSans-Medium.ttf
+  operation = compress
+# Generating ../fonts/webfonts/ElmsSans-SemiBold.woff2
+build ../fonts/webfonts/ElmsSans-SemiBold.woff2: compress $
+    ../fonts/ttf/ElmsSans-SemiBold.ttf
+  operation = compress
+# Generating ../fonts/webfonts/ElmsSans-Bold.woff2
+build ../fonts/webfonts/ElmsSans-Bold.woff2: compress $
+    ../fonts/ttf/ElmsSans-Bold.ttf
+  operation = compress
+# Generating ../fonts/webfonts/ElmsSans-ExtraBold.woff2
+build ../fonts/webfonts/ElmsSans-ExtraBold.woff2: compress $
+    ../fonts/ttf/ElmsSans-ExtraBold.ttf
+  operation = compress
+# Generating ../fonts/webfonts/ElmsSans-ThinItalic.woff2
+build ../fonts/webfonts/ElmsSans-ThinItalic.woff2: compress $
+    ../fonts/ttf/ElmsSans-ThinItalic.ttf
+  operation = compress
+# Generating ../fonts/webfonts/ElmsSans-ExtraLightItalic.woff2
+build ../fonts/webfonts/ElmsSans-ExtraLightItalic.woff2: compress $
+    ../fonts/ttf/ElmsSans-ExtraLightItalic.ttf
+  operation = compress
+# Generating ../fonts/webfonts/ElmsSans-LightItalic.woff2
+build ../fonts/webfonts/ElmsSans-LightItalic.woff2: compress $
+    ../fonts/ttf/ElmsSans-LightItalic.ttf
+  operation = compress
+# Generating ../fonts/webfonts/ElmsSans-RegularItalic.woff2
+build ../fonts/webfonts/ElmsSans-RegularItalic.woff2: compress $
+    ../fonts/ttf/ElmsSans-RegularItalic.ttf
+  operation = compress
+# Generating ../fonts/webfonts/ElmsSans-MediumItalic.woff2
+build ../fonts/webfonts/ElmsSans-MediumItalic.woff2: compress $
+    ../fonts/ttf/ElmsSans-MediumItalic.ttf
+  operation = compress
+# Generating ../fonts/webfonts/ElmsSans-SemiBoldItalic.woff2
+build ../fonts/webfonts/ElmsSans-SemiBoldItalic.woff2: compress $
+    ../fonts/ttf/ElmsSans-SemiBoldItalic.ttf
+  operation = compress
+# Generating ../fonts/webfonts/ElmsSans-BoldItalic.woff2
+build ../fonts/webfonts/ElmsSans-BoldItalic.woff2: compress $
+    ../fonts/ttf/ElmsSans-BoldItalic.ttf
+  operation = compress
+# Generating ../fonts/webfonts/ElmsSans-ExtraBoldItalic.woff2
+build ../fonts/webfonts/ElmsSans-ExtraBoldItalic.woff2: compress $
+    ../fonts/ttf/ElmsSans-ExtraBoldItalic.ttf
+  operation = compress
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpzpl_4qmd
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpzpl_4qmd: $
+    buildTTF instance_ufos/ElmsSans-Thin.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp68ma5xc7
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp68ma5xc7: $
+    autohint /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpzpl_4qmd
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/ElmsSans-Thin.ttf
+build ../fonts/ttf/ElmsSans-Thin.ttf: fix $
+    /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp68ma5xc7
+  operation = fix
+  args = 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp4s9gix5q
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp4s9gix5q: $
+    buildTTF instance_ufos/ElmsSans-ExtraLight.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpjnr_jfp2
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpjnr_jfp2: $
+    autohint /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp4s9gix5q
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/ElmsSans-ExtraLight.ttf
+build ../fonts/ttf/ElmsSans-ExtraLight.ttf: fix $
+    /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpjnr_jfp2
+  operation = fix
+  args = 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpjryoijm_
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpjryoijm_: $
+    buildTTF instance_ufos/ElmsSans-Light.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpoju1bhxm
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpoju1bhxm: $
+    autohint /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpjryoijm_
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/ElmsSans-Light.ttf
+build ../fonts/ttf/ElmsSans-Light.ttf: fix $
+    /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpoju1bhxm
+  operation = fix
+  args = 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpxuub7d4k
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpxuub7d4k: $
+    buildTTF instance_ufos/ElmsSans-Regular.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp_ydv5fr6
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp_ydv5fr6: $
+    autohint /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpxuub7d4k
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/ElmsSans-Regular.ttf
+build ../fonts/ttf/ElmsSans-Regular.ttf: fix $
+    /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp_ydv5fr6
+  operation = fix
+  args = 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpl0hxh20k
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpl0hxh20k: $
+    buildTTF instance_ufos/ElmsSans-Medium.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpwbx9pln9
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpwbx9pln9: $
+    autohint /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpl0hxh20k
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/ElmsSans-Medium.ttf
+build ../fonts/ttf/ElmsSans-Medium.ttf: fix $
+    /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpwbx9pln9
+  operation = fix
+  args = 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp15txljto
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp15txljto: $
+    buildTTF instance_ufos/ElmsSans-SemiBold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmphl2ie8jf
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmphl2ie8jf: $
+    autohint /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp15txljto
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/ElmsSans-SemiBold.ttf
+build ../fonts/ttf/ElmsSans-SemiBold.ttf: fix $
+    /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmphl2ie8jf
+  operation = fix
+  args = 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpw5z5yzl0
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpw5z5yzl0: $
+    buildTTF instance_ufos/ElmsSans-Bold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpmeeh6fth
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpmeeh6fth: $
+    autohint /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpw5z5yzl0
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/ElmsSans-Bold.ttf
+build ../fonts/ttf/ElmsSans-Bold.ttf: fix $
+    /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpmeeh6fth
+  operation = fix
+  args = 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpg5a763cp
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpg5a763cp: $
+    buildTTF instance_ufos/ElmsSans-ExtraBold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpf7x4p09v
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpf7x4p09v: $
+    autohint /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpg5a763cp
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/ElmsSans-ExtraBold.ttf
+build ../fonts/ttf/ElmsSans-ExtraBold.ttf: fix $
+    /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpf7x4p09v
+  operation = fix
+  args = 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpgmk2_83m
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpgmk2_83m: $
+    buildTTF instance_ufos/ElmsSans-ThinItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp07x__6m3
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp07x__6m3: $
+    autohint /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpgmk2_83m
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/ElmsSans-ThinItalic.ttf
+build ../fonts/ttf/ElmsSans-ThinItalic.ttf: fix $
+    /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp07x__6m3
+  operation = fix
+  args = 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpw13oa621
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpw13oa621: $
+    buildTTF instance_ufos/ElmsSans-ExtraLightItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpzckhipe6
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpzckhipe6: $
+    autohint /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpw13oa621
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/ElmsSans-ExtraLightItalic.ttf
+build ../fonts/ttf/ElmsSans-ExtraLightItalic.ttf: fix $
+    /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpzckhipe6
+  operation = fix
+  args = 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpfw9hx4o9
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpfw9hx4o9: $
+    buildTTF instance_ufos/ElmsSans-LightItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmplrcv3wxc
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmplrcv3wxc: $
+    autohint /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpfw9hx4o9
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/ElmsSans-LightItalic.ttf
+build ../fonts/ttf/ElmsSans-LightItalic.ttf: fix $
+    /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmplrcv3wxc
+  operation = fix
+  args = 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp1zyv2olb
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp1zyv2olb: $
+    buildTTF instance_ufos/ElmsSans-RegularItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpiu560rdt
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpiu560rdt: $
+    autohint /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp1zyv2olb
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/ElmsSans-RegularItalic.ttf
+build ../fonts/ttf/ElmsSans-RegularItalic.ttf: fix $
+    /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpiu560rdt
+  operation = fix
+  args = 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp9th7mir6
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp9th7mir6: $
+    buildTTF instance_ufos/ElmsSans-MediumItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpcy0qnsjz
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpcy0qnsjz: $
+    autohint /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp9th7mir6
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/ElmsSans-MediumItalic.ttf
+build ../fonts/ttf/ElmsSans-MediumItalic.ttf: fix $
+    /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpcy0qnsjz
+  operation = fix
+  args = 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp5dsfxbz8
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp5dsfxbz8: $
+    buildTTF instance_ufos/ElmsSans-SemiBoldItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp4ghv4392
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp4ghv4392: $
+    autohint /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp5dsfxbz8
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/ElmsSans-SemiBoldItalic.ttf
+build ../fonts/ttf/ElmsSans-SemiBoldItalic.ttf: fix $
+    /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp4ghv4392
+  operation = fix
+  args = 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpkooetrsv
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpkooetrsv: $
+    buildTTF instance_ufos/ElmsSans-BoldItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpxyt80w4n
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpxyt80w4n: $
+    autohint /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpkooetrsv
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/ElmsSans-BoldItalic.ttf
+build ../fonts/ttf/ElmsSans-BoldItalic.ttf: fix $
+    /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpxyt80w4n
+  operation = fix
+  args = 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpivnj1qoa
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpivnj1qoa: $
+    buildTTF instance_ufos/ElmsSans-ExtraBoldItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp79nagd1k
+build /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp79nagd1k: $
+    autohint /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmpivnj1qoa
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/ElmsSans-ExtraBoldItalic.ttf
+build ../fonts/ttf/ElmsSans-ExtraBoldItalic.ttf: fix $
+    /var/folders/sd/0s6_dlcd2c351k8bss7hpy7m0000gp/T/tmp79nagd1k
+  operation = fix
+  args = 
+default ../fonts/webfonts/ElmsSans-Thin.woff2 $
+    ../fonts/webfonts/ElmsSans-ExtraLight.woff2 $
+    ../fonts/webfonts/ElmsSans-Light.woff2 $
+    ../fonts/webfonts/ElmsSans-Regular.woff2 $
+    ../fonts/webfonts/ElmsSans-Medium.woff2 $
+    ../fonts/webfonts/ElmsSans-SemiBold.woff2 $
+    ../fonts/webfonts/ElmsSans-Bold.woff2 $
+    ../fonts/webfonts/ElmsSans-ExtraBold.woff2 $
+    ../fonts/webfonts/ElmsSans-ThinItalic.woff2 $
+    ../fonts/webfonts/ElmsSans-ExtraLightItalic.woff2 $
+    ../fonts/webfonts/ElmsSans-LightItalic.woff2 $
+    ../fonts/webfonts/ElmsSans-RegularItalic.woff2 $
+    ../fonts/webfonts/ElmsSans-MediumItalic.woff2 $
+    ../fonts/webfonts/ElmsSans-SemiBoldItalic.woff2 $
+    ../fonts/webfonts/ElmsSans-BoldItalic.woff2 $
+    ../fonts/webfonts/ElmsSans-ExtraBoldItalic.woff2
