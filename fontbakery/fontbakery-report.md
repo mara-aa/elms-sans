@@ -647,15 +647,15 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, syriac, duployan, hebrew, math, todhri, tifinagh, tai-le, coptic, old-permic</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
@@ -666,7 +666,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, sunuwar, caucasian-albanian, thai, tifinagh, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -697,14 +697,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -715,7 +715,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -951,8 +951,6 @@ definitions.</p>
 
 * uni0266 (U+0266): L&lt;&lt;477.0,248.0&gt;--&lt;549.0,248.0&gt;&gt;/L&lt;&lt;549.0,248.0&gt;--&lt;479.0,253.0&gt;&gt; = 4.085616779974888
 
-* uni0288 (U+0288): L&lt;&lt;197.0,16.0&gt;--&lt;124.0,16.0&gt;&gt;/L&lt;&lt;124.0,16.0&gt;--&lt;195.0,12.0&gt;&gt; = 3.22452260651989
-
 * uni028A (U+028A): B&lt;&lt;128.0,318.5&gt;-&lt;167.0,365.0&gt;-&lt;209.0,376.0&gt;&gt;/L&lt;&lt;209.0,376.0&gt;--&lt;130.0,374.0&gt;&gt; = 13.226176846516575
 
 * uni0327 (U+0327): L&lt;&lt;83.0,-146.0&gt;--&lt;88.0,-126.0&gt;&gt;/L&lt;&lt;88.0,-126.0&gt;--&lt;80.0,-146.0&gt;&gt; = 7.765166018425308
@@ -1063,14 +1061,6 @@ definitions.</p>
 
 * uni01A5 (U+01A5) contains a short segment L&lt;&lt;431.0,575.0&gt;--&lt;415.0,575.0&gt;&gt;
 
-* uni0288 (U+0288) contains a short segment L&lt;&lt;53.0,18.0&gt;--&lt;54.0,21.0&gt;&gt;
-
-* uni0288 (U+0288) contains a short segment L&lt;&lt;54.0,21.0&gt;--&lt;54.0,20.0&gt;&gt;
-
-* uni028B (U+028B) contains a short segment L&lt;&lt;473.0,347.0&gt;--&lt;473.0,347.0&gt;&gt;
-
-* uni028B (U+028B) contains a short segment L&lt;&lt;619.0,362.0&gt;--&lt;618.0,362.0&gt;&gt;
-
 * uni01B4 (U+01B4) contains a short segment L&lt;&lt;696.0,420.0&gt;--&lt;695.0,420.0&gt;&gt;
 
 * five (U+0035) contains a short segment L&lt;&lt;197.0,350.0&gt;--&lt;180.0,361.0&gt;&gt;
@@ -1176,8 +1166,6 @@ definitions.</p>
 * logicalnot (U+00AC) contains a short segment L&lt;&lt;552.0,290.0&gt;--&lt;552.0,290.0&gt;&gt;
 
 * logicalnot (U+00AC) contains a short segment L&lt;&lt;512.0,176.0&gt;--&lt;512.0,176.0&gt;&gt;
-
-* partialdiff (U+2202) contains a short segment L&lt;&lt;632.0,360.0&gt;--&lt;630.0,360.0&gt;&gt;
 </code></pre>
  [code: found-short-segments]
 
@@ -1760,15 +1748,15 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, syriac, duployan, hebrew, math, todhri, tifinagh, tai-le, coptic, old-permic</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
@@ -1779,7 +1767,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, sunuwar, caucasian-albanian, thai, tifinagh, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -1810,14 +1798,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -1828,7 +1816,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -2155,7 +2143,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[17] ElmsSans-BoldItalic.ttf</summary>
+<details><summary>[16] ElmsSans-BoldItalic.ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-widths">whitespace_widths</a></summary>
@@ -2352,65 +2340,6 @@ definitions.</p>
 </tbody>
 </table>
  [code: warning-language-shaping]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check font names are correct <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-font-names">googlefonts/font_names</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Font names are incorrect:</p>
-<table>
-<thead>
-<tr>
-<th align="left">nameID</th>
-<th align="left">current</th>
-<th align="left">expected</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Family Name</td>
-<td align="left"><strong>Elms Sans Bold</strong></td>
-<td align="left"><strong>Elms Sans</strong></td>
-</tr>
-<tr>
-<td align="left">Subfamily Name</td>
-<td align="left">Bold Italic</td>
-<td align="left">Bold Italic</td>
-</tr>
-<tr>
-<td align="left">Full Name</td>
-<td align="left">Elms Sans Bold Italic</td>
-<td align="left">Elms Sans Bold Italic</td>
-</tr>
-<tr>
-<td align="left">Postscript Name</td>
-<td align="left">ElmsSans-BoldItalic</td>
-<td align="left">ElmsSans-BoldItalic</td>
-</tr>
-<tr>
-<td align="left">Typographic Family Name</td>
-<td align="left"><strong>Elms Sans</strong></td>
-<td align="left"><strong>N/A</strong></td>
-</tr>
-<tr>
-<td align="left">Typographic Subfamily Name</td>
-<td align="left"><strong>Bold Italic</strong></td>
-<td align="left"><strong>N/A</strong></td>
-</tr>
-</tbody>
-</table>
- [code: bad-names]
 
 
 
@@ -2760,15 +2689,15 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, syriac, duployan, hebrew, math, todhri, tifinagh, tai-le, coptic, old-permic</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
@@ -2779,7 +2708,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, sunuwar, caucasian-albanian, thai, tifinagh, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -2810,14 +2739,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -2828,7 +2757,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -3063,8 +2992,6 @@ definitions.</p>
 * uni025B (U+025B): B&lt;&lt;101.0,222.0&gt;-&lt;137.0,252.0&gt;-&lt;187.0,257.0&gt;&gt;/B&lt;&lt;187.0,257.0&gt;-&lt;147.0,263.0&gt;-&lt;129.0,293.0&gt;&gt; = 14.241358747447757
 
 * uni0266 (U+0266): L&lt;&lt;486.0,255.0&gt;--&lt;549.0,255.0&gt;&gt;/L&lt;&lt;549.0,255.0&gt;--&lt;488.0,259.0&gt;&gt; = 3.7517290705259434
-
-* uni0288 (U+0288): L&lt;&lt;176.0,5.0&gt;--&lt;113.0,5.0&gt;&gt;/L&lt;&lt;113.0,5.0&gt;--&lt;175.0,1.0&gt;&gt; = 3.6913859864512575
 
 * uni028A (U+028A): B&lt;&lt;164.0,353.0&gt;-&lt;192.0,378.0&gt;-&lt;221.0,386.0&gt;&gt;/L&lt;&lt;221.0,386.0&gt;--&lt;140.0,384.0&gt;&gt; = 14.007738107336525
 
@@ -3629,15 +3556,15 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, syriac, duployan, hebrew, math, todhri, tifinagh, tai-le, coptic, old-permic</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
@@ -3648,7 +3575,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, sunuwar, caucasian-albanian, thai, tifinagh, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -3679,14 +3606,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -3697,7 +3624,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -3907,11 +3834,11 @@ definitions.</p>
 
 * eth (U+00F0) contains a short segment L&lt;&lt;518.0,360.0&gt;--&lt;518.0,360.0&gt;&gt;
 
-* uni028B (U+028B) contains a short segment L&lt;&lt;489.0,387.0&gt;--&lt;488.0,387.0&gt;&gt;
-
 * uni01B4 (U+01B4) contains a short segment L&lt;&lt;553.0,437.0&gt;--&lt;553.0,437.0&gt;&gt;
 
 * uni2076 (U+2076) contains a short segment L&lt;&lt;49.0,532.0&gt;--&lt;49.0,532.0&gt;&gt;
+
+* dollar (U+0024) contains a short segment L&lt;&lt;323.0,427.0&gt;--&lt;326.0,426.0&gt;&gt;
 
 * Euro (U+20AC) contains a short segment B&lt;&lt;111.0,333.0&gt;-&lt;110.0,341.0&gt;-&lt;110.0,350.0&gt;&gt;
 
@@ -3924,8 +3851,6 @@ definitions.</p>
 * uni20AA (U+20AA) contains a short segment L&lt;&lt;238.0,8.0&gt;--&lt;232.0,8.0&gt;&gt;
 
 * uni20AA (U+20AA) contains a short segment L&lt;&lt;69.0,693.0&gt;--&lt;69.0,700.0&gt;&gt;
-
-* partialdiff (U+2202) contains a short segment L&lt;&lt;548.0,360.0&gt;--&lt;548.0,360.0&gt;&gt;
 </code></pre>
  [code: found-short-segments]
 
@@ -4482,15 +4407,15 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, syriac, duployan, hebrew, math, todhri, tifinagh, tai-le, coptic, old-permic</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
@@ -4501,7 +4426,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, sunuwar, caucasian-albanian, thai, tifinagh, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -4532,14 +4457,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -4550,7 +4475,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -4778,13 +4703,9 @@ definitions.</p>
 
 * uni0256 (U+0256) contains a short segment L&lt;&lt;426.0,0.0&gt;--&lt;423.0,0.0&gt;&gt;
 
-* uni028B (U+028B) contains a short segment L&lt;&lt;392.0,358.0&gt;--&lt;392.0,358.0&gt;&gt;
-
-* uni028B (U+028B) contains a short segment L&lt;&lt;534.0,362.0&gt;--&lt;534.0,362.0&gt;&gt;
-
 * uni01B4 (U+01B4) contains a short segment L&lt;&lt;590.0,420.0&gt;--&lt;590.0,420.0&gt;&gt;
 
-* dollar (U+0024) contains a short segment B&lt;&lt;331.0,440.0&gt;-&lt;340.0,438.0&gt;-&lt;348.0,435.0&gt;&gt;
+* dollar (U+0024) contains a short segment B&lt;&lt;336.0,439.0&gt;-&lt;343.0,437.0&gt;-&lt;348.0,435.0&gt;&gt;
 
 * Euro (U+20AC) contains a short segment B&lt;&lt;89.0,328.0&gt;-&lt;89.0,339.0&gt;-&lt;89.0,350.0&gt;&gt;
 
@@ -5403,15 +5324,15 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, syriac, duployan, hebrew, math, todhri, tifinagh, tai-le, coptic, old-permic</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
@@ -5422,7 +5343,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, sunuwar, caucasian-albanian, thai, tifinagh, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -5453,14 +5374,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -5471,7 +5392,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -5694,8 +5615,6 @@ definitions.</p>
 * uni025B (U+025B): B&lt;&lt;103.5,219.5&gt;-&lt;143.0,252.0&gt;-&lt;195.0,256.0&gt;&gt;/B&lt;&lt;195.0,256.0&gt;-&lt;150.0,262.0&gt;-&lt;130.5,292.5&gt;&gt; = 11.993348723586953
 
 * uni0266 (U+0266): L&lt;&lt;515.0,269.0&gt;--&lt;552.0,269.0&gt;&gt;/L&lt;&lt;552.0,269.0&gt;--&lt;516.0,272.0&gt;&gt; = 4.763641690726143
-
-* uni0288 (U+0288): L&lt;&lt;121.0,-23.0&gt;--&lt;84.0,-23.0&gt;&gt;/L&lt;&lt;84.0,-23.0&gt;--&lt;120.0,-26.0&gt;&gt; = 4.763641690726143
 </code></pre>
  [code: found-jaggy-segments]
 
@@ -6248,15 +6167,15 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, syriac, duployan, hebrew, math, todhri, tifinagh, tai-le, coptic, old-permic</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
@@ -6267,7 +6186,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, sunuwar, caucasian-albanian, thai, tifinagh, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -6298,14 +6217,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -6316,7 +6235,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -6550,9 +6469,7 @@ definitions.</p>
 
 * uni2088 (U+2088): X=117.5,Y=-1.5 (should be at baseline 0?)
 
-* dollar (U+0024): X=320.0,Y=698.0 (should be at cap-height 700?)
-
-* dollar (U+0024): X=320.0,Y=1.0 (should be at baseline 0?)
+* dollar (U+0024): X=330.0,Y=2.0 (should be at baseline 0?)
 
 * sterling (U+00A3): X=329.0,Y=718.0 (should be at ascender 720?)
 
@@ -6750,13 +6667,9 @@ definitions.</p>
 
 * eth (U+00F0) contains a short segment B&lt;&lt;290.0,496.0&gt;-&lt;297.0,496.0&gt;-&lt;303.0,496.0&gt;&gt;
 
-* uni028B (U+028B) contains a short segment L&lt;&lt;387.0,373.0&gt;--&lt;387.0,373.0&gt;&gt;
-
-* uni028B (U+028B) contains a short segment L&lt;&lt;512.0,375.0&gt;--&lt;511.0,374.0&gt;&gt;
-
 * uni01B4 (U+01B4) contains a short segment L&lt;&lt;572.0,428.0&gt;--&lt;571.0,428.0&gt;&gt;
 
-* dollar (U+0024) contains a short segment B&lt;&lt;320.0,435.0&gt;-&lt;329.0,433.0&gt;-&lt;337.0,431.0&gt;&gt;
+* dollar (U+0024) contains a short segment B&lt;&lt;330.0,433.0&gt;-&lt;333.0,432.0&gt;-&lt;337.0,431.0&gt;&gt;
 
 * Euro (U+20AC) contains a short segment B&lt;&lt;100.0,330.0&gt;-&lt;100.0,340.0&gt;-&lt;100.0,350.0&gt;&gt;
 
@@ -7353,15 +7266,15 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, syriac, duployan, hebrew, math, todhri, tifinagh, tai-le, coptic, old-permic</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
@@ -7372,7 +7285,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, sunuwar, caucasian-albanian, thai, tifinagh, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -7403,14 +7316,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -7421,7 +7334,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -7784,8 +7697,6 @@ definitions.</p>
 * uni025B (U+025B): B&lt;&lt;101.0,223.0&gt;-&lt;136.0,253.0&gt;-&lt;188.0,257.0&gt;&gt;/B&lt;&lt;188.0,257.0&gt;-&lt;148.0,263.0&gt;-&lt;130.0,293.5&gt;&gt; = 12.929470964943654
 
 * uni0266 (U+0266): L&lt;&lt;467.0,241.0&gt;--&lt;549.0,241.0&gt;&gt;/L&lt;&lt;549.0,241.0&gt;--&lt;469.0,246.0&gt;&gt; = 3.576334374997269
-
-* uni0288 (U+0288): L&lt;&lt;218.0,27.0&gt;--&lt;136.0,27.0&gt;&gt;/L&lt;&lt;136.0,27.0&gt;--&lt;216.0,22.0&gt;&gt; = 3.576334374997269
 
 * uni028A (U+028A): B&lt;&lt;119.0,311.0&gt;-&lt;156.0,356.0&gt;-&lt;197.0,366.0&gt;&gt;/L&lt;&lt;197.0,366.0&gt;--&lt;121.0,364.0&gt;&gt; = 12.199525245304825
 
@@ -8354,15 +8265,15 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, syriac, duployan, hebrew, math, todhri, tifinagh, tai-le, coptic, old-permic</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
@@ -8373,7 +8284,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, sunuwar, caucasian-albanian, thai, tifinagh, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -8404,14 +8315,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -8422,7 +8333,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -8562,9 +8473,9 @@ definitions.</p>
 
 * uni2086 (U+2086): X=292.5,Y=2.0 (should be at baseline 0?)
 
-* quotedblleft (U+201C): X=204.0,Y=701.0 (should be at cap-height 700?)
+* quotedblleft (U+201C): X=159.0,Y=701.0 (should be at cap-height 700?)
 
-* quotedblleft (U+201C): X=424.0,Y=701.0 (should be at cap-height 700?)
+* quotedblleft (U+201C): X=379.0,Y=701.0 (should be at cap-height 700?)
 
 * quoteleft (U+2018): X=151.0,Y=701.0 (should be at cap-height 700?)
 
@@ -8576,7 +8487,9 @@ definitions.</p>
 
 * question (U+003F): X=293.5,Y=1.0 (should be at baseline 0?)
 
-* dollar (U+0024): X=272.0,Y=699.0 (should be at cap-height 700?)
+* dollar (U+0024): X=228.0,Y=2.0 (should be at baseline 0?)
+
+* dollar (U+0024): X=282.0,Y=699.0 (should be at cap-height 700?)
 
 * sterling (U+00A3): X=334.0,Y=718.0 (should be at ascender 720?)
 
@@ -8661,8 +8574,6 @@ definitions.</p>
 * uni01B1 (U+01B1): L&lt;&lt;708.0,650.0&gt;--&lt;570.0,650.0&gt;&gt;/B&lt;&lt;570.0,650.0&gt;-&lt;623.0,638.0&gt;-&lt;666.0,591.5&gt;&gt; = 12.757532160876671
 
 * uni025B (U+025B): B&lt;&lt;71.5,216.0&gt;-&lt;103.0,251.0&gt;-&lt;155.0,256.0&gt;&gt;/B&lt;&lt;155.0,256.0&gt;-&lt;103.0,262.0&gt;-&lt;71.5,292.0&gt;&gt; = 12.074269212305435
-
-* uni2199 (U+2199): L&lt;&lt;312.0,391.0&gt;--&lt;577.0,593.0&gt;&gt;/L&lt;&lt;577.0,593.0&gt;--&lt;383.0,380.0&gt;&gt; = 10.355826572366253
 </code></pre>
  [code: found-jaggy-segments]
 
@@ -8711,6 +8622,10 @@ definitions.</p>
 * uni2198 (U+2198): L&lt;&lt;529.0,186.0&gt;--&lt;530.0,536.0&gt;&gt;
 
 * uni2198 (U+2198): L&lt;&lt;589.0,536.0&gt;--&lt;587.0,87.0&gt;&gt;
+
+* uni2199 (U+2199): L&lt;&lt;149.0,146.0&gt;--&lt;499.0,145.0&gt;&gt;
+
+* uni2199 (U+2199): L&lt;&lt;499.0,86.0&gt;--&lt;50.0,88.0&gt;&gt;
 </code></pre>
  [code: found-semi-vertical]
 
@@ -8784,23 +8699,17 @@ definitions.</p>
 
 * uni0199 (U+0199) contains a short segment L&lt;&lt;148.0,266.0&gt;--&lt;129.0,266.0&gt;&gt;
 
-* uni028B (U+028B) contains a short segment L&lt;&lt;382.0,378.0&gt;--&lt;382.0,378.0&gt;&gt;
-
-* uni028B (U+028B) contains a short segment L&lt;&lt;441.0,375.0&gt;--&lt;440.0,375.0&gt;&gt;
-
 * uni01B4 (U+01B4) contains a short segment L&lt;&lt;504.0,457.0&gt;--&lt;504.0,457.0&gt;&gt;
 
-* dollar (U+0024) contains a short segment B&lt;&lt;272.0,406.0&gt;-&lt;281.0,404.0&gt;-&lt;289.5,402.0&gt;&gt;
+* dollar (U+0024) contains a short segment B&lt;&lt;282.0,403.0&gt;-&lt;288.0,402.0&gt;-&lt;294.5,400.5&gt;&gt;
 
-* dollar (U+0024) contains a short segment B&lt;&lt;289.5,402.0&gt;-&lt;298.0,400.0&gt;-&lt;307.0,398.0&gt;&gt;
+* dollar (U+0024) contains a short segment B&lt;&lt;294.5,400.5&gt;-&lt;301.0,399.0&gt;-&lt;307.0,398.0&gt;&gt;
 
 * Euro (U+20AC) contains a short segment B&lt;&lt;135.0,324.0&gt;-&lt;134.0,336.0&gt;-&lt;134.0,350.0&gt;&gt;
 
 * Euro (U+20AC) contains a short segment B&lt;&lt;194.0,350.0&gt;-&lt;194.0,337.0&gt;-&lt;195.0,324.0&gt;&gt;
 
 * sterling (U+00A3) contains a short segment L&lt;&lt;190.0,322.0&gt;--&lt;190.0,305.0&gt;&gt;
-
-* partialdiff (U+2202) contains a short segment L&lt;&lt;549.0,360.0&gt;--&lt;548.0,360.0&gt;&gt;
 </code></pre>
  [code: found-short-segments]
 
@@ -9357,15 +9266,15 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, syriac, duployan, hebrew, math, todhri, tifinagh, tai-le, coptic, old-permic</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
@@ -9376,7 +9285,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, sunuwar, caucasian-albanian, thai, tifinagh, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -9407,14 +9316,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -9425,7 +9334,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -9838,8 +9747,6 @@ definitions.</p>
 * uni1E35 (U+1E35) contains a short segment L&lt;&lt;252.0,258.0&gt;--&lt;232.0,258.0&gt;&gt;
 
 * uni01A5 (U+01A5) contains a short segment L&lt;&lt;281.0,557.0&gt;--&lt;265.0,557.0&gt;&gt;
-
-* uni028B (U+028B) contains a short segment L&lt;&lt;557.0,350.0&gt;--&lt;556.0,350.0&gt;&gt;
 
 * uni01B4 (U+01B4) contains a short segment L&lt;&lt;609.0,411.0&gt;--&lt;609.0,411.0&gt;&gt;
 
@@ -10446,15 +10353,15 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, syriac, duployan, hebrew, math, todhri, tifinagh, tai-le, coptic, old-permic</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
@@ -10465,7 +10372,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, sunuwar, caucasian-albanian, thai, tifinagh, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -10496,14 +10403,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -10514,7 +10421,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -10943,8 +10850,6 @@ definitions.</p>
 * uni025B (U+025B): B&lt;&lt;109.5,212.0&gt;-&lt;159.0,249.0&gt;-&lt;223.0,256.0&gt;&gt;/B&lt;&lt;223.0,256.0&gt;-&lt;165.0,263.0&gt;-&lt;138.5,294.5&gt;&gt; = 13.123637978051972
 
 * uni0266 (U+0266): L&lt;&lt;547.0,269.0&gt;--&lt;561.0,269.0&gt;&gt;/L&lt;&lt;561.0,269.0&gt;--&lt;548.0,270.0&gt;&gt; = 4.398705354995508
-
-* uni0288 (U+0288): L&lt;&lt;80.0,-42.0&gt;--&lt;66.0,-42.0&gt;&gt;/L&lt;&lt;66.0,-42.0&gt;--&lt;79.0,-43.0&gt;&gt; = 4.398705354995508
 
 * uni1E15 (U+1E15): L&lt;&lt;550.0,221.0&gt;--&lt;533.0,222.0&gt;&gt;/L&lt;&lt;533.0,222.0&gt;--&lt;533.0,222.0&gt;&gt; = 3.3664606634298315
 
@@ -11525,15 +11430,15 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, syriac, duployan, hebrew, math, todhri, tifinagh, tai-le, coptic, old-permic</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
@@ -11544,7 +11449,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, sunuwar, caucasian-albanian, thai, tifinagh, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -11575,14 +11480,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -11593,7 +11498,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -11849,8 +11754,6 @@ definitions.</p>
 
 * uni1E35 (U+1E35) contains a short segment L&lt;&lt;168.0,289.0&gt;--&lt;169.0,289.0&gt;&gt;
 
-* uni028B (U+028B) contains a short segment L&lt;&lt;466.0,399.0&gt;--&lt;466.0,399.0&gt;&gt;
-
 * uni01B4 (U+01B4) contains a short segment L&lt;&lt;534.0,445.0&gt;--&lt;534.0,445.0&gt;&gt;
 
 * uni2076 (U+2076) contains a short segment L&lt;&lt;50.0,532.0&gt;--&lt;50.0,532.0&gt;&gt;
@@ -11860,8 +11763,6 @@ definitions.</p>
 * Euro (U+20AC) contains a short segment B&lt;&lt;121.0,335.0&gt;-&lt;121.0,342.0&gt;-&lt;121.0,350.0&gt;&gt;
 
 * Euro (U+20AC) contains a short segment B&lt;&lt;211.0,350.0&gt;-&lt;211.0,342.0&gt;-&lt;211.0,335.0&gt;&gt;
-
-* partialdiff (U+2202) contains a short segment L&lt;&lt;548.0,360.0&gt;--&lt;548.0,360.0&gt;&gt;
 </code></pre>
  [code: found-short-segments]
 
@@ -12418,15 +12319,15 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, syriac, duployan, hebrew, math, todhri, tifinagh, tai-le, coptic, old-permic</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
@@ -12437,7 +12338,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, sunuwar, caucasian-albanian, thai, tifinagh, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -12468,14 +12369,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -12486,7 +12387,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -12684,11 +12585,11 @@ definitions.</p>
 
 * question (U+003F): X=171.0,Y=2.0 (should be at baseline 0?)
 
-* dollar (U+0024): X=198.0,Y=1.0 (should be at baseline 0?)
+* dollar (U+0024): X=201.0,Y=1.0 (should be at baseline 0?)
 
-* dollar (U+0024): X=443.0,Y=699.0 (should be at cap-height 700?)
+* dollar (U+0024): X=447.0,Y=699.0 (should be at cap-height 700?)
 
-* dollar (U+0024): X=251.0,Y=1.0 (should be at baseline 0?)
+* dollar (U+0024): X=256.0,Y=1.0 (should be at baseline 0?)
 
 * sterling (U+00A3): X=545.0,Y=718.0 (should be at ascender 720?)
 
@@ -12881,10 +12782,6 @@ definitions.</p>
 * uni025B (U+025B): B&lt;&lt;105.0,217.0&gt;-&lt;148.0,251.0&gt;-&lt;205.0,256.0&gt;&gt;/B&lt;&lt;205.0,256.0&gt;-&lt;155.0,262.0&gt;-&lt;133.5,293.0&gt;&gt; = 11.855887167666735
 
 * uni0266 (U+0266): L&lt;&lt;526.0,269.0&gt;--&lt;555.0,269.0&gt;&gt;/L&lt;&lt;555.0,269.0&gt;--&lt;527.0,271.0&gt;&gt; = 4.085616779974888
-
-* uni0288 (U+0288): L&lt;&lt;107.0,-29.0&gt;--&lt;78.0,-29.0&gt;&gt;/L&lt;&lt;78.0,-29.0&gt;--&lt;106.0,-31.0&gt;&gt; = 4.085616779974888
-
-* uni2199 (U+2199): L&lt;&lt;407.0,391.0&gt;--&lt;744.0,593.0&gt;&gt;/L&lt;&lt;744.0,593.0&gt;--&lt;474.0,380.0&gt;&gt; = 7.330768601785035
 </code></pre>
  [code: found-jaggy-segments]
 
@@ -13461,15 +13358,15 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, syriac, duployan, hebrew, math, todhri, tifinagh, tai-le, coptic, old-permic</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
@@ -13480,7 +13377,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, sunuwar, caucasian-albanian, thai, tifinagh, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -13511,14 +13408,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -13529,7 +13426,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -13703,6 +13600,10 @@ definitions.</p>
 
 * florin (U+0192): X=347.0,Y=698.0 (should be at cap-height 700?)
 
+* dollar (U+0024): X=225.0,Y=2.0 (should be at baseline 0?)
+
+* dollar (U+0024): X=225.0,Y=698.0 (should be at cap-height 700?)
+
 * sterling (U+00A3): X=336.0,Y=718.0 (should be at ascender 720?)
 
 * integral (U+222B): X=556.0,Y=699.0 (should be at cap-height 700?)
@@ -13749,8 +13650,6 @@ definitions.</p>
 
 * uni01B4 (U+01B4): L&lt;&lt;262.0,45.0&gt;--&lt;450.0,481.0&gt;&gt; -&gt; L&lt;&lt;450.0,481.0&gt;--&lt;474.0,537.0&gt;&gt;
 
-* uni2199 (U+2199): L&lt;&lt;561.0,603.0&gt;--&lt;473.0,487.0&gt;&gt; -&gt; L&lt;&lt;473.0,487.0&gt;--&lt;212.0,150.0&gt;&gt;
-
 * uni2C72 (U+2C72): L&lt;&lt;858.0,685.0&gt;--&lt;858.0,685.0&gt;&gt; -&gt; L&lt;&lt;858.0,685.0&gt;--&lt;858.0,685.0&gt;&gt;
 </code></pre>
  [code: found-colinear-vectors]
@@ -13778,8 +13677,6 @@ definitions.</p>
 * uni01B1 (U+01B1): L&lt;&lt;708.0,664.0&gt;--&lt;555.0,664.0&gt;&gt;/B&lt;&lt;555.0,664.0&gt;-&lt;612.0,653.0&gt;-&lt;658.5,604.5&gt;&gt; = 10.922804719869259
 
 * uni025B (U+025B): B&lt;&lt;74.5,213.5&gt;-&lt;109.0,250.0&gt;-&lt;164.0,256.0&gt;&gt;/B&lt;&lt;164.0,256.0&gt;-&lt;109.0,263.0&gt;-&lt;74.5,293.0&gt;&gt; = 13.479023677151083
-
-* uni2199 (U+2199): L&lt;&lt;195.0,268.0&gt;--&lt;561.0,603.0&gt;&gt;/L&lt;&lt;561.0,603.0&gt;--&lt;473.0,487.0&gt;&gt; = 10.34740863464984
 </code></pre>
  [code: found-jaggy-segments]
 
@@ -13832,6 +13729,10 @@ definitions.</p>
 * uni2198 (U+2198): L&lt;&lt;533.0,164.0&gt;--&lt;534.0,534.0&gt;&gt;
 
 * uni2198 (U+2198): L&lt;&lt;578.0,534.0&gt;--&lt;575.0,92.0&gt;&gt;
+
+* uni2199 (U+2199): L&lt;&lt;122.0,136.0&gt;--&lt;492.0,135.0&gt;&gt;
+
+* uni2199 (U+2199): L&lt;&lt;492.0,91.0&gt;--&lt;50.0,94.0&gt;&gt;
 </code></pre>
  [code: found-semi-vertical]
 
@@ -13923,21 +13824,15 @@ definitions.</p>
 
 * uni1E35 (U+1E35) contains a short segment L&lt;&lt;124.0,270.0&gt;--&lt;111.0,270.0&gt;&gt;
 
-* uni028B (U+028B) contains a short segment L&lt;&lt;384.0,366.0&gt;--&lt;384.0,366.0&gt;&gt;
-
-* uni028B (U+028B) contains a short segment L&lt;&lt;428.0,363.0&gt;--&lt;427.0,363.0&gt;&gt;
-
 * uni01B4 (U+01B4) contains a short segment L&lt;&lt;489.0,463.0&gt;--&lt;489.0,463.0&gt;&gt;
 
 * braceleft (U+007B) contains a short segment L&lt;&lt;5.0,333.0&gt;--&lt;20.0,333.0&gt;&gt;
 
 * braceright (U+007D) contains a short segment L&lt;&lt;449.0,287.0&gt;--&lt;434.0,287.0&gt;&gt;
 
-* dollar (U+0024) contains a short segment B&lt;&lt;261.0,660.0&gt;-&lt;260.0,660.0&gt;-&lt;260.0,660.0&gt;&gt;
+* dollar (U+0024) contains a short segment B&lt;&lt;265.0,394.0&gt;-&lt;274.0,392.0&gt;-&lt;283.5,390.0&gt;&gt;
 
-* dollar (U+0024) contains a short segment L&lt;&lt;260.0,40.0&gt;--&lt;262.0,40.0&gt;&gt;
-
-* partialdiff (U+2202) contains a short segment L&lt;&lt;549.0,360.0&gt;--&lt;548.0,360.0&gt;&gt;
+* dollar (U+0024) contains a short segment B&lt;&lt;283.5,390.0&gt;-&lt;293.0,388.0&gt;-&lt;302.0,386.0&gt;&gt;
 
 * at (U+0040) contains a short segment L&lt;&lt;651.0,480.0&gt;--&lt;685.0,480.0&gt;&gt;
 </code></pre>
@@ -14520,15 +14415,15 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, syriac, duployan, hebrew, math, todhri, tifinagh, tai-le, coptic, old-permic</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
@@ -14539,7 +14434,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, sunuwar, caucasian-albanian, thai, tifinagh, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -14570,14 +14465,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -14588,7 +14483,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -14806,11 +14701,11 @@ definitions.</p>
 
 * florin (U+0192): X=552.0,Y=698.0 (should be at cap-height 700?)
 
-* dollar (U+0024): X=199.0,Y=1.0 (should be at baseline 0?)
+* dollar (U+0024): X=447.0,Y=699.0 (should be at cap-height 700?)
 
-* dollar (U+0024): X=445.0,Y=699.0 (should be at cap-height 700?)
+* dollar (U+0024): X=487.0,Y=698.0 (should be at cap-height 700?)
 
-* dollar (U+0024): X=485.0,Y=698.0 (should be at cap-height 700?)
+* dollar (U+0024): X=241.0,Y=1.0 (should be at baseline 0?)
 
 * sterling (U+00A3): X=546.0,Y=718.0 (should be at ascender 720?)
 
@@ -14936,8 +14831,6 @@ definitions.</p>
 
 * uni2075 (U+2075): L&lt;&lt;208.0,518.0&gt;--&lt;191.0,532.0&gt;&gt; -&gt; L&lt;&lt;191.0,532.0&gt;--&lt;190.0,533.0&gt;&gt;
 
-* uni2199 (U+2199): L&lt;&lt;732.0,603.0&gt;--&lt;602.0,487.0&gt;&gt; -&gt; L&lt;&lt;602.0,487.0&gt;--&lt;222.0,150.0&gt;&gt;
-
 * uni2C64 (U+2C64): L&lt;&lt;-1.0,-62.0&gt;--&lt;22.0,0.0&gt;&gt; -&gt; L&lt;&lt;22.0,0.0&gt;--&lt;268.0,700.0&gt;&gt;
 
 * uni2C64 (U+2C64): L&lt;&lt;161.0,274.0&gt;--&lt;65.0,0.0&gt;&gt; -&gt; L&lt;&lt;65.0,0.0&gt;--&lt;43.0,-62.0&gt;&gt;
@@ -14987,10 +14880,6 @@ definitions.</p>
 * uni025B (U+025B): B&lt;&lt;107.5,214.5&gt;-&lt;154.0,250.0&gt;-&lt;214.0,256.0&gt;&gt;/B&lt;&lt;214.0,256.0&gt;-&lt;160.0,263.0&gt;-&lt;136.0,294.0&gt;&gt; = 13.09663628876691
 
 * uni0266 (U+0266): L&lt;&lt;537.0,269.0&gt;--&lt;558.0,269.0&gt;&gt;/L&lt;&lt;558.0,269.0&gt;--&lt;537.0,271.0&gt;&gt; = 5.4403320310054815
-
-* uni0288 (U+0288): L&lt;&lt;93.0,-36.0&gt;--&lt;72.0,-36.0&gt;&gt;/L&lt;&lt;72.0,-36.0&gt;--&lt;93.0,-37.0&gt;&gt; = 2.726310993906212
-
-* uni2199 (U+2199): L&lt;&lt;246.0,268.0&gt;--&lt;732.0,603.0&gt;&gt;/L&lt;&lt;732.0,603.0&gt;--&lt;602.0,487.0&gt;&gt; = 7.164266369613061
 </code></pre>
  [code: found-jaggy-segments]
 
@@ -15567,15 +15456,15 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, syriac, duployan, hebrew, math, todhri, tifinagh, tai-le, coptic, old-permic</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
@@ -15586,7 +15475,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, sunuwar, caucasian-albanian, thai, tifinagh, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -15617,14 +15506,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -15635,7 +15524,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -15875,8 +15764,6 @@ definitions.</p>
 
 * uni0266 (U+0266): L&lt;&lt;495.0,262.0&gt;--&lt;549.0,262.0&gt;&gt;/L&lt;&lt;549.0,262.0&gt;--&lt;497.0,266.0&gt;&gt; = 4.398705354995508
 
-* uni0288 (U+0288): L&lt;&lt;156.0,-6.0&gt;--&lt;102.0,-6.0&gt;&gt;/L&lt;&lt;102.0,-6.0&gt;--&lt;154.0,-9.0&gt;&gt; = 3.301865674434948
-
 * uni0327 (U+0327): L&lt;&lt;77.0,-131.0&gt;--&lt;80.0,-119.0&gt;&gt;/L&lt;&lt;80.0,-119.0&gt;--&lt;76.0,-131.0&gt;&gt; = 4.398705354995591
 
 * uni1E08 (U+1E08): L&lt;&lt;309.0,-131.0&gt;--&lt;312.0,-119.0&gt;&gt;/L&lt;&lt;312.0,-119.0&gt;--&lt;308.0,-131.0&gt;&gt; = 4.398705354995591
@@ -15972,8 +15859,6 @@ definitions.</p>
 * uni027D (U+027D) contains a short segment L&lt;&lt;230.0,274.0&gt;--&lt;230.0,274.0&gt;&gt;
 
 * uni027D (U+027D) contains a short segment L&lt;&lt;230.0,274.0&gt;--&lt;230.0,274.0&gt;&gt;
-
-* uni028B (U+028B) contains a short segment L&lt;&lt;583.0,387.0&gt;--&lt;582.0,387.0&gt;&gt;
 
 * uni01B4 (U+01B4) contains a short segment L&lt;&lt;664.0,437.0&gt;--&lt;664.0,437.0&gt;&gt;
 
@@ -16082,8 +15967,6 @@ definitions.</p>
 * logicalnot (U+00AC) contains a short segment L&lt;&lt;552.0,290.0&gt;--&lt;552.0,290.0&gt;&gt;
 
 * logicalnot (U+00AC) contains a short segment L&lt;&lt;524.0,211.0&gt;--&lt;524.0,211.0&gt;&gt;
-
-* partialdiff (U+2202) contains a short segment L&lt;&lt;632.0,360.0&gt;--&lt;630.0,360.0&gt;&gt;
 </code></pre>
  [code: found-short-segments]
 
@@ -16662,15 +16545,15 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, syriac, duployan, hebrew, math, todhri, tifinagh, tai-le, coptic, old-permic</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
@@ -16681,7 +16564,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, sunuwar, caucasian-albanian, thai, tifinagh, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -16712,14 +16595,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -16730,7 +16613,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -16993,8 +16876,6 @@ definitions.</p>
 * uni025B (U+025B): B&lt;&lt;101.0,221.5&gt;-&lt;137.0,252.0&gt;-&lt;186.0,256.0&gt;&gt;/B&lt;&lt;186.0,256.0&gt;-&lt;145.0,262.0&gt;-&lt;128.0,292.0&gt;&gt; = 12.992508701865807
 
 * uni0266 (U+0266): L&lt;&lt;504.0,269.0&gt;--&lt;549.0,269.0&gt;&gt;/L&lt;&lt;549.0,269.0&gt;--&lt;506.0,272.0&gt;&gt; = 3.9909130984297856
-
-* uni0288 (U+0288): L&lt;&lt;135.0,-17.0&gt;--&lt;91.0,-17.0&gt;&gt;/L&lt;&lt;91.0,-17.0&gt;--&lt;133.0,-20.0&gt;&gt; = 4.085616779974888
 
 * uni028A (U+028A): B&lt;&lt;184.0,370.0&gt;-&lt;215.0,397.0&gt;-&lt;245.0,405.0&gt;&gt;/L&lt;&lt;245.0,405.0&gt;--&lt;158.0,404.0&gt;&gt; = 14.272874000573955
 
@@ -17595,15 +17476,15 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, syriac, duployan, hebrew, math, todhri, tifinagh, tai-le, coptic, old-permic</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
@@ -17614,7 +17495,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, sunuwar, caucasian-albanian, thai, tifinagh, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -17645,14 +17526,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -17663,7 +17544,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -17804,6 +17685,10 @@ definitions.</p>
 * uni2197 (U+2197): L&lt;&lt;473.0,557.0&gt;--&lt;141.0,556.0&gt;&gt;
 
 * uni2198 (U+2198): L&lt;&lt;599.0,539.0&gt;--&lt;598.0,82.0&gt;&gt;
+
+* uni2199 (U+2199): L&lt;&lt;175.0,155.0&gt;--&lt;507.0,156.0&gt;&gt;
+
+* uni2199 (U+2199): L&lt;&lt;507.0,82.0&gt;--&lt;50.0,83.0&gt;&gt;
 </code></pre>
  [code: found-semi-vertical]
 
@@ -17913,23 +17798,17 @@ definitions.</p>
 
 * uni1E35 (U+1E35) contains a short segment L&lt;&lt;150.0,286.0&gt;--&lt;150.0,286.0&gt;&gt;
 
-* uni028B (U+028B) contains a short segment L&lt;&lt;453.0,387.0&gt;--&lt;453.0,387.0&gt;&gt;
-
 * uni01B4 (U+01B4) contains a short segment L&lt;&lt;519.0,451.0&gt;--&lt;519.0,451.0&gt;&gt;
 
 * uni2076 (U+2076) contains a short segment L&lt;&lt;48.0,532.0&gt;--&lt;48.0,532.0&gt;&gt;
 
-* dollar (U+0024) contains a short segment B&lt;&lt;284.0,416.0&gt;-&lt;291.0,414.0&gt;-&lt;297.5,412.5&gt;&gt;
-
-* dollar (U+0024) contains a short segment B&lt;&lt;297.5,412.5&gt;-&lt;304.0,411.0&gt;-&lt;311.0,409.0&gt;&gt;
+* dollar (U+0024) contains a short segment B&lt;&lt;299.0,412.0&gt;-&lt;305.0,411.0&gt;-&lt;311.0,409.0&gt;&gt;
 
 * Euro (U+20AC) contains a short segment B&lt;&lt;128.0,329.0&gt;-&lt;128.0,339.0&gt;-&lt;128.0,350.0&gt;&gt;
 
 * Euro (U+20AC) contains a short segment B&lt;&lt;203.0,350.0&gt;-&lt;203.0,339.0&gt;-&lt;203.0,329.0&gt;&gt;
 
 * sterling (U+00A3) contains a short segment L&lt;&lt;199.0,315.0&gt;--&lt;199.0,313.0&gt;&gt;
-
-* partialdiff (U+2202) contains a short segment L&lt;&lt;548.0,360.0&gt;--&lt;548.0,360.0&gt;&gt;
 </code></pre>
  [code: found-short-segments]
 
@@ -17965,7 +17844,7 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 56 | 254 | 1839 | 109 | 1701 | 0 | 
+| 0 | 0 | 55 | 254 | 1839 | 109 | 1702 | 0 | 
 | 0% | 0% | 1% | 6% | 46% | 3% | 43% | 0% | 
 
 
