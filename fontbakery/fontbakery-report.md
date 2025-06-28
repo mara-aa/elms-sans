@@ -119,8 +119,60 @@ fontbakery version: 1.0.0
 </div>
 </details>
 
-<details><summary>[16] ElmsSans-ExtraBoldItalic.ttf</summary>
+<details><summary>[17] ElmsSans-ExtraBoldItalic.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#case-mapping">case_mapping</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Glyph present in the font</th>
+<th align="left">Missing case-swapping counterpart</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">U+0212: LATIN CAPITAL LETTER R WITH INVERTED BREVE</td>
+<td align="left">U+0213: LATIN SMALL LETTER R WITH INVERTED BREVE</td>
+</tr>
+<tr>
+<td align="left">U+023D: LATIN CAPITAL LETTER L WITH BAR</td>
+<td align="left">U+019A: LATIN SMALL LETTER L WITH BAR</td>
+</tr>
+<tr>
+<td align="left">U+0248: LATIN CAPITAL LETTER J WITH STROKE</td>
+<td align="left">U+0249: LATIN SMALL LETTER J WITH STROKE</td>
+</tr>
+<tr>
+<td align="left">U+1E1F: LATIN SMALL LETTER F WITH DOT ABOVE</td>
+<td align="left">U+1E1E: LATIN CAPITAL LETTER F WITH DOT ABOVE</td>
+</tr>
+<tr>
+<td align="left">U+1E55: LATIN SMALL LETTER P WITH ACUTE</td>
+<td align="left">U+1E54: LATIN CAPITAL LETTER P WITH ACUTE</td>
+</tr>
+<tr>
+<td align="left">U+1E5F: LATIN SMALL LETTER R WITH LINE BELOW</td>
+<td align="left">U+1E5E: LATIN CAPITAL LETTER R WITH LINE BELOW</td>
+</tr>
+</tbody>
+</table>
+ [code: missing-case-counterparts]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-widths">whitespace_widths</a></summary>
     <div>
@@ -414,7 +466,11 @@ fontbakery version: 1.0.0
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -496,7 +552,11 @@ fontbakery version: 1.0.0
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -596,7 +656,9 @@ fontbakery version: 1.0.0
 
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- l.alt
+<pre><code>- dotlessi_ogonek
+
+- l.alt
 
 - t.alt
 
@@ -647,12 +709,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, math, tai-le, malayalam, canadian-aboriginal, old-permic, hebrew, syriac, todhri, duployan, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -666,7 +728,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, cherokee, caucasian-albanian, thai, tifinagh, syriac, gothic</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -1029,6 +1091,8 @@ definitions.</p>
 
 * uni1E34 (U+1E34) contains a short segment L&lt;&lt;313.0,349.0&gt;--&lt;300.0,349.0&gt;&gt;
 
+* uniA740 (U+A740) contains a short segment L&lt;&lt;313.0,349.0&gt;--&lt;300.0,349.0&gt;&gt;
+
 * uni01B2 (U+01B2) contains a short segment L&lt;&lt;722.0,544.0&gt;--&lt;721.0,544.0&gt;&gt;
 
 * uni2C72 (U+2C72) contains a short segment B&lt;&lt;1251.0,673.0&gt;-&lt;1241.0,676.0&gt;-&lt;1225.5,667.0&gt;&gt;
@@ -1194,8 +1258,60 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[18] ElmsSans-Thin.ttf</summary>
+<details><summary>[19] ElmsSans-Thin.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#case-mapping">case_mapping</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Glyph present in the font</th>
+<th align="left">Missing case-swapping counterpart</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">U+0212: LATIN CAPITAL LETTER R WITH INVERTED BREVE</td>
+<td align="left">U+0213: LATIN SMALL LETTER R WITH INVERTED BREVE</td>
+</tr>
+<tr>
+<td align="left">U+023D: LATIN CAPITAL LETTER L WITH BAR</td>
+<td align="left">U+019A: LATIN SMALL LETTER L WITH BAR</td>
+</tr>
+<tr>
+<td align="left">U+0248: LATIN CAPITAL LETTER J WITH STROKE</td>
+<td align="left">U+0249: LATIN SMALL LETTER J WITH STROKE</td>
+</tr>
+<tr>
+<td align="left">U+1E1F: LATIN SMALL LETTER F WITH DOT ABOVE</td>
+<td align="left">U+1E1E: LATIN CAPITAL LETTER F WITH DOT ABOVE</td>
+</tr>
+<tr>
+<td align="left">U+1E55: LATIN SMALL LETTER P WITH ACUTE</td>
+<td align="left">U+1E54: LATIN CAPITAL LETTER P WITH ACUTE</td>
+</tr>
+<tr>
+<td align="left">U+1E5F: LATIN SMALL LETTER R WITH LINE BELOW</td>
+<td align="left">U+1E5E: LATIN CAPITAL LETTER R WITH LINE BELOW</td>
+</tr>
+</tbody>
+</table>
+ [code: missing-case-counterparts]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-widths">whitespace_widths</a></summary>
     <div>
@@ -1493,7 +1609,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -1577,7 +1697,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -1697,7 +1821,9 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- l.alt
+<pre><code>- dotlessi_ogonek
+
+- l.alt
 
 - t.alt
 
@@ -1748,12 +1874,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, math, tai-le, malayalam, canadian-aboriginal, old-permic, hebrew, syriac, todhri, duployan, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -1767,7 +1893,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, cherokee, caucasian-albanian, thai, tifinagh, syriac, gothic</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -1915,6 +2041,8 @@ definitions.</p>
 * uni0283 (U+0283): X=264.5,Y=698.0 (should be at cap-height 700?)
 
 * f (U+0066): X=214.5,Y=698.0 (should be at cap-height 700?)
+
+* uni1E1F (U+1E1F): X=214.5,Y=698.0 (should be at cap-height 700?)
 
 * uni1ED5 (U+1ED5): X=367.5,Y=701.5 (should be at cap-height 700?)
 
@@ -2143,8 +2271,60 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[16] ElmsSans-BoldItalic.ttf</summary>
+<details><summary>[17] ElmsSans-BoldItalic.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#case-mapping">case_mapping</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Glyph present in the font</th>
+<th align="left">Missing case-swapping counterpart</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">U+0212: LATIN CAPITAL LETTER R WITH INVERTED BREVE</td>
+<td align="left">U+0213: LATIN SMALL LETTER R WITH INVERTED BREVE</td>
+</tr>
+<tr>
+<td align="left">U+023D: LATIN CAPITAL LETTER L WITH BAR</td>
+<td align="left">U+019A: LATIN SMALL LETTER L WITH BAR</td>
+</tr>
+<tr>
+<td align="left">U+0248: LATIN CAPITAL LETTER J WITH STROKE</td>
+<td align="left">U+0249: LATIN SMALL LETTER J WITH STROKE</td>
+</tr>
+<tr>
+<td align="left">U+1E1F: LATIN SMALL LETTER F WITH DOT ABOVE</td>
+<td align="left">U+1E1E: LATIN CAPITAL LETTER F WITH DOT ABOVE</td>
+</tr>
+<tr>
+<td align="left">U+1E55: LATIN SMALL LETTER P WITH ACUTE</td>
+<td align="left">U+1E54: LATIN CAPITAL LETTER P WITH ACUTE</td>
+</tr>
+<tr>
+<td align="left">U+1E5F: LATIN SMALL LETTER R WITH LINE BELOW</td>
+<td align="left">U+1E5E: LATIN CAPITAL LETTER R WITH LINE BELOW</td>
+</tr>
+</tbody>
+</table>
+ [code: missing-case-counterparts]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-widths">whitespace_widths</a></summary>
     <div>
@@ -2438,7 +2618,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -2518,7 +2702,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -2638,7 +2826,9 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- l.alt
+<pre><code>- dotlessi_ogonek
+
+- l.alt
 
 - t.alt
 
@@ -2689,12 +2879,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, math, tai-le, malayalam, canadian-aboriginal, old-permic, hebrew, syriac, todhri, duployan, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -2708,7 +2898,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, cherokee, caucasian-albanian, thai, tifinagh, syriac, gothic</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -3032,8 +3222,60 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[17] ElmsSans-SemiBold.ttf</summary>
+<details><summary>[18] ElmsSans-SemiBold.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#case-mapping">case_mapping</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Glyph present in the font</th>
+<th align="left">Missing case-swapping counterpart</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">U+0212: LATIN CAPITAL LETTER R WITH INVERTED BREVE</td>
+<td align="left">U+0213: LATIN SMALL LETTER R WITH INVERTED BREVE</td>
+</tr>
+<tr>
+<td align="left">U+023D: LATIN CAPITAL LETTER L WITH BAR</td>
+<td align="left">U+019A: LATIN SMALL LETTER L WITH BAR</td>
+</tr>
+<tr>
+<td align="left">U+0248: LATIN CAPITAL LETTER J WITH STROKE</td>
+<td align="left">U+0249: LATIN SMALL LETTER J WITH STROKE</td>
+</tr>
+<tr>
+<td align="left">U+1E1F: LATIN SMALL LETTER F WITH DOT ABOVE</td>
+<td align="left">U+1E1E: LATIN CAPITAL LETTER F WITH DOT ABOVE</td>
+</tr>
+<tr>
+<td align="left">U+1E55: LATIN SMALL LETTER P WITH ACUTE</td>
+<td align="left">U+1E54: LATIN CAPITAL LETTER P WITH ACUTE</td>
+</tr>
+<tr>
+<td align="left">U+1E5F: LATIN SMALL LETTER R WITH LINE BELOW</td>
+<td align="left">U+1E5E: LATIN CAPITAL LETTER R WITH LINE BELOW</td>
+</tr>
+</tbody>
+</table>
+ [code: missing-case-counterparts]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-widths">whitespace_widths</a></summary>
     <div>
@@ -3327,7 +3569,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -3407,7 +3653,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -3505,7 +3755,9 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- l.alt
+<pre><code>- dotlessi_ogonek
+
+- l.alt
 
 - t.alt
 
@@ -3556,12 +3808,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, math, tai-le, malayalam, canadian-aboriginal, old-permic, hebrew, syriac, todhri, duployan, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -3575,7 +3827,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, cherokee, caucasian-albanian, thai, tifinagh, syriac, gothic</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -3752,6 +4004,10 @@ definitions.</p>
 
 * uni1E3F (U+1E3F): L&lt;&lt;740.0,0.0&gt;--&lt;739.0,285.0&gt;&gt;
 
+* uni1E41 (U+1E41): L&lt;&lt;69.0,0.0&gt;--&lt;68.0,480.0&gt;&gt;
+
+* uni1E41 (U+1E41): L&lt;&lt;740.0,0.0&gt;--&lt;739.0,285.0&gt;&gt;
+
 * uni1E43 (U+1E43): L&lt;&lt;69.0,0.0&gt;--&lt;68.0,480.0&gt;&gt;
 
 * uni1E43 (U+1E43): L&lt;&lt;740.0,0.0&gt;--&lt;739.0,285.0&gt;&gt;
@@ -3879,8 +4135,60 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[17] ElmsSans-ExtraBold.ttf</summary>
+<details><summary>[18] ElmsSans-ExtraBold.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#case-mapping">case_mapping</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Glyph present in the font</th>
+<th align="left">Missing case-swapping counterpart</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">U+0212: LATIN CAPITAL LETTER R WITH INVERTED BREVE</td>
+<td align="left">U+0213: LATIN SMALL LETTER R WITH INVERTED BREVE</td>
+</tr>
+<tr>
+<td align="left">U+023D: LATIN CAPITAL LETTER L WITH BAR</td>
+<td align="left">U+019A: LATIN SMALL LETTER L WITH BAR</td>
+</tr>
+<tr>
+<td align="left">U+0248: LATIN CAPITAL LETTER J WITH STROKE</td>
+<td align="left">U+0249: LATIN SMALL LETTER J WITH STROKE</td>
+</tr>
+<tr>
+<td align="left">U+1E1F: LATIN SMALL LETTER F WITH DOT ABOVE</td>
+<td align="left">U+1E1E: LATIN CAPITAL LETTER F WITH DOT ABOVE</td>
+</tr>
+<tr>
+<td align="left">U+1E55: LATIN SMALL LETTER P WITH ACUTE</td>
+<td align="left">U+1E54: LATIN CAPITAL LETTER P WITH ACUTE</td>
+</tr>
+<tr>
+<td align="left">U+1E5F: LATIN SMALL LETTER R WITH LINE BELOW</td>
+<td align="left">U+1E5E: LATIN CAPITAL LETTER R WITH LINE BELOW</td>
+</tr>
+</tbody>
+</table>
+ [code: missing-case-counterparts]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-widths">whitespace_widths</a></summary>
     <div>
@@ -4174,7 +4482,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -4256,7 +4568,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -4356,7 +4672,9 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- l.alt
+<pre><code>- dotlessi_ogonek
+
+- l.alt
 
 - t.alt
 
@@ -4407,12 +4725,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, math, tai-le, malayalam, canadian-aboriginal, old-permic, hebrew, syriac, todhri, duployan, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -4426,7 +4744,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, cherokee, caucasian-albanian, thai, tifinagh, syriac, gothic</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -4607,6 +4925,12 @@ definitions.</p>
 
 * uni1E3F (U+1E3F): L&lt;&lt;735.0,0.0&gt;--&lt;734.0,268.0&gt;&gt;
 
+* uni1E41 (U+1E41): L&lt;&lt;400.0,0.0&gt;--&lt;399.0,268.0&gt;&gt;
+
+* uni1E41 (U+1E41): L&lt;&lt;66.0,0.0&gt;--&lt;65.0,480.0&gt;&gt;
+
+* uni1E41 (U+1E41): L&lt;&lt;735.0,0.0&gt;--&lt;734.0,268.0&gt;&gt;
+
 * uni1E43 (U+1E43): L&lt;&lt;400.0,0.0&gt;--&lt;399.0,268.0&gt;&gt;
 
 * uni1E43 (U+1E43): L&lt;&lt;66.0,0.0&gt;--&lt;65.0,480.0&gt;&gt;
@@ -4678,6 +5002,8 @@ definitions.</p>
 * uni0198 (U+0198) contains a short segment L&lt;&lt;174.0,349.0&gt;--&lt;154.0,349.0&gt;&gt;
 
 * uni1E34 (U+1E34) contains a short segment L&lt;&lt;232.0,349.0&gt;--&lt;219.0,349.0&gt;&gt;
+
+* uniA740 (U+A740) contains a short segment L&lt;&lt;232.0,349.0&gt;--&lt;219.0,349.0&gt;&gt;
 
 * uni019D (U+019D) contains a short segment B&lt;&lt;94.0,-83.0&gt;-&lt;106.0,-83.0&gt;-&lt;115.0,-74.5&gt;&gt;
 
@@ -4752,8 +5078,60 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[16] ElmsSans-Italic.ttf</summary>
+<details><summary>[17] ElmsSans-Italic.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#case-mapping">case_mapping</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Glyph present in the font</th>
+<th align="left">Missing case-swapping counterpart</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">U+0212: LATIN CAPITAL LETTER R WITH INVERTED BREVE</td>
+<td align="left">U+0213: LATIN SMALL LETTER R WITH INVERTED BREVE</td>
+</tr>
+<tr>
+<td align="left">U+023D: LATIN CAPITAL LETTER L WITH BAR</td>
+<td align="left">U+019A: LATIN SMALL LETTER L WITH BAR</td>
+</tr>
+<tr>
+<td align="left">U+0248: LATIN CAPITAL LETTER J WITH STROKE</td>
+<td align="left">U+0249: LATIN SMALL LETTER J WITH STROKE</td>
+</tr>
+<tr>
+<td align="left">U+1E1F: LATIN SMALL LETTER F WITH DOT ABOVE</td>
+<td align="left">U+1E1E: LATIN CAPITAL LETTER F WITH DOT ABOVE</td>
+</tr>
+<tr>
+<td align="left">U+1E55: LATIN SMALL LETTER P WITH ACUTE</td>
+<td align="left">U+1E54: LATIN CAPITAL LETTER P WITH ACUTE</td>
+</tr>
+<tr>
+<td align="left">U+1E5F: LATIN SMALL LETTER R WITH LINE BELOW</td>
+<td align="left">U+1E5E: LATIN CAPITAL LETTER R WITH LINE BELOW</td>
+</tr>
+</tbody>
+</table>
+ [code: missing-case-counterparts]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-widths">whitespace_widths</a></summary>
     <div>
@@ -5049,7 +5427,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -5131,7 +5513,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -5273,7 +5659,9 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- l.alt
+<pre><code>- dotlessi_ogonek
+
+- l.alt
 
 - t.alt
 
@@ -5324,12 +5712,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, math, tai-le, malayalam, canadian-aboriginal, old-permic, hebrew, syriac, todhri, duployan, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -5343,7 +5731,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, cherokee, caucasian-albanian, thai, tifinagh, syriac, gothic</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -5646,6 +6034,58 @@ definitions.</p>
 <details><summary>[18] ElmsSans-Bold.ttf</summary>
 <div>
 <details>
+    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#case-mapping">case_mapping</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Glyph present in the font</th>
+<th align="left">Missing case-swapping counterpart</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">U+0212: LATIN CAPITAL LETTER R WITH INVERTED BREVE</td>
+<td align="left">U+0213: LATIN SMALL LETTER R WITH INVERTED BREVE</td>
+</tr>
+<tr>
+<td align="left">U+023D: LATIN CAPITAL LETTER L WITH BAR</td>
+<td align="left">U+019A: LATIN SMALL LETTER L WITH BAR</td>
+</tr>
+<tr>
+<td align="left">U+0248: LATIN CAPITAL LETTER J WITH STROKE</td>
+<td align="left">U+0249: LATIN SMALL LETTER J WITH STROKE</td>
+</tr>
+<tr>
+<td align="left">U+1E1F: LATIN SMALL LETTER F WITH DOT ABOVE</td>
+<td align="left">U+1E1E: LATIN CAPITAL LETTER F WITH DOT ABOVE</td>
+</tr>
+<tr>
+<td align="left">U+1E55: LATIN SMALL LETTER P WITH ACUTE</td>
+<td align="left">U+1E54: LATIN CAPITAL LETTER P WITH ACUTE</td>
+</tr>
+<tr>
+<td align="left">U+1E5F: LATIN SMALL LETTER R WITH LINE BELOW</td>
+<td align="left">U+1E5E: LATIN CAPITAL LETTER R WITH LINE BELOW</td>
+</tr>
+</tbody>
+</table>
+ [code: missing-case-counterparts]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-widths">whitespace_widths</a></summary>
     <div>
 
@@ -5938,7 +6378,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -6018,7 +6462,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -6116,7 +6564,9 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- l.alt
+<pre><code>- dotlessi_ogonek
+
+- l.alt
 
 - t.alt
 
@@ -6167,12 +6617,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, math, tai-le, malayalam, canadian-aboriginal, old-permic, hebrew, syriac, todhri, duployan, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -6186,7 +6636,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, cherokee, caucasian-albanian, thai, tifinagh, syriac, gothic</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -6276,222 +6726,6 @@ definitions.</p>
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̐ į̑ į̒ į̛̀ į̛́ į̛̂ į̛̃ į̛̄ į̛̆ į̛̇ į̛̈ į̛̉ į̛̊ į̛̋</p>
  [code: soft-dotted]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Are there any misaligned on-curve points? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-alignment-miss">outline_alignment_miss</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* .notdef: X=118.0,Y=702.0 (should be at cap-height 700?)
-
-* .notdef: X=481.0,Y=702.0 (should be at cap-height 700?)
-
-* uni0187 (U+0187): X=517.5,Y=698.0 (should be at cap-height 700?)
-
-* uni0187 (U+0187): X=656.0,Y=698.0 (should be at cap-height 700?)
-
-* uni0187 (U+0187): X=718.0,Y=718.0 (should be at ascender 720?)
-
-* uni0187 (U+0187): X=814.0,Y=718.0 (should be at ascender 720?)
-
-* uni018F (U+018F): X=257.5,Y=698.5 (should be at cap-height 700?)
-
-* a (U+0061): X=364.0,Y=479.0 (should be at x-height 480?)
-
-* a (U+0061): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* aacute (U+00E1): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* abreve (U+0103): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EAF (U+1EAF): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EB7 (U+1EB7): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EB1 (U+1EB1): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EB3 (U+1EB3): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EB5 (U+1EB5): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni01CE (U+01CE): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* acircumflex (U+00E2): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EA5 (U+1EA5): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EAD (U+1EAD): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EA7 (U+1EA7): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EA9 (U+1EA9): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EA9 (U+1EA9): X=410.5,Y=718.5 (should be at ascender 720?)
-
-* uni1EAB (U+1EAB): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* adieresis (U+00E4): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* adieresis (U+00E4): X=416.0,Y=702.0 (should be at cap-height 700?)
-
-* adieresis (U+00E4): X=208.0,Y=702.0 (should be at cap-height 700?)
-
-* uni01DF (U+01DF): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni01DF (U+01DF): X=416.0,Y=702.0 (should be at cap-height 700?)
-
-* uni01DF (U+01DF): X=208.0,Y=702.0 (should be at cap-height 700?)
-
-* uni0227 (U+0227): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EA1 (U+1EA1): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni01E1 (U+01E1): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* agrave (U+00E0): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EA3 (U+1EA3): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni0203 (U+0203): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni0251 (U+0251): X=372.0,Y=1.5 (should be at baseline 0?)
-
-* amacron (U+0101): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* aogonek (U+0105): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* aring (U+00E5): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* atilde (U+00E3): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* ae (U+00E6): X=673.0,Y=-2.0 (should be at baseline 0?)
-
-* uni01E3 (U+01E3): X=673.0,Y=-2.0 (should be at baseline 0?)
-
-* b (U+0062): X=261.0,Y=479.5 (should be at x-height 480?)
-
-* b (U+0062): X=261.0,Y=0.5 (should be at baseline 0?)
-
-* uni1E03 (U+1E03): X=261.0,Y=0.5 (should be at baseline 0?)
-
-* uni1E05 (U+1E05): X=261.0,Y=0.5 (should be at baseline 0?)
-
-* uni0253 (U+0253): X=261.5,Y=-1.5 (should be at baseline 0?)
-
-* uni1E07 (U+1E07): X=261.0,Y=0.5 (should be at baseline 0?)
-
-* uni0180 (U+0180): X=261.0,Y=0.5 (should be at baseline 0?)
-
-* uni1EC3 (U+1EC3): X=374.5,Y=718.5 (should be at ascender 720?)
-
-* edieresis (U+00EB): X=381.0,Y=702.0 (should be at cap-height 700?)
-
-* edieresis (U+00EB): X=173.0,Y=702.0 (should be at cap-height 700?)
-
-* h (U+0068): X=257.5,Y=478.0 (should be at x-height 480?)
-
-* uni0265 (U+0265): X=370.5,Y=2.0 (should be at baseline 0?)
-
-* idieresis (U+00EF): X=209.0,Y=702.0 (should be at cap-height 700?)
-
-* idieresis (U+00EF): X=48.0,Y=702.0 (should be at cap-height 700?)
-
-* uni1E2F (U+1E2F): X=209.0,Y=702.0 (should be at cap-height 700?)
-
-* uni1E2F (U+1E2F): X=48.0,Y=702.0 (should be at cap-height 700?)
-
-* iogonek (U+012F): X=70.0,Y=1.0 (should be at baseline 0?)
-
-* iogonek (U+012F): X=190.0,Y=1.0 (should be at baseline 0?)
-
-* m (U+006D): X=252.0,Y=479.5 (should be at x-height 480?)
-
-* uni1ED5 (U+1ED5): X=391.5,Y=718.5 (should be at ascender 720?)
-
-* odieresis (U+00F6): X=397.0,Y=702.0 (should be at cap-height 700?)
-
-* odieresis (U+00F6): X=189.0,Y=702.0 (should be at cap-height 700?)
-
-* uni022B (U+022B): X=397.0,Y=702.0 (should be at cap-height 700?)
-
-* uni022B (U+022B): X=189.0,Y=702.0 (should be at cap-height 700?)
-
-* p (U+0070): X=260.0,Y=479.5 (should be at x-height 480?)
-
-* p (U+0070): X=260.0,Y=0.5 (should be at baseline 0?)
-
-* uni01A5 (U+01A5): X=259.5,Y=-2.0 (should be at baseline 0?)
-
-* thorn (U+00FE): X=248.5,Y=-1.5 (should be at baseline 0?)
-
-* udieresis (U+00FC): X=413.0,Y=702.0 (should be at cap-height 700?)
-
-* udieresis (U+00FC): X=205.0,Y=702.0 (should be at cap-height 700?)
-
-* wdieresis (U+1E85): X=507.0,Y=702.0 (should be at cap-height 700?)
-
-* wdieresis (U+1E85): X=299.0,Y=702.0 (should be at cap-height 700?)
-
-* y (U+0079): X=246.0,Y=1.0 (should be at baseline 0?)
-
-* yacute (U+00FD): X=246.0,Y=1.0 (should be at baseline 0?)
-
-* ycircumflex (U+0177): X=246.0,Y=1.0 (should be at baseline 0?)
-
-* ydieresis (U+00FF): X=246.0,Y=1.0 (should be at baseline 0?)
-
-* ydieresis (U+00FF): X=397.0,Y=702.0 (should be at cap-height 700?)
-
-* ydieresis (U+00FF): X=189.0,Y=702.0 (should be at cap-height 700?)
-
-* uni1EF5 (U+1EF5): X=246.0,Y=1.0 (should be at baseline 0?)
-
-* ygrave (U+1EF3): X=246.0,Y=1.0 (should be at baseline 0?)
-
-* uni01B4 (U+01B4): X=251.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EF7 (U+1EF7): X=246.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EF9 (U+1EF9): X=246.0,Y=1.0 (should be at baseline 0?)
-
-* uni2088 (U+2088): X=219.5,Y=-1.5 (should be at baseline 0?)
-
-* uni2088 (U+2088): X=117.5,Y=-1.5 (should be at baseline 0?)
-
-* dollar (U+0024): X=330.0,Y=2.0 (should be at baseline 0?)
-
-* sterling (U+00A3): X=329.0,Y=718.0 (should be at ascender 720?)
-
-* uni0308 (U+0308): X=330.0,Y=702.0 (should be at cap-height 700?)
-
-* uni0308 (U+0308): X=122.0,Y=702.0 (should be at cap-height 700?)
-
-* uni0308.narrow: X=283.0,Y=702.0 (should be at cap-height 700?)
-
-* uni0308.narrow: X=122.0,Y=702.0 (should be at cap-height 700?)
-
-* uni03020309.case: X=465.0,Y=718.5 (should be at ascender 720?)
-
-* uni03020309.case: X=446.0,Y=701.5 (should be at cap-height 700?)
-
-* uni03020309: X=323.5,Y=718.5 (should be at ascender 720?)
-
-* dieresis (U+00A8): X=330.0,Y=702.0 (should be at cap-height 700?)
-
-* dieresis (U+00A8): X=122.0,Y=702.0 (should be at cap-height 700?)
-</code></pre>
- [code: found-misalignments]
 
 
 
@@ -6641,6 +6875,8 @@ definitions.</p>
 
 * uni1E34 (U+1E34) contains a short segment L&lt;&lt;221.0,349.0&gt;--&lt;202.0,349.0&gt;&gt;
 
+* uniA740 (U+A740) contains a short segment L&lt;&lt;221.0,349.0&gt;--&lt;202.0,349.0&gt;&gt;
+
 * uni019D (U+019D) contains a short segment B&lt;&lt;96.0,-91.0&gt;-&lt;109.0,-91.0&gt;-&lt;117.5,-82.5&gt;&gt;
 
 * uni019D (U+019D) contains a short segment B&lt;&lt;117.5,-82.5&gt;-&lt;126.0,-74.0&gt;-&lt;126.0,-61.0&gt;&gt;
@@ -6712,8 +6948,60 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[17] ElmsSans-BlackItalic.ttf</summary>
+<details><summary>[18] ElmsSans-BlackItalic.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#case-mapping">case_mapping</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Glyph present in the font</th>
+<th align="left">Missing case-swapping counterpart</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">U+0212: LATIN CAPITAL LETTER R WITH INVERTED BREVE</td>
+<td align="left">U+0213: LATIN SMALL LETTER R WITH INVERTED BREVE</td>
+</tr>
+<tr>
+<td align="left">U+023D: LATIN CAPITAL LETTER L WITH BAR</td>
+<td align="left">U+019A: LATIN SMALL LETTER L WITH BAR</td>
+</tr>
+<tr>
+<td align="left">U+0248: LATIN CAPITAL LETTER J WITH STROKE</td>
+<td align="left">U+0249: LATIN SMALL LETTER J WITH STROKE</td>
+</tr>
+<tr>
+<td align="left">U+1E1F: LATIN SMALL LETTER F WITH DOT ABOVE</td>
+<td align="left">U+1E1E: LATIN CAPITAL LETTER F WITH DOT ABOVE</td>
+</tr>
+<tr>
+<td align="left">U+1E55: LATIN SMALL LETTER P WITH ACUTE</td>
+<td align="left">U+1E54: LATIN CAPITAL LETTER P WITH ACUTE</td>
+</tr>
+<tr>
+<td align="left">U+1E5F: LATIN SMALL LETTER R WITH LINE BELOW</td>
+<td align="left">U+1E5E: LATIN CAPITAL LETTER R WITH LINE BELOW</td>
+</tr>
+</tbody>
+</table>
+ [code: missing-case-counterparts]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-widths">whitespace_widths</a></summary>
     <div>
@@ -7007,7 +7295,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -7089,7 +7381,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -7215,7 +7511,9 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- l.alt
+<pre><code>- dotlessi_ogonek
+
+- l.alt
 
 - t.alt
 
@@ -7266,12 +7564,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, math, tai-le, malayalam, canadian-aboriginal, old-permic, hebrew, syriac, todhri, duployan, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -7285,7 +7583,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, cherokee, caucasian-albanian, thai, tifinagh, syriac, gothic</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -7737,8 +8035,60 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[18] ElmsSans-Light.ttf</summary>
+<details><summary>[19] ElmsSans-Light.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#case-mapping">case_mapping</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Glyph present in the font</th>
+<th align="left">Missing case-swapping counterpart</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">U+0212: LATIN CAPITAL LETTER R WITH INVERTED BREVE</td>
+<td align="left">U+0213: LATIN SMALL LETTER R WITH INVERTED BREVE</td>
+</tr>
+<tr>
+<td align="left">U+023D: LATIN CAPITAL LETTER L WITH BAR</td>
+<td align="left">U+019A: LATIN SMALL LETTER L WITH BAR</td>
+</tr>
+<tr>
+<td align="left">U+0248: LATIN CAPITAL LETTER J WITH STROKE</td>
+<td align="left">U+0249: LATIN SMALL LETTER J WITH STROKE</td>
+</tr>
+<tr>
+<td align="left">U+1E1F: LATIN SMALL LETTER F WITH DOT ABOVE</td>
+<td align="left">U+1E1E: LATIN CAPITAL LETTER F WITH DOT ABOVE</td>
+</tr>
+<tr>
+<td align="left">U+1E55: LATIN SMALL LETTER P WITH ACUTE</td>
+<td align="left">U+1E54: LATIN CAPITAL LETTER P WITH ACUTE</td>
+</tr>
+<tr>
+<td align="left">U+1E5F: LATIN SMALL LETTER R WITH LINE BELOW</td>
+<td align="left">U+1E5E: LATIN CAPITAL LETTER R WITH LINE BELOW</td>
+</tr>
+</tbody>
+</table>
+ [code: missing-case-counterparts]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-widths">whitespace_widths</a></summary>
     <div>
@@ -8034,7 +8384,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -8116,7 +8470,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -8214,7 +8572,9 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- l.alt
+<pre><code>- dotlessi_ogonek
+
+- l.alt
 
 - t.alt
 
@@ -8265,12 +8625,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, math, tai-le, malayalam, canadian-aboriginal, old-permic, hebrew, syriac, todhri, duployan, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -8284,7 +8644,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, cherokee, caucasian-albanian, thai, tifinagh, syriac, gothic</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -8738,8 +9098,60 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[18] ElmsSans-Black.ttf</summary>
+<details><summary>[19] ElmsSans-Black.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#case-mapping">case_mapping</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Glyph present in the font</th>
+<th align="left">Missing case-swapping counterpart</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">U+0212: LATIN CAPITAL LETTER R WITH INVERTED BREVE</td>
+<td align="left">U+0213: LATIN SMALL LETTER R WITH INVERTED BREVE</td>
+</tr>
+<tr>
+<td align="left">U+023D: LATIN CAPITAL LETTER L WITH BAR</td>
+<td align="left">U+019A: LATIN SMALL LETTER L WITH BAR</td>
+</tr>
+<tr>
+<td align="left">U+0248: LATIN CAPITAL LETTER J WITH STROKE</td>
+<td align="left">U+0249: LATIN SMALL LETTER J WITH STROKE</td>
+</tr>
+<tr>
+<td align="left">U+1E1F: LATIN SMALL LETTER F WITH DOT ABOVE</td>
+<td align="left">U+1E1E: LATIN CAPITAL LETTER F WITH DOT ABOVE</td>
+</tr>
+<tr>
+<td align="left">U+1E55: LATIN SMALL LETTER P WITH ACUTE</td>
+<td align="left">U+1E54: LATIN CAPITAL LETTER P WITH ACUTE</td>
+</tr>
+<tr>
+<td align="left">U+1E5F: LATIN SMALL LETTER R WITH LINE BELOW</td>
+<td align="left">U+1E5E: LATIN CAPITAL LETTER R WITH LINE BELOW</td>
+</tr>
+</tbody>
+</table>
+ [code: missing-case-counterparts]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-widths">whitespace_widths</a></summary>
     <div>
@@ -9033,7 +9445,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -9115,7 +9531,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -9215,7 +9635,9 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- l.alt
+<pre><code>- dotlessi_ogonek
+
+- l.alt
 
 - t.alt
 
@@ -9266,12 +9688,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, math, tai-le, malayalam, canadian-aboriginal, old-permic, hebrew, syriac, todhri, duployan, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -9285,7 +9707,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, cherokee, caucasian-albanian, thai, tifinagh, syriac, gothic</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -9456,7 +9878,11 @@ definitions.</p>
 
 * ubreve (U+016D): X=347.5,Y=-0.5 (should be at baseline 0?)
 
+* uni01D4 (U+01D4): X=347.5,Y=-0.5 (should be at baseline 0?)
+
 * ucircumflex (U+00FB): X=347.5,Y=-0.5 (should be at baseline 0?)
+
+* uni1E77 (U+1E77): X=347.5,Y=-0.5 (should be at baseline 0?)
 
 * udieresis (U+00FC): X=347.5,Y=-0.5 (should be at baseline 0?)
 
@@ -9479,6 +9905,8 @@ definitions.</p>
 * uni1EEF (U+1EEF): X=347.5,Y=-0.5 (should be at baseline 0?)
 
 * uhungarumlaut (U+0171): X=347.5,Y=-0.5 (should be at baseline 0?)
+
+* uni0217 (U+0217): X=347.5,Y=-0.5 (should be at baseline 0?)
 
 * umacron (U+016B): X=347.5,Y=-0.5 (should be at baseline 0?)
 
@@ -9614,6 +10042,12 @@ definitions.</p>
 
 * uni1E3F (U+1E3F): L&lt;&lt;732.0,0.0&gt;--&lt;731.0,259.0&gt;&gt;
 
+* uni1E41 (U+1E41): L&lt;&lt;398.0,0.0&gt;--&lt;397.0,259.0&gt;&gt;
+
+* uni1E41 (U+1E41): L&lt;&lt;64.0,0.0&gt;--&lt;63.0,480.0&gt;&gt;
+
+* uni1E41 (U+1E41): L&lt;&lt;732.0,0.0&gt;--&lt;731.0,259.0&gt;&gt;
+
 * uni1E43 (U+1E43): L&lt;&lt;398.0,0.0&gt;--&lt;397.0,259.0&gt;&gt;
 
 * uni1E43 (U+1E43): L&lt;&lt;64.0,0.0&gt;--&lt;63.0,480.0&gt;&gt;
@@ -9696,6 +10130,8 @@ definitions.</p>
 
 * uni1E34 (U+1E34) contains a short segment L&lt;&lt;242.0,349.0&gt;--&lt;236.0,349.0&gt;&gt;
 
+* uniA740 (U+A740) contains a short segment L&lt;&lt;242.0,349.0&gt;--&lt;236.0,349.0&gt;&gt;
+
 * uni019D (U+019D) contains a short segment B&lt;&lt;91.0,-76.0&gt;-&lt;104.0,-76.0&gt;-&lt;112.5,-67.5&gt;&gt;
 
 * uni019D (U+019D) contains a short segment B&lt;&lt;112.5,-67.5&gt;-&lt;121.0,-59.0&gt;-&lt;121.0,-46.0&gt;&gt;
@@ -9746,6 +10182,10 @@ definitions.</p>
 
 * uni1E35 (U+1E35) contains a short segment L&lt;&lt;252.0,258.0&gt;--&lt;232.0,258.0&gt;&gt;
 
+* uniA741 (U+A741) contains a short segment L&lt;&lt;414.0,287.0&gt;--&lt;416.0,287.0&gt;&gt;
+
+* uniA741 (U+A741) contains a short segment L&lt;&lt;252.0,258.0&gt;--&lt;232.0,258.0&gt;&gt;
+
 * uni01A5 (U+01A5) contains a short segment L&lt;&lt;281.0,557.0&gt;--&lt;265.0,557.0&gt;&gt;
 
 * uni01B4 (U+01B4) contains a short segment L&lt;&lt;609.0,411.0&gt;--&lt;609.0,411.0&gt;&gt;
@@ -9793,6 +10233,58 @@ definitions.</p>
 
 <details><summary>[17] ElmsSans-ThinItalic.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#case-mapping">case_mapping</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Glyph present in the font</th>
+<th align="left">Missing case-swapping counterpart</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">U+0212: LATIN CAPITAL LETTER R WITH INVERTED BREVE</td>
+<td align="left">U+0213: LATIN SMALL LETTER R WITH INVERTED BREVE</td>
+</tr>
+<tr>
+<td align="left">U+023D: LATIN CAPITAL LETTER L WITH BAR</td>
+<td align="left">U+019A: LATIN SMALL LETTER L WITH BAR</td>
+</tr>
+<tr>
+<td align="left">U+0248: LATIN CAPITAL LETTER J WITH STROKE</td>
+<td align="left">U+0249: LATIN SMALL LETTER J WITH STROKE</td>
+</tr>
+<tr>
+<td align="left">U+1E1F: LATIN SMALL LETTER F WITH DOT ABOVE</td>
+<td align="left">U+1E1E: LATIN CAPITAL LETTER F WITH DOT ABOVE</td>
+</tr>
+<tr>
+<td align="left">U+1E55: LATIN SMALL LETTER P WITH ACUTE</td>
+<td align="left">U+1E54: LATIN CAPITAL LETTER P WITH ACUTE</td>
+</tr>
+<tr>
+<td align="left">U+1E5F: LATIN SMALL LETTER R WITH LINE BELOW</td>
+<td align="left">U+1E5E: LATIN CAPITAL LETTER R WITH LINE BELOW</td>
+</tr>
+</tbody>
+</table>
+ [code: missing-case-counterparts]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-widths">whitespace_widths</a></summary>
     <div>
@@ -10090,7 +10582,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -10174,7 +10670,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -10302,7 +10802,9 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- l.alt
+<pre><code>- dotlessi_ogonek
+
+- l.alt
 
 - t.alt
 
@@ -10353,12 +10855,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, math, tai-le, malayalam, canadian-aboriginal, old-permic, hebrew, syriac, todhri, duployan, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -10372,7 +10874,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, cherokee, caucasian-albanian, thai, tifinagh, syriac, gothic</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -10462,220 +10964,6 @@ definitions.</p>
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̐ į̑ į̒ į̛̀ į̛́ į̛̂ į̛̃ į̛̄ į̛̆ į̛̇ į̛̈ į̛̉ į̛̊ į̛̋</p>
  [code: soft-dotted]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Are there any misaligned on-curve points? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-alignment-miss">outline_alignment_miss</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* .notdef: X=390.0,Y=702.0 (should be at cap-height 700?)
-
-* .notdef: X=753.0,Y=702.0 (should be at cap-height 700?)
-
-* Ccedilla (U+00C7): X=245.0,Y=-278.0 (should be at descender -280?)
-
-* uni1E08 (U+1E08): X=245.0,Y=-278.0 (should be at descender -280?)
-
-* uni0228 (U+0228): X=149.0,Y=-278.0 (should be at descender -280?)
-
-* uni1E1C (U+1E1C): X=149.0,Y=-278.0 (should be at descender -280?)
-
-* uni018F (U+018F): X=455.0,Y=698.0 (should be at cap-height 700?)
-
-* G.ss01: X=695.5,Y=702.0 (should be at cap-height 700?)
-
-* uni0241 (U+0241): X=106.0,Y=1.0 (should be at baseline 0?)
-
-* uni0241 (U+0241): X=132.0,Y=-1.0 (should be at baseline 0?)
-
-* uni0241 (U+0241): X=106.0,Y=1.0 (should be at baseline 0?)
-
-* Q (U+0051): X=469.5,Y=1.0 (should be at baseline 0?)
-
-* Scedilla (U+015E): X=126.0,Y=-278.0 (should be at descender -280?)
-
-* uni0194 (U+0194): X=199.5,Y=-1.0 (should be at baseline 0?)
-
-* uni0194 (U+0194): X=330.0,Y=-1.5 (should be at baseline 0?)
-
-* uni01B3 (U+01B3): X=967.0,Y=721.0 (should be at ascender 720?)
-
-* uni01B3 (U+01B3): X=784.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1EA9 (U+1EA9): X=561.0,Y=700.5 (should be at cap-height 700?)
-
-* ccedilla (U+00E7): X=138.0,Y=-278.0 (should be at descender -280?)
-
-* uni1E09 (U+1E09): X=138.0,Y=-278.0 (should be at descender -280?)
-
-* uni0229 (U+0229): X=132.0,Y=-278.0 (should be at descender -280?)
-
-* uni1E1D (U+1E1D): X=132.0,Y=-278.0 (should be at descender -280?)
-
-* uni1EC3 (U+1EC3): X=527.0,Y=700.5 (should be at cap-height 700?)
-
-* uni0283 (U+0283): X=143.0,Y=1.0 (should be at baseline 0?)
-
-* uni0283 (U+0283): X=468.0,Y=698.5 (should be at cap-height 700?)
-
-* uni0283 (U+0283): X=171.0,Y=-1.0 (should be at baseline 0?)
-
-* uni0283 (U+0283): X=143.0,Y=1.0 (should be at baseline 0?)
-
-* f (U+0066): X=418.0,Y=698.5 (should be at cap-height 700?)
-
-* uni0294 (U+0294): X=106.0,Y=1.0 (should be at baseline 0?)
-
-* uni0294 (U+0294): X=132.0,Y=-1.0 (should be at baseline 0?)
-
-* uni0294 (U+0294): X=106.0,Y=1.0 (should be at baseline 0?)
-
-* uni1ED5 (U+1ED5): X=542.0,Y=700.5 (should be at cap-height 700?)
-
-* oslash (U+00F8): X=158.0,Y=-2.0 (should be at baseline 0?)
-
-* oslashacute (U+01FF): X=158.0,Y=-2.0 (should be at baseline 0?)
-
-* r (U+0072): X=441.0,Y=478.0 (should be at x-height 480?)
-
-* s (U+0073): X=252.0,Y=478.0 (should be at x-height 480?)
-
-* scedilla (U+015F): X=73.0,Y=-278.0 (should be at descender -280?)
-
-* germandbls (U+00DF): X=355.5,Y=699.0 (should be at cap-height 700?)
-
-* germandbls (U+00DF): X=598.0,Y=699.0 (should be at cap-height 700?)
-
-* uni0163 (U+0163): X=50.0,Y=-278.0 (should be at descender -280?)
-
-* y (U+0079): X=198.0,Y=1.0 (should be at baseline 0?)
-
-* y (U+0079): X=574.0,Y=481.0 (should be at x-height 480?)
-
-* y (U+0079): X=606.0,Y=481.0 (should be at x-height 480?)
-
-* yacute (U+00FD): X=198.0,Y=1.0 (should be at baseline 0?)
-
-* ycircumflex (U+0177): X=198.0,Y=1.0 (should be at baseline 0?)
-
-* ydieresis (U+00FF): X=198.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EF5 (U+1EF5): X=198.0,Y=1.0 (should be at baseline 0?)
-
-* ygrave (U+1EF3): X=198.0,Y=1.0 (should be at baseline 0?)
-
-* uni01B4 (U+01B4): X=-21.0,Y=-279.0 (should be at descender -280?)
-
-* uni01B4 (U+01B4): X=198.0,Y=1.0 (should be at baseline 0?)
-
-* uni01B4 (U+01B4): X=4.0,Y=-279.0 (should be at descender -280?)
-
-* uni01B4 (U+01B4): X=-21.0,Y=-279.0 (should be at descender -280?)
-
-* uni1EF7 (U+1EF7): X=198.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EF9 (U+1EF9): X=198.0,Y=1.0 (should be at baseline 0?)
-
-* f_f: X=418.0,Y=698.5 (should be at cap-height 700?)
-
-* f_f: X=593.0,Y=701.0 (should be at cap-height 700?)
-
-* uni00B9 (U+00B9): X=237.0,Y=722.0 (should be at ascender 720?)
-
-* uni00B9 (U+00B9): X=275.0,Y=722.0 (should be at ascender 720?)
-
-* uni00B9 (U+00B9): X=237.0,Y=722.0 (should be at ascender 720?)
-
-* uni00B2 (U+00B2): X=284.5,Y=701.5 (should be at cap-height 700?)
-
-* uni2074 (U+2074): X=422.0,Y=719.0 (should be at ascender 720?)
-
-* uni2078 (U+2078): X=284.5,Y=718.0 (should be at ascender 720?)
-
-* quotesinglbase (U+201A): X=13.5,Y=1.5 (should be at baseline 0?)
-
-* quotedblbase (U+201E): X=213.5,Y=1.5 (should be at baseline 0?)
-
-* quotedblbase (U+201E): X=13.5,Y=1.5 (should be at baseline 0?)
-
-* period (U+002E): X=34.5,Y=1.5 (should be at baseline 0?)
-
-* period (U+002E): X=110.5,Y=0.5 (should be at baseline 0?)
-
-* comma (U+002C): X=38.5,Y=1.5 (should be at baseline 0?)
-
-* colon (U+003A): X=60.5,Y=0.5 (should be at baseline 0?)
-
-* colon (U+003A): X=136.5,Y=-0.5 (should be at baseline 0?)
-
-* semicolon (U+003B): X=112.0,Y=-2.0 (should be at baseline 0?)
-
-* ellipsis (U+2026): X=354.5,Y=1.5 (should be at baseline 0?)
-
-* ellipsis (U+2026): X=430.5,Y=0.5 (should be at baseline 0?)
-
-* ellipsis (U+2026): X=194.5,Y=1.5 (should be at baseline 0?)
-
-* ellipsis (U+2026): X=270.5,Y=0.5 (should be at baseline 0?)
-
-* ellipsis (U+2026): X=34.5,Y=1.5 (should be at baseline 0?)
-
-* ellipsis (U+2026): X=110.5,Y=0.5 (should be at baseline 0?)
-
-* exclam (U+0021): X=44.5,Y=1.5 (should be at baseline 0?)
-
-* exclam (U+0021): X=120.5,Y=0.5 (should be at baseline 0?)
-
-* question (U+003F): X=146.0,Y=0.5 (should be at baseline 0?)
-
-* question (U+003F): X=222.5,Y=-0.5 (should be at baseline 0?)
-
-* dollar (U+0024): X=473.0,Y=699.0 (should be at cap-height 700?)
-
-* sterling (U+00A3): X=548.0,Y=718.0 (should be at ascender 720?)
-
-* arrowright (U+2192): X=414.0,Y=-2.0 (should be at baseline 0?)
-
-* arrowright (U+2192): X=414.0,Y=-2.0 (should be at baseline 0?)
-
-* arrowleft (U+2190): X=314.0,Y=-2.0 (should be at baseline 0?)
-
-* arrowleft (U+2190): X=314.0,Y=-2.0 (should be at baseline 0?)
-
-* section (U+00A7): X=324.5,Y=699.0 (should be at cap-height 700?)
-
-* copyright (U+00A9): X=315.0,Y=1.0 (should be at baseline 0?)
-
-* copyright (U+00A9): X=315.0,Y=1.0 (should be at baseline 0?)
-
-* uni03020309.case: X=453.5,Y=701.5 (should be at cap-height 700?)
-
-* uni0310 (U+0310): X=255.0,Y=701.0 (should be at cap-height 700?)
-
-* uni0310 (U+0310): X=280.0,Y=699.0 (should be at cap-height 700?)
-
-* uni0310 (U+0310): X=527.0,Y=701.0 (should be at cap-height 700?)
-
-* uni0310 (U+0310): X=552.0,Y=699.0 (should be at cap-height 700?)
-
-* uni0327 (U+0327): X=18.0,Y=-278.0 (should be at descender -280?)
-
-* uni03020309: X=439.0,Y=700.5 (should be at cap-height 700?)
-
-* cedilla (U+00B8): X=18.0,Y=-278.0 (should be at descender -280?)
-</code></pre>
- [code: found-misalignments]
 
 
 
@@ -10902,8 +11190,60 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[17] ElmsSans-Medium.ttf</summary>
+<details><summary>[18] ElmsSans-Medium.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#case-mapping">case_mapping</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Glyph present in the font</th>
+<th align="left">Missing case-swapping counterpart</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">U+0212: LATIN CAPITAL LETTER R WITH INVERTED BREVE</td>
+<td align="left">U+0213: LATIN SMALL LETTER R WITH INVERTED BREVE</td>
+</tr>
+<tr>
+<td align="left">U+023D: LATIN CAPITAL LETTER L WITH BAR</td>
+<td align="left">U+019A: LATIN SMALL LETTER L WITH BAR</td>
+</tr>
+<tr>
+<td align="left">U+0248: LATIN CAPITAL LETTER J WITH STROKE</td>
+<td align="left">U+0249: LATIN SMALL LETTER J WITH STROKE</td>
+</tr>
+<tr>
+<td align="left">U+1E1F: LATIN SMALL LETTER F WITH DOT ABOVE</td>
+<td align="left">U+1E1E: LATIN CAPITAL LETTER F WITH DOT ABOVE</td>
+</tr>
+<tr>
+<td align="left">U+1E55: LATIN SMALL LETTER P WITH ACUTE</td>
+<td align="left">U+1E54: LATIN CAPITAL LETTER P WITH ACUTE</td>
+</tr>
+<tr>
+<td align="left">U+1E5F: LATIN SMALL LETTER R WITH LINE BELOW</td>
+<td align="left">U+1E5E: LATIN CAPITAL LETTER R WITH LINE BELOW</td>
+</tr>
+</tbody>
+</table>
+ [code: missing-case-counterparts]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-widths">whitespace_widths</a></summary>
     <div>
@@ -11199,7 +11539,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -11281,7 +11625,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -11379,7 +11727,9 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- l.alt
+<pre><code>- dotlessi_ogonek
+
+- l.alt
 
 - t.alt
 
@@ -11430,12 +11780,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, math, tai-le, malayalam, canadian-aboriginal, old-permic, hebrew, syriac, todhri, duployan, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -11449,7 +11799,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, cherokee, caucasian-albanian, thai, tifinagh, syriac, gothic</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -11690,6 +12040,8 @@ definitions.</p>
 
 * uni1E34 (U+1E34) contains a short segment L&lt;&lt;283.0,380.0&gt;--&lt;283.0,380.0&gt;&gt;
 
+* uniA740 (U+A740) contains a short segment L&lt;&lt;283.0,380.0&gt;--&lt;283.0,380.0&gt;&gt;
+
 * uni019D (U+019D) contains a short segment B&lt;&lt;101.0,-106.0&gt;-&lt;114.0,-106.0&gt;-&lt;122.5,-97.5&gt;&gt;
 
 * uni019D (U+019D) contains a short segment B&lt;&lt;122.5,-97.5&gt;-&lt;131.0,-89.0&gt;-&lt;131.0,-76.0&gt;&gt;
@@ -11754,6 +12106,12 @@ definitions.</p>
 
 * uni1E35 (U+1E35) contains a short segment L&lt;&lt;168.0,289.0&gt;--&lt;169.0,289.0&gt;&gt;
 
+* uniA741 (U+A741) contains a short segment L&lt;&lt;163.0,283.0&gt;--&lt;169.0,288.0&gt;&gt;
+
+* uniA741 (U+A741) contains a short segment L&lt;&lt;169.0,288.0&gt;--&lt;168.0,289.0&gt;&gt;
+
+* uniA741 (U+A741) contains a short segment L&lt;&lt;168.0,289.0&gt;--&lt;169.0,289.0&gt;&gt;
+
 * uni01B4 (U+01B4) contains a short segment L&lt;&lt;534.0,445.0&gt;--&lt;534.0,445.0&gt;&gt;
 
 * uni2076 (U+2076) contains a short segment L&lt;&lt;50.0,532.0&gt;--&lt;50.0,532.0&gt;&gt;
@@ -11791,8 +12149,60 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[16] ElmsSans-LightItalic.ttf</summary>
+<details><summary>[17] ElmsSans-LightItalic.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#case-mapping">case_mapping</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Glyph present in the font</th>
+<th align="left">Missing case-swapping counterpart</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">U+0212: LATIN CAPITAL LETTER R WITH INVERTED BREVE</td>
+<td align="left">U+0213: LATIN SMALL LETTER R WITH INVERTED BREVE</td>
+</tr>
+<tr>
+<td align="left">U+023D: LATIN CAPITAL LETTER L WITH BAR</td>
+<td align="left">U+019A: LATIN SMALL LETTER L WITH BAR</td>
+</tr>
+<tr>
+<td align="left">U+0248: LATIN CAPITAL LETTER J WITH STROKE</td>
+<td align="left">U+0249: LATIN SMALL LETTER J WITH STROKE</td>
+</tr>
+<tr>
+<td align="left">U+1E1F: LATIN SMALL LETTER F WITH DOT ABOVE</td>
+<td align="left">U+1E1E: LATIN CAPITAL LETTER F WITH DOT ABOVE</td>
+</tr>
+<tr>
+<td align="left">U+1E55: LATIN SMALL LETTER P WITH ACUTE</td>
+<td align="left">U+1E54: LATIN CAPITAL LETTER P WITH ACUTE</td>
+</tr>
+<tr>
+<td align="left">U+1E5F: LATIN SMALL LETTER R WITH LINE BELOW</td>
+<td align="left">U+1E5E: LATIN CAPITAL LETTER R WITH LINE BELOW</td>
+</tr>
+</tbody>
+</table>
+ [code: missing-case-counterparts]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-widths">whitespace_widths</a></summary>
     <div>
@@ -12088,7 +12498,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -12170,7 +12584,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -12268,7 +12686,9 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- l.alt
+<pre><code>- dotlessi_ogonek
+
+- l.alt
 
 - t.alt
 
@@ -12319,12 +12739,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, math, tai-le, malayalam, canadian-aboriginal, old-permic, hebrew, syriac, todhri, duployan, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -12338,7 +12758,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, cherokee, caucasian-albanian, thai, tifinagh, syriac, gothic</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -12555,6 +12975,8 @@ definitions.</p>
 
 * ydieresis (U+00FF): X=203.0,Y=1.0 (should be at baseline 0?)
 
+* uni1E8F (U+1E8F): X=203.0,Y=1.0 (should be at baseline 0?)
+
 * uni1EF5 (U+1EF5): X=203.0,Y=1.0 (should be at baseline 0?)
 
 * ygrave (U+1EF3): X=203.0,Y=1.0 (should be at baseline 0?)
@@ -12568,6 +12990,8 @@ definitions.</p>
 * uni01B4 (U+01B4): X=-16.0,Y=-279.0 (should be at descender -280?)
 
 * uni1EF7 (U+1EF7): X=203.0,Y=1.0 (should be at baseline 0?)
+
+* uni0233 (U+0233): X=203.0,Y=1.0 (should be at baseline 0?)
 
 * uni1EF9 (U+1EF9): X=203.0,Y=1.0 (should be at baseline 0?)
 
@@ -12810,8 +13234,60 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[19] ElmsSans-ExtraLight.ttf</summary>
+<details><summary>[20] ElmsSans-ExtraLight.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#case-mapping">case_mapping</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Glyph present in the font</th>
+<th align="left">Missing case-swapping counterpart</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">U+0212: LATIN CAPITAL LETTER R WITH INVERTED BREVE</td>
+<td align="left">U+0213: LATIN SMALL LETTER R WITH INVERTED BREVE</td>
+</tr>
+<tr>
+<td align="left">U+023D: LATIN CAPITAL LETTER L WITH BAR</td>
+<td align="left">U+019A: LATIN SMALL LETTER L WITH BAR</td>
+</tr>
+<tr>
+<td align="left">U+0248: LATIN CAPITAL LETTER J WITH STROKE</td>
+<td align="left">U+0249: LATIN SMALL LETTER J WITH STROKE</td>
+</tr>
+<tr>
+<td align="left">U+1E1F: LATIN SMALL LETTER F WITH DOT ABOVE</td>
+<td align="left">U+1E1E: LATIN CAPITAL LETTER F WITH DOT ABOVE</td>
+</tr>
+<tr>
+<td align="left">U+1E55: LATIN SMALL LETTER P WITH ACUTE</td>
+<td align="left">U+1E54: LATIN CAPITAL LETTER P WITH ACUTE</td>
+</tr>
+<tr>
+<td align="left">U+1E5F: LATIN SMALL LETTER R WITH LINE BELOW</td>
+<td align="left">U+1E5E: LATIN CAPITAL LETTER R WITH LINE BELOW</td>
+</tr>
+</tbody>
+</table>
+ [code: missing-case-counterparts]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-widths">whitespace_widths</a></summary>
     <div>
@@ -13107,7 +13583,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -13189,7 +13669,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -13307,7 +13791,9 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- l.alt
+<pre><code>- dotlessi_ogonek
+
+- l.alt
 
 - t.alt
 
@@ -13358,12 +13844,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, math, tai-le, malayalam, canadian-aboriginal, old-permic, hebrew, syriac, todhri, duployan, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -13377,7 +13863,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, cherokee, caucasian-albanian, thai, tifinagh, syriac, gothic</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -13824,6 +14310,8 @@ definitions.</p>
 
 * uni1E35 (U+1E35) contains a short segment L&lt;&lt;124.0,270.0&gt;--&lt;111.0,270.0&gt;&gt;
 
+* uniA741 (U+A741) contains a short segment L&lt;&lt;124.0,270.0&gt;--&lt;111.0,270.0&gt;&gt;
+
 * uni01B4 (U+01B4) contains a short segment L&lt;&lt;489.0,463.0&gt;--&lt;489.0,463.0&gt;&gt;
 
 * braceleft (U+007B) contains a short segment L&lt;&lt;5.0,333.0&gt;--&lt;20.0,333.0&gt;&gt;
@@ -13863,8 +14351,60 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[17] ElmsSans-ExtraLightItalic.ttf</summary>
+<details><summary>[18] ElmsSans-ExtraLightItalic.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#case-mapping">case_mapping</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Glyph present in the font</th>
+<th align="left">Missing case-swapping counterpart</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">U+0212: LATIN CAPITAL LETTER R WITH INVERTED BREVE</td>
+<td align="left">U+0213: LATIN SMALL LETTER R WITH INVERTED BREVE</td>
+</tr>
+<tr>
+<td align="left">U+023D: LATIN CAPITAL LETTER L WITH BAR</td>
+<td align="left">U+019A: LATIN SMALL LETTER L WITH BAR</td>
+</tr>
+<tr>
+<td align="left">U+0248: LATIN CAPITAL LETTER J WITH STROKE</td>
+<td align="left">U+0249: LATIN SMALL LETTER J WITH STROKE</td>
+</tr>
+<tr>
+<td align="left">U+1E1F: LATIN SMALL LETTER F WITH DOT ABOVE</td>
+<td align="left">U+1E1E: LATIN CAPITAL LETTER F WITH DOT ABOVE</td>
+</tr>
+<tr>
+<td align="left">U+1E55: LATIN SMALL LETTER P WITH ACUTE</td>
+<td align="left">U+1E54: LATIN CAPITAL LETTER P WITH ACUTE</td>
+</tr>
+<tr>
+<td align="left">U+1E5F: LATIN SMALL LETTER R WITH LINE BELOW</td>
+<td align="left">U+1E5E: LATIN CAPITAL LETTER R WITH LINE BELOW</td>
+</tr>
+</tbody>
+</table>
+ [code: missing-case-counterparts]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-widths">whitespace_widths</a></summary>
     <div>
@@ -14160,7 +14700,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -14242,7 +14786,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -14364,7 +14912,9 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- l.alt
+<pre><code>- dotlessi_ogonek
+
+- l.alt
 
 - t.alt
 
@@ -14415,12 +14965,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, math, tai-le, malayalam, canadian-aboriginal, old-permic, hebrew, syriac, todhri, duployan, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -14434,7 +14984,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, cherokee, caucasian-albanian, thai, tifinagh, syriac, gothic</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -14599,6 +15149,8 @@ definitions.</p>
 
 * f (U+0066): X=408.0,Y=698.0 (should be at cap-height 700?)
 
+* uni1E1F (U+1E1F): X=408.0,Y=698.0 (should be at cap-height 700?)
+
 * uni0294 (U+0294): X=113.0,Y=2.0 (should be at baseline 0?)
 
 * uni0294 (U+0294): X=425.0,Y=698.0 (should be at cap-height 700?)
@@ -14639,6 +15191,8 @@ definitions.</p>
 
 * ydieresis (U+00FF): X=201.0,Y=1.0 (should be at baseline 0?)
 
+* uni1E8F (U+1E8F): X=201.0,Y=1.0 (should be at baseline 0?)
+
 * uni1EF5 (U+1EF5): X=201.0,Y=1.0 (should be at baseline 0?)
 
 * ygrave (U+1EF3): X=201.0,Y=1.0 (should be at baseline 0?)
@@ -14652,6 +15206,8 @@ definitions.</p>
 * uni01B4 (U+01B4): X=-19.0,Y=-279.0 (should be at descender -280?)
 
 * uni1EF7 (U+1EF7): X=201.0,Y=1.0 (should be at baseline 0?)
+
+* uni0233 (U+0233): X=201.0,Y=1.0 (should be at baseline 0?)
 
 * uni1EF9 (U+1EF9): X=201.0,Y=1.0 (should be at baseline 0?)
 
@@ -14908,8 +15464,60 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[17] ElmsSans-SemiBoldItalic.ttf</summary>
+<details><summary>[18] ElmsSans-SemiBoldItalic.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#case-mapping">case_mapping</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Glyph present in the font</th>
+<th align="left">Missing case-swapping counterpart</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">U+0212: LATIN CAPITAL LETTER R WITH INVERTED BREVE</td>
+<td align="left">U+0213: LATIN SMALL LETTER R WITH INVERTED BREVE</td>
+</tr>
+<tr>
+<td align="left">U+023D: LATIN CAPITAL LETTER L WITH BAR</td>
+<td align="left">U+019A: LATIN SMALL LETTER L WITH BAR</td>
+</tr>
+<tr>
+<td align="left">U+0248: LATIN CAPITAL LETTER J WITH STROKE</td>
+<td align="left">U+0249: LATIN SMALL LETTER J WITH STROKE</td>
+</tr>
+<tr>
+<td align="left">U+1E1F: LATIN SMALL LETTER F WITH DOT ABOVE</td>
+<td align="left">U+1E1E: LATIN CAPITAL LETTER F WITH DOT ABOVE</td>
+</tr>
+<tr>
+<td align="left">U+1E55: LATIN SMALL LETTER P WITH ACUTE</td>
+<td align="left">U+1E54: LATIN CAPITAL LETTER P WITH ACUTE</td>
+</tr>
+<tr>
+<td align="left">U+1E5F: LATIN SMALL LETTER R WITH LINE BELOW</td>
+<td align="left">U+1E5E: LATIN CAPITAL LETTER R WITH LINE BELOW</td>
+</tr>
+</tbody>
+</table>
+ [code: missing-case-counterparts]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-widths">whitespace_widths</a></summary>
     <div>
@@ -15203,7 +15811,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -15283,7 +15895,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -15405,7 +16021,9 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- l.alt
+<pre><code>- dotlessi_ogonek
+
+- l.alt
 
 - t.alt
 
@@ -15456,12 +16074,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, math, tai-le, malayalam, canadian-aboriginal, old-permic, hebrew, syriac, todhri, duployan, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -15475,7 +16093,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, cherokee, caucasian-albanian, thai, tifinagh, syriac, gothic</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -15995,8 +16613,60 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[16] ElmsSans-MediumItalic.ttf</summary>
+<details><summary>[17] ElmsSans-MediumItalic.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#case-mapping">case_mapping</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Glyph present in the font</th>
+<th align="left">Missing case-swapping counterpart</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">U+0212: LATIN CAPITAL LETTER R WITH INVERTED BREVE</td>
+<td align="left">U+0213: LATIN SMALL LETTER R WITH INVERTED BREVE</td>
+</tr>
+<tr>
+<td align="left">U+023D: LATIN CAPITAL LETTER L WITH BAR</td>
+<td align="left">U+019A: LATIN SMALL LETTER L WITH BAR</td>
+</tr>
+<tr>
+<td align="left">U+0248: LATIN CAPITAL LETTER J WITH STROKE</td>
+<td align="left">U+0249: LATIN SMALL LETTER J WITH STROKE</td>
+</tr>
+<tr>
+<td align="left">U+1E1F: LATIN SMALL LETTER F WITH DOT ABOVE</td>
+<td align="left">U+1E1E: LATIN CAPITAL LETTER F WITH DOT ABOVE</td>
+</tr>
+<tr>
+<td align="left">U+1E55: LATIN SMALL LETTER P WITH ACUTE</td>
+<td align="left">U+1E54: LATIN CAPITAL LETTER P WITH ACUTE</td>
+</tr>
+<tr>
+<td align="left">U+1E5F: LATIN SMALL LETTER R WITH LINE BELOW</td>
+<td align="left">U+1E5E: LATIN CAPITAL LETTER R WITH LINE BELOW</td>
+</tr>
+</tbody>
+</table>
+ [code: missing-case-counterparts]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-widths">whitespace_widths</a></summary>
     <div>
@@ -16292,7 +16962,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -16374,7 +17048,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -16494,7 +17172,9 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- l.alt
+<pre><code>- dotlessi_ogonek
+
+- l.alt
 
 - t.alt
 
@@ -16545,12 +17225,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, math, tai-le, malayalam, canadian-aboriginal, old-permic, hebrew, syriac, todhri, duployan, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -16564,7 +17244,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, cherokee, caucasian-albanian, thai, tifinagh, syriac, gothic</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -16820,6 +17500,8 @@ definitions.</p>
 * uni2C64 (U+2C64): L&lt;&lt;187.0,274.0&gt;--&lt;91.0,0.0&gt;&gt; -&gt; L&lt;&lt;91.0,0.0&gt;--&lt;63.0,-79.0&gt;&gt;
 
 * uni2C72 (U+2C72): L&lt;&lt;1207.0,710.0&gt;--&lt;1175.0,665.0&gt;&gt; -&gt; L&lt;&lt;1175.0,665.0&gt;--&lt;729.0,0.0&gt;&gt;
+
+* uniA741 (U+A741): L&lt;&lt;228.0,289.0&gt;--&lt;228.0,289.0&gt;&gt; -&gt; L&lt;&lt;228.0,289.0&gt;--&lt;229.0,289.0&gt;&gt;
 </code></pre>
  [code: found-colinear-vectors]
 
@@ -16916,8 +17598,60 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[18] ElmsSans-Regular.ttf</summary>
+<details><summary>[19] ElmsSans-Regular.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#case-mapping">case_mapping</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Glyph present in the font</th>
+<th align="left">Missing case-swapping counterpart</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">U+0212: LATIN CAPITAL LETTER R WITH INVERTED BREVE</td>
+<td align="left">U+0213: LATIN SMALL LETTER R WITH INVERTED BREVE</td>
+</tr>
+<tr>
+<td align="left">U+023D: LATIN CAPITAL LETTER L WITH BAR</td>
+<td align="left">U+019A: LATIN SMALL LETTER L WITH BAR</td>
+</tr>
+<tr>
+<td align="left">U+0248: LATIN CAPITAL LETTER J WITH STROKE</td>
+<td align="left">U+0249: LATIN SMALL LETTER J WITH STROKE</td>
+</tr>
+<tr>
+<td align="left">U+1E1F: LATIN SMALL LETTER F WITH DOT ABOVE</td>
+<td align="left">U+1E1E: LATIN CAPITAL LETTER F WITH DOT ABOVE</td>
+</tr>
+<tr>
+<td align="left">U+1E55: LATIN SMALL LETTER P WITH ACUTE</td>
+<td align="left">U+1E54: LATIN CAPITAL LETTER P WITH ACUTE</td>
+</tr>
+<tr>
+<td align="left">U+1E5F: LATIN SMALL LETTER R WITH LINE BELOW</td>
+<td align="left">U+1E5E: LATIN CAPITAL LETTER R WITH LINE BELOW</td>
+</tr>
+</tbody>
+</table>
+ [code: missing-case-counterparts]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-widths">whitespace_widths</a></summary>
     <div>
@@ -17213,7 +17947,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -17295,7 +18033,11 @@ definitions.</p>
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 - Glyph name: uni0243	Contours detected: 4	Expected: 3
+
+- Glyph name: uni0248	Contours detected: 2	Expected: 1
 
 - Glyph name: uni024D	Contours detected: 2	Expected: 1
 
@@ -17388,6 +18130,8 @@ definitions.</p>
 * uni0199 (U+0199): L&lt;&lt;150.0,286.0&gt;--&lt;150.0,286.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni1E35 (U+1E35): L&lt;&lt;150.0,286.0&gt;--&lt;150.0,286.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uniA741 (U+A741): L&lt;&lt;150.0,286.0&gt;--&lt;150.0,286.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
 
@@ -17425,7 +18169,9 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- l.alt
+<pre><code>- dotlessi_ogonek
+
+- l.alt
 
 - t.alt
 
@@ -17476,12 +18222,12 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, tifinagh, old-permic, math, syriac, todhri, tai-le, canadian-aboriginal, coptic, malayalam, duployan</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, math, tai-le, malayalam, canadian-aboriginal, old-permic, hebrew, syriac, todhri, duployan, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -17495,7 +18241,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, cherokee, thai</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, cherokee, caucasian-albanian, thai, tifinagh, syriac, gothic</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -17619,6 +18365,8 @@ definitions.</p>
 * uni1E33 (U+1E33): L&lt;&lt;150.0,286.0&gt;--&lt;150.0,286.0&gt;&gt; -&gt; L&lt;&lt;150.0,286.0&gt;--&lt;150.0,286.0&gt;&gt;
 
 * uni1E35 (U+1E35): L&lt;&lt;150.0,286.0&gt;--&lt;150.0,286.0&gt;&gt; -&gt; L&lt;&lt;150.0,286.0&gt;--&lt;150.0,286.0&gt;&gt;
+
+* uniA741 (U+A741): L&lt;&lt;150.0,286.0&gt;--&lt;150.0,286.0&gt;&gt; -&gt; L&lt;&lt;150.0,286.0&gt;--&lt;150.0,286.0&gt;&gt;
 </code></pre>
  [code: found-colinear-vectors]
 
@@ -17798,6 +18546,12 @@ definitions.</p>
 
 * uni1E35 (U+1E35) contains a short segment L&lt;&lt;150.0,286.0&gt;--&lt;150.0,286.0&gt;&gt;
 
+* uniA741 (U+A741) contains a short segment L&lt;&lt;146.0,282.0&gt;--&lt;150.0,286.0&gt;&gt;
+
+* uniA741 (U+A741) contains a short segment L&lt;&lt;150.0,286.0&gt;--&lt;150.0,286.0&gt;&gt;
+
+* uniA741 (U+A741) contains a short segment L&lt;&lt;150.0,286.0&gt;--&lt;150.0,286.0&gt;&gt;
+
 * uni01B4 (U+01B4) contains a short segment L&lt;&lt;519.0,451.0&gt;--&lt;519.0,451.0&gt;&gt;
 
 * uni2076 (U+2076) contains a short segment L&lt;&lt;48.0,532.0&gt;--&lt;48.0,532.0&gt;&gt;
@@ -17844,8 +18598,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 55 | 254 | 1839 | 109 | 1702 | 0 | 
-| 0% | 0% | 1% | 6% | 46% | 3% | 43% | 0% | 
+| 0 | 0 | 73 | 252 | 1839 | 109 | 1686 | 0 | 
+| 0% | 0% | 2% | 6% | 46% | 3% | 43% | 0% | 
 
 
 
