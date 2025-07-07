@@ -1,6 +1,6 @@
 ## FontBakery report
 
-fontbakery version: 1.0.0
+fontbakery version: 1.0.1
 
 
 
@@ -658,15 +658,11 @@ fontbakery version: 1.0.0
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- dotlessi_ogonek
 
+- f_f_i.liga
+
 - l.alt
 
 - t.alt
-
-- uni03020300.case
-
-- uni03020301.case
-
-- uni03020309.case
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -712,23 +708,23 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, canadian-aboriginal, malayalam, tifinagh, hebrew, todhri, syriac, old-permic, duployan, coptic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, malayalam, old-permic, math, coptic, canadian-aboriginal, syriac, tifinagh, todhri, tai-le, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, thai, caucasian-albanian, cherokee, tifinagh, syriac, sunuwar</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, tifinagh, syriac, caucasian-albanian</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -1821,15 +1817,11 @@ definitions.</p>
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- dotlessi_ogonek
 
+- f_f_i.liga
+
 - l.alt
 
 - t.alt
-
-- uni03020300.case
-
-- uni03020301.case
-
-- uni03020309.case
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -1875,23 +1867,23 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, canadian-aboriginal, malayalam, tifinagh, hebrew, todhri, syriac, old-permic, duployan, coptic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, malayalam, old-permic, math, coptic, canadian-aboriginal, syriac, tifinagh, todhri, tai-le, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, thai, caucasian-albanian, cherokee, tifinagh, syriac, sunuwar</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, tifinagh, syriac, caucasian-albanian</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -2065,10 +2057,6 @@ definitions.</p>
 * uni01B4 (U+01B4): X=145.0,Y=-279.0 (should be at descender -280?)
 
 * uni01B4 (U+01B4): X=120.0,Y=-279.0 (should be at descender -280?)
-
-* f_f: X=214.5,Y=698.0 (should be at cap-height 700?)
-
-* f_f: X=389.0,Y=701.0 (should be at cap-height 700?)
 
 * uni00B9 (U+00B9): X=25.0,Y=722.0 (should be at ascender 720?)
 
@@ -2826,15 +2814,11 @@ definitions.</p>
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- dotlessi_ogonek
 
+- f_f_i.liga
+
 - l.alt
 
 - t.alt
-
-- uni03020300.case
-
-- uni03020301.case
-
-- uni03020309.case
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -2880,23 +2864,23 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, canadian-aboriginal, malayalam, tifinagh, hebrew, todhri, syriac, old-permic, duployan, coptic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, malayalam, old-permic, math, coptic, canadian-aboriginal, syriac, tifinagh, todhri, tai-le, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, thai, caucasian-albanian, cherokee, tifinagh, syriac, sunuwar</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, tifinagh, syriac, caucasian-albanian</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -3753,15 +3737,11 @@ definitions.</p>
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- dotlessi_ogonek
 
+- f_f_i.liga
+
 - l.alt
 
 - t.alt
-
-- uni03020300.case
-
-- uni03020301.case
-
-- uni03020309.case
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -3807,23 +3787,23 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, canadian-aboriginal, malayalam, tifinagh, hebrew, todhri, syriac, old-permic, duployan, coptic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, malayalam, old-permic, math, coptic, canadian-aboriginal, syriac, tifinagh, todhri, tai-le, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, thai, caucasian-albanian, cherokee, tifinagh, syriac, sunuwar</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, tifinagh, syriac, caucasian-albanian</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -4087,6 +4067,10 @@ definitions.</p>
 * eth (U+00F0) contains a short segment L&lt;&lt;518.0,360.0&gt;--&lt;518.0,360.0&gt;&gt;
 
 * uni01B4 (U+01B4) contains a short segment L&lt;&lt;553.0,437.0&gt;--&lt;553.0,437.0&gt;&gt;
+
+* f_f.liga contains a short segment L&lt;&lt;99.0,480.0&gt;--&lt;99.0,489.0&gt;&gt;
+
+* f_f_i.liga contains a short segment L&lt;&lt;99.0,480.0&gt;--&lt;99.0,489.0&gt;&gt;
 
 * uni2076 (U+2076) contains a short segment L&lt;&lt;29.0,532.0&gt;--&lt;29.0,532.0&gt;&gt;
 
@@ -4670,15 +4654,11 @@ definitions.</p>
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- dotlessi_ogonek
 
+- f_f_i.liga
+
 - l.alt
 
 - t.alt
-
-- uni03020300.case
-
-- uni03020301.case
-
-- uni03020309.case
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -4724,23 +4704,23 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, canadian-aboriginal, malayalam, tifinagh, hebrew, todhri, syriac, old-permic, duployan, coptic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, malayalam, old-permic, math, coptic, canadian-aboriginal, syriac, tifinagh, todhri, tai-le, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, thai, caucasian-albanian, cherokee, tifinagh, syriac, sunuwar</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, tifinagh, syriac, caucasian-albanian</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -5657,15 +5637,11 @@ definitions.</p>
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- dotlessi_ogonek
 
+- f_f_i.liga
+
 - l.alt
 
 - t.alt
-
-- uni03020300.case
-
-- uni03020301.case
-
-- uni03020309.case
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -5711,23 +5687,23 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, canadian-aboriginal, malayalam, tifinagh, hebrew, todhri, syriac, old-permic, duployan, coptic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, malayalam, old-permic, math, coptic, canadian-aboriginal, syriac, tifinagh, todhri, tai-le, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, thai, caucasian-albanian, cherokee, tifinagh, syriac, sunuwar</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, tifinagh, syriac, caucasian-albanian</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -6558,15 +6534,11 @@ definitions.</p>
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- dotlessi_ogonek
 
+- f_f_i.liga
+
 - l.alt
 
 - t.alt
-
-- uni03020300.case
-
-- uni03020301.case
-
-- uni03020309.case
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -6612,23 +6584,23 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, canadian-aboriginal, malayalam, tifinagh, hebrew, todhri, syriac, old-permic, duployan, coptic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, malayalam, old-permic, math, coptic, canadian-aboriginal, syriac, tifinagh, todhri, tai-le, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, thai, caucasian-albanian, cherokee, tifinagh, syriac, sunuwar</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, tifinagh, syriac, caucasian-albanian</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -7505,15 +7477,11 @@ definitions.</p>
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- dotlessi_ogonek
 
+- f_f_i.liga
+
 - l.alt
 
 - t.alt
-
-- uni03020300.case
-
-- uni03020301.case
-
-- uni03020309.case
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -7559,23 +7527,23 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, canadian-aboriginal, malayalam, tifinagh, hebrew, todhri, syriac, old-permic, duployan, coptic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, malayalam, old-permic, math, coptic, canadian-aboriginal, syriac, tifinagh, todhri, tai-le, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, thai, caucasian-albanian, cherokee, tifinagh, syriac, sunuwar</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, tifinagh, syriac, caucasian-albanian</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -8562,15 +8530,11 @@ definitions.</p>
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- dotlessi_ogonek
 
+- f_f_i.liga
+
 - l.alt
 
 - t.alt
-
-- uni03020300.case
-
-- uni03020301.case
-
-- uni03020309.case
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -8616,23 +8580,23 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, canadian-aboriginal, malayalam, tifinagh, hebrew, todhri, syriac, old-permic, duployan, coptic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, malayalam, old-permic, math, coptic, canadian-aboriginal, syriac, tifinagh, todhri, tai-le, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, thai, caucasian-albanian, cherokee, tifinagh, syriac, sunuwar</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, tifinagh, syriac, caucasian-albanian</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -9048,6 +9012,8 @@ definitions.</p>
 * uni0199 (U+0199) contains a short segment L&lt;&lt;148.0,266.0&gt;--&lt;129.0,266.0&gt;&gt;
 
 * uni01B4 (U+01B4) contains a short segment L&lt;&lt;504.0,457.0&gt;--&lt;504.0,457.0&gt;&gt;
+
+* f_f_i.liga contains a short segment L&lt;&lt;113.0,480.0&gt;--&lt;113.0,507.0&gt;&gt;
 
 * dollar (U+0024) contains a short segment B&lt;&lt;282.0,403.0&gt;-&lt;288.0,402.0&gt;-&lt;294.5,400.5&gt;&gt;
 
@@ -9625,15 +9591,11 @@ definitions.</p>
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- dotlessi_ogonek
 
+- f_f_i.liga
+
 - l.alt
 
 - t.alt
-
-- uni03020300.case
-
-- uni03020301.case
-
-- uni03020309.case
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -9679,23 +9641,23 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, canadian-aboriginal, malayalam, tifinagh, hebrew, todhri, syriac, old-permic, duployan, coptic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, malayalam, old-permic, math, coptic, canadian-aboriginal, syriac, tifinagh, todhri, tai-le, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, thai, caucasian-albanian, cherokee, tifinagh, syriac, sunuwar</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, tifinagh, syriac, caucasian-albanian</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -10175,6 +10137,8 @@ definitions.</p>
 * uni01A5 (U+01A5) contains a short segment L&lt;&lt;281.0,557.0&gt;--&lt;265.0,557.0&gt;&gt;
 
 * uni01B4 (U+01B4) contains a short segment L&lt;&lt;609.0,411.0&gt;--&lt;609.0,411.0&gt;&gt;
+
+* f_f.liga contains a short segment L&lt;&lt;509.0,680.0&gt;--&lt;509.0,679.0&gt;&gt;
 
 * uni0E3F (U+0E3F) contains a short segment L&lt;&lt;395.0,440.0&gt;--&lt;396.0,440.0&gt;&gt;
 
@@ -10790,15 +10754,11 @@ definitions.</p>
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- dotlessi_ogonek
 
+- f_f_i.liga
+
 - l.alt
 
 - t.alt
-
-- uni03020300.case
-
-- uni03020301.case
-
-- uni03020309.case
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -10844,23 +10804,23 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, canadian-aboriginal, malayalam, tifinagh, hebrew, todhri, syriac, old-permic, duployan, coptic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, malayalam, old-permic, math, coptic, canadian-aboriginal, syriac, tifinagh, todhri, tai-le, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, thai, caucasian-albanian, cherokee, tifinagh, syriac, sunuwar</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, tifinagh, syriac, caucasian-albanian</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -11080,10 +11040,6 @@ definitions.</p>
 * uni0233 (U+0233): X=198.0,Y=1.0 (should be at baseline 0?)
 
 * uni1EF9 (U+1EF9): X=198.0,Y=1.0 (should be at baseline 0?)
-
-* f_f: X=418.0,Y=698.5 (should be at cap-height 700?)
-
-* f_f: X=593.0,Y=701.0 (should be at cap-height 700?)
 
 * uni00B9 (U+00B9): X=237.0,Y=722.0 (should be at ascender 720?)
 
@@ -11931,15 +11887,11 @@ definitions.</p>
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- dotlessi_ogonek
 
+- f_f_i.liga
+
 - l.alt
 
 - t.alt
-
-- uni03020300.case
-
-- uni03020301.case
-
-- uni03020309.case
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -11985,23 +11937,23 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, canadian-aboriginal, malayalam, tifinagh, hebrew, todhri, syriac, old-permic, duployan, coptic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, malayalam, old-permic, math, coptic, canadian-aboriginal, syriac, tifinagh, todhri, tai-le, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, thai, caucasian-albanian, cherokee, tifinagh, syriac, sunuwar</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, tifinagh, syriac, caucasian-albanian</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -12315,6 +12267,10 @@ definitions.</p>
 * uniA741 (U+A741) contains a short segment L&lt;&lt;168.0,289.0&gt;--&lt;169.0,289.0&gt;&gt;
 
 * uni01B4 (U+01B4) contains a short segment L&lt;&lt;534.0,445.0&gt;--&lt;534.0,445.0&gt;&gt;
+
+* f_f.liga contains a short segment L&lt;&lt;90.0,480.0&gt;--&lt;90.0,497.0&gt;&gt;
+
+* f_f_i.liga contains a short segment L&lt;&lt;90.0,480.0&gt;--&lt;90.0,497.0&gt;&gt;
 
 * uni2076 (U+2076) contains a short segment L&lt;&lt;29.0,532.0&gt;--&lt;29.0,532.0&gt;&gt;
 
@@ -12890,15 +12846,11 @@ definitions.</p>
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- dotlessi_ogonek
 
+- f_f_i.liga
+
 - l.alt
 
 - t.alt
-
-- uni03020300.case
-
-- uni03020301.case
-
-- uni03020309.case
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -12944,23 +12896,23 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, canadian-aboriginal, malayalam, tifinagh, hebrew, todhri, syriac, old-permic, duployan, coptic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, malayalam, old-permic, math, coptic, canadian-aboriginal, syriac, tifinagh, todhri, tai-le, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, thai, caucasian-albanian, cherokee, tifinagh, syriac, sunuwar</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, tifinagh, syriac, caucasian-albanian</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -13993,15 +13945,11 @@ definitions.</p>
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- dotlessi_ogonek
 
+- f_f_i.liga
+
 - l.alt
 
 - t.alt
-
-- uni03020300.case
-
-- uni03020301.case
-
-- uni03020309.case
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -14047,23 +13995,23 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, canadian-aboriginal, malayalam, tifinagh, hebrew, todhri, syriac, old-permic, duployan, coptic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, malayalam, old-permic, math, coptic, canadian-aboriginal, syriac, tifinagh, todhri, tai-le, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, thai, caucasian-albanian, cherokee, tifinagh, syriac, sunuwar</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, tifinagh, syriac, caucasian-albanian</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -14513,6 +14461,8 @@ definitions.</p>
 * uniA741 (U+A741) contains a short segment L&lt;&lt;124.0,270.0&gt;--&lt;111.0,270.0&gt;&gt;
 
 * uni01B4 (U+01B4) contains a short segment L&lt;&lt;489.0,463.0&gt;--&lt;489.0,463.0&gt;&gt;
+
+* f_f_i.liga contains a short segment L&lt;&lt;503.0,682.0&gt;--&lt;481.0,682.0&gt;&gt;
 
 * braceleft (U+007B) contains a short segment L&lt;&lt;5.0,333.0&gt;--&lt;20.0,333.0&gt;&gt;
 
@@ -15114,15 +15064,11 @@ definitions.</p>
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- dotlessi_ogonek
 
+- f_f_i.liga
+
 - l.alt
 
 - t.alt
-
-- uni03020300.case
-
-- uni03020301.case
-
-- uni03020309.case
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -15168,23 +15114,23 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, canadian-aboriginal, malayalam, tifinagh, hebrew, todhri, syriac, old-permic, duployan, coptic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, malayalam, old-permic, math, coptic, canadian-aboriginal, syriac, tifinagh, todhri, tai-le, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, thai, caucasian-albanian, cherokee, tifinagh, syriac, sunuwar</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, tifinagh, syriac, caucasian-albanian</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -15410,8 +15356,6 @@ definitions.</p>
 * uni0233 (U+0233): X=201.0,Y=1.0 (should be at baseline 0?)
 
 * uni1EF9 (U+1EF9): X=201.0,Y=1.0 (should be at baseline 0?)
-
-* f_f: X=408.0,Y=698.0 (should be at cap-height 700?)
 
 * uni2085 (U+2085): X=247.5,Y=-0.5 (should be at baseline 0?)
 
@@ -16223,15 +16167,11 @@ definitions.</p>
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- dotlessi_ogonek
 
+- f_f_i.liga
+
 - l.alt
 
 - t.alt
-
-- uni03020300.case
-
-- uni03020301.case
-
-- uni03020309.case
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -16277,23 +16217,23 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, canadian-aboriginal, malayalam, tifinagh, hebrew, todhri, syriac, old-permic, duployan, coptic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, malayalam, old-permic, math, coptic, canadian-aboriginal, syriac, tifinagh, todhri, tai-le, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, thai, caucasian-albanian, cherokee, tifinagh, syriac, sunuwar</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, tifinagh, syriac, caucasian-albanian</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -16677,6 +16617,10 @@ definitions.</p>
 * uni027D (U+027D) contains a short segment L&lt;&lt;230.0,274.0&gt;--&lt;230.0,274.0&gt;&gt;
 
 * uni01B4 (U+01B4) contains a short segment L&lt;&lt;664.0,437.0&gt;--&lt;664.0,437.0&gt;&gt;
+
+* f_f.liga contains a short segment L&lt;&lt;230.0,480.0&gt;--&lt;235.0,493.0&gt;&gt;
+
+* f_f_i.liga contains a short segment L&lt;&lt;230.0,480.0&gt;--&lt;235.0,493.0&gt;&gt;
 
 * five (U+0035) contains a short segment L&lt;&lt;165.0,354.0&gt;--&lt;154.0,361.0&gt;&gt;
 
@@ -17372,15 +17316,11 @@ definitions.</p>
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- dotlessi_ogonek
 
+- f_f_i.liga
+
 - l.alt
 
 - t.alt
-
-- uni03020300.case
-
-- uni03020301.case
-
-- uni03020309.case
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -17426,23 +17366,23 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, canadian-aboriginal, malayalam, tifinagh, hebrew, todhri, syriac, old-permic, duployan, coptic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, malayalam, old-permic, math, coptic, canadian-aboriginal, syriac, tifinagh, todhri, tai-le, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, thai, caucasian-albanian, cherokee, tifinagh, syriac, sunuwar</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, tifinagh, syriac, caucasian-albanian</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -18367,15 +18307,11 @@ definitions.</p>
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- dotlessi_ogonek
 
+- f_f_i.liga
+
 - l.alt
 
 - t.alt
-
-- uni03020300.case
-
-- uni03020301.case
-
-- uni03020309.case
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -18421,23 +18357,23 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, canadian-aboriginal, malayalam, tifinagh, hebrew, todhri, syriac, old-permic, duployan, coptic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, malayalam, old-permic, math, coptic, canadian-aboriginal, syriac, tifinagh, todhri, tai-le, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, thai, caucasian-albanian, cherokee, tifinagh, syriac, sunuwar</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, tifinagh, syriac, caucasian-albanian</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
@@ -18749,6 +18685,8 @@ definitions.</p>
 * uniA741 (U+A741) contains a short segment L&lt;&lt;150.0,286.0&gt;--&lt;150.0,286.0&gt;&gt;
 
 * uni01B4 (U+01B4) contains a short segment L&lt;&lt;519.0,451.0&gt;--&lt;519.0,451.0&gt;&gt;
+
+* f_f_i.liga contains a short segment L&lt;&lt;101.0,480.0&gt;--&lt;101.0,502.0&gt;&gt;
 
 * uni2076 (U+2076) contains a short segment L&lt;&lt;29.0,532.0&gt;--&lt;29.0,532.0&gt;&gt;
 
