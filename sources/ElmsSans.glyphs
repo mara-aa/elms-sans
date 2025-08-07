@@ -1,9 +1,6 @@
 {
 .appVersion = "3420";
 .formatVersion = 3;
-DisplayStrings = (
-"he font: "
-);
 axes = (
 {
 name = Weight;
@@ -450,11 +447,11 @@ value = n;
 },
 {
 name = typoAscender;
-value = 720;
+value = 1000;
 },
 {
 name = typoDescender;
-value = -280;
+value = -300;
 },
 {
 name = typoLineGap;
@@ -462,7 +459,7 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 720;
+value = 1000;
 },
 {
 name = hheaDescender;
@@ -544,11 +541,11 @@ value = n;
 },
 {
 name = typoAscender;
-value = 720;
+value = 1000;
 },
 {
 name = typoDescender;
-value = -280;
+value = -300;
 },
 {
 name = typoLineGap;
@@ -556,7 +553,7 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 720;
+value = 1000;
 },
 {
 name = hheaDescender;
@@ -637,11 +634,11 @@ value = n;
 },
 {
 name = typoAscender;
-value = 720;
+value = 1000;
 },
 {
 name = typoDescender;
-value = -280;
+value = -300;
 },
 {
 name = typoLineGap;
@@ -649,7 +646,7 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 720;
+value = 1000;
 },
 {
 name = hheaDescender;
@@ -730,11 +727,11 @@ value = n;
 },
 {
 name = typoAscender;
-value = 720;
+value = 1000;
 },
 {
 name = typoDescender;
-value = -280;
+value = -300;
 },
 {
 name = typoLineGap;
@@ -742,7 +739,7 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 720;
+value = 1000;
 },
 {
 name = hheaDescender;
@@ -824,11 +821,11 @@ value = n;
 },
 {
 name = typoAscender;
-value = 720;
+value = 1000;
 },
 {
 name = typoDescender;
-value = -280;
+value = -300;
 },
 {
 name = typoLineGap;
@@ -836,7 +833,7 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 720;
+value = 1000;
 },
 {
 name = hheaDescender;
@@ -917,11 +914,11 @@ value = n;
 },
 {
 name = typoAscender;
-value = 720;
+value = 1000;
 },
 {
 name = typoDescender;
-value = -280;
+value = -300;
 },
 {
 name = typoLineGap;
@@ -929,7 +926,7 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 720;
+value = 1000;
 },
 {
 name = hheaDescender;
