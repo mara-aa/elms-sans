@@ -119,7 +119,7 @@ fontbakery version: 1.0.1
 </div>
 </details>
 
-<details><summary>[11] ElmsSans-ThinItalic.ttf</summary>
+<details><summary>[16] ElmsSans-ThinItalic.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -139,6 +139,42 @@ fontbakery version: 1.0.1
 
 </code></pre>
  [code: failed-check]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1000 when it should be at least 1200</p>
+ [code: bad-hhea-range]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if uppercase glyphs are vertically centered. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#caps-vertically-centered">caps_vertically_centered</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Uppercase glyphs are not vertically centered in the em box.</p>
+ [code: vertical-metrics-not-centered]
 
 
 
@@ -357,6 +393,24 @@ fontbakery version: 1.0.1
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -380,6 +434,48 @@ fontbakery version: 1.0.1
 * uni2075 (U+2075): L&lt;&lt;180.0,533.0&gt;--&lt;180.0,533.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Checking that the typoAscender exceeds the yMax of the /Agrave. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#typoascender-exceeds-Agrave">typoascender_exceeds_Agrave</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>OS/2.sTypoAscender value should be greater than 920, but got 720 instead</p>
+ [code: typoAscender]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- dotlessi_ogonek
+
+- l.alt
+
+- t.alt
+</code></pre>
+ [code: unreachable-glyphs]
 
 
 
@@ -420,17 +516,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, hebrew, malayalam, coptic, duployan, old-permic, tai-le, canadian-aboriginal, math, syriac, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, todhri, tai-le, hebrew, old-permic, coptic, math, syriac, tifinagh, canadian-aboriginal, duployan</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -439,15 +535,13 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, sunuwar, gothic, thai, caucasian-albanian, syriac, tifinagh</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, gothic, sunuwar, caucasian-albanian, syriac, tifinagh, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+2028 LINE SEPARATOR: not included in any glyphset definition</li>
-<li>U+2029 PARAGRAPH SEPARATOR: not included in any glyphset definition</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
 <li>U+2074 SUPERSCRIPT FOUR: try adding math</li>
@@ -472,14 +566,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -490,7 +584,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -552,11 +646,13 @@ definitions.</p>
 
 * .notdef: X=753.0,Y=702.0 (should be at cap-height 700?)
 
-* uni1EB4 (U+1EB4): X=594.0,Y=1001.0 (should be at ascender 1000?)
+* Ccedilla (U+00C7): X=245.0,Y=-278.0 (should be at descender -280?)
 
-* uni1EAA (U+1EAA): X=551.5,Y=998.5 (should be at ascender 1000?)
+* uni1E08 (U+1E08): X=245.0,Y=-278.0 (should be at descender -280?)
 
-* uni1EC4 (U+1EC4): X=543.5,Y=998.5 (should be at ascender 1000?)
+* uni0228 (U+0228): X=149.0,Y=-278.0 (should be at descender -280?)
+
+* uni1E1C (U+1E1C): X=149.0,Y=-278.0 (should be at descender -280?)
 
 * uni018F (U+018F): X=455.0,Y=698.0 (should be at cap-height 700?)
 
@@ -568,17 +664,27 @@ definitions.</p>
 
 * uni0241 (U+0241): X=106.0,Y=1.0 (should be at baseline 0?)
 
-* uni1ED6 (U+1ED6): X=653.5,Y=998.5 (should be at ascender 1000?)
-
 * Q (U+0051): X=469.5,Y=1.0 (should be at baseline 0?)
+
+* Scedilla (U+015E): X=126.0,Y=-278.0 (should be at descender -280?)
 
 * uni0194 (U+0194): X=199.5,Y=-1.0 (should be at baseline 0?)
 
 * uni0194 (U+0194): X=330.0,Y=-1.5 (should be at baseline 0?)
 
+* uni01B3 (U+01B3): X=967.0,Y=721.0 (should be at ascender 720?)
+
 * uni01B3 (U+01B3): X=784.0,Y=699.0 (should be at cap-height 700?)
 
 * uni1EA9 (U+1EA9): X=561.0,Y=700.5 (should be at cap-height 700?)
+
+* ccedilla (U+00E7): X=138.0,Y=-278.0 (should be at descender -280?)
+
+* uni1E09 (U+1E09): X=138.0,Y=-278.0 (should be at descender -280?)
+
+* uni0229 (U+0229): X=132.0,Y=-278.0 (should be at descender -280?)
+
+* uni1E1D (U+1E1D): X=132.0,Y=-278.0 (should be at descender -280?)
 
 * uni1EC3 (U+1EC3): X=527.0,Y=700.5 (should be at cap-height 700?)
 
@@ -610,9 +716,13 @@ definitions.</p>
 
 * s (U+0073): X=252.0,Y=478.0 (should be at x-height 480?)
 
+* scedilla (U+015F): X=73.0,Y=-278.0 (should be at descender -280?)
+
 * germandbls (U+00DF): X=355.5,Y=699.0 (should be at cap-height 700?)
 
 * germandbls (U+00DF): X=598.0,Y=699.0 (should be at cap-height 700?)
+
+* uni0163 (U+0163): X=50.0,Y=-278.0 (should be at descender -280?)
 
 * y (U+0079): X=198.0,Y=1.0 (should be at baseline 0?)
 
@@ -632,7 +742,13 @@ definitions.</p>
 
 * ygrave (U+1EF3): X=198.0,Y=1.0 (should be at baseline 0?)
 
+* uni01B4 (U+01B4): X=-21.0,Y=-279.0 (should be at descender -280?)
+
 * uni01B4 (U+01B4): X=198.0,Y=1.0 (should be at baseline 0?)
+
+* uni01B4 (U+01B4): X=4.0,Y=-279.0 (should be at descender -280?)
+
+* uni01B4 (U+01B4): X=-21.0,Y=-279.0 (should be at descender -280?)
 
 * uni1EF7 (U+1EF7): X=198.0,Y=1.0 (should be at baseline 0?)
 
@@ -640,7 +756,15 @@ definitions.</p>
 
 * uni1EF9 (U+1EF9): X=198.0,Y=1.0 (should be at baseline 0?)
 
+* uni00B9 (U+00B9): X=237.0,Y=722.0 (should be at ascender 720?)
+
+* uni00B9 (U+00B9): X=275.0,Y=722.0 (should be at ascender 720?)
+
+* uni00B9 (U+00B9): X=237.0,Y=722.0 (should be at ascender 720?)
+
 * uni00B2 (U+00B2): X=281.5,Y=701.5 (should be at cap-height 700?)
+
+* uni2074 (U+2074): X=407.0,Y=719.0 (should be at ascender 720?)
 
 * quotesinglbase (U+201A): X=13.5,Y=1.5 (should be at baseline 0?)
 
@@ -682,6 +806,8 @@ definitions.</p>
 
 * dollar (U+0024): X=473.0,Y=699.0 (should be at cap-height 700?)
 
+* sterling (U+00A3): X=548.0,Y=718.0 (should be at ascender 720?)
+
 * arrowright (U+2192): X=414.0,Y=-2.0 (should be at baseline 0?)
 
 * arrowright (U+2192): X=414.0,Y=-2.0 (should be at baseline 0?)
@@ -706,7 +832,11 @@ definitions.</p>
 
 * uni0310 (U+0310): X=552.0,Y=699.0 (should be at cap-height 700?)
 
+* uni0327 (U+0327): X=18.0,Y=-278.0 (should be at descender -280?)
+
 * uni03020309: X=439.0,Y=700.5 (should be at cap-height 700?)
+
+* cedilla (U+00B8): X=18.0,Y=-278.0 (should be at descender -280?)
 </code></pre>
  [code: found-misalignments]
 
@@ -860,6 +990,8 @@ definitions.</p>
 
 * integral (U+222B): L&lt;&lt;504.0,583.0&gt;--&lt;518.0,583.0&gt;&gt;/L&lt;&lt;518.0,583.0&gt;--&lt;504.0,584.0&gt;&gt; = 4.085616779974888
 
+* l.alt: L&lt;&lt;106.0,183.0&gt;--&lt;92.0,183.0&gt;&gt;/L&lt;&lt;92.0,183.0&gt;--&lt;106.0,182.0&gt;&gt; = 4.085616779974888
+
 * sterling (U+00A3): L&lt;&lt;234.0,290.0&gt;--&lt;220.0,290.0&gt;&gt;/L&lt;&lt;220.0,290.0&gt;--&lt;234.0,289.0&gt;&gt; = 4.085616779974888
 
 * sterling (U+00A3): L&lt;&lt;289.0,525.0&gt;--&lt;303.0,525.0&gt;&gt;/L&lt;&lt;303.0,525.0&gt;--&lt;289.0,526.0&gt;&gt; = 4.085616779974888
@@ -931,7 +1063,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[13] ElmsSans-Regular.ttf</summary>
+<details><summary>[17] ElmsSans-Regular.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -951,6 +1083,42 @@ definitions.</p>
 
 </code></pre>
  [code: failed-check]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1000 when it should be at least 1200</p>
+ [code: bad-hhea-range]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if uppercase glyphs are vertically centered. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#caps-vertically-centered">caps_vertically_centered</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Uppercase glyphs are not vertically centered in the em box.</p>
+ [code: vertical-metrics-not-centered]
 
 
 
@@ -1165,6 +1333,24 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -1192,6 +1378,48 @@ definitions.</p>
 * uniA741 (U+A741): L&lt;&lt;150.0,286.0&gt;--&lt;150.0,286.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Checking that the typoAscender exceeds the yMax of the /Agrave. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#typoascender-exceeds-Agrave">typoascender_exceeds_Agrave</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>OS/2.sTypoAscender value should be greater than 919, but got 720 instead</p>
+ [code: typoAscender]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- dotlessi_ogonek
+
+- l.alt
+
+- t.alt
+</code></pre>
+ [code: unreachable-glyphs]
 
 
 
@@ -1232,17 +1460,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, hebrew, malayalam, coptic, duployan, old-permic, tai-le, canadian-aboriginal, math, syriac, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, todhri, tai-le, hebrew, old-permic, coptic, math, syriac, tifinagh, canadian-aboriginal, duployan</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -1251,15 +1479,13 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, sunuwar, gothic, thai, caucasian-albanian, syriac, tifinagh</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, gothic, sunuwar, caucasian-albanian, syriac, tifinagh, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+2028 LINE SEPARATOR: not included in any glyphset definition</li>
-<li>U+2029 PARAGRAPH SEPARATOR: not included in any glyphset definition</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
 <li>U+2074 SUPERSCRIPT FOUR: try adding math</li>
@@ -1284,14 +1510,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -1302,7 +1528,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -1343,210 +1569,6 @@ definitions.</p>
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̐ į̑ į̒ į̛̀ į̛́ į̛̂ į̛̃ į̛̄ į̛̆ į̛̇ į̛̈ į̛̉ į̛̊ į̛̋</p>
  [code: soft-dotted]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Are there any misaligned on-curve points? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-alignment-miss">outline_alignment_miss</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* .notdef: X=185.0,Y=702.0 (should be at cap-height 700?)
-
-* .notdef: X=548.0,Y=702.0 (should be at cap-height 700?)
-
-* uni0193 (U+0193): X=517.0,Y=698.5 (should be at cap-height 700?)
-
-* aacute (U+00E1): X=346.0,Y=699.0 (should be at cap-height 700?)
-
-* aacute (U+00E1): X=425.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1EA9 (U+1EA9): X=441.5,Y=702.0 (should be at cap-height 700?)
-
-* agrave (U+00E0): X=190.0,Y=699.0 (should be at cap-height 700?)
-
-* agrave (U+00E0): X=269.0,Y=699.0 (should be at cap-height 700?)
-
-* ae (U+00E6): X=535.0,Y=-0.5 (should be at baseline 0?)
-
-* ae (U+00E6): X=313.5,Y=-0.5 (should be at baseline 0?)
-
-* uni01E3 (U+01E3): X=535.0,Y=-0.5 (should be at baseline 0?)
-
-* uni01E3 (U+01E3): X=313.5,Y=-0.5 (should be at baseline 0?)
-
-* cacute (U+0107): X=320.0,Y=699.0 (should be at cap-height 700?)
-
-* cacute (U+0107): X=399.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1E09 (U+1E09): X=320.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1E09 (U+1E09): X=399.0,Y=699.0 (should be at cap-height 700?)
-
-* eacute (U+00E9): X=314.0,Y=699.0 (should be at cap-height 700?)
-
-* eacute (U+00E9): X=393.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1EC3 (U+1EC3): X=408.5,Y=702.0 (should be at cap-height 700?)
-
-* egrave (U+00E8): X=157.0,Y=699.0 (should be at cap-height 700?)
-
-* egrave (U+00E8): X=236.0,Y=699.0 (should be at cap-height 700?)
-
-* uni01F5 (U+01F5): X=354.0,Y=699.0 (should be at cap-height 700?)
-
-* uni01F5 (U+01F5): X=433.0,Y=699.0 (should be at cap-height 700?)
-
-* uni0123 (U+0123): X=342.0,Y=699.0 (should be at cap-height 700?)
-
-* iacute (U+00ED): X=141.0,Y=699.0 (should be at cap-height 700?)
-
-* iacute (U+00ED): X=220.0,Y=699.0 (should be at cap-height 700?)
-
-* igrave (U+00EC): X=-15.0,Y=699.0 (should be at cap-height 700?)
-
-* igrave (U+00EC): X=64.0,Y=699.0 (should be at cap-height 700?)
-
-* uni006A0301: X=258.0,Y=699.0 (should be at cap-height 700?)
-
-* uni006A0301: X=337.0,Y=699.0 (should be at cap-height 700?)
-
-* uni0199 (U+0199): X=94.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1E3F (U+1E3F): X=477.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1E3F (U+1E3F): X=556.0,Y=699.0 (should be at cap-height 700?)
-
-* nacute (U+0144): X=340.0,Y=699.0 (should be at cap-height 700?)
-
-* nacute (U+0144): X=419.0,Y=699.0 (should be at cap-height 700?)
-
-* oacute (U+00F3): X=328.0,Y=699.0 (should be at cap-height 700?)
-
-* oacute (U+00F3): X=407.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1ED5 (U+1ED5): X=422.5,Y=702.0 (should be at cap-height 700?)
-
-* ograve (U+00F2): X=171.0,Y=699.0 (should be at cap-height 700?)
-
-* ograve (U+00F2): X=250.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1EDB (U+1EDB): X=331.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1EDB (U+1EDB): X=410.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1EDD (U+1EDD): X=175.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1EDD (U+1EDD): X=254.0,Y=699.0 (should be at cap-height 700?)
-
-* oslashacute (U+01FF): X=331.0,Y=699.0 (should be at cap-height 700?)
-
-* oslashacute (U+01FF): X=410.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1E55 (U+1E55): X=349.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1E55 (U+1E55): X=428.0,Y=699.0 (should be at cap-height 700?)
-
-* r (U+0072): X=348.0,Y=478.0 (should be at x-height 480?)
-
-* racute (U+0155): X=256.0,Y=699.0 (should be at cap-height 700?)
-
-* racute (U+0155): X=335.0,Y=699.0 (should be at cap-height 700?)
-
-* sacute (U+015B): X=263.0,Y=699.0 (should be at cap-height 700?)
-
-* sacute (U+015B): X=342.0,Y=699.0 (should be at cap-height 700?)
-
-* uacute (U+00FA): X=334.0,Y=699.0 (should be at cap-height 700?)
-
-* uacute (U+00FA): X=413.0,Y=699.0 (should be at cap-height 700?)
-
-* ugrave (U+00F9): X=178.0,Y=699.0 (should be at cap-height 700?)
-
-* ugrave (U+00F9): X=257.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1EE9 (U+1EE9): X=342.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1EE9 (U+1EE9): X=421.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1EEB (U+1EEB): X=185.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1EEB (U+1EEB): X=264.0,Y=699.0 (should be at cap-height 700?)
-
-* wacute (U+1E83): X=415.0,Y=699.0 (should be at cap-height 700?)
-
-* wacute (U+1E83): X=494.0,Y=699.0 (should be at cap-height 700?)
-
-* wgrave (U+1E81): X=259.0,Y=699.0 (should be at cap-height 700?)
-
-* wgrave (U+1E81): X=338.0,Y=699.0 (should be at cap-height 700?)
-
-* yacute (U+00FD): X=307.0,Y=699.0 (should be at cap-height 700?)
-
-* yacute (U+00FD): X=386.0,Y=699.0 (should be at cap-height 700?)
-
-* ygrave (U+1EF3): X=151.0,Y=699.0 (should be at cap-height 700?)
-
-* ygrave (U+1EF3): X=230.0,Y=699.0 (should be at cap-height 700?)
-
-* zacute (U+017A): X=274.0,Y=699.0 (should be at cap-height 700?)
-
-* zacute (U+017A): X=353.0,Y=699.0 (should be at cap-height 700?)
-
-* exclam (U+0021): X=95.0,Y=1.5 (should be at baseline 0?)
-
-* exclam (U+0021): X=179.0,Y=1.5 (should be at baseline 0?)
-
-* question (U+003F): X=224.0,Y=1.5 (should be at baseline 0?)
-
-* question (U+003F): X=308.0,Y=1.5 (should be at baseline 0?)
-
-* dollar (U+0024): X=299.0,Y=1.0 (should be at baseline 0?)
-
-* arrowupdn (U+2195): X=374.0,Y=2.0 (should be at baseline 0?)
-
-* section (U+00A7): X=125.0,Y=698.5 (should be at cap-height 700?)
-
-* gravecomb (U+0300): X=50.0,Y=699.0 (should be at cap-height 700?)
-
-* gravecomb (U+0300): X=129.0,Y=699.0 (should be at cap-height 700?)
-
-* uni03000304: X=151.0,Y=699.0 (should be at cap-height 700?)
-
-* uni03000304: X=230.0,Y=699.0 (should be at cap-height 700?)
-
-* acutecomb (U+0301): X=110.0,Y=699.0 (should be at cap-height 700?)
-
-* acutecomb (U+0301): X=189.0,Y=699.0 (should be at cap-height 700?)
-
-* uni03010304: X=182.0,Y=699.0 (should be at cap-height 700?)
-
-* uni03010304: X=261.0,Y=699.0 (should be at cap-height 700?)
-
-* uni03020309.case: X=370.0,Y=700.5 (should be at cap-height 700?)
-
-* uni0312 (U+0312): X=140.0,Y=699.0 (should be at cap-height 700?)
-
-* uni03020309: X=335.5,Y=702.0 (should be at cap-height 700?)
-
-* grave (U+0060): X=50.0,Y=699.0 (should be at cap-height 700?)
-
-* grave (U+0060): X=129.0,Y=699.0 (should be at cap-height 700?)
-
-* acute (U+00B4): X=110.0,Y=699.0 (should be at cap-height 700?)
-
-* acute (U+00B4): X=189.0,Y=699.0 (should be at cap-height 700?)
-</code></pre>
- [code: found-misalignments]
 
 
 
@@ -1809,7 +1831,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[10] ElmsSans-Italic.ttf</summary>
+<details><summary>[15] ElmsSans-Italic.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -1829,6 +1851,42 @@ definitions.</p>
 
 </code></pre>
  [code: failed-check]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1000 when it should be at least 1200</p>
+ [code: bad-hhea-range]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if uppercase glyphs are vertically centered. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#caps-vertically-centered">caps_vertically_centered</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Uppercase glyphs are not vertically centered in the em box.</p>
+ [code: vertical-metrics-not-centered]
 
 
 
@@ -2043,6 +2101,24 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -2087,6 +2163,48 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Checking that the typoAscender exceeds the yMax of the /Agrave. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#typoascender-exceeds-Agrave">typoascender_exceeds_Agrave</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>OS/2.sTypoAscender value should be greater than 919, but got 720 instead</p>
+ [code: typoAscender]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- dotlessi_ogonek
+
+- l.alt
+
+- t.alt
+</code></pre>
+ [code: unreachable-glyphs]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
     <div>
 
@@ -2120,17 +2238,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, hebrew, malayalam, coptic, duployan, old-permic, tai-le, canadian-aboriginal, math, syriac, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, todhri, tai-le, hebrew, old-permic, coptic, math, syriac, tifinagh, canadian-aboriginal, duployan</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -2139,15 +2257,13 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, sunuwar, gothic, thai, caucasian-albanian, syriac, tifinagh</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, gothic, sunuwar, caucasian-albanian, syriac, tifinagh, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+2028 LINE SEPARATOR: not included in any glyphset definition</li>
-<li>U+2029 PARAGRAPH SEPARATOR: not included in any glyphset definition</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
 <li>U+2074 SUPERSCRIPT FOUR: try adding math</li>
@@ -2172,14 +2288,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -2190,7 +2306,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -2392,6 +2508,8 @@ definitions.</p>
 
 * integral (U+222B): L&lt;&lt;466.0,561.0&gt;--&lt;502.0,560.0&gt;&gt;/L&lt;&lt;502.0,560.0&gt;--&lt;467.0,563.0&gt;&gt; = 3.3079521825931653
 
+* l.alt: L&lt;&lt;157.0,183.0&gt;--&lt;120.0,183.0&gt;&gt;/L&lt;&lt;120.0,183.0&gt;--&lt;156.0,181.0&gt;&gt; = 3.1798301198641643
+
 * sterling (U+00A3): L&lt;&lt;269.0,313.0&gt;--&lt;233.0,313.0&gt;&gt;/L&lt;&lt;233.0,313.0&gt;--&lt;268.0,310.0&gt;&gt; = 4.899092453787774
 
 * sterling (U+00A3): L&lt;&lt;271.0,525.0&gt;--&lt;307.0,525.0&gt;&gt;/L&lt;&lt;307.0,525.0&gt;--&lt;272.0,528.0&gt;&gt; = 4.899092453787774
@@ -2435,7 +2553,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[10] ElmsSans-LightItalic.ttf</summary>
+<details><summary>[15] ElmsSans-LightItalic.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -2455,6 +2573,42 @@ definitions.</p>
 
 </code></pre>
  [code: failed-check]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1000 when it should be at least 1200</p>
+ [code: bad-hhea-range]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if uppercase glyphs are vertically centered. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#caps-vertically-centered">caps_vertically_centered</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Uppercase glyphs are not vertically centered in the em box.</p>
+ [code: vertical-metrics-not-centered]
 
 
 
@@ -2669,6 +2823,66 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Checking that the typoAscender exceeds the yMax of the /Agrave. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#typoascender-exceeds-Agrave">typoascender_exceeds_Agrave</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>OS/2.sTypoAscender value should be greater than 920, but got 720 instead</p>
+ [code: typoAscender]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- dotlessi_ogonek
+
+- l.alt
+
+- t.alt
+</code></pre>
+ [code: unreachable-glyphs]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
     <div>
 
@@ -2702,17 +2916,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, hebrew, malayalam, coptic, duployan, old-permic, tai-le, canadian-aboriginal, math, syriac, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, todhri, tai-le, hebrew, old-permic, coptic, math, syriac, tifinagh, canadian-aboriginal, duployan</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -2721,15 +2935,13 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, sunuwar, gothic, thai, caucasian-albanian, syriac, tifinagh</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, gothic, sunuwar, caucasian-albanian, syriac, tifinagh, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+2028 LINE SEPARATOR: not included in any glyphset definition</li>
-<li>U+2029 PARAGRAPH SEPARATOR: not included in any glyphset definition</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
 <li>U+2074 SUPERSCRIPT FOUR: try adding math</li>
@@ -2754,14 +2966,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -2772,7 +2984,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -2834,11 +3046,23 @@ definitions.</p>
 
 * .notdef: X=753.0,Y=702.0 (should be at cap-height 700?)
 
-* uni1EAA (U+1EAA): X=612.5,Y=998.5 (should be at ascender 1000?)
+* Ccedilla (U+00C7): X=252.0,Y=-278.0 (should be at descender -280?)
 
-* uni1EC4 (U+1EC4): X=600.5,Y=998.5 (should be at ascender 1000?)
+* uni1E08 (U+1E08): X=252.0,Y=-278.0 (should be at descender -280?)
+
+* uni0187 (U+0187): X=975.0,Y=718.0 (should be at ascender 720?)
+
+* uni0187 (U+0187): X=1046.0,Y=718.0 (should be at ascender 720?)
+
+* uni0228 (U+0228): X=165.0,Y=-278.0 (should be at descender -280?)
+
+* uni1E1C (U+1E1C): X=165.0,Y=-278.0 (should be at descender -280?)
 
 * uni018F (U+018F): X=455.5,Y=698.0 (should be at cap-height 700?)
+
+* uni0193 (U+0193): X=1001.0,Y=719.0 (should be at ascender 720?)
+
+* uni0193 (U+0193): X=949.0,Y=719.0 (should be at ascender 720?)
 
 * uni0241 (U+0241): X=120.0,Y=2.0 (should be at baseline 0?)
 
@@ -2848,13 +3072,17 @@ definitions.</p>
 
 * Eng (U+014A): X=577.0,Y=1.0 (should be at baseline 0?)
 
-* uni1ED6 (U+1ED6): X=698.5,Y=998.5 (should be at ascender 1000?)
-
 * Q (U+0051): X=462.5,Y=-2.0 (should be at baseline 0?)
+
+* Scedilla (U+015E): X=141.0,Y=-278.0 (should be at descender -280?)
 
 * uni0194 (U+0194): X=344.5,Y=1.5 (should be at baseline 0?)
 
+* uni2C72 (U+2C72): X=1158.0,Y=721.0 (should be at ascender 720?)
+
 * uni01B3 (U+01B3): X=949.0,Y=702.0 (should be at cap-height 700?)
+
+* uni1EA9 (U+1EA9): X=559.5,Y=719.5 (should be at ascender 720?)
 
 * ae (U+00E6): X=496.0,Y=2.0 (should be at baseline 0?)
 
@@ -2874,13 +3102,23 @@ definitions.</p>
 
 * ccedilla (U+00E7): X=352.5,Y=2.0 (should be at baseline 0?)
 
+* ccedilla (U+00E7): X=142.0,Y=-278.0 (should be at descender -280?)
+
 * uni1E09 (U+1E09): X=352.5,Y=2.0 (should be at baseline 0?)
+
+* uni1E09 (U+1E09): X=142.0,Y=-278.0 (should be at descender -280?)
 
 * ccircumflex (U+0109): X=352.5,Y=2.0 (should be at baseline 0?)
 
 * cdotaccent (U+010B): X=352.5,Y=2.0 (should be at baseline 0?)
 
 * uni0188 (U+0188): X=352.5,Y=2.0 (should be at baseline 0?)
+
+* uni0229 (U+0229): X=136.0,Y=-278.0 (should be at descender -280?)
+
+* uni1E1D (U+1E1D): X=136.0,Y=-278.0 (should be at descender -280?)
+
+* uni1EC3 (U+1EC3): X=526.5,Y=719.5 (should be at ascender 720?)
 
 * uni0283 (U+0283): X=128.0,Y=2.0 (should be at baseline 0?)
 
@@ -2895,6 +3133,12 @@ definitions.</p>
 * uni0294 (U+0294): X=120.0,Y=2.0 (should be at baseline 0?)
 
 * uni0199 (U+0199): X=295.0,Y=699.0 (should be at cap-height 700?)
+
+* uni1ED5 (U+1ED5): X=541.5,Y=719.5 (should be at ascender 720?)
+
+* scedilla (U+015F): X=82.0,Y=-278.0 (should be at descender -280?)
+
+* uni0163 (U+0163): X=70.0,Y=-278.0 (should be at descender -280?)
 
 * y (U+0079): X=203.0,Y=1.0 (should be at baseline 0?)
 
@@ -2914,7 +3158,13 @@ definitions.</p>
 
 * ygrave (U+1EF3): X=203.0,Y=1.0 (should be at baseline 0?)
 
+* uni01B4 (U+01B4): X=-16.0,Y=-279.0 (should be at descender -280?)
+
 * uni01B4 (U+01B4): X=203.0,Y=1.0 (should be at baseline 0?)
+
+* uni01B4 (U+01B4): X=39.0,Y=-279.0 (should be at descender -280?)
+
+* uni01B4 (U+01B4): X=-16.0,Y=-279.0 (should be at descender -280?)
 
 * uni1EF7 (U+1EF7): X=203.0,Y=1.0 (should be at baseline 0?)
 
@@ -2942,9 +3192,17 @@ definitions.</p>
 
 * dollar (U+0024): X=256.0,Y=1.0 (should be at baseline 0?)
 
+* sterling (U+00A3): X=545.0,Y=718.0 (should be at ascender 720?)
+
 * section (U+00A7): X=326.5,Y=699.0 (should be at cap-height 700?)
 
 * registered (U+00AE): X=407.0,Y=698.0 (should be at cap-height 700?)
+
+* uni0327 (U+0327): X=19.0,Y=-278.0 (should be at descender -280?)
+
+* uni03020309: X=453.5,Y=719.5 (should be at ascender 720?)
+
+* cedilla (U+00B8): X=19.0,Y=-278.0 (should be at descender -280?)
 </code></pre>
  [code: found-misalignments]
 
@@ -3106,6 +3364,8 @@ definitions.</p>
 
 * integral (U+222B): L&lt;&lt;479.0,568.0&gt;--&lt;508.0,568.0&gt;&gt;/L&lt;&lt;508.0,568.0&gt;--&lt;479.0,570.0&gt;&gt; = 3.94518622903751
 
+* l.alt: L&lt;&lt;140.0,183.0&gt;--&lt;111.0,183.0&gt;&gt;/L&lt;&lt;111.0,183.0&gt;--&lt;139.0,181.0&gt;&gt; = 4.085616779974888
+
 * sterling (U+00A3): L&lt;&lt;257.0,305.0&gt;--&lt;229.0,305.0&gt;&gt;/L&lt;&lt;229.0,305.0&gt;--&lt;257.0,303.0&gt;&gt; = 4.085616779974888
 
 * sterling (U+00A3): L&lt;&lt;277.0,525.0&gt;--&lt;306.0,525.0&gt;&gt;/L&lt;&lt;306.0,525.0&gt;--&lt;277.0,527.0&gt;&gt; = 3.94518622903751
@@ -3149,7 +3409,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[12] ElmsSans-Bold.ttf</summary>
+<details><summary>[16] ElmsSans-Bold.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -3169,6 +3429,42 @@ definitions.</p>
 
 </code></pre>
  [code: failed-check]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1000 when it should be at least 1200</p>
+ [code: bad-hhea-range]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if uppercase glyphs are vertically centered. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#caps-vertically-centered">caps_vertically_centered</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Uppercase glyphs are not vertically centered in the em box.</p>
+ [code: vertical-metrics-not-centered]
 
 
 
@@ -3379,6 +3675,66 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Checking that the typoAscender exceeds the yMax of the /Agrave. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#typoascender-exceeds-Agrave">typoascender_exceeds_Agrave</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>OS/2.sTypoAscender value should be greater than 920, but got 720 instead</p>
+ [code: typoAscender]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- dotlessi_ogonek
+
+- l.alt
+
+- t.alt
+</code></pre>
+ [code: unreachable-glyphs]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
     <div>
 
@@ -3412,17 +3768,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, hebrew, malayalam, coptic, duployan, old-permic, tai-le, canadian-aboriginal, math, syriac, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, todhri, tai-le, hebrew, old-permic, coptic, math, syriac, tifinagh, canadian-aboriginal, duployan</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -3431,15 +3787,13 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, sunuwar, gothic, thai, caucasian-albanian, syriac, tifinagh</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, gothic, sunuwar, caucasian-albanian, syriac, tifinagh, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+2028 LINE SEPARATOR: not included in any glyphset definition</li>
-<li>U+2029 PARAGRAPH SEPARATOR: not included in any glyphset definition</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
 <li>U+2074 SUPERSCRIPT FOUR: try adding math</li>
@@ -3464,14 +3818,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -3482,7 +3836,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -3523,222 +3877,6 @@ definitions.</p>
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̐ į̑ į̒ į̛̀ į̛́ į̛̂ į̛̃ į̛̄ į̛̆ į̛̇ į̛̈ į̛̉ į̛̊ į̛̋</p>
  [code: soft-dotted]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Are there any misaligned on-curve points? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-alignment-miss">outline_alignment_miss</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* .notdef: X=118.0,Y=702.0 (should be at cap-height 700?)
-
-* .notdef: X=481.0,Y=702.0 (should be at cap-height 700?)
-
-* uni1EB2 (U+1EB2): X=398.0,Y=1001.5 (should be at ascender 1000?)
-
-* uni1EB4 (U+1EB4): X=336.0,Y=998.5 (should be at ascender 1000?)
-
-* uni0187 (U+0187): X=517.5,Y=698.0 (should be at cap-height 700?)
-
-* uni0187 (U+0187): X=656.0,Y=698.0 (should be at cap-height 700?)
-
-* uni018F (U+018F): X=257.5,Y=698.5 (should be at cap-height 700?)
-
-* a (U+0061): X=364.0,Y=479.0 (should be at x-height 480?)
-
-* a (U+0061): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* aacute (U+00E1): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* abreve (U+0103): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EAF (U+1EAF): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EB7 (U+1EB7): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EB1 (U+1EB1): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EB3 (U+1EB3): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EB5 (U+1EB5): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni01CE (U+01CE): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* acircumflex (U+00E2): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EA5 (U+1EA5): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EAD (U+1EAD): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EA7 (U+1EA7): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EA9 (U+1EA9): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EAB (U+1EAB): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* adieresis (U+00E4): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* adieresis (U+00E4): X=416.0,Y=702.0 (should be at cap-height 700?)
-
-* adieresis (U+00E4): X=208.0,Y=702.0 (should be at cap-height 700?)
-
-* uni01DF (U+01DF): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni01DF (U+01DF): X=416.0,Y=702.0 (should be at cap-height 700?)
-
-* uni01DF (U+01DF): X=208.0,Y=702.0 (should be at cap-height 700?)
-
-* uni0227 (U+0227): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EA1 (U+1EA1): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni01E1 (U+01E1): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* agrave (U+00E0): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EA3 (U+1EA3): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni0203 (U+0203): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* uni0251 (U+0251): X=372.0,Y=1.5 (should be at baseline 0?)
-
-* amacron (U+0101): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* aogonek (U+0105): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* aring (U+00E5): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* atilde (U+00E3): X=364.0,Y=1.0 (should be at baseline 0?)
-
-* ae (U+00E6): X=673.0,Y=-2.0 (should be at baseline 0?)
-
-* uni01E3 (U+01E3): X=673.0,Y=-2.0 (should be at baseline 0?)
-
-* b (U+0062): X=261.0,Y=479.5 (should be at x-height 480?)
-
-* b (U+0062): X=261.0,Y=0.5 (should be at baseline 0?)
-
-* uni1E03 (U+1E03): X=261.0,Y=0.5 (should be at baseline 0?)
-
-* uni1E05 (U+1E05): X=261.0,Y=0.5 (should be at baseline 0?)
-
-* uni0253 (U+0253): X=261.5,Y=-1.5 (should be at baseline 0?)
-
-* uni1E07 (U+1E07): X=261.0,Y=0.5 (should be at baseline 0?)
-
-* uni0180 (U+0180): X=261.0,Y=0.5 (should be at baseline 0?)
-
-* edieresis (U+00EB): X=381.0,Y=702.0 (should be at cap-height 700?)
-
-* edieresis (U+00EB): X=173.0,Y=702.0 (should be at cap-height 700?)
-
-* h (U+0068): X=257.5,Y=478.0 (should be at x-height 480?)
-
-* uni0265 (U+0265): X=370.5,Y=2.0 (should be at baseline 0?)
-
-* idieresis (U+00EF): X=209.0,Y=702.0 (should be at cap-height 700?)
-
-* idieresis (U+00EF): X=48.0,Y=702.0 (should be at cap-height 700?)
-
-* uni1E2F (U+1E2F): X=209.0,Y=702.0 (should be at cap-height 700?)
-
-* uni1E2F (U+1E2F): X=48.0,Y=702.0 (should be at cap-height 700?)
-
-* iogonek (U+012F): X=70.0,Y=1.0 (should be at baseline 0?)
-
-* iogonek (U+012F): X=190.0,Y=1.0 (should be at baseline 0?)
-
-* m (U+006D): X=252.0,Y=479.5 (should be at x-height 480?)
-
-* odieresis (U+00F6): X=397.0,Y=702.0 (should be at cap-height 700?)
-
-* odieresis (U+00F6): X=189.0,Y=702.0 (should be at cap-height 700?)
-
-* uni022B (U+022B): X=397.0,Y=702.0 (should be at cap-height 700?)
-
-* uni022B (U+022B): X=189.0,Y=702.0 (should be at cap-height 700?)
-
-* p (U+0070): X=260.0,Y=479.5 (should be at x-height 480?)
-
-* p (U+0070): X=260.0,Y=0.5 (should be at baseline 0?)
-
-* uni1E55 (U+1E55): X=260.0,Y=0.5 (should be at baseline 0?)
-
-* uni1E57 (U+1E57): X=260.0,Y=0.5 (should be at baseline 0?)
-
-* uni01A5 (U+01A5): X=259.5,Y=-2.0 (should be at baseline 0?)
-
-* thorn (U+00FE): X=248.5,Y=-1.5 (should be at baseline 0?)
-
-* udieresis (U+00FC): X=413.0,Y=702.0 (should be at cap-height 700?)
-
-* udieresis (U+00FC): X=205.0,Y=702.0 (should be at cap-height 700?)
-
-* wdieresis (U+1E85): X=507.0,Y=702.0 (should be at cap-height 700?)
-
-* wdieresis (U+1E85): X=299.0,Y=702.0 (should be at cap-height 700?)
-
-* uni1E8D (U+1E8D): X=377.0,Y=702.0 (should be at cap-height 700?)
-
-* uni1E8D (U+1E8D): X=169.0,Y=702.0 (should be at cap-height 700?)
-
-* y (U+0079): X=246.0,Y=1.0 (should be at baseline 0?)
-
-* yacute (U+00FD): X=246.0,Y=1.0 (should be at baseline 0?)
-
-* ycircumflex (U+0177): X=246.0,Y=1.0 (should be at baseline 0?)
-
-* ydieresis (U+00FF): X=246.0,Y=1.0 (should be at baseline 0?)
-
-* ydieresis (U+00FF): X=397.0,Y=702.0 (should be at cap-height 700?)
-
-* ydieresis (U+00FF): X=189.0,Y=702.0 (should be at cap-height 700?)
-
-* uni1E8F (U+1E8F): X=246.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EF5 (U+1EF5): X=246.0,Y=1.0 (should be at baseline 0?)
-
-* ygrave (U+1EF3): X=246.0,Y=1.0 (should be at baseline 0?)
-
-* uni01B4 (U+01B4): X=251.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EF7 (U+1EF7): X=246.0,Y=1.0 (should be at baseline 0?)
-
-* uni0233 (U+0233): X=246.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EF9 (U+1EF9): X=246.0,Y=1.0 (should be at baseline 0?)
-
-* uni2088 (U+2088): X=107.5,Y=-0.5 (should be at baseline 0?)
-
-* uni2088 (U+2088): X=211.0,Y=-0.5 (should be at baseline 0?)
-
-* dollar (U+0024): X=330.0,Y=2.0 (should be at baseline 0?)
-
-* uni0308 (U+0308): X=330.0,Y=702.0 (should be at cap-height 700?)
-
-* uni0308 (U+0308): X=122.0,Y=702.0 (should be at cap-height 700?)
-
-* uni0308.narrow: X=283.0,Y=702.0 (should be at cap-height 700?)
-
-* uni0308.narrow: X=122.0,Y=702.0 (should be at cap-height 700?)
-
-* uni03020309.case: X=446.0,Y=701.5 (should be at cap-height 700?)
-
-* dieresis (U+00A8): X=330.0,Y=702.0 (should be at cap-height 700?)
-
-* dieresis (U+00A8): X=122.0,Y=702.0 (should be at cap-height 700?)
-</code></pre>
- [code: found-misalignments]
 
 
 
@@ -3961,7 +4099,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[13] ElmsSans-ExtraLight.ttf</summary>
+<details><summary>[18] ElmsSans-ExtraLight.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -3981,6 +4119,42 @@ definitions.</p>
 
 </code></pre>
  [code: failed-check]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1000 when it should be at least 1200</p>
+ [code: bad-hhea-range]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if uppercase glyphs are vertically centered. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#caps-vertically-centered">caps_vertically_centered</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Uppercase glyphs are not vertically centered in the em box.</p>
+ [code: vertical-metrics-not-centered]
 
 
 
@@ -4195,6 +4369,24 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -4208,6 +4400,48 @@ definitions.</p>
 <pre><code>* uni2C72 (U+2C72): L&lt;&lt;858.0,685.0&gt;--&lt;858.0,685.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Checking that the typoAscender exceeds the yMax of the /Agrave. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#typoascender-exceeds-Agrave">typoascender_exceeds_Agrave</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>OS/2.sTypoAscender value should be greater than 920, but got 720 instead</p>
+ [code: typoAscender]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- dotlessi_ogonek
+
+- l.alt
+
+- t.alt
+</code></pre>
+ [code: unreachable-glyphs]
 
 
 
@@ -4248,17 +4482,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, hebrew, malayalam, coptic, duployan, old-permic, tai-le, canadian-aboriginal, math, syriac, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, todhri, tai-le, hebrew, old-permic, coptic, math, syriac, tifinagh, canadian-aboriginal, duployan</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -4267,15 +4501,13 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, sunuwar, gothic, thai, caucasian-albanian, syriac, tifinagh</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, gothic, sunuwar, caucasian-albanian, syriac, tifinagh, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+2028 LINE SEPARATOR: not included in any glyphset definition</li>
-<li>U+2029 PARAGRAPH SEPARATOR: not included in any glyphset definition</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
 <li>U+2074 SUPERSCRIPT FOUR: try adding math</li>
@@ -4300,14 +4532,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -4318,7 +4550,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -4380,17 +4612,21 @@ definitions.</p>
 
 * .notdef: X=548.0,Y=702.0 (should be at cap-height 700?)
 
-* uni1EB2 (U+1EB2): X=289.5,Y=999.0 (should be at ascender 1000?)
+* Ccedilla (U+00C7): X=387.0,Y=-278.0 (should be at descender -280?)
 
-* uni1EB4 (U+1EB4): X=307.0,Y=998.0 (should be at ascender 1000?)
+* uni1E08 (U+1E08): X=387.0,Y=-278.0 (should be at descender -280?)
 
-* uni1EB4 (U+1EB4): X=352.0,Y=998.5 (should be at ascender 1000?)
+* uni0187 (U+0187): X=779.0,Y=719.0 (should be at ascender 720?)
 
-* uni01E0 (U+01E0): X=154.0,Y=999.0 (should be at ascender 1000?)
+* uni0187 (U+0187): X=846.0,Y=719.0 (should be at ascender 720?)
 
-* uni01E0 (U+01E0): X=458.0,Y=999.0 (should be at ascender 1000?)
+* uni0228 (U+0228): X=296.0,Y=-278.0 (should be at descender -280?)
+
+* uni1E1C (U+1E1C): X=296.0,Y=-278.0 (should be at descender -280?)
 
 * uni0241 (U+0241): X=220.0,Y=698.0 (should be at cap-height 700?)
+
+* Scedilla (U+015E): X=272.0,Y=-278.0 (should be at descender -280?)
 
 * uni1EA9 (U+1EA9): X=405.0,Y=701.5 (should be at cap-height 700?)
 
@@ -4399,6 +4635,14 @@ definitions.</p>
 * uni0253 (U+0253): X=169.0,Y=698.0 (should be at cap-height 700?)
 
 * c (U+0063): X=386.5,Y=478.0 (should be at x-height 480?)
+
+* ccedilla (U+00E7): X=278.0,Y=-278.0 (should be at descender -280?)
+
+* uni1E09 (U+1E09): X=278.0,Y=-278.0 (should be at descender -280?)
+
+* uni0229 (U+0229): X=272.0,Y=-278.0 (should be at descender -280?)
+
+* uni1E1D (U+1E1D): X=272.0,Y=-278.0 (should be at descender -280?)
 
 * uni1EC3 (U+1EC3): X=372.0,Y=701.5 (should be at cap-height 700?)
 
@@ -4414,21 +4658,39 @@ definitions.</p>
 
 * r (U+0072): X=326.5,Y=478.5 (should be at x-height 480?)
 
+* scedilla (U+015F): X=216.0,Y=-278.0 (should be at descender -280?)
+
 * germandbls (U+00DF): X=155.0,Y=698.0 (should be at cap-height 700?)
 
 * germandbls (U+00DF): X=396.5,Y=698.5 (should be at cap-height 700?)
+
+* uni0163 (U+0163): X=199.0,Y=-278.0 (should be at descender -280?)
 
 * y (U+0079): X=450.0,Y=481.0 (should be at x-height 480?)
 
 * y (U+0079): X=497.0,Y=481.0 (should be at x-height 480?)
 
+* uni01B4 (U+01B4): X=123.0,Y=-279.0 (should be at descender -280?)
+
+* uni01B4 (U+01B4): X=163.0,Y=-279.0 (should be at descender -280?)
+
+* uni01B4 (U+01B4): X=123.0,Y=-279.0 (should be at descender -280?)
+
 * uni2085 (U+2085): X=290.5,Y=-1.5 (should be at baseline 0?)
 
 * uni2086 (U+2086): X=55.5,Y=-1.5 (should be at baseline 0?)
 
+* uni00B2 (U+00B2): X=152.0,Y=722.0 (should be at ascender 720?)
+
 * uni2078 (U+2078): X=212.0,Y=698.5 (should be at cap-height 700?)
 
+* uni2078 (U+2078): X=150.0,Y=722.0 (should be at ascender 720?)
+
 * uni2078 (U+2078): X=88.0,Y=698.5 (should be at cap-height 700?)
+
+* uni2079 (U+2079): X=178.0,Y=722.0 (should be at ascender 720?)
+
+* uni2079 (U+2079): X=178.0,Y=722.0 (should be at ascender 720?)
 
 * parenleft (U+0028): X=326.0,Y=698.0 (should be at cap-height 700?)
 
@@ -4466,9 +4728,17 @@ definitions.</p>
 
 * dollar (U+0024): X=225.0,Y=698.0 (should be at cap-height 700?)
 
+* sterling (U+00A3): X=336.0,Y=718.0 (should be at ascender 720?)
+
 * integral (U+222B): X=556.0,Y=699.0 (should be at cap-height 700?)
 
 * integral (U+222B): X=485.0,Y=699.0 (should be at cap-height 700?)
+
+* arrowup (U+2191): X=363.0,Y=721.0 (should be at ascender 720?)
+
+* arrowdown (U+2193): X=341.0,Y=721.0 (should be at ascender 720?)
+
+* arrowdown (U+2193): X=384.0,Y=721.0 (should be at ascender 720?)
 
 * section (U+00A7): X=122.5,Y=698.5 (should be at cap-height 700?)
 
@@ -4476,7 +4746,11 @@ definitions.</p>
 
 * uni03020309.case: X=322.5,Y=698.5 (should be at cap-height 700?)
 
+* uni0327 (U+0327): X=157.0,Y=-278.0 (should be at descender -280?)
+
 * uni03020309: X=283.0,Y=701.5 (should be at cap-height 700?)
+
+* cedilla (U+00B8): X=157.0,Y=-278.0 (should be at descender -280?)
 </code></pre>
  [code: found-misalignments]
 
@@ -4717,7 +4991,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[12] ElmsSans-Light.ttf</summary>
+<details><summary>[17] ElmsSans-Light.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -4737,6 +5011,42 @@ definitions.</p>
 
 </code></pre>
  [code: failed-check]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1000 when it should be at least 1200</p>
+ [code: bad-hhea-range]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if uppercase glyphs are vertically centered. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#caps-vertically-centered">caps_vertically_centered</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Uppercase glyphs are not vertically centered in the em box.</p>
+ [code: vertical-metrics-not-centered]
 
 
 
@@ -4951,6 +5261,66 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Checking that the typoAscender exceeds the yMax of the /Agrave. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#typoascender-exceeds-Agrave">typoascender_exceeds_Agrave</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>OS/2.sTypoAscender value should be greater than 920, but got 720 instead</p>
+ [code: typoAscender]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- dotlessi_ogonek
+
+- l.alt
+
+- t.alt
+</code></pre>
+ [code: unreachable-glyphs]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
     <div>
 
@@ -4984,17 +5354,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, hebrew, malayalam, coptic, duployan, old-permic, tai-le, canadian-aboriginal, math, syriac, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, todhri, tai-le, hebrew, old-permic, coptic, math, syriac, tifinagh, canadian-aboriginal, duployan</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -5003,15 +5373,13 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, sunuwar, gothic, thai, caucasian-albanian, syriac, tifinagh</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, gothic, sunuwar, caucasian-albanian, syriac, tifinagh, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+2028 LINE SEPARATOR: not included in any glyphset definition</li>
-<li>U+2029 PARAGRAPH SEPARATOR: not included in any glyphset definition</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
 <li>U+2074 SUPERSCRIPT FOUR: try adding math</li>
@@ -5036,14 +5404,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -5054,7 +5422,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -5116,33 +5484,35 @@ definitions.</p>
 
 * .notdef: X=548.0,Y=702.0 (should be at cap-height 700?)
 
-* uni1EB2 (U+1EB2): X=293.0,Y=999.5 (should be at ascender 1000?)
+* Ccedilla (U+00C7): X=390.0,Y=-278.0 (should be at descender -280?)
 
-* uni1EA8 (U+1EA8): X=439.0,Y=1002.0 (should be at ascender 1000?)
+* uni1E08 (U+1E08): X=390.0,Y=-278.0 (should be at descender -280?)
 
-* uni1EA8 (U+1EA8): X=376.5,Y=1001.0 (should be at ascender 1000?)
+* uni0187 (U+0187): X=766.0,Y=718.0 (should be at ascender 720?)
 
-* uni1EAA (U+1EAA): X=305.5,Y=998.5 (should be at ascender 1000?)
+* uni0187 (U+0187): X=835.0,Y=718.0 (should be at ascender 720?)
 
-* uni1EC2 (U+1EC2): X=427.0,Y=1002.0 (should be at ascender 1000?)
+* uni0228 (U+0228): X=303.0,Y=-278.0 (should be at descender -280?)
 
-* uni1EC2 (U+1EC2): X=364.5,Y=1001.0 (should be at ascender 1000?)
+* uni1E1C (U+1E1C): X=303.0,Y=-278.0 (should be at descender -280?)
 
-* uni1EC4 (U+1EC4): X=293.5,Y=998.5 (should be at ascender 1000?)
+* uni0193 (U+0193): X=790.0,Y=719.0 (should be at ascender 720?)
 
-* uni1ED4 (U+1ED4): X=524.0,Y=1002.0 (should be at ascender 1000?)
-
-* uni1ED4 (U+1ED4): X=461.5,Y=1001.0 (should be at ascender 1000?)
-
-* uni1ED6 (U+1ED6): X=390.5,Y=998.5 (should be at ascender 1000?)
+* uni0193 (U+0193): X=736.0,Y=719.0 (should be at ascender 720?)
 
 * Q (U+0051): X=504.0,Y=-1.5 (should be at baseline 0?)
+
+* Scedilla (U+015E): X=279.0,Y=-278.0 (should be at descender -280?)
 
 * uni0194 (U+0194): X=384.5,Y=1.5 (should be at baseline 0?)
 
 * uni01B3 (U+01B3): X=744.0,Y=702.0 (should be at cap-height 700?)
 
+* uni01B3 (U+01B3): X=624.0,Y=719.0 (should be at ascender 720?)
+
 * uni01B3 (U+01B3): X=611.0,Y=698.0 (should be at cap-height 700?)
+
+* uni1EA9 (U+1EA9): X=437.5,Y=718.5 (should be at ascender 720?)
 
 * uni1EA9 (U+1EA9): X=423.5,Y=702.0 (should be at cap-height 700?)
 
@@ -5156,17 +5526,39 @@ definitions.</p>
 
 * c (U+0063): X=389.0,Y=478.5 (should be at x-height 480?)
 
+* ccedilla (U+00E7): X=280.0,Y=-278.0 (should be at descender -280?)
+
+* uni1E09 (U+1E09): X=280.0,Y=-278.0 (should be at descender -280?)
+
+* uni0229 (U+0229): X=274.0,Y=-278.0 (should be at descender -280?)
+
+* uni1E1D (U+1E1D): X=274.0,Y=-278.0 (should be at descender -280?)
+
+* uni1EC3 (U+1EC3): X=404.5,Y=718.5 (should be at ascender 720?)
+
 * uni1EC3 (U+1EC3): X=390.5,Y=702.0 (should be at cap-height 700?)
 
 * uni0199 (U+0199): X=92.5,Y=698.0 (should be at cap-height 700?)
+
+* uni1ED5 (U+1ED5): X=418.5,Y=718.5 (should be at ascender 720?)
 
 * uni1ED5 (U+1ED5): X=404.5,Y=702.0 (should be at cap-height 700?)
 
 * r (U+0072): X=337.5,Y=478.0 (should be at x-height 480?)
 
+* scedilla (U+015F): X=220.0,Y=-278.0 (should be at descender -280?)
+
+* uni0163 (U+0163): X=208.0,Y=-278.0 (should be at descender -280?)
+
 * y (U+0079): X=452.0,Y=481.0 (should be at x-height 480?)
 
 * y (U+0079): X=514.0,Y=481.0 (should be at x-height 480?)
+
+* uni01B4 (U+01B4): X=125.0,Y=-279.0 (should be at descender -280?)
+
+* uni01B4 (U+01B4): X=180.0,Y=-279.0 (should be at descender -280?)
+
+* uni01B4 (U+01B4): X=125.0,Y=-279.0 (should be at descender -280?)
 
 * uni2086 (U+2086): X=275.5,Y=2.0 (should be at baseline 0?)
 
@@ -5188,13 +5580,21 @@ definitions.</p>
 
 * dollar (U+0024): X=282.0,Y=699.0 (should be at cap-height 700?)
 
+* sterling (U+00A3): X=334.0,Y=718.0 (should be at ascender 720?)
+
 * section (U+00A7): X=124.0,Y=698.5 (should be at cap-height 700?)
 
 * registered (U+00AE): X=201.0,Y=698.0 (should be at cap-height 700?)
 
 * uni03020309.case: X=346.5,Y=699.5 (should be at cap-height 700?)
 
+* uni0327 (U+0327): X=157.0,Y=-278.0 (should be at descender -280?)
+
+* uni03020309: X=323.5,Y=718.5 (should be at ascender 720?)
+
 * uni03020309: X=309.5,Y=702.0 (should be at cap-height 700?)
+
+* cedilla (U+00B8): X=157.0,Y=-278.0 (should be at descender -280?)
 </code></pre>
  [code: found-misalignments]
 
@@ -5429,7 +5829,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[11] ElmsSans-ExtraBoldItalic.ttf</summary>
+<details><summary>[15] ElmsSans-ExtraBoldItalic.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -5449,6 +5849,42 @@ definitions.</p>
 
 </code></pre>
  [code: failed-check]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1000 when it should be at least 1200</p>
+ [code: bad-hhea-range]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if uppercase glyphs are vertically centered. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#caps-vertically-centered">caps_vertically_centered</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Uppercase glyphs are not vertically centered in the em box.</p>
+ [code: vertical-metrics-not-centered]
 
 
 
@@ -5663,6 +6099,66 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Checking that the typoAscender exceeds the yMax of the /Agrave. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#typoascender-exceeds-Agrave">typoascender_exceeds_Agrave</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>OS/2.sTypoAscender value should be greater than 920, but got 720 instead</p>
+ [code: typoAscender]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- dotlessi_ogonek
+
+- l.alt
+
+- t.alt
+</code></pre>
+ [code: unreachable-glyphs]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
     <div>
 
@@ -5696,17 +6192,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, hebrew, malayalam, coptic, duployan, old-permic, tai-le, canadian-aboriginal, math, syriac, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, todhri, tai-le, hebrew, old-permic, coptic, math, syriac, tifinagh, canadian-aboriginal, duployan</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -5715,15 +6211,13 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, sunuwar, gothic, thai, caucasian-albanian, syriac, tifinagh</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, gothic, sunuwar, caucasian-albanian, syriac, tifinagh, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+2028 LINE SEPARATOR: not included in any glyphset definition</li>
-<li>U+2029 PARAGRAPH SEPARATOR: not included in any glyphset definition</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
 <li>U+2074 SUPERSCRIPT FOUR: try adding math</li>
@@ -5748,14 +6242,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -5766,7 +6260,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -5807,200 +6301,6 @@ definitions.</p>
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̐ į̑ į̒ į̛̀ į̛́ į̛̂ į̛̃ į̛̄ į̛̆ į̛̇ į̛̈ į̛̉ į̛̊ į̛̋</p>
  [code: soft-dotted]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Are there any misaligned on-curve points? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-alignment-miss">outline_alignment_miss</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* .notdef: X=289.0,Y=702.0 (should be at cap-height 700?)
-
-* .notdef: X=652.0,Y=702.0 (should be at cap-height 700?)
-
-* uni1EAA (U+1EAA): X=719.0,Y=999.0 (should be at ascender 1000?)
-
-* uni0187 (U+0187): X=708.5,Y=699.0 (should be at cap-height 700?)
-
-* uni0187 (U+0187): X=844.0,Y=700.5 (should be at cap-height 700?)
-
-* uni1EC4 (U+1EC4): X=697.0,Y=999.0 (should be at ascender 1000?)
-
-* Eng (U+014A): X=496.0,Y=1.0 (should be at baseline 0?)
-
-* uni1ED6 (U+1ED6): X=780.0,Y=999.0 (should be at ascender 1000?)
-
-* a (U+0061): X=473.5,Y=481.5 (should be at x-height 480?)
-
-* uni0203 (U+0203): X=512.0,Y=698.0 (should be at cap-height 700?)
-
-* uni0251 (U+0251): X=326.5,Y=-0.5 (should be at baseline 0?)
-
-* aring (U+00E5): X=568.0,Y=700.5 (should be at cap-height 700?)
-
-* b (U+0062): X=233.5,Y=-1.5 (should be at baseline 0?)
-
-* uni1E03 (U+1E03): X=233.5,Y=-1.5 (should be at baseline 0?)
-
-* uni1E05 (U+1E05): X=233.5,Y=-1.5 (should be at baseline 0?)
-
-* uni1E07 (U+1E07): X=233.5,Y=-1.5 (should be at baseline 0?)
-
-* uni0180 (U+0180): X=233.5,Y=-1.5 (should be at baseline 0?)
-
-* d (U+0064): X=478.0,Y=479.5 (should be at x-height 480?)
-
-* d (U+0064): X=314.0,Y=-2.0 (should be at baseline 0?)
-
-* dcaron (U+010F): X=314.0,Y=-2.0 (should be at baseline 0?)
-
-* uni1E11 (U+1E11): X=314.0,Y=-2.0 (should be at baseline 0?)
-
-* uni1E13 (U+1E13): X=314.0,Y=-2.0 (should be at baseline 0?)
-
-* dcroat (U+0111): X=314.0,Y=-2.0 (should be at baseline 0?)
-
-* uni1E0B (U+1E0B): X=314.0,Y=-2.0 (should be at baseline 0?)
-
-* uni1E0D (U+1E0D): X=314.0,Y=-2.0 (should be at baseline 0?)
-
-* uni1E0F (U+1E0F): X=314.0,Y=-2.0 (should be at baseline 0?)
-
-* uni0256 (U+0256): X=314.0,Y=-2.0 (should be at baseline 0?)
-
-* uni0207 (U+0207): X=475.0,Y=698.0 (should be at cap-height 700?)
-
-* g (U+0067): X=477.5,Y=479.5 (should be at x-height 480?)
-
-* g (U+0067): X=525.0,Y=2.0 (should be at baseline 0?)
-
-* g (U+0067): X=313.5,Y=-2.0 (should be at baseline 0?)
-
-* uni01F5 (U+01F5): X=525.0,Y=2.0 (should be at baseline 0?)
-
-* uni01F5 (U+01F5): X=313.5,Y=-2.0 (should be at baseline 0?)
-
-* gbreve (U+011F): X=525.0,Y=2.0 (should be at baseline 0?)
-
-* gbreve (U+011F): X=313.5,Y=-2.0 (should be at baseline 0?)
-
-* gcaron (U+01E7): X=525.0,Y=2.0 (should be at baseline 0?)
-
-* gcaron (U+01E7): X=313.5,Y=-2.0 (should be at baseline 0?)
-
-* gcircumflex (U+011D): X=525.0,Y=2.0 (should be at baseline 0?)
-
-* gcircumflex (U+011D): X=313.5,Y=-2.0 (should be at baseline 0?)
-
-* uni0123 (U+0123): X=525.0,Y=2.0 (should be at baseline 0?)
-
-* uni0123 (U+0123): X=313.5,Y=-2.0 (should be at baseline 0?)
-
-* gdotaccent (U+0121): X=525.0,Y=2.0 (should be at baseline 0?)
-
-* gdotaccent (U+0121): X=313.5,Y=-2.0 (should be at baseline 0?)
-
-* uni1E21 (U+1E21): X=525.0,Y=2.0 (should be at baseline 0?)
-
-* uni1E21 (U+1E21): X=313.5,Y=-2.0 (should be at baseline 0?)
-
-* uni01E5 (U+01E5): X=525.0,Y=2.0 (should be at baseline 0?)
-
-* uni01E5 (U+01E5): X=313.5,Y=-2.0 (should be at baseline 0?)
-
-* uni020B (U+020B): X=335.0,Y=698.0 (should be at cap-height 700?)
-
-* m (U+006D): X=393.0,Y=481.0 (should be at x-height 480?)
-
-* n (U+006E): X=400.0,Y=479.0 (should be at x-height 480?)
-
-* uni020F (U+020F): X=493.0,Y=698.0 (should be at cap-height 700?)
-
-* oe (U+0153): X=543.5,Y=-2.0 (should be at baseline 0?)
-
-* p (U+0070): X=232.5,Y=-1.5 (should be at baseline 0?)
-
-* uni1E55 (U+1E55): X=232.5,Y=-1.5 (should be at baseline 0?)
-
-* uni1E57 (U+1E57): X=232.5,Y=-1.5 (should be at baseline 0?)
-
-* q (U+0071): X=477.5,Y=479.5 (should be at x-height 480?)
-
-* q (U+0071): X=313.5,Y=-2.0 (should be at baseline 0?)
-
-* uni0213 (U+0213): X=422.0,Y=698.0 (should be at cap-height 700?)
-
-* uni0217 (U+0217): X=512.0,Y=698.0 (should be at cap-height 700?)
-
-* uring (U+016F): X=568.0,Y=700.5 (should be at cap-height 700?)
-
-* y (U+0079): X=202.0,Y=2.0 (should be at baseline 0?)
-
-* yacute (U+00FD): X=202.0,Y=2.0 (should be at baseline 0?)
-
-* ycircumflex (U+0177): X=202.0,Y=2.0 (should be at baseline 0?)
-
-* ydieresis (U+00FF): X=202.0,Y=2.0 (should be at baseline 0?)
-
-* uni1E8F (U+1E8F): X=202.0,Y=2.0 (should be at baseline 0?)
-
-* uni1EF5 (U+1EF5): X=202.0,Y=2.0 (should be at baseline 0?)
-
-* ygrave (U+1EF3): X=202.0,Y=2.0 (should be at baseline 0?)
-
-* uni01B4 (U+01B4): X=210.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EF7 (U+1EF7): X=202.0,Y=2.0 (should be at baseline 0?)
-
-* uni0233 (U+0233): X=202.0,Y=2.0 (should be at baseline 0?)
-
-* uni1EF9 (U+1EF9): X=202.0,Y=2.0 (should be at baseline 0?)
-
-* parenleft (U+0028): X=330.0,Y=2.0 (should be at baseline 0?)
-
-* parenright (U+0029): X=24.0,Y=2.0 (should be at baseline 0?)
-
-* period (U+002E): X=100.5,Y=-1.0 (should be at baseline 0?)
-
-* colon (U+003A): X=124.5,Y=-2.0 (should be at baseline 0?)
-
-* ellipsis (U+2026): X=650.5,Y=-1.0 (should be at baseline 0?)
-
-* ellipsis (U+2026): X=375.5,Y=-1.0 (should be at baseline 0?)
-
-* ellipsis (U+2026): X=100.5,Y=-1.0 (should be at baseline 0?)
-
-* exclam (U+0021): X=83.5,Y=-1.5 (should be at baseline 0?)
-
-* dollar (U+0024): X=459.0,Y=698.0 (should be at cap-height 700?)
-
-* dollar (U+0024): X=305.0,Y=2.0 (should be at baseline 0?)
-
-* uni20AA (U+20AA): X=253.0,Y=698.0 (should be at cap-height 700?)
-
-* uni20AA (U+20AA): X=311.0,Y=698.0 (should be at cap-height 700?)
-
-* integral (U+222B): X=304.0,Y=1.0 (should be at baseline 0?)
-
-* uni030A (U+030A): X=409.0,Y=700.5 (should be at cap-height 700?)
-
-* uni0310 (U+0310): X=493.0,Y=701.0 (should be at cap-height 700?)
-
-* uni0311 (U+0311): X=437.0,Y=698.0 (should be at cap-height 700?)
-
-* ring (U+02DA): X=409.0,Y=700.5 (should be at cap-height 700?)
-</code></pre>
- [code: found-misalignments]
 
 
 
@@ -6174,6 +6474,8 @@ definitions.</p>
 
 * integral (U+222B): L&lt;&lt;407.0,523.0&gt;--&lt;480.0,523.0&gt;&gt;/L&lt;&lt;480.0,523.0&gt;--&lt;408.0,528.0&gt;&gt; = 3.9724959407506057
 
+* l.alt: L&lt;&lt;241.0,224.0&gt;--&lt;168.0,224.0&gt;&gt;/L&lt;&lt;168.0,224.0&gt;--&lt;240.0,219.0&gt;&gt; = 3.9724959407506057
+
 * scedilla (U+015F): L&lt;&lt;165.0,-146.0&gt;--&lt;170.0,-126.0&gt;&gt;/L&lt;&lt;170.0,-126.0&gt;--&lt;162.0,-146.0&gt;&gt; = 7.765166018425308
 
 * sterling (U+00A3): L&lt;&lt;229.0,495.0&gt;--&lt;302.0,495.0&gt;&gt;/L&lt;&lt;302.0,495.0&gt;--&lt;230.0,500.0&gt;&gt; = 3.9724959407506057
@@ -6297,6 +6599,10 @@ definitions.</p>
 * uni0266 (U+0266) contains a short segment L&lt;&lt;620.0,244.0&gt;--&lt;620.0,244.0&gt;&gt;
 
 * uni0266 (U+0266) contains a short segment B&lt;&lt;254.0,248.0&gt;-&lt;254.0,248.0&gt;-&lt;254.0,248.0&gt;&gt;
+
+* l.alt contains a short segment L&lt;&lt;96.0,225.0&gt;--&lt;97.0,228.0&gt;&gt;
+
+* l.alt contains a short segment L&lt;&lt;97.0,228.0&gt;--&lt;97.0,228.0&gt;&gt;
 
 * uni01A5 (U+01A5) contains a short segment L&lt;&lt;431.0,575.0&gt;--&lt;415.0,575.0&gt;&gt;
 
@@ -6433,7 +6739,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[12] ElmsSans-Black.ttf</summary>
+<details><summary>[17] ElmsSans-Black.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -6453,6 +6759,42 @@ definitions.</p>
 
 </code></pre>
  [code: failed-check]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1000 when it should be at least 1200</p>
+ [code: bad-hhea-range]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if uppercase glyphs are vertically centered. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#caps-vertically-centered">caps_vertically_centered</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Uppercase glyphs are not vertically centered in the em box.</p>
+ [code: vertical-metrics-not-centered]
 
 
 
@@ -6667,6 +7009,66 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Checking that the typoAscender exceeds the yMax of the /Agrave. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#typoascender-exceeds-Agrave">typoascender_exceeds_Agrave</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>OS/2.sTypoAscender value should be greater than 920, but got 720 instead</p>
+ [code: typoAscender]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- dotlessi_ogonek
+
+- l.alt
+
+- t.alt
+</code></pre>
+ [code: unreachable-glyphs]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
     <div>
 
@@ -6700,17 +7102,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, hebrew, malayalam, coptic, duployan, old-permic, tai-le, canadian-aboriginal, math, syriac, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, todhri, tai-le, hebrew, old-permic, coptic, math, syriac, tifinagh, canadian-aboriginal, duployan</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -6719,15 +7121,13 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, sunuwar, gothic, thai, caucasian-albanian, syriac, tifinagh</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, gothic, sunuwar, caucasian-albanian, syriac, tifinagh, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+2028 LINE SEPARATOR: not included in any glyphset definition</li>
-<li>U+2029 PARAGRAPH SEPARATOR: not included in any glyphset definition</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
 <li>U+2074 SUPERSCRIPT FOUR: try adding math</li>
@@ -6752,14 +7152,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -6770,7 +7170,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -6832,15 +7232,21 @@ definitions.</p>
 
 * .notdef: X=413.0,Y=702.0 (should be at cap-height 700?)
 
+* Ccedilla (U+00C7): X=454.5,Y=-279.5 (should be at descender -280?)
+
+* uni1E08 (U+1E08): X=454.5,Y=-279.5 (should be at descender -280?)
+
 * uni0187 (U+0187): X=501.0,Y=701.5 (should be at cap-height 700?)
+
+* uni0228 (U+0228): X=389.5,Y=-279.5 (should be at descender -280?)
+
+* uni1E1C (U+1E1C): X=389.5,Y=-279.5 (should be at descender -280?)
 
 * uni018F (U+018F): X=260.5,Y=699.5 (should be at cap-height 700?)
 
-* uni1E2E (U+1E2E): X=104.0,Y=1002.0 (should be at ascender 1000?)
+* Scedilla (U+015E): X=384.5,Y=-279.5 (should be at descender -280?)
 
-* uni1E2E (U+1E2E): X=226.0,Y=1002.0 (should be at ascender 1000?)
-
-* uni1E2E (U+1E2E): X=104.0,Y=1002.0 (should be at ascender 1000?)
+* uni1EA9 (U+1EA9): X=431.5,Y=718.5 (should be at ascender 720?)
 
 * uni0251 (U+0251): X=354.5,Y=-1.5 (should be at baseline 0?)
 
@@ -6848,13 +7254,35 @@ definitions.</p>
 
 * uni01E3 (U+01E3): X=663.5,Y=-1.5 (should be at baseline 0?)
 
+* ccedilla (U+00E7): X=336.5,Y=-279.5 (should be at descender -280?)
+
+* uni1E09 (U+1E09): X=336.5,Y=-279.5 (should be at descender -280?)
+
+* uni0229 (U+0229): X=341.5,Y=-279.5 (should be at descender -280?)
+
+* uni1E1D (U+1E1D): X=341.5,Y=-279.5 (should be at descender -280?)
+
+* uni1EC3 (U+1EC3): X=392.5,Y=718.5 (should be at ascender 720?)
+
+* uni0123 (U+0123): X=378.0,Y=721.0 (should be at ascender 720?)
+
+* uni0123 (U+0123): X=299.0,Y=720.5 (should be at ascender 720?)
+
 * m (U+006D): X=281.0,Y=481.5 (should be at x-height 480?)
 
 * n (U+006E): X=291.0,Y=478.0 (should be at x-height 480?)
 
+* uni1ED5 (U+1ED5): X=411.5,Y=718.5 (should be at ascender 720?)
+
 * r (U+0072): X=284.0,Y=478.5 (should be at x-height 480?)
 
+* scedilla (U+015F): X=326.5,Y=-279.5 (should be at descender -280?)
+
 * germandbls (U+00DF): X=438.5,Y=698.5 (should be at cap-height 700?)
+
+* uni0163 (U+0163): X=332.5,Y=-280.5 (should be at descender -280?)
+
+* uni0163 (U+0163): X=204.0,Y=-281.0 (should be at descender -280?)
 
 * u (U+0075): X=347.5,Y=-0.5 (should be at baseline 0?)
 
@@ -6914,9 +7342,19 @@ definitions.</p>
 
 * dollar (U+0024): X=343.0,Y=1.0 (should be at baseline 0?)
 
+* sterling (U+00A3): X=327.0,Y=718.0 (should be at ascender 720?)
+
+* uni03020309.case: X=516.5,Y=718.5 (should be at ascender 720?)
+
 * uni03020309.case: X=497.0,Y=701.5 (should be at cap-height 700?)
 
+* uni0327 (U+0327): X=241.5,Y=-279.5 (should be at descender -280?)
+
 * uni0328 (U+0328): X=238.0,Y=-1.0 (should be at baseline 0?)
+
+* uni03020309: X=355.5,Y=718.5 (should be at ascender 720?)
+
+* cedilla (U+00B8): X=241.5,Y=-279.5 (should be at descender -280?)
 
 * ogonek (U+02DB): X=238.0,Y=-1.0 (should be at baseline 0?)
 </code></pre>
@@ -7207,7 +7645,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[12] ElmsSans-SemiBold.ttf</summary>
+<details><summary>[16] ElmsSans-SemiBold.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -7227,6 +7665,42 @@ definitions.</p>
 
 </code></pre>
  [code: failed-check]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1000 when it should be at least 1200</p>
+ [code: bad-hhea-range]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if uppercase glyphs are vertically centered. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#caps-vertically-centered">caps_vertically_centered</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Uppercase glyphs are not vertically centered in the em box.</p>
+ [code: vertical-metrics-not-centered]
 
 
 
@@ -7437,6 +7911,66 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Checking that the typoAscender exceeds the yMax of the /Agrave. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#typoascender-exceeds-Agrave">typoascender_exceeds_Agrave</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>OS/2.sTypoAscender value should be greater than 919, but got 720 instead</p>
+ [code: typoAscender]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- dotlessi_ogonek
+
+- l.alt
+
+- t.alt
+</code></pre>
+ [code: unreachable-glyphs]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
     <div>
 
@@ -7470,17 +8004,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, hebrew, malayalam, coptic, duployan, old-permic, tai-le, canadian-aboriginal, math, syriac, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, todhri, tai-le, hebrew, old-permic, coptic, math, syriac, tifinagh, canadian-aboriginal, duployan</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -7489,15 +8023,13 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, sunuwar, gothic, thai, caucasian-albanian, syriac, tifinagh</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, gothic, sunuwar, caucasian-albanian, syriac, tifinagh, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+2028 LINE SEPARATOR: not included in any glyphset definition</li>
-<li>U+2029 PARAGRAPH SEPARATOR: not included in any glyphset definition</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
 <li>U+2074 SUPERSCRIPT FOUR: try adding math</li>
@@ -7522,14 +8054,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -7540,7 +8072,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -7581,220 +8113,6 @@ definitions.</p>
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̐ į̑ į̒ į̛̀ į̛́ į̛̂ į̛̃ į̛̄ į̛̆ į̛̇ į̛̈ į̛̉ į̛̊ į̛̋</p>
  [code: soft-dotted]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Are there any misaligned on-curve points? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-alignment-miss">outline_alignment_miss</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* .notdef: X=151.0,Y=702.0 (should be at cap-height 700?)
-
-* .notdef: X=514.0,Y=702.0 (should be at cap-height 700?)
-
-* uni1EB4 (U+1EB4): X=527.0,Y=998.0 (should be at ascender 1000?)
-
-* uni0190 (U+0190): X=388.5,Y=698.0 (should be at cap-height 700?)
-
-* uni018F (U+018F): X=256.0,Y=698.0 (should be at cap-height 700?)
-
-* uni0193 (U+0193): X=511.0,Y=702.0 (should be at cap-height 700?)
-
-* uni2C72 (U+2C72): X=1085.0,Y=699.0 (should be at cap-height 700?)
-
-* uni01B3 (U+01B3): X=695.0,Y=698.0 (should be at cap-height 700?)
-
-* uni01B3 (U+01B3): X=673.0,Y=702.0 (should be at cap-height 700?)
-
-* aacute (U+00E1): X=338.0,Y=699.0 (should be at cap-height 700?)
-
-* aacute (U+00E1): X=447.0,Y=699.0 (should be at cap-height 700?)
-
-* agrave (U+00E0): X=173.0,Y=699.0 (should be at cap-height 700?)
-
-* agrave (U+00E0): X=282.0,Y=699.0 (should be at cap-height 700?)
-
-* cacute (U+0107): X=307.0,Y=699.0 (should be at cap-height 700?)
-
-* cacute (U+0107): X=416.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1E09 (U+1E09): X=307.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1E09 (U+1E09): X=416.0,Y=699.0 (should be at cap-height 700?)
-
-* eacute (U+00E9): X=304.0,Y=699.0 (should be at cap-height 700?)
-
-* eacute (U+00E9): X=413.0,Y=699.0 (should be at cap-height 700?)
-
-* egrave (U+00E8): X=140.0,Y=699.0 (should be at cap-height 700?)
-
-* egrave (U+00E8): X=249.0,Y=699.0 (should be at cap-height 700?)
-
-* uni01F5 (U+01F5): X=346.0,Y=699.0 (should be at cap-height 700?)
-
-* uni01F5 (U+01F5): X=455.0,Y=699.0 (should be at cap-height 700?)
-
-* uni0123 (U+0123): X=356.0,Y=702.0 (should be at cap-height 700?)
-
-* iacute (U+00ED): X=147.0,Y=699.0 (should be at cap-height 700?)
-
-* iacute (U+00ED): X=256.0,Y=699.0 (should be at cap-height 700?)
-
-* igrave (U+00EC): X=-17.0,Y=699.0 (should be at cap-height 700?)
-
-* igrave (U+00EC): X=92.0,Y=699.0 (should be at cap-height 700?)
-
-* uni006A0301: X=241.0,Y=699.0 (should be at cap-height 700?)
-
-* uni006A0301: X=350.0,Y=699.0 (should be at cap-height 700?)
-
-* m (U+006D): X=237.0,Y=478.0 (should be at x-height 480?)
-
-* uni1E3F (U+1E3F): X=473.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1E3F (U+1E3F): X=582.0,Y=699.0 (should be at cap-height 700?)
-
-* nacute (U+0144): X=338.0,Y=699.0 (should be at cap-height 700?)
-
-* nacute (U+0144): X=447.0,Y=699.0 (should be at cap-height 700?)
-
-* oacute (U+00F3): X=319.0,Y=699.0 (should be at cap-height 700?)
-
-* oacute (U+00F3): X=428.0,Y=699.0 (should be at cap-height 700?)
-
-* ograve (U+00F2): X=155.0,Y=699.0 (should be at cap-height 700?)
-
-* ograve (U+00F2): X=264.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1EDB (U+1EDB): X=323.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1EDB (U+1EDB): X=432.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1EDD (U+1EDD): X=158.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1EDD (U+1EDD): X=267.0,Y=699.0 (should be at cap-height 700?)
-
-* oslashacute (U+01FF): X=327.0,Y=699.0 (should be at cap-height 700?)
-
-* oslashacute (U+01FF): X=436.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1E55 (U+1E55): X=339.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1E55 (U+1E55): X=448.0,Y=699.0 (should be at cap-height 700?)
-
-* uni01A5 (U+01A5): X=248.0,Y=1.5 (should be at baseline 0?)
-
-* racute (U+0155): X=261.0,Y=699.0 (should be at cap-height 700?)
-
-* racute (U+0155): X=370.0,Y=699.0 (should be at cap-height 700?)
-
-* sacute (U+015B): X=264.0,Y=699.0 (should be at cap-height 700?)
-
-* sacute (U+015B): X=373.0,Y=699.0 (should be at cap-height 700?)
-
-* uacute (U+00FA): X=332.0,Y=699.0 (should be at cap-height 700?)
-
-* uacute (U+00FA): X=441.0,Y=699.0 (should be at cap-height 700?)
-
-* ugrave (U+00F9): X=167.0,Y=699.0 (should be at cap-height 700?)
-
-* ugrave (U+00F9): X=276.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1EE9 (U+1EE9): X=339.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1EE9 (U+1EE9): X=448.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1EEB (U+1EEB): X=174.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1EEB (U+1EEB): X=283.0,Y=699.0 (should be at cap-height 700?)
-
-* wacute (U+1E83): X=421.0,Y=699.0 (should be at cap-height 700?)
-
-* wacute (U+1E83): X=530.0,Y=699.0 (should be at cap-height 700?)
-
-* wgrave (U+1E81): X=256.0,Y=699.0 (should be at cap-height 700?)
-
-* wgrave (U+1E81): X=365.0,Y=699.0 (should be at cap-height 700?)
-
-* y (U+0079): X=248.0,Y=1.0 (should be at baseline 0?)
-
-* yacute (U+00FD): X=248.0,Y=1.0 (should be at baseline 0?)
-
-* yacute (U+00FD): X=313.0,Y=699.0 (should be at cap-height 700?)
-
-* yacute (U+00FD): X=422.0,Y=699.0 (should be at cap-height 700?)
-
-* ycircumflex (U+0177): X=248.0,Y=1.0 (should be at baseline 0?)
-
-* ydieresis (U+00FF): X=248.0,Y=1.0 (should be at baseline 0?)
-
-* uni1E8F (U+1E8F): X=248.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EF5 (U+1EF5): X=248.0,Y=1.0 (should be at baseline 0?)
-
-* ygrave (U+1EF3): X=248.0,Y=1.0 (should be at baseline 0?)
-
-* ygrave (U+1EF3): X=148.0,Y=699.0 (should be at cap-height 700?)
-
-* ygrave (U+1EF3): X=257.0,Y=699.0 (should be at cap-height 700?)
-
-* uni01B4 (U+01B4): X=251.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EF7 (U+1EF7): X=248.0,Y=1.0 (should be at baseline 0?)
-
-* uni0233 (U+0233): X=248.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EF9 (U+1EF9): X=248.0,Y=1.0 (should be at baseline 0?)
-
-* zacute (U+017A): X=263.0,Y=699.0 (should be at cap-height 700?)
-
-* zacute (U+017A): X=372.0,Y=699.0 (should be at cap-height 700?)
-
-* uni2085 (U+2085): X=243.0,Y=-2.0 (should be at baseline 0?)
-
-* uni2086 (U+2086): X=103.0,Y=-1.5 (should be at baseline 0?)
-
-* dollar (U+0024): X=323.0,Y=2.0 (should be at baseline 0?)
-
-* section (U+00A7): X=125.0,Y=698.0 (should be at cap-height 700?)
-
-* gravecomb (U+0300): X=50.0,Y=699.0 (should be at cap-height 700?)
-
-* gravecomb (U+0300): X=159.0,Y=699.0 (should be at cap-height 700?)
-
-* uni03000304: X=146.0,Y=699.0 (should be at cap-height 700?)
-
-* uni03000304: X=255.0,Y=699.0 (should be at cap-height 700?)
-
-* acutecomb (U+0301): X=109.0,Y=699.0 (should be at cap-height 700?)
-
-* acutecomb (U+0301): X=218.0,Y=699.0 (should be at cap-height 700?)
-
-* uni03010304: X=165.0,Y=699.0 (should be at cap-height 700?)
-
-* uni03010304: X=274.0,Y=699.0 (should be at cap-height 700?)
-
-* uni03020309.case: X=419.0,Y=701.5 (should be at cap-height 700?)
-
-* grave (U+0060): X=50.0,Y=699.0 (should be at cap-height 700?)
-
-* grave (U+0060): X=159.0,Y=699.0 (should be at cap-height 700?)
-
-* acute (U+00B4): X=109.0,Y=699.0 (should be at cap-height 700?)
-
-* acute (U+00B4): X=218.0,Y=699.0 (should be at cap-height 700?)
-</code></pre>
- [code: found-misalignments]
 
 
 
@@ -8017,7 +8335,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[12] ElmsSans-Thin.ttf</summary>
+<details><summary>[17] ElmsSans-Thin.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -8037,6 +8355,42 @@ definitions.</p>
 
 </code></pre>
  [code: failed-check]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1000 when it should be at least 1200</p>
+ [code: bad-hhea-range]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if uppercase glyphs are vertically centered. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#caps-vertically-centered">caps_vertically_centered</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Uppercase glyphs are not vertically centered in the em box.</p>
+ [code: vertical-metrics-not-centered]
 
 
 
@@ -8255,6 +8609,24 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -8270,6 +8642,48 @@ definitions.</p>
 * uni2075 (U+2075): L&lt;&lt;51.0,528.0&gt;--&lt;51.0,528.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Checking that the typoAscender exceeds the yMax of the /Agrave. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#typoascender-exceeds-Agrave">typoascender_exceeds_Agrave</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>OS/2.sTypoAscender value should be greater than 920, but got 720 instead</p>
+ [code: typoAscender]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- dotlessi_ogonek
+
+- l.alt
+
+- t.alt
+</code></pre>
+ [code: unreachable-glyphs]
 
 
 
@@ -8310,17 +8724,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, hebrew, malayalam, coptic, duployan, old-permic, tai-le, canadian-aboriginal, math, syriac, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, todhri, tai-le, hebrew, old-permic, coptic, math, syriac, tifinagh, canadian-aboriginal, duployan</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -8329,15 +8743,13 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, sunuwar, gothic, thai, caucasian-albanian, syriac, tifinagh</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, gothic, sunuwar, caucasian-albanian, syriac, tifinagh, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+2028 LINE SEPARATOR: not included in any glyphset definition</li>
-<li>U+2029 PARAGRAPH SEPARATOR: not included in any glyphset definition</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
 <li>U+2074 SUPERSCRIPT FOUR: try adding math</li>
@@ -8362,14 +8774,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -8380,7 +8792,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -8442,27 +8854,37 @@ definitions.</p>
 
 * .notdef: X=548.0,Y=702.0 (should be at cap-height 700?)
 
-* uni1EB2 (U+1EB2): X=286.0,Y=999.0 (should be at ascender 1000?)
+* Ccedilla (U+00C7): X=384.0,Y=-278.0 (should be at descender -280?)
 
-* uni1EB4 (U+1EB4): X=299.5,Y=1001.0 (should be at ascender 1000?)
+* uni1E08 (U+1E08): X=384.0,Y=-278.0 (should be at descender -280?)
 
-* uni1EAA (U+1EAA): X=240.0,Y=998.5 (should be at ascender 1000?)
+* uni0228 (U+0228): X=288.0,Y=-278.0 (should be at descender -280?)
 
-* uni1EC4 (U+1EC4): X=232.0,Y=998.5 (should be at ascender 1000?)
+* uni1E1C (U+1E1C): X=288.0,Y=-278.0 (should be at descender -280?)
 
 * uni018F (U+018F): X=251.0,Y=698.0 (should be at cap-height 700?)
 
-* uni1ED6 (U+1ED6): X=342.0,Y=998.5 (should be at ascender 1000?)
-
 * Q (U+0051): X=510.5,Y=1.0 (should be at baseline 0?)
+
+* Scedilla (U+015E): X=265.0,Y=-278.0 (should be at descender -280?)
 
 * uni0194 (U+0194): X=241.0,Y=-1.0 (should be at baseline 0?)
 
 * uni0194 (U+0194): X=372.0,Y=-1.0 (should be at baseline 0?)
 
+* uni01B3 (U+01B3): X=755.0,Y=721.0 (should be at ascender 720?)
+
 * uni1EA9 (U+1EA9): X=387.5,Y=701.5 (should be at cap-height 700?)
 
 * c (U+0063): X=384.0,Y=478.0 (should be at x-height 480?)
+
+* ccedilla (U+00E7): X=277.0,Y=-278.0 (should be at descender -280?)
+
+* uni1E09 (U+1E09): X=277.0,Y=-278.0 (should be at descender -280?)
+
+* uni0229 (U+0229): X=271.0,Y=-278.0 (should be at descender -280?)
+
+* uni1E1D (U+1E1D): X=271.0,Y=-278.0 (should be at descender -280?)
 
 * uni1EC3 (U+1EC3): X=353.5,Y=701.5 (should be at cap-height 700?)
 
@@ -8480,15 +8902,31 @@ definitions.</p>
 
 * r (U+0072): X=315.5,Y=478.5 (should be at x-height 480?)
 
+* scedilla (U+015F): X=212.0,Y=-278.0 (should be at descender -280?)
+
 * germandbls (U+00DF): X=152.0,Y=699.0 (should be at cap-height 700?)
 
 * germandbls (U+00DF): X=394.5,Y=699.0 (should be at cap-height 700?)
+
+* uni0163 (U+0163): X=189.0,Y=-278.0 (should be at descender -280?)
 
 * y (U+0079): X=447.0,Y=481.0 (should be at x-height 480?)
 
 * y (U+0079): X=479.0,Y=481.0 (should be at x-height 480?)
 
+* uni01B4 (U+01B4): X=145.0,Y=-279.0 (should be at descender -280?)
+
+* uni01B4 (U+01B4): X=120.0,Y=-279.0 (should be at descender -280?)
+
+* uni00B9 (U+00B9): X=25.0,Y=722.0 (should be at ascender 720?)
+
+* uni00B9 (U+00B9): X=63.0,Y=722.0 (should be at ascender 720?)
+
+* uni00B9 (U+00B9): X=25.0,Y=722.0 (should be at ascender 720?)
+
 * uni00B2 (U+00B2): X=76.0,Y=702.0 (should be at cap-height 700?)
+
+* uni2074 (U+2074): X=196.0,Y=719.0 (should be at ascender 720?)
 
 * quotesinglbase (U+201A): X=69.0,Y=1.0 (should be at baseline 0?)
 
@@ -8526,6 +8964,8 @@ definitions.</p>
 
 * uni20B4 (U+20B4): X=225.5,Y=1.5 (should be at baseline 0?)
 
+* sterling (U+00A3): X=337.0,Y=718.0 (should be at ascender 720?)
+
 * arrowright (U+2192): X=457.0,Y=-2.0 (should be at baseline 0?)
 
 * arrowright (U+2192): X=457.0,Y=-2.0 (should be at baseline 0?)
@@ -8542,7 +8982,11 @@ definitions.</p>
 
 * uni03020309.case: X=249.5,Y=700.5 (should be at cap-height 700?)
 
+* uni0327 (U+0327): X=157.0,Y=-278.0 (should be at descender -280?)
+
 * uni03020309: X=257.5,Y=701.5 (should be at cap-height 700?)
+
+* cedilla (U+00B8): X=157.0,Y=-278.0 (should be at descender -280?)
 </code></pre>
  [code: found-misalignments]
 
@@ -8673,7 +9117,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[12] ElmsSans-ExtraBold.ttf</summary>
+<details><summary>[16] ElmsSans-ExtraBold.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -8693,6 +9137,42 @@ definitions.</p>
 
 </code></pre>
  [code: failed-check]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1000 when it should be at least 1200</p>
+ [code: bad-hhea-range]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if uppercase glyphs are vertically centered. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#caps-vertically-centered">caps_vertically_centered</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Uppercase glyphs are not vertically centered in the em box.</p>
+ [code: vertical-metrics-not-centered]
 
 
 
@@ -8907,6 +9387,66 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Checking that the typoAscender exceeds the yMax of the /Agrave. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#typoascender-exceeds-Agrave">typoascender_exceeds_Agrave</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>OS/2.sTypoAscender value should be greater than 920, but got 720 instead</p>
+ [code: typoAscender]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- dotlessi_ogonek
+
+- l.alt
+
+- t.alt
+</code></pre>
+ [code: unreachable-glyphs]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
     <div>
 
@@ -8940,17 +9480,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, hebrew, malayalam, coptic, duployan, old-permic, tai-le, canadian-aboriginal, math, syriac, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, todhri, tai-le, hebrew, old-permic, coptic, math, syriac, tifinagh, canadian-aboriginal, duployan</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -8959,15 +9499,13 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, sunuwar, gothic, thai, caucasian-albanian, syriac, tifinagh</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, gothic, sunuwar, caucasian-albanian, syriac, tifinagh, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+2028 LINE SEPARATOR: not included in any glyphset definition</li>
-<li>U+2029 PARAGRAPH SEPARATOR: not included in any glyphset definition</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
 <li>U+2074 SUPERSCRIPT FOUR: try adding math</li>
@@ -8992,14 +9530,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -9010,7 +9548,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -9051,190 +9589,6 @@ definitions.</p>
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̐ į̑ į̒ į̛̀ į̛́ į̛̂ į̛̃ į̛̄ į̛̆ į̛̇ į̛̈ į̛̉ į̛̊ į̛̋</p>
  [code: soft-dotted]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Are there any misaligned on-curve points? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-alignment-miss">outline_alignment_miss</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* .notdef: X=84.0,Y=702.0 (should be at cap-height 700?)
-
-* .notdef: X=447.0,Y=702.0 (should be at cap-height 700?)
-
-* uni1EAA (U+1EAA): X=423.0,Y=999.0 (should be at ascender 1000?)
-
-* uni0187 (U+0187): X=509.0,Y=699.5 (should be at cap-height 700?)
-
-* uni0187 (U+0187): X=645.5,Y=701.0 (should be at cap-height 700?)
-
-* uni1EC4 (U+1EC4): X=392.0,Y=999.0 (should be at ascender 1000?)
-
-* uni018F (U+018F): X=259.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1ED6 (U+1ED6): X=475.0,Y=999.0 (should be at ascender 1000?)
-
-* uni0203 (U+0203): X=314.0,Y=698.0 (should be at cap-height 700?)
-
-* ae (U+00E6): X=668.0,Y=-2.0 (should be at baseline 0?)
-
-* uni01E3 (U+01E3): X=668.0,Y=-2.0 (should be at baseline 0?)
-
-* d (U+0064): X=353.5,Y=481.0 (should be at x-height 480?)
-
-* d (U+0064): X=353.5,Y=-1.0 (should be at baseline 0?)
-
-* dcaron (U+010F): X=353.5,Y=-1.0 (should be at baseline 0?)
-
-* uni1E11 (U+1E11): X=353.5,Y=-1.0 (should be at baseline 0?)
-
-* uni1E13 (U+1E13): X=353.5,Y=-1.0 (should be at baseline 0?)
-
-* dcroat (U+0111): X=353.5,Y=-1.0 (should be at baseline 0?)
-
-* uni1E0B (U+1E0B): X=353.5,Y=-1.0 (should be at baseline 0?)
-
-* uni1E0D (U+1E0D): X=353.5,Y=-1.0 (should be at baseline 0?)
-
-* uni1E0F (U+1E0F): X=353.5,Y=-1.0 (should be at baseline 0?)
-
-* uni0256 (U+0256): X=353.5,Y=-1.0 (should be at baseline 0?)
-
-* uni0207 (U+0207): X=277.0,Y=698.0 (should be at cap-height 700?)
-
-* g (U+0067): X=353.5,Y=481.0 (should be at x-height 480?)
-
-* g (U+0067): X=353.5,Y=-1.0 (should be at baseline 0?)
-
-* uni01F5 (U+01F5): X=353.5,Y=-1.0 (should be at baseline 0?)
-
-* gbreve (U+011F): X=353.5,Y=-1.0 (should be at baseline 0?)
-
-* gcaron (U+01E7): X=353.5,Y=-1.0 (should be at baseline 0?)
-
-* gcircumflex (U+011D): X=353.5,Y=-1.0 (should be at baseline 0?)
-
-* uni0123 (U+0123): X=353.5,Y=-1.0 (should be at baseline 0?)
-
-* gdotaccent (U+0121): X=353.5,Y=-1.0 (should be at baseline 0?)
-
-* uni1E21 (U+1E21): X=353.5,Y=-1.0 (should be at baseline 0?)
-
-* uni01E5 (U+01E5): X=353.5,Y=-1.0 (should be at baseline 0?)
-
-* h (U+0068): X=273.5,Y=480.5 (should be at x-height 480?)
-
-* uni0265 (U+0265): X=364.5,Y=-0.5 (should be at baseline 0?)
-
-* uni020B (U+020B): X=137.0,Y=698.0 (should be at cap-height 700?)
-
-* m (U+006D): X=266.0,Y=480.5 (should be at x-height 480?)
-
-* uni020F (U+020F): X=295.0,Y=698.0 (should be at cap-height 700?)
-
-* q (U+0071): X=353.5,Y=481.0 (should be at x-height 480?)
-
-* q (U+0071): X=353.5,Y=-1.0 (should be at baseline 0?)
-
-* uni0213 (U+0213): X=256.0,Y=698.0 (should be at cap-height 700?)
-
-* germandbls (U+00DF): X=429.0,Y=698.0 (should be at cap-height 700?)
-
-* u (U+0075): X=353.5,Y=1.5 (should be at baseline 0?)
-
-* uacute (U+00FA): X=353.5,Y=1.5 (should be at baseline 0?)
-
-* uni0289 (U+0289): X=367.0,Y=1.5 (should be at baseline 0?)
-
-* ubreve (U+016D): X=353.5,Y=1.5 (should be at baseline 0?)
-
-* uni01D4 (U+01D4): X=353.5,Y=1.5 (should be at baseline 0?)
-
-* ucircumflex (U+00FB): X=353.5,Y=1.5 (should be at baseline 0?)
-
-* uni1E77 (U+1E77): X=353.5,Y=1.5 (should be at baseline 0?)
-
-* udieresis (U+00FC): X=353.5,Y=1.5 (should be at baseline 0?)
-
-* uni1EE5 (U+1EE5): X=353.5,Y=1.5 (should be at baseline 0?)
-
-* ugrave (U+00F9): X=353.5,Y=1.5 (should be at baseline 0?)
-
-* uni1EE7 (U+1EE7): X=353.5,Y=1.5 (should be at baseline 0?)
-
-* uhorn (U+01B0): X=353.5,Y=1.5 (should be at baseline 0?)
-
-* uni1EE9 (U+1EE9): X=353.5,Y=1.5 (should be at baseline 0?)
-
-* uni1EF1 (U+1EF1): X=353.5,Y=1.5 (should be at baseline 0?)
-
-* uni1EEB (U+1EEB): X=353.5,Y=1.5 (should be at baseline 0?)
-
-* uni1EED (U+1EED): X=353.5,Y=1.5 (should be at baseline 0?)
-
-* uni1EEF (U+1EEF): X=353.5,Y=1.5 (should be at baseline 0?)
-
-* uhungarumlaut (U+0171): X=353.5,Y=1.5 (should be at baseline 0?)
-
-* uni0217 (U+0217): X=353.5,Y=1.5 (should be at baseline 0?)
-
-* uni0217 (U+0217): X=313.0,Y=698.0 (should be at cap-height 700?)
-
-* umacron (U+016B): X=353.5,Y=1.5 (should be at baseline 0?)
-
-* uogonek (U+0173): X=353.5,Y=1.5 (should be at baseline 0?)
-
-* uring (U+016F): X=353.5,Y=1.5 (should be at baseline 0?)
-
-* utilde (U+0169): X=353.5,Y=1.5 (should be at baseline 0?)
-
-* y (U+0079): X=243.0,Y=2.0 (should be at baseline 0?)
-
-* yacute (U+00FD): X=243.0,Y=2.0 (should be at baseline 0?)
-
-* ycircumflex (U+0177): X=243.0,Y=2.0 (should be at baseline 0?)
-
-* ydieresis (U+00FF): X=243.0,Y=2.0 (should be at baseline 0?)
-
-* uni1E8F (U+1E8F): X=243.0,Y=2.0 (should be at baseline 0?)
-
-* uni1EF5 (U+1EF5): X=243.0,Y=2.0 (should be at baseline 0?)
-
-* ygrave (U+1EF3): X=243.0,Y=2.0 (should be at baseline 0?)
-
-* uni01B4 (U+01B4): X=251.0,Y=1.0 (should be at baseline 0?)
-
-* uni1EF7 (U+1EF7): X=243.0,Y=2.0 (should be at baseline 0?)
-
-* uni0233 (U+0233): X=243.0,Y=2.0 (should be at baseline 0?)
-
-* uni1EF9 (U+1EF9): X=243.0,Y=2.0 (should be at baseline 0?)
-
-* parenleft (U+0028): X=378.0,Y=2.0 (should be at baseline 0?)
-
-* parenright (U+0029): X=66.0,Y=2.0 (should be at baseline 0?)
-
-* dollar (U+0024): X=336.0,Y=1.0 (should be at baseline 0?)
-
-* uni20AA (U+20AA): X=50.0,Y=698.0 (should be at cap-height 700?)
-
-* uni20AA (U+20AA): X=108.0,Y=698.0 (should be at cap-height 700?)
-
-* uni03020309.case: X=471.5,Y=701.5 (should be at cap-height 700?)
-
-* uni0311 (U+0311): X=239.0,Y=698.0 (should be at cap-height 700?)
-</code></pre>
- [code: found-misalignments]
 
 
 
@@ -9479,7 +9833,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[12] ElmsSans-Medium.ttf</summary>
+<details><summary>[16] ElmsSans-Medium.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -9499,6 +9853,42 @@ definitions.</p>
 
 </code></pre>
  [code: failed-check]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1000 when it should be at least 1200</p>
+ [code: bad-hhea-range]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if uppercase glyphs are vertically centered. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#caps-vertically-centered">caps_vertically_centered</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Uppercase glyphs are not vertically centered in the em box.</p>
+ [code: vertical-metrics-not-centered]
 
 
 
@@ -9713,6 +10103,66 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Checking that the typoAscender exceeds the yMax of the /Agrave. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#typoascender-exceeds-Agrave">typoascender_exceeds_Agrave</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>OS/2.sTypoAscender value should be greater than 919, but got 720 instead</p>
+ [code: typoAscender]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- dotlessi_ogonek
+
+- l.alt
+
+- t.alt
+</code></pre>
+ [code: unreachable-glyphs]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
     <div>
 
@@ -9746,17 +10196,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, hebrew, malayalam, coptic, duployan, old-permic, tai-le, canadian-aboriginal, math, syriac, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, todhri, tai-le, hebrew, old-permic, coptic, math, syriac, tifinagh, canadian-aboriginal, duployan</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -9765,15 +10215,13 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, sunuwar, gothic, thai, caucasian-albanian, syriac, tifinagh</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, gothic, sunuwar, caucasian-albanian, syriac, tifinagh, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+2028 LINE SEPARATOR: not included in any glyphset definition</li>
-<li>U+2029 PARAGRAPH SEPARATOR: not included in any glyphset definition</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
 <li>U+2074 SUPERSCRIPT FOUR: try adding math</li>
@@ -9798,14 +10246,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -9816,7 +10264,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -9857,200 +10305,6 @@ definitions.</p>
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̐ į̑ į̒ į̛̀ į̛́ į̛̂ į̛̃ į̛̄ į̛̆ į̛̇ į̛̈ į̛̉ į̛̊ į̛̋</p>
  [code: soft-dotted]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Are there any misaligned on-curve points? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-alignment-miss">outline_alignment_miss</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* .notdef: X=185.0,Y=702.0 (should be at cap-height 700?)
-
-* .notdef: X=548.0,Y=702.0 (should be at cap-height 700?)
-
-* uni1EB4 (U+1EB4): X=317.0,Y=1001.0 (should be at ascender 1000?)
-
-* uni0193 (U+0193): X=513.5,Y=700.5 (should be at cap-height 700?)
-
-* aacute (U+00E1): X=342.0,Y=699.0 (should be at cap-height 700?)
-
-* aacute (U+00E1): X=436.0,Y=699.0 (should be at cap-height 700?)
-
-* agrave (U+00E0): X=180.0,Y=699.0 (should be at cap-height 700?)
-
-* agrave (U+00E0): X=274.0,Y=699.0 (should be at cap-height 700?)
-
-* cacute (U+0107): X=316.0,Y=699.0 (should be at cap-height 700?)
-
-* cacute (U+0107): X=410.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1E09 (U+1E09): X=316.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1E09 (U+1E09): X=410.0,Y=699.0 (should be at cap-height 700?)
-
-* eacute (U+00E9): X=310.0,Y=699.0 (should be at cap-height 700?)
-
-* eacute (U+00E9): X=404.0,Y=699.0 (should be at cap-height 700?)
-
-* egrave (U+00E8): X=148.0,Y=699.0 (should be at cap-height 700?)
-
-* egrave (U+00E8): X=242.0,Y=699.0 (should be at cap-height 700?)
-
-* uni01F5 (U+01F5): X=353.0,Y=699.0 (should be at cap-height 700?)
-
-* uni01F5 (U+01F5): X=447.0,Y=699.0 (should be at cap-height 700?)
-
-* iacute (U+00ED): X=145.0,Y=699.0 (should be at cap-height 700?)
-
-* iacute (U+00ED): X=239.0,Y=699.0 (should be at cap-height 700?)
-
-* igrave (U+00EC): X=-17.0,Y=699.0 (should be at cap-height 700?)
-
-* igrave (U+00EC): X=77.0,Y=699.0 (should be at cap-height 700?)
-
-* uni006A0301: X=252.0,Y=699.0 (should be at cap-height 700?)
-
-* uni006A0301: X=346.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1E3F (U+1E3F): X=482.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1E3F (U+1E3F): X=576.0,Y=699.0 (should be at cap-height 700?)
-
-* nacute (U+0144): X=339.0,Y=699.0 (should be at cap-height 700?)
-
-* nacute (U+0144): X=433.0,Y=699.0 (should be at cap-height 700?)
-
-* oacute (U+00F3): X=324.0,Y=699.0 (should be at cap-height 700?)
-
-* oacute (U+00F3): X=418.0,Y=699.0 (should be at cap-height 700?)
-
-* ograve (U+00F2): X=162.0,Y=699.0 (should be at cap-height 700?)
-
-* ograve (U+00F2): X=256.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1EDB (U+1EDB): X=327.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1EDB (U+1EDB): X=421.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1EDD (U+1EDD): X=165.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1EDD (U+1EDD): X=259.0,Y=699.0 (should be at cap-height 700?)
-
-* oslashacute (U+01FF): X=327.0,Y=699.0 (should be at cap-height 700?)
-
-* oslashacute (U+01FF): X=421.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1E55 (U+1E55): X=347.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1E55 (U+1E55): X=441.0,Y=699.0 (should be at cap-height 700?)
-
-* r (U+0072): X=359.0,Y=478.0 (should be at x-height 480?)
-
-* racute (U+0155): X=256.0,Y=699.0 (should be at cap-height 700?)
-
-* racute (U+0155): X=350.0,Y=699.0 (should be at cap-height 700?)
-
-* sacute (U+015B): X=262.0,Y=699.0 (should be at cap-height 700?)
-
-* sacute (U+015B): X=356.0,Y=699.0 (should be at cap-height 700?)
-
-* uacute (U+00FA): X=333.0,Y=699.0 (should be at cap-height 700?)
-
-* uacute (U+00FA): X=427.0,Y=699.0 (should be at cap-height 700?)
-
-* ugrave (U+00F9): X=171.0,Y=699.0 (should be at cap-height 700?)
-
-* ugrave (U+00F9): X=265.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1EE9 (U+1EE9): X=340.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1EE9 (U+1EE9): X=434.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1EEB (U+1EEB): X=178.0,Y=699.0 (should be at cap-height 700?)
-
-* uni1EEB (U+1EEB): X=272.0,Y=699.0 (should be at cap-height 700?)
-
-* wacute (U+1E83): X=417.0,Y=699.0 (should be at cap-height 700?)
-
-* wacute (U+1E83): X=511.0,Y=699.0 (should be at cap-height 700?)
-
-* wgrave (U+1E81): X=255.0,Y=699.0 (should be at cap-height 700?)
-
-* wgrave (U+1E81): X=349.0,Y=699.0 (should be at cap-height 700?)
-
-* yacute (U+00FD): X=311.0,Y=699.0 (should be at cap-height 700?)
-
-* yacute (U+00FD): X=405.0,Y=699.0 (should be at cap-height 700?)
-
-* ygrave (U+1EF3): X=149.0,Y=699.0 (should be at cap-height 700?)
-
-* ygrave (U+1EF3): X=243.0,Y=699.0 (should be at cap-height 700?)
-
-* uni01B4 (U+01B4): X=251.0,Y=1.0 (should be at baseline 0?)
-
-* zacute (U+017A): X=270.0,Y=699.0 (should be at cap-height 700?)
-
-* zacute (U+017A): X=364.0,Y=699.0 (should be at cap-height 700?)
-
-* uni2070 (U+2070): X=181.0,Y=699.0 (should be at cap-height 700?)
-
-* exclam (U+0021): X=98.0,Y=2.0 (should be at baseline 0?)
-
-* exclam (U+0021): X=184.5,Y=2.0 (should be at baseline 0?)
-
-* question (U+003F): X=236.0,Y=2.0 (should be at baseline 0?)
-
-* question (U+003F): X=322.5,Y=2.0 (should be at baseline 0?)
-
-* dollar (U+0024): X=316.0,Y=2.0 (should be at baseline 0?)
-
-* plusminus (U+00B1): X=126.0,Y=-2.0 (should be at baseline 0?)
-
-* plusminus (U+00B1): X=510.0,Y=-2.0 (should be at baseline 0?)
-
-* plusminus (U+00B1): X=126.0,Y=-2.0 (should be at baseline 0?)
-
-* ampersand (U+0026): X=389.0,Y=2.0 (should be at baseline 0?)
-
-* section (U+00A7): X=126.0,Y=699.0 (should be at cap-height 700?)
-
-* gravecomb (U+0300): X=50.0,Y=699.0 (should be at cap-height 700?)
-
-* gravecomb (U+0300): X=144.0,Y=699.0 (should be at cap-height 700?)
-
-* uni03000304: X=150.0,Y=699.0 (should be at cap-height 700?)
-
-* uni03000304: X=244.0,Y=699.0 (should be at cap-height 700?)
-
-* acutecomb (U+0301): X=109.0,Y=699.0 (should be at cap-height 700?)
-
-* acutecomb (U+0301): X=203.0,Y=699.0 (should be at cap-height 700?)
-
-* uni03010304: X=172.0,Y=699.0 (should be at cap-height 700?)
-
-* uni03010304: X=266.0,Y=699.0 (should be at cap-height 700?)
-
-* uni03020309.case: X=393.5,Y=701.5 (should be at cap-height 700?)
-
-* grave (U+0060): X=50.0,Y=699.0 (should be at cap-height 700?)
-
-* grave (U+0060): X=144.0,Y=699.0 (should be at cap-height 700?)
-
-* acute (U+00B4): X=109.0,Y=699.0 (should be at cap-height 700?)
-
-* acute (U+00B4): X=203.0,Y=699.0 (should be at cap-height 700?)
-</code></pre>
- [code: found-misalignments]
 
 
 
@@ -10315,7 +10569,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[11] ElmsSans-SemiBoldItalic.ttf</summary>
+<details><summary>[16] ElmsSans-SemiBoldItalic.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -10335,6 +10589,42 @@ definitions.</p>
 
 </code></pre>
  [code: failed-check]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1000 when it should be at least 1200</p>
+ [code: bad-hhea-range]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if uppercase glyphs are vertically centered. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#caps-vertically-centered">caps_vertically_centered</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Uppercase glyphs are not vertically centered in the em box.</p>
+ [code: vertical-metrics-not-centered]
 
 
 
@@ -10545,6 +10835,24 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -10562,6 +10870,48 @@ definitions.</p>
 * uni027D (U+027D): L&lt;&lt;230.0,274.0&gt;--&lt;230.0,274.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Checking that the typoAscender exceeds the yMax of the /Agrave. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#typoascender-exceeds-Agrave">typoascender_exceeds_Agrave</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>OS/2.sTypoAscender value should be greater than 919, but got 720 instead</p>
+ [code: typoAscender]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- dotlessi_ogonek
+
+- l.alt
+
+- t.alt
+</code></pre>
+ [code: unreachable-glyphs]
 
 
 
@@ -10602,17 +10952,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, hebrew, malayalam, coptic, duployan, old-permic, tai-le, canadian-aboriginal, math, syriac, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, todhri, tai-le, hebrew, old-permic, coptic, math, syriac, tifinagh, canadian-aboriginal, duployan</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -10621,15 +10971,13 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, sunuwar, gothic, thai, caucasian-albanian, syriac, tifinagh</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, gothic, sunuwar, caucasian-albanian, syriac, tifinagh, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+2028 LINE SEPARATOR: not included in any glyphset definition</li>
-<li>U+2029 PARAGRAPH SEPARATOR: not included in any glyphset definition</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
 <li>U+2074 SUPERSCRIPT FOUR: try adding math</li>
@@ -10654,14 +11002,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -10672,7 +11020,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -10887,6 +11235,8 @@ definitions.</p>
 * integral (U+222B): L&lt;&lt;273.0,-15.0&gt;--&lt;220.0,-15.0&gt;&gt;/L&lt;&lt;220.0,-15.0&gt;--&lt;273.0,-18.0&gt;&gt; = 3.239700296102106
 
 * integral (U+222B): L&lt;&lt;438.0,543.0&gt;--&lt;492.0,543.0&gt;&gt;/L&lt;&lt;492.0,543.0&gt;--&lt;439.0,547.0&gt;&gt; = 4.316027519865585
+
+* l.alt: L&lt;&lt;196.0,197.0&gt;--&lt;143.0,197.0&gt;&gt;/L&lt;&lt;143.0,197.0&gt;--&lt;195.0,193.0&gt;&gt; = 4.398705354995508
 
 * scedilla (U+015F): L&lt;&lt;152.0,-131.0&gt;--&lt;155.0,-119.0&gt;&gt;/L&lt;&lt;155.0,-119.0&gt;--&lt;151.0,-131.0&gt;&gt; = 4.398705354995591
 
@@ -11143,7 +11493,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[10] ElmsSans-MediumItalic.ttf</summary>
+<details><summary>[15] ElmsSans-MediumItalic.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -11163,6 +11513,42 @@ definitions.</p>
 
 </code></pre>
  [code: failed-check]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1000 when it should be at least 1200</p>
+ [code: bad-hhea-range]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if uppercase glyphs are vertically centered. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#caps-vertically-centered">caps_vertically_centered</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Uppercase glyphs are not vertically centered in the em box.</p>
+ [code: vertical-metrics-not-centered]
 
 
 
@@ -11377,6 +11763,24 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -11392,6 +11796,48 @@ definitions.</p>
 * uni027D (U+027D): L&lt;&lt;218.0,289.0&gt;--&lt;218.0,289.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Checking that the typoAscender exceeds the yMax of the /Agrave. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#typoascender-exceeds-Agrave">typoascender_exceeds_Agrave</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>OS/2.sTypoAscender value should be greater than 919, but got 720 instead</p>
+ [code: typoAscender]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- dotlessi_ogonek
+
+- l.alt
+
+- t.alt
+</code></pre>
+ [code: unreachable-glyphs]
 
 
 
@@ -11432,17 +11878,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, hebrew, malayalam, coptic, duployan, old-permic, tai-le, canadian-aboriginal, math, syriac, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, todhri, tai-le, hebrew, old-permic, coptic, math, syriac, tifinagh, canadian-aboriginal, duployan</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -11451,15 +11897,13 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, sunuwar, gothic, thai, caucasian-albanian, syriac, tifinagh</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, gothic, sunuwar, caucasian-albanian, syriac, tifinagh, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+2028 LINE SEPARATOR: not included in any glyphset definition</li>
-<li>U+2029 PARAGRAPH SEPARATOR: not included in any glyphset definition</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
 <li>U+2074 SUPERSCRIPT FOUR: try adding math</li>
@@ -11484,14 +11928,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -11502,7 +11946,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -11744,6 +12188,8 @@ definitions.</p>
 
 * integral (U+222B): L&lt;&lt;454.0,553.0&gt;--&lt;497.0,553.0&gt;&gt;/L&lt;&lt;497.0,553.0&gt;--&lt;454.0,556.0&gt;&gt; = 3.9909130984297856
 
+* l.alt: L&lt;&lt;174.0,183.0&gt;--&lt;130.0,183.0&gt;&gt;/L&lt;&lt;130.0,183.0&gt;--&lt;173.0,180.0&gt;&gt; = 3.9909130984297856
+
 * scedilla (U+015F): L&lt;&lt;145.0,-124.0&gt;--&lt;147.0,-115.0&gt;&gt;/L&lt;&lt;147.0,-115.0&gt;--&lt;144.0,-124.0&gt;&gt; = 5.906141113770558
 
 * sterling (U+00A3): L&lt;&lt;265.0,525.0&gt;--&lt;309.0,525.0&gt;&gt;/L&lt;&lt;309.0,525.0&gt;--&lt;266.0,528.0&gt;&gt; = 3.9909130984297856
@@ -11803,7 +12249,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[11] ElmsSans-ExtraLightItalic.ttf</summary>
+<details><summary>[16] ElmsSans-ExtraLightItalic.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -11823,6 +12269,42 @@ definitions.</p>
 
 </code></pre>
  [code: failed-check]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1000 when it should be at least 1200</p>
+ [code: bad-hhea-range]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if uppercase glyphs are vertically centered. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#caps-vertically-centered">caps_vertically_centered</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Uppercase glyphs are not vertically centered in the em box.</p>
+ [code: vertical-metrics-not-centered]
 
 
 
@@ -12037,6 +12519,24 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -12054,6 +12554,48 @@ definitions.</p>
 * uni027D (U+027D): L&lt;&lt;171.0,304.0&gt;--&lt;171.0,304.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Checking that the typoAscender exceeds the yMax of the /Agrave. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#typoascender-exceeds-Agrave">typoascender_exceeds_Agrave</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>OS/2.sTypoAscender value should be greater than 920, but got 720 instead</p>
+ [code: typoAscender]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- dotlessi_ogonek
+
+- l.alt
+
+- t.alt
+</code></pre>
+ [code: unreachable-glyphs]
 
 
 
@@ -12094,17 +12636,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, hebrew, malayalam, coptic, duployan, old-permic, tai-le, canadian-aboriginal, math, syriac, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, todhri, tai-le, hebrew, old-permic, coptic, math, syriac, tifinagh, canadian-aboriginal, duployan</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -12113,15 +12655,13 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, sunuwar, gothic, thai, caucasian-albanian, syriac, tifinagh</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, gothic, sunuwar, caucasian-albanian, syriac, tifinagh, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+2028 LINE SEPARATOR: not included in any glyphset definition</li>
-<li>U+2029 PARAGRAPH SEPARATOR: not included in any glyphset definition</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
 <li>U+2074 SUPERSCRIPT FOUR: try adding math</li>
@@ -12146,14 +12686,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -12164,7 +12704,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -12226,19 +12766,17 @@ definitions.</p>
 
 * .notdef: X=753.0,Y=702.0 (should be at cap-height 700?)
 
-* uni1EB2 (U+1EB2): X=583.0,Y=1000.5 (should be at ascender 1000?)
+* Ccedilla (U+00C7): X=248.0,Y=-278.0 (should be at descender -280?)
 
-* uni1EB4 (U+1EB4): X=603.5,Y=998.0 (should be at ascender 1000?)
+* uni1E08 (U+1E08): X=248.0,Y=-278.0 (should be at descender -280?)
 
-* uni1EB4 (U+1EB4): X=646.0,Y=998.5 (should be at ascender 1000?)
+* uni0187 (U+0187): X=989.0,Y=719.0 (should be at ascender 720?)
 
-* uni1EAA (U+1EAA): X=442.5,Y=998.0 (should be at ascender 1000?)
+* uni0187 (U+0187): X=1057.0,Y=719.0 (should be at ascender 720?)
 
-* uni01E0 (U+01E0): X=465.0,Y=999.0 (should be at ascender 1000?)
+* uni0228 (U+0228): X=157.0,Y=-278.0 (should be at descender -280?)
 
-* uni01E0 (U+01E0): X=768.0,Y=999.0 (should be at ascender 1000?)
-
-* uni1EC4 (U+1EC4): X=432.5,Y=998.0 (should be at ascender 1000?)
+* uni1E1C (U+1E1C): X=157.0,Y=-278.0 (should be at descender -280?)
 
 * uni018F (U+018F): X=455.0,Y=698.0 (should be at cap-height 700?)
 
@@ -12250,9 +12788,9 @@ definitions.</p>
 
 * uni0241 (U+0241): X=113.0,Y=2.0 (should be at baseline 0?)
 
-* uni1ED6 (U+1ED6): X=536.5,Y=998.0 (should be at ascender 1000?)
-
 * Q (U+0051): X=466.0,Y=-0.5 (should be at baseline 0?)
+
+* Scedilla (U+015E): X=133.0,Y=-278.0 (should be at descender -280?)
 
 * uni1EA9 (U+1EA9): X=579.0,Y=700.5 (should be at cap-height 700?)
 
@@ -12261,6 +12799,14 @@ definitions.</p>
 * uni0253 (U+0253): X=374.0,Y=698.0 (should be at cap-height 700?)
 
 * c (U+0063): X=511.5,Y=478.0 (should be at x-height 480?)
+
+* ccedilla (U+00E7): X=140.0,Y=-278.0 (should be at descender -280?)
+
+* uni1E09 (U+1E09): X=140.0,Y=-278.0 (should be at descender -280?)
+
+* uni0229 (U+0229): X=134.0,Y=-278.0 (should be at descender -280?)
+
+* uni1E1D (U+1E1D): X=134.0,Y=-278.0 (should be at descender -280?)
 
 * uni1EC3 (U+1EC3): X=545.0,Y=700.5 (should be at cap-height 700?)
 
@@ -12296,9 +12842,13 @@ definitions.</p>
 
 * r (U+0072): X=451.5,Y=478.0 (should be at x-height 480?)
 
+* scedilla (U+015F): X=77.0,Y=-278.0 (should be at descender -280?)
+
 * germandbls (U+00DF): X=358.0,Y=698.5 (should be at cap-height 700?)
 
 * germandbls (U+00DF): X=599.0,Y=698.0 (should be at cap-height 700?)
+
+* uni0163 (U+0163): X=60.0,Y=-278.0 (should be at descender -280?)
 
 * y (U+0079): X=201.0,Y=1.0 (should be at baseline 0?)
 
@@ -12318,7 +12868,13 @@ definitions.</p>
 
 * ygrave (U+1EF3): X=201.0,Y=1.0 (should be at baseline 0?)
 
+* uni01B4 (U+01B4): X=-19.0,Y=-279.0 (should be at descender -280?)
+
 * uni01B4 (U+01B4): X=201.0,Y=1.0 (should be at baseline 0?)
+
+* uni01B4 (U+01B4): X=21.0,Y=-279.0 (should be at descender -280?)
+
+* uni01B4 (U+01B4): X=-19.0,Y=-279.0 (should be at descender -280?)
 
 * uni1EF7 (U+1EF7): X=201.0,Y=1.0 (should be at baseline 0?)
 
@@ -12332,9 +12888,17 @@ definitions.</p>
 
 * uni00B2 (U+00B2): X=426.0,Y=698.0 (should be at cap-height 700?)
 
+* uni00B2 (U+00B2): X=366.0,Y=722.0 (should be at ascender 720?)
+
 * uni2078 (U+2078): X=417.0,Y=699.0 (should be at cap-height 700?)
 
+* uni2078 (U+2078): X=364.0,Y=722.0 (should be at ascender 720?)
+
 * uni2078 (U+2078): X=293.0,Y=698.0 (should be at cap-height 700?)
+
+* uni2079 (U+2079): X=392.0,Y=722.0 (should be at ascender 720?)
+
+* uni2079 (U+2079): X=392.0,Y=722.0 (should be at ascender 720?)
 
 * parenleft (U+0028): X=531.0,Y=698.0 (should be at cap-height 700?)
 
@@ -12370,13 +12934,25 @@ definitions.</p>
 
 * dollar (U+0024): X=241.0,Y=1.0 (should be at baseline 0?)
 
+* sterling (U+00A3): X=546.0,Y=718.0 (should be at ascender 720?)
+
 * integral (U+222B): X=761.0,Y=699.0 (should be at cap-height 700?)
 
 * integral (U+222B): X=691.0,Y=699.0 (should be at cap-height 700?)
 
+* arrowup (U+2191): X=575.0,Y=721.0 (should be at ascender 720?)
+
+* arrowdown (U+2193): X=553.0,Y=721.0 (should be at ascender 720?)
+
+* arrowdown (U+2193): X=596.0,Y=721.0 (should be at ascender 720?)
+
 * section (U+00A7): X=325.5,Y=699.0 (should be at cap-height 700?)
 
+* uni0327 (U+0327): X=18.0,Y=-278.0 (should be at descender -280?)
+
 * uni03020309: X=464.0,Y=700.5 (should be at cap-height 700?)
+
+* cedilla (U+00B8): X=18.0,Y=-278.0 (should be at descender -280?)
 </code></pre>
  [code: found-misalignments]
 
@@ -12512,6 +13088,8 @@ definitions.</p>
 
 * integral (U+222B): L&lt;&lt;491.0,576.0&gt;--&lt;513.0,575.0&gt;&gt;/L&lt;&lt;513.0,575.0&gt;--&lt;491.0,577.0&gt;&gt; = 2.591866705234931
 
+* l.alt: L&lt;&lt;123.0,183.0&gt;--&lt;102.0,183.0&gt;&gt;/L&lt;&lt;102.0,183.0&gt;--&lt;123.0,182.0&gt;&gt; = 2.726310993906212
+
 * sterling (U+00A3): L&lt;&lt;246.0,298.0&gt;--&lt;224.0,298.0&gt;&gt;/L&lt;&lt;224.0,298.0&gt;--&lt;245.0,296.0&gt;&gt; = 5.4403320310054815
 
 * sterling (U+00A3): L&lt;&lt;283.0,525.0&gt;--&lt;304.0,525.0&gt;&gt;/L&lt;&lt;304.0,525.0&gt;--&lt;283.0,527.0&gt;&gt; = 5.4403320310054815
@@ -12555,7 +13133,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[10] ElmsSans-BoldItalic.ttf</summary>
+<details><summary>[15] ElmsSans-BoldItalic.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -12575,6 +13153,42 @@ definitions.</p>
 
 </code></pre>
  [code: failed-check]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1000 when it should be at least 1200</p>
+ [code: bad-hhea-range]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if uppercase glyphs are vertically centered. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#caps-vertically-centered">caps_vertically_centered</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Uppercase glyphs are not vertically centered in the em box.</p>
+ [code: vertical-metrics-not-centered]
 
 
 
@@ -12785,6 +13399,24 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -12800,6 +13432,48 @@ definitions.</p>
 * uni027D (U+027D): L&lt;&lt;242.0,259.0&gt;--&lt;242.0,259.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Checking that the typoAscender exceeds the yMax of the /Agrave. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#typoascender-exceeds-Agrave">typoascender_exceeds_Agrave</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>OS/2.sTypoAscender value should be greater than 920, but got 720 instead</p>
+ [code: typoAscender]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- dotlessi_ogonek
+
+- l.alt
+
+- t.alt
+</code></pre>
+ [code: unreachable-glyphs]
 
 
 
@@ -12840,17 +13514,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, hebrew, malayalam, coptic, duployan, old-permic, tai-le, canadian-aboriginal, math, syriac, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, todhri, tai-le, hebrew, old-permic, coptic, math, syriac, tifinagh, canadian-aboriginal, duployan</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -12859,15 +13533,13 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, sunuwar, gothic, thai, caucasian-albanian, syriac, tifinagh</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, gothic, sunuwar, caucasian-albanian, syriac, tifinagh, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+2028 LINE SEPARATOR: not included in any glyphset definition</li>
-<li>U+2029 PARAGRAPH SEPARATOR: not included in any glyphset definition</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
 <li>U+2074 SUPERSCRIPT FOUR: try adding math</li>
@@ -12892,14 +13564,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -12910,7 +13582,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -13124,6 +13796,8 @@ definitions.</p>
 
 * integral (U+222B): L&lt;&lt;422.0,533.0&gt;--&lt;486.0,533.0&gt;&gt;/L&lt;&lt;486.0,533.0&gt;--&lt;423.0,537.0&gt;&gt; = 3.6329507394881446
 
+* l.alt: L&lt;&lt;219.0,210.0&gt;--&lt;156.0,210.0&gt;&gt;/L&lt;&lt;156.0,210.0&gt;--&lt;217.0,206.0&gt;&gt; = 3.7517290705259434
+
 * scedilla (U+015F): L&lt;&lt;158.0,-139.0&gt;--&lt;162.0,-122.0&gt;&gt;/L&lt;&lt;162.0,-122.0&gt;--&lt;156.0,-139.0&gt;&gt; = 6.199514912988957
 
 * sterling (U+00A3): L&lt;&lt;241.0,505.0&gt;--&lt;304.0,505.0&gt;&gt;/L&lt;&lt;304.0,505.0&gt;--&lt;242.0,509.0&gt;&gt; = 3.6913859864512575
@@ -13181,7 +13855,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[11] ElmsSans-BlackItalic.ttf</summary>
+<details><summary>[16] ElmsSans-BlackItalic.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -13201,6 +13875,42 @@ definitions.</p>
 
 </code></pre>
  [code: failed-check]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1000 when it should be at least 1200</p>
+ [code: bad-hhea-range]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if uppercase glyphs are vertically centered. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#caps-vertically-centered">caps_vertically_centered</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Uppercase glyphs are not vertically centered in the em box.</p>
+ [code: vertical-metrics-not-centered]
 
 
 
@@ -13415,6 +14125,24 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -13434,6 +14162,48 @@ definitions.</p>
 * uni027D (U+027D): L&lt;&lt;265.0,229.0&gt;--&lt;265.0,229.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Checking that the typoAscender exceeds the yMax of the /Agrave. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#typoascender-exceeds-Agrave">typoascender_exceeds_Agrave</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>OS/2.sTypoAscender value should be greater than 920, but got 720 instead</p>
+ [code: typoAscender]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- dotlessi_ogonek
+
+- l.alt
+
+- t.alt
+</code></pre>
+ [code: unreachable-glyphs]
 
 
 
@@ -13474,17 +14244,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, hebrew, malayalam, coptic, duployan, old-permic, tai-le, canadian-aboriginal, math, syriac, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, todhri, tai-le, hebrew, old-permic, coptic, math, syriac, tifinagh, canadian-aboriginal, duployan</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
@@ -13493,15 +14263,13 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, sunuwar, gothic, thai, caucasian-albanian, syriac, tifinagh</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, gothic, sunuwar, caucasian-albanian, syriac, tifinagh, thai</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+2028 LINE SEPARATOR: not included in any glyphset definition</li>
-<li>U+2029 PARAGRAPH SEPARATOR: not included in any glyphset definition</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
 <li>U+2074 SUPERSCRIPT FOUR: try adding math</li>
@@ -13526,14 +14294,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
@@ -13544,7 +14312,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic-ext</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -13606,23 +14374,35 @@ definitions.</p>
 
 * .notdef: X=618.0,Y=702.0 (should be at cap-height 700?)
 
+* Ccedilla (U+00C7): X=189.0,Y=-278.5 (should be at descender -280?)
+
+* uni1E08 (U+1E08): X=189.0,Y=-278.5 (should be at descender -280?)
+
 * uni0187 (U+0187): X=700.0,Y=700.5 (should be at cap-height 700?)
 
+* uni0228 (U+0228): X=124.0,Y=-278.5 (should be at descender -280?)
+
+* uni1E1C (U+1E1C): X=124.0,Y=-278.5 (should be at descender -280?)
+
 * uni018F (U+018F): X=460.0,Y=700.5 (should be at cap-height 700?)
-
-* uni1E2E (U+1E2E): X=416.0,Y=1002.0 (should be at ascender 1000?)
-
-* uni1E2E (U+1E2E): X=538.0,Y=1002.0 (should be at ascender 1000?)
-
-* uni1E2E (U+1E2E): X=416.0,Y=1002.0 (should be at ascender 1000?)
 
 * uni0196 (U+0196): X=94.0,Y=1.0 (should be at baseline 0?)
 
 * Eng (U+014A): X=489.0,Y=1.0 (should be at baseline 0?)
 
+* Scedilla (U+015E): X=119.0,Y=-278.5 (should be at descender -280?)
+
 * uni0251 (U+0251): X=318.0,Y=-2.0 (should be at baseline 0?)
 
+* ccedilla (U+00E7): X=71.0,Y=-278.5 (should be at descender -280?)
+
+* uni1E09 (U+1E09): X=71.0,Y=-278.5 (should be at descender -280?)
+
 * d (U+0064): X=465.0,Y=482.0 (should be at x-height 480?)
+
+* uni0229 (U+0229): X=76.0,Y=-278.5 (should be at descender -280?)
+
+* uni1E1D (U+1E1D): X=76.0,Y=-278.5 (should be at descender -280?)
 
 * uni0292 (U+0292): X=320.0,Y=-1.0 (should be at baseline 0?)
 
@@ -13644,6 +14424,10 @@ definitions.</p>
 
 * uni0123 (U+0123): X=526.0,Y=1.0 (should be at baseline 0?)
 
+* uni0123 (U+0123): X=587.0,Y=719.0 (should be at ascender 720?)
+
+* uni0123 (U+0123): X=503.5,Y=722.0 (should be at ascender 720?)
+
 * gdotaccent (U+0121): X=526.0,Y=1.0 (should be at baseline 0?)
 
 * uni1E21 (U+1E21): X=526.0,Y=1.0 (should be at baseline 0?)
@@ -13662,6 +14446,10 @@ definitions.</p>
 
 * q (U+0071): X=464.5,Y=482.0 (should be at x-height 480?)
 
+* scedilla (U+015F): X=61.0,Y=-278.5 (should be at descender -280?)
+
+* uni0163 (U+0163): X=67.0,Y=-279.5 (should be at descender -280?)
+
 * uni01B4 (U+01B4): X=210.0,Y=1.0 (should be at baseline 0?)
 
 * uni2082 (U+2082): X=75.0,Y=2.0 (should be at baseline 0?)
@@ -13677,6 +14465,14 @@ definitions.</p>
 * dollar (U+0024): X=463.0,Y=698.0 (should be at cap-height 700?)
 
 * dollar (U+0024): X=312.0,Y=2.0 (should be at baseline 0?)
+
+* sterling (U+00A3): X=539.0,Y=718.0 (should be at ascender 720?)
+
+* uni0310 (U+0310): X=405.0,Y=721.0 (should be at ascender 720?)
+
+* uni0327 (U+0327): X=-24.0,Y=-278.5 (should be at descender -280?)
+
+* cedilla (U+00B8): X=-24.0,Y=-278.5 (should be at descender -280?)
 </code></pre>
  [code: found-misalignments]
 
@@ -13854,6 +14650,8 @@ definitions.</p>
 
 * integral (U+222B): L&lt;&lt;391.0,513.0&gt;--&lt;474.0,513.0&gt;&gt;/L&lt;&lt;474.0,513.0&gt;--&lt;392.0,518.0&gt;&gt; = 3.489324905796376
 
+* l.alt: L&lt;&lt;263.0,237.0&gt;--&lt;181.0,237.0&gt;&gt;/L&lt;&lt;181.0,237.0&gt;--&lt;262.0,232.0&gt;&gt; = 3.532294583890835
+
 * scedilla (U+015F): L&lt;&lt;171.0,-154.0&gt;--&lt;176.0,-129.0&gt;&gt;/L&lt;&lt;176.0,-129.0&gt;--&lt;168.0,-154.0&gt;&gt; = 6.434739151036698
 
 * sterling (U+00A3): L&lt;&lt;217.0,485.0&gt;--&lt;300.0,485.0&gt;&gt;/L&lt;&lt;300.0,485.0&gt;--&lt;218.0,490.0&gt;&gt; = 3.489324905796376
@@ -13920,8 +14718,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 18 | 0 | 1 | 187 | 1839 | 109 | 1805 | 0 | 
-| 0% | 0% | 0% | 5% | 46% | 3% | 46% | 0% | 
+| 18 | 0 | 19 | 253 | 1839 | 109 | 1721 | 0 | 
+| 0% | 0% | 0% | 6% | 46% | 3% | 43% | 0% | 
 
 
 
