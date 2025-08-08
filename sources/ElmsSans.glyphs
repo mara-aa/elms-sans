@@ -1,9 +1,6 @@
 {
 .appVersion = "3420";
 .formatVersion = 3;
-DisplayStrings = (
-"/l.alt/t.alt"
-);
 axes = (
 {
 name = Weight;
@@ -61004,91 +61001,6 @@ unicode = 305;
 },
 {
 color = 10;
-glyphname = idotless_ogonek;
-lastChange = "2025-08-07 14:53:53 +0000";
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-ref = idotless;
-},
-{
-pos = (-34,0);
-ref = ogonek;
-}
-);
-width = 150;
-},
-{
-layerId = m002;
-shapes = (
-{
-ref = idotless;
-},
-{
-pos = (-10,0);
-ref = ogonek;
-}
-);
-width = 222;
-},
-{
-layerId = m003;
-shapes = (
-{
-ref = idotless;
-},
-{
-pos = (-23,-25);
-ref = ogonek;
-}
-);
-width = 290;
-},
-{
-layerId = "A4970244-97B1-4FA9-B3E0-2569B3FA35F0";
-shapes = (
-{
-ref = idotless;
-},
-{
-pos = (-34,0);
-ref = ogonek;
-}
-);
-width = 150;
-},
-{
-layerId = "E8DB84F4-EFBC-40F4-A45F-BC833EAAD3BD";
-shapes = (
-{
-ref = idotless;
-},
-{
-pos = (-10,0);
-ref = ogonek;
-}
-);
-width = 222;
-},
-{
-layerId = "ACA72793-194A-4122-860A-C95C9895C61C";
-shapes = (
-{
-ref = idotless;
-},
-{
-pos = (-29,-25);
-ref = ogonek;
-}
-);
-width = 290;
-}
-);
-},
-{
-color = 10;
 glyphname = iacute;
 kernLeft = i;
 kernRight = im;
@@ -86208,6 +86120,92 @@ width = 622;
 );
 },
 {
+color = 10;
+export = 0;
+glyphname = idotless_ogonek;
+lastChange = "2025-08-07 15:30:50 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-34,0);
+ref = ogonek;
+}
+);
+width = 150;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-10,0);
+ref = ogonek;
+}
+);
+width = 222;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-23,-25);
+ref = ogonek;
+}
+);
+width = 290;
+},
+{
+layerId = "A4970244-97B1-4FA9-B3E0-2569B3FA35F0";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-34,0);
+ref = ogonek;
+}
+);
+width = 150;
+},
+{
+layerId = "E8DB84F4-EFBC-40F4-A45F-BC833EAAD3BD";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-10,0);
+ref = ogonek;
+}
+);
+width = 222;
+},
+{
+layerId = "ACA72793-194A-4122-860A-C95C9895C61C";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-29,-25);
+ref = ogonek;
+}
+);
+width = 290;
+}
+);
+},
+{
 color = 6;
 export = 0;
 glyphname = l.alt;
@@ -100939,6 +100937,68 @@ nodes = (
 width = 463;
 }
 );
+},
+{
+glyphname = lineseparator;
+lastChange = "2025-08-07 15:32:56 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+},
+{
+layerId = m003;
+width = 600;
+},
+{
+layerId = "A4970244-97B1-4FA9-B3E0-2569B3FA35F0";
+width = 600;
+},
+{
+layerId = "E8DB84F4-EFBC-40F4-A45F-BC833EAAD3BD";
+width = 600;
+},
+{
+layerId = "ACA72793-194A-4122-860A-C95C9895C61C";
+width = 600;
+}
+);
+unicode = 8232;
+},
+{
+glyphname = paragraphseparator;
+lastChange = "2025-08-07 15:32:56 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+},
+{
+layerId = m003;
+width = 600;
+},
+{
+layerId = "A4970244-97B1-4FA9-B3E0-2569B3FA35F0";
+width = 600;
+},
+{
+layerId = "E8DB84F4-EFBC-40F4-A45F-BC833EAAD3BD";
+width = 600;
+},
+{
+layerId = "ACA72793-194A-4122-860A-C95C9895C61C";
+width = 600;
+}
+);
+unicode = 8233;
 },
 {
 color = 6;
