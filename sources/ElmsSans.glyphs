@@ -1,11 +1,4 @@
 {
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-.appVersion = "3420";
-.formatVersion = 3;
-=======
-=======
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
 .appVersion = "3422";
 .formatVersion = 3;
 DisplayStrings = (
@@ -1127,15 +1120,7 @@ color = 6;
 glyphname = A;
 kernLeft = A;
 kernRight = A;
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-lastChange = "2025-08-07 14:53:53 +0000";
-=======
 lastChange = "2025-07-22 09:41:13 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
-=======
-lastChange = "2025-07-22 09:41:13 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
 layers = (
 {
 anchors = (
@@ -20233,15 +20218,7 @@ color = 6;
 glyphname = K;
 kernLeft = H;
 kernRight = K;
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-lastChange = "2025-08-07 14:53:53 +0000";
-=======
 lastChange = "2025-07-12 16:05:23 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
-=======
-lastChange = "2025-07-12 16:05:23 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
 layers = (
 {
 anchors = (
@@ -22493,15 +22470,7 @@ color = 6;
 glyphname = M;
 kernLeft = H;
 kernRight = H;
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-lastChange = "2025-08-07 14:53:53 +0000";
-=======
 lastChange = "2025-07-26 13:45:10 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
-=======
-lastChange = "2025-07-26 13:45:10 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
 layers = (
 {
 anchors = (
@@ -35338,15 +35307,7 @@ color = 6;
 glyphname = U;
 kernLeft = U;
 kernRight = U;
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-lastChange = "2025-08-07 14:53:53 +0000";
-=======
 lastChange = "2025-07-25 23:15:33 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
-=======
-lastChange = "2025-07-25 23:15:33 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
 layers = (
 {
 anchors = (
@@ -43038,15 +42999,7 @@ color = 6;
 glyphname = a;
 kernLeft = o;
 kernRight = straight;
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-lastChange = "2025-08-07 14:53:53 +0000";
-=======
 lastChange = "2025-07-25 22:00:07 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
-=======
-lastChange = "2025-07-25 22:00:07 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
 layers = (
 {
 anchors = (
@@ -45912,7 +45865,6 @@ ref = a;
 },
 {
 pos = (100,0);
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
 ref = macroncomb;
 }
 );
@@ -45929,24 +45881,6 @@ pos = (90,0);
 ref = macroncomb;
 }
 );
-=======
-ref = macroncomb;
-}
-);
-width = 594;
-},
-{
-layerId = m002;
-shapes = (
-{
-ref = a;
-},
-{
-pos = (90,0);
-ref = macroncomb;
-}
-);
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
 width = 610;
 },
 {
@@ -48422,15 +48356,7 @@ color = 6;
 glyphname = c;
 kernLeft = o;
 kernRight = c;
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-lastChange = "2025-08-07 14:53:53 +0000";
-=======
 lastChange = "2025-07-25 21:50:53 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
-=======
-lastChange = "2025-07-25 21:50:53 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
 layers = (
 {
 anchors = (
@@ -52091,15 +52017,7 @@ color = 6;
 glyphname = e;
 kernLeft = o;
 kernRight = e;
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-lastChange = "2025-08-07 14:53:53 +0000";
-=======
 lastChange = "2025-07-25 21:32:10 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
-=======
-lastChange = "2025-07-25 21:32:10 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
 layers = (
 {
 anchors = (
@@ -59426,15 +59344,7 @@ color = 6;
 glyphname = h;
 kernLeft = h;
 kernRight = n;
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-lastChange = "2025-08-07 14:53:53 +0000";
-=======
 lastChange = "2025-07-25 21:59:44 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
-=======
-lastChange = "2025-07-25 21:59:44 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
 layers = (
 {
 anchors = (
@@ -62849,15 +62759,7 @@ color = 10;
 glyphname = j;
 kernLeft = j;
 kernRight = j;
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-lastChange = "2025-08-07 14:53:53 +0000";
-=======
 lastChange = "2025-08-07 15:07:13 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
-=======
-lastChange = "2025-08-07 15:07:13 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
 layers = (
 {
 layerId = m01;
@@ -68026,15 +67928,7 @@ color = 6;
 glyphname = o;
 kernLeft = o;
 kernRight = o;
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-lastChange = "2025-08-07 14:53:53 +0000";
-=======
-lastChange = "2025-08-02 12:44:30 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
-=======
-lastChange = "2025-08-02 12:44:30 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
+lastChange = "2025-06-27 15:57:06 +0000";
 layers = (
 {
 anchors = (
@@ -73880,15 +73774,7 @@ color = 6;
 glyphname = r;
 kernLeft = n;
 kernRight = r;
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-lastChange = "2025-08-07 14:53:53 +0000";
-=======
 lastChange = "2025-08-02 12:44:35 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
-=======
-lastChange = "2025-08-02 12:44:35 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
 layers = (
 {
 anchors = (
@@ -83468,15 +83354,7 @@ color = 6;
 glyphname = x;
 kernLeft = x;
 kernRight = x;
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-lastChange = "2025-08-07 14:53:53 +0000";
-=======
 lastChange = "2025-07-25 22:00:47 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
-=======
-lastChange = "2025-07-25 22:00:47 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
 layers = (
 {
 anchors = (
@@ -83744,15 +83622,7 @@ unicode = 120;
 {
 color = 10;
 glyphname = xdieresis;
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-lastChange = "2025-08-07 14:53:53 +0000";
-=======
 lastChange = "2025-07-17 16:23:28 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
-=======
-lastChange = "2025-07-17 16:23:28 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
 layers = (
 {
 layerId = m01;
@@ -83838,15 +83708,7 @@ unicode = 7821;
 {
 color = 10;
 glyphname = xdotaccent;
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-lastChange = "2025-08-07 14:53:53 +0000";
-=======
 lastChange = "2025-07-17 16:23:28 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
-=======
-lastChange = "2025-07-17 16:23:28 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
 layers = (
 {
 layerId = m01;
@@ -83934,12 +83796,6 @@ color = 6;
 glyphname = y;
 kernLeft = y;
 kernRight = y;
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-lastChange = "2025-08-07 14:53:53 +0000";
-=======
-=======
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
 lastChange = "2025-07-12 16:06:20 +0000";
 layers = (
 {
@@ -84178,10 +84034,6 @@ glyphname = y.001;
 kernLeft = y;
 kernRight = y;
 lastChange = "2025-07-12 16:04:38 +0000";
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
-=======
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
 layers = (
 {
 anchors = (
@@ -101245,15 +101097,7 @@ color = 6;
 glyphname = space;
 kernLeft = space;
 kernRight = space;
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-lastChange = "2025-08-07 14:53:53 +0000";
-=======
 lastChange = "2025-07-28 15:14:44 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
-=======
-lastChange = "2025-07-28 15:14:44 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
 layers = (
 {
 layerId = m01;
@@ -104275,15 +104119,7 @@ color = 6;
 glyphname = quotesingle;
 kernLeft = quotesingle;
 kernRight = quotesingle;
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-<<<<<<< Updated upstream:sources/ElmsSans.glyphs
-lastChange = "2025-08-07 14:53:53 +0000";
-=======
 lastChange = "2025-07-25 22:02:04 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
-=======
-lastChange = "2025-07-25 22:02:04 +0000";
->>>>>>> Stashed changes:sources/ElmsSans-v8.glyphs
 layers = (
 {
 layerId = m01;
