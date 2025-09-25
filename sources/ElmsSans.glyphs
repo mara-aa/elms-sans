@@ -1,5 +1,5 @@
 {
-.appVersion = "3425";
+.appVersion = "3428";
 .formatVersion = 3;
 DisplayStrings = (
 "1₁₂₃₄₅₆₇₈¹²³⁴⁵⁶⁷⁸",
@@ -568,11 +568,11 @@ value = n;
 },
 {
 name = typoAscender;
-value = 720;
+value = 1000;
 },
 {
 name = typoDescender;
-value = -280;
+value = -300;
 },
 {
 name = typoLineGap;
@@ -580,11 +580,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 720;
+value = 1000;
 },
 {
 name = hheaDescender;
-value = -280;
+value = -300;
 },
 {
 name = hheaLineGap;
@@ -661,11 +661,11 @@ value = n;
 },
 {
 name = typoAscender;
-value = 720;
+value = 1000;
 },
 {
 name = typoDescender;
-value = -280;
+value = -300;
 },
 {
 name = typoLineGap;
@@ -673,11 +673,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 720;
+value = 1000;
 },
 {
 name = hheaDescender;
-value = -280;
+value = -300;
 },
 {
 name = hheaLineGap;
@@ -754,11 +754,11 @@ value = n;
 },
 {
 name = typoAscender;
-value = 720;
+value = 1000;
 },
 {
 name = typoDescender;
-value = -280;
+value = -300;
 },
 {
 name = typoLineGap;
@@ -766,11 +766,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 720;
+value = 1000;
 },
 {
 name = hheaDescender;
-value = -280;
+value = -300;
 },
 {
 name = hheaLineGap;
@@ -848,11 +848,11 @@ value = n;
 },
 {
 name = typoAscender;
-value = 720;
+value = 1000;
 },
 {
 name = typoDescender;
-value = -280;
+value = -300;
 },
 {
 name = typoLineGap;
@@ -860,11 +860,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 720;
+value = 1000;
 },
 {
 name = hheaDescender;
-value = -280;
+value = -300;
 },
 {
 name = hheaLineGap;
@@ -941,11 +941,11 @@ value = n;
 },
 {
 name = typoAscender;
-value = 720;
+value = 1000;
 },
 {
 name = typoDescender;
-value = -280;
+value = -300;
 },
 {
 name = typoLineGap;
@@ -953,11 +953,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 720;
+value = 1000;
 },
 {
 name = hheaDescender;
-value = -280;
+value = -300;
 },
 {
 name = hheaLineGap;
