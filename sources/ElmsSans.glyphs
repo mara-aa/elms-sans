@@ -2,29 +2,12 @@
 .appVersion = "3428";
 .formatVersion = 3;
 DisplayStrings = (
-"1₁₂₃₄₅₆₇₈¹²³⁴⁵⁶⁷⁸",
-"rɍu‚„“”‘’»\"ʃƒ/gravecomb_macroncomb/acutecomb_macroncomb/macroncomb_gravecomb/macroncomb_acutecomb ̣̒/commaaccentcomb.loclMAH ̦̱/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb ˙¯",
-"/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_acutecomb.case/circumflexcomb_gravecomb.case/circumflexcomb_hookabovecomb.case",
-"tƑlorin
-juxtapose that.
-
-Let the object of objection become but a dream as I cause the seen to become unseen. 
-
-p.q.v.7.R.w.x. 
-Unorthodox means.
-L'oubliez pas‘’*
-L’oubliez.
-T’s ‘T’‘Y’ ‘L’ ‘J’ ‘O’ ‘U’ ‘K’ ‘j’ ‘o’Mr.",
-" ̧̨˛¸̨˛
- çę
-aeuocean
-ąęįǫǭų
-ĄĘĮǪǬŲ",
-"/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom",
-"₀₁₂₃₄₅₆₇₈₉⁰¹²³⁴⁵⁶⁷⁸⁹",
-"m⁰¹²³⁴⁵⁶⁷⁸⁹",
-"m₀₁₂₃₄₅₆₇₈₉
-H₂O"
+"Hogan Bassey
+nnnn
+ooooo
+nonono 
+hhhh
+hohoho"
 );
 axes = (
 {
@@ -110,6 +93,8 @@ feature onum;
 feature case;
 feature zero;
 feature ss01;
+feature subs;
+feature sinf;
 ";
 tag = aalt;
 },
@@ -206,6 +191,36 @@ lookup locl_latn_4 {
 } locl_latn_4;
 ";
 tag = locl;
+},
+{
+automatic = 1;
+code = "sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+";
+tag = subs;
+},
+{
+automatic = 1;
+code = "sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+";
+tag = sinf;
 },
 {
 automatic = 1;
@@ -101173,15 +101188,15 @@ shapes = (
 ref = five.numr;
 },
 {
-pos = (297,0);
+pos = (350,0);
 ref = fraction;
 },
 {
-pos = (603,0);
+pos = (656,0);
 ref = eight.dnom;
 }
 );
-width = 880;
+width = 898;
 },
 {
 layerId = "ACA72793-194A-4122-860A-C95C9895C61C";
@@ -101190,15 +101205,15 @@ shapes = (
 ref = five.numr;
 },
 {
-pos = (291,0);
+pos = (330,0);
 ref = fraction;
 },
 {
-pos = (639,0);
+pos = (678,0);
 ref = eight.dnom;
 }
 );
-width = 918;
+width = 923;
 }
 );
 unicode = 8541;
