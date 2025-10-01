@@ -1,7 +1,8 @@
 {
-.appVersion = "3428";
+.appVersion = "3425";
 .formatVersion = 3;
 DisplayStrings = (
+<<<<<<< Updated upstream
 "Hogan Bassey
 nnnn
 ooooo
@@ -22,6 +23,33 @@ oóǒôốộồổỗöȫȯȱọòỏőȏōṓṑǫǭøõṍº",
 "̤̈̀̋̀̏",
 "ɪ",
 "fi/f_i.liga"
+=======
+"1₁₂₃₄₅₆₇₈¹²³⁴⁵⁶⁷⁸",
+"rɍu‚„“”‘’»\"ʃƒ/gravecomb_macroncomb/acutecomb_macroncomb/macroncomb_gravecomb/macroncomb_acutecomb ̣̒/commaaccentcomb.loclMAH ̦̱/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb ˙¯",
+"/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_acutecomb.case/circumflexcomb_gravecomb.case/circumflexcomb_hookabovecomb.case",
+"tƑlorin
+juxtapose that.
+
+Let the object of objection become but a dream as I cause the seen to become unseen. 
+
+p.q.v.7.R.w.x. 
+Unorthodox means.
+L'oubliez pas‘’*
+L’oubliez.
+T’s ‘T’‘Y’ ‘L’ ‘J’ ‘O’ ‘U’ ‘K’ ‘j’ ‘o’Mr.",
+" ̧̨˛¸̨˛
+ çę
+aeuocean
+ąęįǫǭų
+ĄĘĮǪǬŲ",
+"̂/circumflexcomb_acutecomb/circumflexcomb_gravecomb ̉/circumflexcomb_hookabovecomb",
+"-–—_(){}[]‚„“”‘’«»‹›\"'.,:/colon.ss01 ;…!¡?¿·/periodcentered.loclCAT/periodcentered.loclCAT.case •*#///backslash 
+Abominable, to behold.
+“Take it from me,” he said.*
+Tavatake had a lot to do: 
+Someone call her home, today.
+"
+>>>>>>> Stashed changes
 );
 axes = (
 {
@@ -36,7 +64,11 @@ tag = ital;
 classes = (
 {
 automatic = 1;
+<<<<<<< Updated upstream
 code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adieresismacron Adotaccent Adotbelow Adotmacron Agrave Ahookabove Ainvertedbreve Alpha-latin Amacron Aogonek Aring Aringbelow Atilde AE AEmacron B Bdotaccent Bdotbelow Beta-latin Bhook Bmacronbelow Bstroke C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent Chook D Dcaron Dcedilla Dcircumflexbelow Dcroat Ddotaccent Ddotbelow Dhook Dmacronbelow Dtail Eth E Eacute Ecaron Ecedilla Ecedillabreve Ecircumflex Ecircumflexacute Ecircumflexbelow Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Emacronacute Emacrongrave Eogonek Eopen Esh Estroke Etilde Etildebelow Eturned Schwa Ezh Ezhcaron Ezhreversed F Fdotaccent Fhook G G.ss01 Gacute Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Ghook Glottalstopsmall Gmacron Gstroke H Hbar Hbrevebelow Hcaron Hcedilla Hcircumflex Hdieresis Hdotaccent Hdotbelow Heng Hhook Hturned I IJ Iacute Icaron Icircumflex Idblgrave Idieresis Idieresisacute Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Iota-latin Istroke Itilde Itildebelow J Jacute Jcircumflex Jstroke K Kacute Kcaron Kcommaaccent Kdotbelow Khook Kmacronbelow Kstroke L Lacute Lbar Lcaron Lcircumflexbelow Lcommaaccent Lcommaaccent.loclMAH Ldotbelow Ldotbelowmacron Lmacronbelow Lmiddletilde Lslash M Macute Mdotaccent Mdotbelow N Nacute Ncaron Ncircumflexbelow Ncommaaccent Ncommaaccent.loclMAH Ndotaccent Ndotbelow Ngrave Nhookleft Nmacronbelow Ntilde Eng O Oacute Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccent Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Omacronacute Omacrongrave Oogonek Oogonekmacron Oopen Oslash Oslashacute Otilde Otildeacute Otildedieresis Otildemacron OE P Pacute Pdotaccent Phook Thorn Q R Racute Rcaron Rcommaaccent Rdblgrave Rdotaccent Rdotbelow Rdotbelowmacron Rinvertedbreve Rmacronbelow Rstroke Rtail S Sacute Sacutedotaccent Scaron Scarondotaccent Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls T Tbar Tcaron Tcedilla Tcircumflexbelow Tcommaaccent Tdotaccent Tdotbelow Thook Tmacronbelow Tretroflexhook U Uacute Ubar Ubreve Ucaron Ucircumflex Ucircumflexbelow Udblgrave Udieresis Udieresisacute Udieresisbelow Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Umacrondieresis Uogonek Upsilon-latin Uring Utilde Utildeacute Utildebelow V Gamma-latin Vdotbelow Vhook Vtilde Vturned W Wacute Wcircumflex Wdieresis Wdotaccent Wdotbelow Wgrave Whook X Xdieresis Xdotaccent Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhook Yhookabove Ymacron Ytilde Z Zacute Zcaron Zcircumflex Zdotaccent Zdotbelow Zmacronbelow Zstroke Saltillo";
+=======
+code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adieresismacron Adotaccent Adotbelow Adotmacron Agrave Ahookabove Ainvertedbreve Alpha-latin Amacron Aogonek Aring Atilde AE AEmacron B Bdotaccent Bdotbelow Bhook Bmacronbelow Bstroke C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent Chook D Dcaron Dcedilla Dcircumflexbelow Dcroat Ddotaccent Ddotbelow Dhook Dmacronbelow Dtail Eth E Eacute Ecaron Ecedilla Ecedillabreve Ecircumflex Ecircumflexacute Ecircumflexbelow Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Emacronacute Emacrongrave Eogonek Eopen Esh Etilde Eturned Schwa Ezh Ezhcaron Ezhreversed F Fhook G G.ss01 Gacute Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Ghook Glottalstopsmall Gmacron Gstroke H Hbar Hbrevebelow Hcaron Hcircumflex Hdieresis Hdotbelow Hhook Hturned I IJ Iacute Icaron Icircumflex Idieresis Idieresisacute Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Iota-latin Istroke Itilde J Jacute Jcircumflex Jstroke K Kacute Kcaron Kcommaaccent Kdotbelow Khook Kmacronbelow Kstroke L Lacute Lbar Lcaron Lcircumflexbelow Lcommaaccent Lcommaaccent.loclMAH Ldotbelow Ldotbelowmacron Lmacronbelow Lslash M Macute Mdotaccent Mdotbelow N Nacute Ncaron Ncircumflexbelow Ncommaaccent Ncommaaccent.loclMAH Ndotaccent Ndotbelow Nhookleft Nmacronbelow Ntilde Eng O Oacute Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odieresismacron Odotaccent Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Omacronacute Omacrongrave Oogonek Oogonekmacron Oopen Oslash Oslashacute Otilde Otildeacute OE P Pdotaccent Phook Thorn Q R Racute Rcaron Rcommaaccent Rdotaccent Rdotbelow Rdotbelowmacron Rinvertedbreve Rstroke Rtail S Sacute Scaron Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls T Tbar Tcaron Tcedilla Tcircumflexbelow Tcommaaccent Tdotaccent Tdotbelow Thook Tmacronbelow Tretroflexhook U Uacute Ubar Ubreve Ucaron Ucircumflex Ucircumflexbelow Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Uogonek Upsilon-latin Uring Utilde V Gamma-latin Vhook Vtilde Vturned W Wacute Wcircumflex Wdieresis Wdotaccent Wdotbelow Wgrave Whook X Xdieresis Xdotaccent Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhook Yhookabove Ymacron Ytilde Z Zacute Zcaron Zcircumflex Zdotaccent Zdotbelow Zmacronbelow Saltillo";
+>>>>>>> Stashed changes
 name = Uppercase;
 }
 );
@@ -2187,7 +2219,11 @@ unicode = 7844;
 glyphname = Acircumflexdotbelow;
 kernLeft = A;
 kernRight = A;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:53 +0000";
+=======
+lastChange = "2025-06-26 21:39:19 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -2576,6 +2612,7 @@ width = 721;
 unicode = 7850;
 },
 {
+<<<<<<< Updated upstream
 glyphname = Adblgrave;
 layers = (
 {
@@ -2660,6 +2697,8 @@ width = 721;
 unicode = 512;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = Adieresis;
 kernLeft = A;
 kernRight = A;
@@ -4162,6 +4201,7 @@ width = 721;
 unicode = 197;
 },
 {
+<<<<<<< Updated upstream
 glyphname = Aringbelow;
 layers = (
 {
@@ -4246,6 +4286,8 @@ width = 721;
 unicode = 7680;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = Atilde;
 kernLeft = A;
 kernRight = A;
@@ -5402,7 +5444,11 @@ unicode = 7682;
 glyphname = Bdotbelow;
 kernLeft = H;
 kernRight = B;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:53 +0000";
+=======
+lastChange = "2025-06-26 21:37:30 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -5486,6 +5532,7 @@ width = 678;
 unicode = 7684;
 },
 {
+<<<<<<< Updated upstream
 glyphname = "Beta-latin";
 lastChange = "2025-09-29 18:16:26 +0000";
 layers = (
@@ -5943,6 +5990,8 @@ width = 678;
 unicode = 42932;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = Bhook;
 kernLeft = H;
 kernRight = B;
@@ -8276,7 +8325,11 @@ unicode = 270;
 glyphname = Dcedilla;
 kernLeft = H;
 kernRight = D;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 13:50:53 +0000";
+=======
+lastChange = "2025-06-27 13:20:58 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -8324,7 +8377,7 @@ shapes = (
 ref = D;
 },
 {
-pos = (188,0);
+pos = (189,0);
 ref = commaaccentcomb;
 }
 );
@@ -8350,7 +8403,7 @@ shapes = (
 ref = D;
 },
 {
-pos = (214,0);
+pos = (215,0);
 ref = commaaccentcomb;
 }
 );
@@ -8600,7 +8653,11 @@ unicode = 7690;
 glyphname = Ddotbelow;
 kernLeft = H;
 kernRight = D;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:53 +0000";
+=======
+lastChange = "2025-06-27 13:21:00 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -9640,7 +9697,11 @@ color = 5;
 glyphname = E;
 kernLeft = H;
 kernRight = E;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 18:00:42 +0000";
+=======
+lastChange = "2025-09-09 16:28:20 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 anchors = (
@@ -10639,7 +10700,11 @@ unicode = 7704;
 glyphname = Ecircumflexdotbelow;
 kernLeft = H;
 kernRight = E;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:53 +0000";
+=======
+lastChange = "2025-06-26 21:37:30 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -11028,6 +11093,7 @@ width = 622;
 unicode = 7876;
 },
 {
+<<<<<<< Updated upstream
 glyphname = Edblgrave;
 layers = (
 {
@@ -11112,6 +11178,8 @@ width = 622;
 unicode = 516;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = Edieresis;
 kernLeft = H;
 kernRight = E;
@@ -11289,7 +11357,11 @@ unicode = 278;
 glyphname = Edotbelow;
 kernLeft = H;
 kernRight = E;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:53 +0000";
+=======
+lastChange = "2025-06-26 21:37:30 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -12643,6 +12715,7 @@ width = 582;
 unicode = 425;
 },
 {
+<<<<<<< Updated upstream
 glyphname = Estroke;
 lastChange = "2025-09-29 18:02:01 +0000";
 layers = (
@@ -13064,6 +13137,8 @@ width = 622;
 unicode = 582;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = Etilde;
 kernLeft = H;
 kernRight = E;
@@ -13151,6 +13226,7 @@ width = 622;
 unicode = 7868;
 },
 {
+<<<<<<< Updated upstream
 glyphname = Etildebelow;
 lastChange = "2025-09-29 13:00:19 +0000";
 layers = (
@@ -13236,6 +13312,8 @@ width = 622;
 unicode = 7706;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = Eturned;
 lastChange = "2025-06-27 12:52:01 +0000";
 layers = (
@@ -13987,7 +14065,11 @@ unicode = 399;
 },
 {
 glyphname = Ezh;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 13:04:10 +0000";
+=======
+lastChange = "2025-07-02 14:16:38 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 anchors = (
@@ -14362,7 +14444,11 @@ unicode = 439;
 },
 {
 glyphname = Ezhcaron;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 13:04:12 +0000";
+=======
+lastChange = "2025-06-26 21:37:30 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -15176,7 +15262,11 @@ unicode = 7710;
 glyphname = Fhook;
 kernLeft = Fhook;
 kernRight = Fhook;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:29:04 +0000";
+=======
+lastChange = "2025-06-27 12:31:32 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -16688,7 +16778,7 @@ shapes = (
 ref = G;
 },
 {
-pos = (320,0);
+pos = (321,0);
 ref = commaaccentcomb;
 }
 );
@@ -16714,7 +16804,7 @@ shapes = (
 ref = G;
 },
 {
-pos = (286,0);
+pos = (287,0);
 ref = commaaccentcomb;
 }
 );
@@ -18080,6 +18170,7 @@ width = 786;
 unicode = 542;
 },
 {
+<<<<<<< Updated upstream
 glyphname = Hcedilla;
 layers = (
 {
@@ -18164,6 +18255,8 @@ width = 786;
 unicode = 7720;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = Hcircumflex;
 kernLeft = H;
 kernRight = H;
@@ -18336,6 +18429,7 @@ width = 786;
 unicode = 7718;
 },
 {
+<<<<<<< Updated upstream
 glyphname = Hdotaccent;
 layers = (
 {
@@ -18424,6 +18518,12 @@ glyphname = Hdotbelow;
 kernLeft = H;
 kernRight = H;
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+glyphname = Hdotbelow;
+kernLeft = H;
+kernRight = H;
+lastChange = "2025-06-26 21:37:30 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -18507,6 +18607,7 @@ width = 786;
 unicode = 7716;
 },
 {
+<<<<<<< Updated upstream
 glyphname = Heng;
 lastChange = "2025-09-29 13:16:09 +0000";
 layers = (
@@ -18700,6 +18801,8 @@ width = 786;
 unicode = 42790;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = Hhook;
 lastChange = "2025-06-26 21:36:46 +0000";
 layers = (
@@ -19627,7 +19730,11 @@ unicode = 205;
 glyphname = Icaron;
 kernLeft = H;
 kernRight = H;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 13:04:10 +0000";
+=======
+lastChange = "2025-06-26 21:31:44 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -19802,6 +19909,7 @@ metricRight = I;
 unicode = 206;
 },
 {
+<<<<<<< Updated upstream
 glyphname = Idblgrave;
 layers = (
 {
@@ -19886,6 +19994,8 @@ width = 308;
 unicode = 520;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = Idieresis;
 kernLeft = ID;
 kernRight = ID;
@@ -20178,7 +20288,11 @@ unicode = 304;
 glyphname = Idotbelow;
 kernLeft = H;
 kernRight = H;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 18:32:41 +0000";
+=======
+lastChange = "2025-06-26 21:37:30 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -21059,7 +21173,11 @@ unicode = 407;
 glyphname = Itilde;
 kernLeft = H;
 kernRight = H;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 13:35:11 +0000";
+=======
+lastChange = "2025-06-26 21:37:30 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -21143,6 +21261,7 @@ width = 308;
 unicode = 296;
 },
 {
+<<<<<<< Updated upstream
 glyphname = Itildebelow;
 layers = (
 {
@@ -21227,6 +21346,8 @@ width = 308;
 unicode = 7724;
 },
 {
+=======
+>>>>>>> Stashed changes
 color = 5;
 glyphname = J;
 kernLeft = J;
@@ -22257,7 +22378,7 @@ shapes = (
 ref = K;
 },
 {
-pos = (179,0);
+pos = (180,0);
 ref = commaaccentcomb;
 }
 );
@@ -22283,7 +22404,7 @@ shapes = (
 ref = K;
 },
 {
-pos = (238,0);
+pos = (239,0);
 ref = commaaccentcomb;
 }
 );
@@ -22294,7 +22415,11 @@ unicode = 310;
 },
 {
 glyphname = Kdotbelow;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+lastChange = "2025-06-26 21:36:10 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -23486,7 +23611,7 @@ shapes = (
 ref = L;
 },
 {
-pos = (179,0);
+pos = (180,0);
 ref = commaaccentcomb;
 }
 );
@@ -23512,7 +23637,7 @@ shapes = (
 ref = L;
 },
 {
-pos = (155,0);
+pos = (156,0);
 ref = commaaccentcomb;
 }
 );
@@ -23611,7 +23736,11 @@ width = 532;
 glyphname = Ldotbelow;
 kernLeft = H;
 kernRight = L;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+lastChange = "2025-06-26 21:36:09 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -23696,7 +23825,10 @@ unicode = 7734;
 },
 {
 glyphname = Ldotbelowmacron;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -23888,6 +24020,7 @@ width = 532;
 unicode = 7738;
 },
 {
+<<<<<<< Updated upstream
 glyphname = Lmiddletilde;
 lastChange = "2025-09-29 16:22:11 +0000";
 layers = (
@@ -24148,6 +24281,8 @@ metricRight = L;
 unicode = 11362;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = Lslash;
 lastChange = "2025-06-26 21:36:10 +0000";
 layers = (
@@ -24701,7 +24836,11 @@ unicode = 7744;
 },
 {
 glyphname = Mdotbelow;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+lastChange = "2025-06-26 21:36:09 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -25365,7 +25504,7 @@ shapes = (
 ref = N;
 },
 {
-pos = (249,0);
+pos = (250,0);
 ref = commaaccentcomb;
 }
 );
@@ -25391,7 +25530,7 @@ shapes = (
 ref = N;
 },
 {
-pos = (262,0);
+pos = (263,0);
 ref = commaaccentcomb;
 }
 );
@@ -25577,7 +25716,11 @@ unicode = 7748;
 glyphname = Ndotbelow;
 kernLeft = H;
 kernRight = H;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+lastChange = "2025-06-26 21:36:09 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -25661,6 +25804,7 @@ width = 779;
 unicode = 7750;
 },
 {
+<<<<<<< Updated upstream
 glyphname = Ngrave;
 layers = (
 {
@@ -25745,6 +25889,8 @@ width = 779;
 unicode = 504;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = Nhookleft;
 lastChange = "2025-06-26 21:37:15 +0000";
 layers = (
@@ -27355,7 +27501,11 @@ unicode = 7888;
 glyphname = Ocircumflexdotbelow;
 kernLeft = O;
 kernRight = O;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+lastChange = "2025-06-26 21:36:09 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -27742,6 +27892,7 @@ width = 815;
 unicode = 7894;
 },
 {
+<<<<<<< Updated upstream
 glyphname = Odblgrave;
 layers = (
 {
@@ -27826,6 +27977,8 @@ width = 815;
 unicode = 524;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = Odieresis;
 kernLeft = O;
 kernRight = O;
@@ -28108,6 +28261,7 @@ width = 815;
 unicode = 558;
 },
 {
+<<<<<<< Updated upstream
 glyphname = Odotaccentmacron;
 layers = (
 {
@@ -28220,6 +28374,12 @@ glyphname = Odotbelow;
 kernLeft = O;
 kernRight = O;
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+glyphname = Odotbelow;
+kernLeft = O;
+kernRight = O;
+lastChange = "2025-06-26 21:36:09 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -30792,6 +30952,7 @@ width = 815;
 unicode = 7756;
 },
 {
+<<<<<<< Updated upstream
 glyphname = Otildedieresis;
 layers = (
 {
@@ -31008,6 +31169,8 @@ width = 815;
 unicode = 556;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = OE;
 kernLeft = O;
 kernRight = E;
@@ -33544,7 +33707,7 @@ shapes = (
 ref = R;
 },
 {
-pos = (211,0);
+pos = (212,0);
 ref = commaaccentcomb;
 }
 );
@@ -33570,7 +33733,7 @@ shapes = (
 ref = R;
 },
 {
-pos = (225,0);
+pos = (226,0);
 ref = commaaccentcomb;
 }
 );
@@ -33580,6 +33743,7 @@ width = 661;
 unicode = 342;
 },
 {
+<<<<<<< Updated upstream
 glyphname = Rdblgrave;
 layers = (
 {
@@ -33664,6 +33828,8 @@ width = 661;
 unicode = 528;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = Rdotaccent;
 layers = (
 {
@@ -33749,7 +33915,10 @@ unicode = 7768;
 },
 {
 glyphname = Rdotbelow;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -33834,7 +34003,10 @@ unicode = 7770;
 },
 {
 glyphname = Rdotbelowmacron;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -35301,6 +35473,7 @@ width = 630;
 unicode = 346;
 },
 {
+<<<<<<< Updated upstream
 glyphname = Sacutedotaccent;
 layers = (
 {
@@ -35409,6 +35582,8 @@ width = 630;
 unicode = 7780;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = Scaron;
 kernLeft = S;
 kernRight = S;
@@ -35496,6 +35671,7 @@ width = 630;
 unicode = 352;
 },
 {
+<<<<<<< Updated upstream
 glyphname = Scarondotaccent;
 layers = (
 {
@@ -35604,6 +35780,8 @@ width = 630;
 unicode = 7782;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = Scedilla;
 kernLeft = S;
 kernRight = S;
@@ -35829,7 +36007,7 @@ shapes = (
 ref = S;
 },
 {
-pos = (197,0);
+pos = (198,0);
 ref = commaaccentcomb;
 }
 );
@@ -35855,7 +36033,7 @@ shapes = (
 ref = S;
 },
 {
-pos = (202,0);
+pos = (203,0);
 ref = commaaccentcomb;
 }
 );
@@ -35952,7 +36130,11 @@ unicode = 7776;
 glyphname = Sdotbelow;
 kernLeft = S;
 kernRight = S;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+lastChange = "2025-06-26 21:36:10 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -36037,7 +36219,10 @@ unicode = 7778;
 },
 {
 glyphname = Sdotbelowdotaccent;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -36146,7 +36331,11 @@ unicode = 7784;
 },
 {
 glyphname = Germandbls;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 18:10:26 +0000";
+=======
+lastChange = "2025-07-02 14:16:49 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 anchors = (
@@ -37209,7 +37398,7 @@ shapes = (
 ref = T;
 },
 {
-pos = (231,0);
+pos = (232,0);
 ref = commaaccentcomb;
 }
 );
@@ -37235,7 +37424,7 @@ shapes = (
 ref = T;
 },
 {
-pos = (167,0);
+pos = (168,0);
 ref = commaaccentcomb;
 }
 );
@@ -37332,7 +37521,11 @@ unicode = 7786;
 glyphname = Tdotbelow;
 kernLeft = T;
 kernRight = T;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+lastChange = "2025-06-26 21:36:09 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -38967,6 +39160,7 @@ width = 827;
 unicode = 7798;
 },
 {
+<<<<<<< Updated upstream
 glyphname = Udblgrave;
 layers = (
 {
@@ -39051,6 +39245,8 @@ width = 827;
 unicode = 532;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = Udieresis;
 kernLeft = U;
 kernRight = U;
@@ -39138,6 +39334,7 @@ width = 827;
 unicode = 220;
 },
 {
+<<<<<<< Updated upstream
 glyphname = Udieresisacute;
 layers = (
 {
@@ -39658,6 +39855,12 @@ glyphname = Udotbelow;
 kernLeft = U;
 kernRight = U;
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+glyphname = Udotbelow;
+kernLeft = U;
+kernRight = U;
+lastChange = "2025-06-26 21:36:10 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -40748,6 +40951,7 @@ width = 827;
 unicode = 362;
 },
 {
+<<<<<<< Updated upstream
 glyphname = Umacrondieresis;
 layers = (
 {
@@ -40856,6 +41060,8 @@ width = 827;
 unicode = 7802;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = Uogonek;
 kernLeft = U;
 kernRight = U;
@@ -41442,6 +41648,7 @@ width = 827;
 unicode = 360;
 },
 {
+<<<<<<< Updated upstream
 glyphname = Utildeacute;
 layers = (
 {
@@ -41634,6 +41841,8 @@ width = 827;
 unicode = 7796;
 },
 {
+=======
+>>>>>>> Stashed changes
 color = 5;
 glyphname = V;
 kernLeft = V;
@@ -42115,6 +42324,7 @@ width = 670;
 unicode = 404;
 },
 {
+<<<<<<< Updated upstream
 glyphname = Vdotbelow;
 layers = (
 {
@@ -42199,6 +42409,8 @@ width = 676;
 unicode = 7806;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = Vhook;
 lastChange = "2025-06-26 21:36:02 +0000";
 layers = (
@@ -43316,7 +43528,10 @@ unicode = 7814;
 },
 {
 glyphname = Wdotbelow;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -46221,7 +46436,11 @@ unicode = 379;
 glyphname = Zdotbelow;
 kernLeft = Z;
 kernRight = Z;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+lastChange = "2025-06-26 21:36:09 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -46389,6 +46608,7 @@ width = 569;
 unicode = 7828;
 },
 {
+<<<<<<< Updated upstream
 glyphname = Zstroke;
 layers = (
 {
@@ -46473,6 +46693,8 @@ width = 569;
 unicode = 437;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = Saltillo;
 lastChange = "2025-06-26 21:31:44 +0000";
 layers = (
@@ -46829,6 +47051,7 @@ width = 645;
 );
 },
 {
+<<<<<<< Updated upstream
 glyphname = Ismall;
 lastChange = "2025-09-29 18:32:18 +0000";
 layers = (
@@ -47142,6 +47365,8 @@ width = 402;
 unicode = 618;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = a;
 kernLeft = o;
 kernRight = straight;
@@ -48416,7 +48641,11 @@ unicode = 7845;
 glyphname = acircumflexdotbelow;
 kernLeft = o;
 kernRight = straight;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+lastChange = "2025-06-26 21:36:15 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -48779,6 +49008,7 @@ width = 619;
 unicode = 7851;
 },
 {
+<<<<<<< Updated upstream
 glyphname = adblgrave;
 layers = (
 {
@@ -48863,6 +49093,8 @@ width = 619;
 unicode = 513;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = adieresis;
 kernLeft = o;
 kernRight = straight;
@@ -49149,7 +49381,11 @@ unicode = 551;
 glyphname = adotbelow;
 kernLeft = o;
 kernRight = straight;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+lastChange = "2025-06-26 21:36:15 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -50355,6 +50591,7 @@ width = 619;
 unicode = 229;
 },
 {
+<<<<<<< Updated upstream
 glyphname = aringbelow;
 layers = (
 {
@@ -50439,6 +50676,8 @@ width = 619;
 unicode = 7681;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = atilde;
 kernLeft = o;
 kernRight = straight;
@@ -51910,7 +52149,11 @@ unicode = 7683;
 glyphname = bdotbelow;
 kernLeft = straight;
 kernRight = o;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+lastChange = "2025-06-26 21:36:15 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -51994,6 +52237,7 @@ width = 619;
 unicode = 7685;
 },
 {
+<<<<<<< Updated upstream
 glyphname = "beta-latin";
 lastChange = "2025-09-29 18:26:42 +0000";
 layers = (
@@ -52439,6 +52683,8 @@ width = 617;
 unicode = 42933;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = bhook;
 lastChange = "2025-06-26 21:36:50 +0000";
 layers = (
@@ -52990,7 +53236,11 @@ unicode = 7687;
 },
 {
 glyphname = bstroke;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 13:04:10 +0000";
+=======
+lastChange = "2025-06-26 21:36:15 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -54810,7 +55060,11 @@ unicode = 271;
 },
 {
 glyphname = dcedilla;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 13:50:53 +0000";
+=======
+lastChange = "2025-06-26 21:36:15 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -54858,7 +55112,7 @@ shapes = (
 ref = d;
 },
 {
-pos = (236,0);
+pos = (237,0);
 ref = commaaccentcomb;
 }
 );
@@ -54884,7 +55138,7 @@ shapes = (
 ref = d;
 },
 {
-pos = (187,0);
+pos = (188,0);
 ref = commaaccentcomb;
 }
 );
@@ -55154,7 +55408,11 @@ unicode = 7691;
 glyphname = ddotbelow;
 kernLeft = o;
 kernRight = straight;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+lastChange = "2025-06-26 21:36:15 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -56722,7 +56980,11 @@ unicode = 240;
 glyphname = e;
 kernLeft = o;
 kernRight = e;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:44:47 +0000";
+=======
+lastChange = "2025-09-18 14:15:54 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 anchors = (
@@ -57885,7 +58147,11 @@ unicode = 7705;
 glyphname = ecircumflexdotbelow;
 kernLeft = o;
 kernRight = e;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+lastChange = "2025-06-26 21:36:15 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -58248,6 +58514,7 @@ width = 557;
 unicode = 7877;
 },
 {
+<<<<<<< Updated upstream
 glyphname = edblgrave;
 layers = (
 {
@@ -58332,6 +58599,8 @@ width = 557;
 unicode = 517;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = edieresis;
 kernLeft = o;
 kernRight = e;
@@ -58509,7 +58778,11 @@ unicode = 279;
 glyphname = edotbelow;
 kernLeft = o;
 kernRight = e;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+lastChange = "2025-06-26 21:36:15 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -60065,17 +60338,21 @@ unicode = 603;
 },
 {
 glyphname = esh;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 13:04:10 +0000";
+=======
+lastChange = "2025-06-27 12:00:06 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 anchors = (
 {
 name = bottom;
-pos = (185,0);
+pos = (209,0);
 },
 {
 name = top;
-pos = (185,720);
+pos = (209,720);
 }
 );
 layerId = m01;
@@ -60083,42 +60360,42 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(161,-78,o),
-(102,-139,o),
-(26,-139,cs),
-(-20,-139,l),
-(-20,-163,l),
-(17,-163,l),
-(28,-163,ls),
-(118,-163,o),
-(189,-91,o),
-(189,0,cs),
-(189,557,ls),
-(189,635,o),
-(248,696,o),
-(324,696,cs),
-(370,696,l),
-(370,720,l),
-(333,720,l),
-(322,720,ls),
-(232,720,o),
-(161,648,o),
-(161,557,cs),
-(161,0,ls)
+(185,-78,o),
+(126,-139,o),
+(50,-139,cs),
+(4,-139,l),
+(4,-163,l),
+(41,-163,l),
+(52,-163,ls),
+(142,-163,o),
+(213,-91,o),
+(213,0,cs),
+(213,557,ls),
+(213,635,o),
+(272,696,o),
+(348,696,cs),
+(394,696,l),
+(394,720,l),
+(357,720,l),
+(346,720,ls),
+(256,720,o),
+(185,648,o),
+(185,557,cs),
+(185,0,ls)
 );
 }
 );
-width = 380;
+width = 404;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (189,0);
+pos = (211,0);
 },
 {
 name = top;
-pos = (189,720);
+pos = (211,720);
 }
 );
 layerId = m002;
@@ -60126,32 +60403,32 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(132,-57,o),
-(92,-101,o),
-(51,-101,cs),
-(-14,-101,l),
-(-14,-183,l),
-(44,-183,l),
-(49,-183,ls),
-(139,-183,o),
-(220,-102,o),
-(220,0,cs),
-(220,537,ls),
-(220,594,o),
-(260,638,o),
-(301,638,cs),
-(366,638,l),
-(366,720,l),
-(308,720,l),
-(303,720,ls),
-(213,720,o),
-(132,639,o),
-(132,537,cs),
-(132,0,ls)
+(154,-57,o),
+(114,-101,o),
+(73,-101,cs),
+(8,-101,l),
+(8,-183,l),
+(66,-183,l),
+(71,-183,ls),
+(161,-183,o),
+(242,-102,o),
+(242,0,cs),
+(242,537,ls),
+(242,594,o),
+(282,638,o),
+(323,638,cs),
+(388,638,l),
+(388,720,l),
+(330,720,l),
+(325,720,ls),
+(235,720,o),
+(154,639,o),
+(154,537,cs),
+(154,0,ls)
 );
 }
 );
-width = 381;
+width = 403;
 },
 {
 anchors = (
@@ -60200,11 +60477,11 @@ width = 460;
 anchors = (
 {
 name = bottom;
-pos = (143,0);
+pos = (167,0);
 },
 {
 name = top;
-pos = (270,720);
+pos = (294,720);
 }
 );
 layerId = "A4970244-97B1-4FA9-B3E0-2569B3FA35F0";
@@ -60212,42 +60489,42 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(105,-77,o),
-(34,-139,o),
-(-42,-139,cs),
-(-87,-139,l),
-(-91,-163,l),
-(-54,-163,l),
-(-42,-163,ls),
-(48,-163,o),
-(131,-92,o),
-(147,-1,cs),
-(245,556,ls),
-(259,634,o),
-(329,696,o),
-(405,696,cs),
-(450,696,l),
-(455,720,l),
-(418,720,l),
-(406,720,ls),
-(316,720,o),
-(233,649,o),
-(217,558,cs),
-(119,1,ls)
+(129,-77,o),
+(58,-139,o),
+(-18,-139,cs),
+(-63,-139,l),
+(-67,-163,l),
+(-30,-163,l),
+(-18,-163,ls),
+(72,-163,o),
+(155,-92,o),
+(171,-1,cs),
+(269,556,ls),
+(283,634,o),
+(353,696,o),
+(429,696,cs),
+(474,696,l),
+(479,720,l),
+(442,720,l),
+(430,720,ls),
+(340,720,o),
+(257,649,o),
+(241,558,cs),
+(143,1,ls)
 );
 }
 );
-width = 380;
+width = 404;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (147,0);
+pos = (169,0);
 },
 {
 name = top;
-pos = (274,720);
+pos = (296,720);
 }
 );
 layerId = "E8DB84F4-EFBC-40F4-A45F-BC833EAAD3BD";
@@ -60255,32 +60532,32 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(80,-54,o),
-(29,-101,o),
-(-12,-101,cs),
-(-74,-101,l),
-(-89,-183,l),
-(-31,-183,l),
-(-23,-183,ls),
-(67,-183,o),
-(159,-105,o),
-(177,-3,cs),
-(272,534,ls),
-(282,591,o),
-(333,638,o),
-(374,638,cs),
-(436,638,l),
-(451,720,l),
-(393,720,l),
-(385,720,ls),
-(295,720,o),
-(203,642,o),
-(185,540,cs),
-(90,3,ls)
+(102,-54,o),
+(51,-101,o),
+(10,-101,cs),
+(-52,-101,l),
+(-67,-183,l),
+(-9,-183,l),
+(-1,-183,ls),
+(89,-183,o),
+(181,-105,o),
+(199,-3,cs),
+(294,534,ls),
+(304,591,o),
+(355,638,o),
+(396,638,cs),
+(458,638,l),
+(473,720,l),
+(415,720,l),
+(407,720,ls),
+(317,720,o),
+(225,642,o),
+(207,540,cs),
+(112,3,ls)
 );
 }
 );
-width = 381;
+width = 403;
 },
 {
 anchors = (
@@ -60331,6 +60608,7 @@ metricRight = f;
 unicode = 643;
 },
 {
+<<<<<<< Updated upstream
 glyphname = estroke;
 lastChange = "2025-09-29 16:44:47 +0000";
 layers = (
@@ -60422,6 +60700,8 @@ width = 557;
 unicode = 583;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = etilde;
 kernLeft = o;
 kernRight = e;
@@ -60509,6 +60789,7 @@ width = 557;
 unicode = 7869;
 },
 {
+<<<<<<< Updated upstream
 glyphname = etildebelow;
 lastChange = "2025-09-29 13:00:19 +0000";
 layers = (
@@ -60594,6 +60875,8 @@ width = 557;
 unicode = 7707;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = eturned;
 lastChange = "2025-06-26 21:31:44 +0000";
 layers = (
@@ -60789,7 +61072,11 @@ unicode = 601;
 },
 {
 glyphname = ezh;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 13:04:10 +0000";
+=======
+lastChange = "2025-07-02 14:16:49 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 anchors = (
@@ -61164,7 +61451,11 @@ unicode = 658;
 },
 {
 glyphname = ezhcaron;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 13:04:12 +0000";
+=======
+lastChange = "2025-06-26 21:31:44 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -63188,7 +63479,7 @@ shapes = (
 ref = g;
 },
 {
-pos = (211,0);
+pos = (204,0);
 ref = commaturnedabovecomb;
 }
 );
@@ -63214,7 +63505,7 @@ shapes = (
 ref = g;
 },
 {
-pos = (210,30);
+pos = (195,30);
 ref = commaturnedabovecomb;
 }
 );
@@ -63227,7 +63518,7 @@ shapes = (
 ref = g;
 },
 {
-pos = (209,0);
+pos = (201,0);
 ref = commaturnedabovecomb;
 }
 );
@@ -63253,7 +63544,7 @@ shapes = (
 ref = g;
 },
 {
-pos = (209,30);
+pos = (195,30);
 ref = commaturnedabovecomb;
 }
 );
@@ -64664,7 +64955,11 @@ unicode = 7713;
 },
 {
 glyphname = gstroke;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 13:04:10 +0000";
+=======
+lastChange = "2025-06-26 21:36:15 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -65294,6 +65589,7 @@ width = 649;
 unicode = 543;
 },
 {
+<<<<<<< Updated upstream
 glyphname = hcedilla;
 layers = (
 {
@@ -65378,6 +65674,8 @@ width = 649;
 unicode = 7721;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = hcircumflex;
 kernLeft = h;
 kernRight = n;
@@ -65550,6 +65848,7 @@ width = 649;
 unicode = 7719;
 },
 {
+<<<<<<< Updated upstream
 glyphname = hdotaccent;
 layers = (
 {
@@ -65638,6 +65937,12 @@ glyphname = hdotbelow;
 kernLeft = h;
 kernRight = n;
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+glyphname = hdotbelow;
+kernLeft = h;
+kernRight = n;
+lastChange = "2025-06-26 21:36:15 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -65721,6 +66026,7 @@ width = 649;
 unicode = 7717;
 },
 {
+<<<<<<< Updated upstream
 glyphname = heng;
 lastChange = "2025-09-29 13:15:14 +0000";
 layers = (
@@ -65962,6 +66268,8 @@ width = 649;
 unicode = 42791;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = hhook;
 lastChange = "2025-06-26 21:36:50 +0000";
 layers = (
@@ -66479,13 +66787,25 @@ unicode = 613;
 glyphname = i;
 kernLeft = i;
 kernRight = i;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 13:39:37 +0000";
+=======
+lastChange = "2025-09-18 14:07:03 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 anchors = (
 {
 name = bottom;
+<<<<<<< Updated upstream
 pos = (75,0);
+=======
+pos = (1184,0);
+},
+{
+name = center;
+pos = (1184,240);
+>>>>>>> Stashed changes
 }
 );
 background = {
@@ -66552,7 +66872,15 @@ width = 150;
 anchors = (
 {
 name = bottom;
+<<<<<<< Updated upstream
 pos = (111,0);
+=======
+pos = (735,0);
+},
+{
+name = center;
+pos = (735,240);
+>>>>>>> Stashed changes
 }
 );
 background = {
@@ -66619,7 +66947,15 @@ width = 222;
 anchors = (
 {
 name = bottom;
+<<<<<<< Updated upstream
 pos = (145,0);
+=======
+pos = (818,0);
+},
+{
+name = center;
+pos = (818,240);
+>>>>>>> Stashed changes
 }
 );
 layerId = m003;
@@ -66638,7 +66974,15 @@ width = 290;
 anchors = (
 {
 name = bottom;
+<<<<<<< Updated upstream
 pos = (33,0);
+=======
+pos = (1184,0);
+},
+{
+name = center;
+pos = (1184,240);
+>>>>>>> Stashed changes
 }
 );
 layerId = "A4970244-97B1-4FA9-B3E0-2569B3FA35F0";
@@ -66657,7 +67001,15 @@ width = 150;
 anchors = (
 {
 name = bottom;
+<<<<<<< Updated upstream
 pos = (69,0);
+=======
+pos = (735,0);
+},
+{
+name = center;
+pos = (735,240);
+>>>>>>> Stashed changes
 }
 );
 layerId = "E8DB84F4-EFBC-40F4-A45F-BC833EAAD3BD";
@@ -66676,7 +67028,15 @@ width = 222;
 anchors = (
 {
 name = bottom;
+<<<<<<< Updated upstream
 pos = (103,0);
+=======
+pos = (818,0);
+},
+{
+name = center;
+pos = (818,240);
+>>>>>>> Stashed changes
 }
 );
 layerId = "ACA72793-194A-4122-860A-C95C9895C61C";
@@ -67250,6 +67610,7 @@ width = 290;
 unicode = 238;
 },
 {
+<<<<<<< Updated upstream
 glyphname = idblgrave;
 layers = (
 {
@@ -67334,6 +67695,8 @@ width = 290;
 unicode = 521;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = idieresis;
 kernLeft = id;
 kernRight = id;
@@ -67621,7 +67984,11 @@ width = 290;
 glyphname = idotbelow;
 kernLeft = i;
 kernRight = i;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+lastChange = "2025-06-26 21:36:15 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -68516,7 +68883,11 @@ unicode = 616;
 glyphname = itilde;
 kernLeft = it;
 kernRight = it;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 13:34:42 +0000";
+=======
+lastChange = "2025-06-27 15:36:23 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -68576,6 +68947,7 @@ width = 290;
 unicode = 297;
 },
 {
+<<<<<<< Updated upstream
 glyphname = itildebelow;
 lastChange = "2025-09-29 13:50:24 +0000";
 layers = (
@@ -68661,6 +69033,8 @@ width = 290;
 unicode = 7725;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = ij;
 kernLeft = idotless;
 kernRight = n;
@@ -69938,7 +70312,7 @@ shapes = (
 ref = k;
 },
 {
-pos = (138,0);
+pos = (139,0);
 ref = commaaccentcomb;
 }
 );
@@ -69964,7 +70338,7 @@ shapes = (
 ref = k;
 },
 {
-pos = (196,0);
+pos = (197,0);
 ref = commaaccentcomb;
 }
 );
@@ -69975,7 +70349,11 @@ unicode = 311;
 },
 {
 glyphname = kdotbelow;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+lastChange = "2025-06-26 21:36:15 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -71454,7 +71832,7 @@ shapes = (
 ref = l;
 },
 {
-pos = (2,0);
+pos = (3,0);
 ref = commaaccentcomb;
 }
 );
@@ -71480,7 +71858,7 @@ shapes = (
 ref = l;
 },
 {
-pos = (22,0);
+pos = (23,0);
 ref = commaaccentcomb;
 }
 );
@@ -71579,7 +71957,11 @@ width = 280;
 glyphname = ldotbelow;
 kernLeft = h;
 kernRight = straight;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+lastChange = "2025-06-26 21:36:15 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -71664,7 +72046,10 @@ unicode = 7735;
 },
 {
 glyphname = ldotbelowmacron;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -71856,6 +72241,7 @@ width = 280;
 unicode = 7739;
 },
 {
+<<<<<<< Updated upstream
 glyphname = lmiddletilde;
 lastChange = "2025-09-29 16:18:28 +0000";
 layers = (
@@ -72211,6 +72597,8 @@ width = 430;
 unicode = 619;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = lslash;
 kernLeft = shortslash;
 kernRight = shortslash;
@@ -72835,7 +73223,11 @@ unicode = 7745;
 },
 {
 glyphname = mdotbelow;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+lastChange = "2025-06-26 21:36:15 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -73492,7 +73884,7 @@ shapes = (
 ref = n;
 },
 {
-pos = (223,0);
+pos = (224,0);
 ref = commaaccentcomb;
 }
 );
@@ -73518,7 +73910,7 @@ shapes = (
 ref = n;
 },
 {
-pos = (249,0);
+pos = (250,0);
 ref = commaaccentcomb;
 }
 );
@@ -73704,7 +74096,11 @@ unicode = 7749;
 glyphname = ndotbelow;
 kernLeft = n;
 kernRight = n;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+lastChange = "2025-06-26 21:36:15 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -73788,6 +74184,7 @@ width = 649;
 unicode = 7751;
 },
 {
+<<<<<<< Updated upstream
 glyphname = ngrave;
 layers = (
 {
@@ -73872,6 +74269,8 @@ width = 649;
 unicode = 505;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = nhookleft;
 lastChange = "2025-06-27 11:53:13 +0000";
 layers = (
@@ -75358,7 +75757,11 @@ unicode = 7889;
 glyphname = ocircumflexdotbelow;
 kernLeft = o;
 kernRight = o;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:41:43 +0000";
+=======
+lastChange = "2025-06-26 21:36:15 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -75721,6 +76124,7 @@ width = 592;
 unicode = 7895;
 },
 {
+<<<<<<< Updated upstream
 glyphname = odblgrave;
 layers = (
 {
@@ -75805,6 +76209,8 @@ width = 592;
 unicode = 525;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = odieresis;
 kernLeft = o;
 kernRight = o;
@@ -76087,6 +76493,7 @@ width = 592;
 unicode = 559;
 },
 {
+<<<<<<< Updated upstream
 glyphname = odotaccentmacron;
 layers = (
 {
@@ -76199,6 +76606,12 @@ glyphname = odotbelow;
 kernLeft = o;
 kernRight = o;
 lastChange = "2025-09-29 16:41:43 +0000";
+=======
+glyphname = odotbelow;
+kernLeft = o;
+kernRight = o;
+lastChange = "2025-06-26 21:36:15 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -78729,6 +79142,7 @@ width = 592;
 unicode = 7757;
 },
 {
+<<<<<<< Updated upstream
 glyphname = otildedieresis;
 layers = (
 {
@@ -78945,6 +79359,8 @@ width = 592;
 unicode = 557;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = oe;
 kernLeft = o;
 kernRight = e;
@@ -81175,7 +81591,11 @@ unicode = 113;
 glyphname = r;
 kernLeft = n;
 kernRight = r;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:27:20 +0000";
+=======
+lastChange = "2025-07-04 09:58:48 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 anchors = (
@@ -81672,7 +82092,11 @@ shapes = (
 ref = r;
 },
 {
+<<<<<<< Updated upstream
 pos = (7,0);
+=======
+pos = (135,0);
+>>>>>>> Stashed changes
 ref = commaaccentcomb;
 }
 );
@@ -81698,7 +82122,11 @@ shapes = (
 ref = r;
 },
 {
+<<<<<<< Updated upstream
 pos = (27,0);
+=======
+pos = (192,0);
+>>>>>>> Stashed changes
 ref = commaaccentcomb;
 }
 );
@@ -81708,6 +82136,7 @@ width = 540;
 unicode = 343;
 },
 {
+<<<<<<< Updated upstream
 glyphname = rdblgrave;
 layers = (
 {
@@ -81792,6 +82221,8 @@ width = 540;
 unicode = 529;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = rdotaccent;
 layers = (
 {
@@ -81877,7 +82308,10 @@ unicode = 7769;
 },
 {
 glyphname = rdotbelow;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:35 +0000";
+=======
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -81962,7 +82396,10 @@ unicode = 7771;
 },
 {
 glyphname = rdotbelowmacron;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -82415,7 +82852,10 @@ unicode = 531;
 },
 {
 glyphname = rmacronbelow;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:27:20 +0000";
+=======
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -83437,6 +83877,7 @@ width = 523;
 unicode = 347;
 },
 {
+<<<<<<< Updated upstream
 glyphname = sacutedotaccent;
 layers = (
 {
@@ -83545,6 +83986,8 @@ width = 523;
 unicode = 7781;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = scaron;
 kernLeft = s;
 kernRight = s;
@@ -83632,6 +84075,7 @@ width = 523;
 unicode = 353;
 },
 {
+<<<<<<< Updated upstream
 glyphname = scarondotaccent;
 layers = (
 {
@@ -83740,6 +84184,8 @@ width = 523;
 unicode = 7783;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = scedilla;
 kernLeft = s;
 kernRight = s;
@@ -83965,7 +84411,7 @@ shapes = (
 ref = s;
 },
 {
-pos = (144,0);
+pos = (145,0);
 ref = commaaccentcomb;
 }
 );
@@ -83991,7 +84437,7 @@ shapes = (
 ref = s;
 },
 {
-pos = (143,0);
+pos = (144,0);
 ref = commaaccentcomb;
 }
 );
@@ -84088,7 +84534,11 @@ unicode = 7777;
 glyphname = sdotbelow;
 kernLeft = s;
 kernRight = s;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+lastChange = "2025-06-26 21:36:15 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -84173,7 +84623,10 @@ unicode = 7779;
 },
 {
 glyphname = sdotbelowdotaccent;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -85654,7 +86107,7 @@ shapes = (
 ref = t;
 },
 {
-pos = (121,0);
+pos = (122,0);
 ref = commaaccentcomb;
 }
 );
@@ -85680,7 +86133,7 @@ shapes = (
 ref = t;
 },
 {
-pos = (150,-1);
+pos = (151,-1);
 ref = commaaccentcomb;
 }
 );
@@ -85777,7 +86230,11 @@ unicode = 7787;
 glyphname = tdotbelow;
 kernLeft = t;
 kernRight = t;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+lastChange = "2025-06-26 21:36:15 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -87547,6 +88004,7 @@ width = 636;
 unicode = 7799;
 },
 {
+<<<<<<< Updated upstream
 glyphname = udblgrave;
 layers = (
 {
@@ -87631,6 +88089,8 @@ width = 636;
 unicode = 533;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = udieresis;
 kernLeft = u;
 kernRight = straight;
@@ -87718,6 +88178,7 @@ width = 636;
 unicode = 252;
 },
 {
+<<<<<<< Updated upstream
 glyphname = udieresisacute;
 layers = (
 {
@@ -88238,6 +88699,12 @@ glyphname = udotbelow;
 kernLeft = u;
 kernRight = straight;
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+glyphname = udotbelow;
+kernLeft = u;
+kernRight = straight;
+lastChange = "2025-06-26 21:36:15 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -89322,6 +89789,7 @@ width = 636;
 unicode = 363;
 },
 {
+<<<<<<< Updated upstream
 glyphname = umacrondieresis;
 layers = (
 {
@@ -89430,6 +89898,8 @@ width = 636;
 unicode = 7803;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = uogonek;
 kernLeft = u;
 kernRight = straight;
@@ -90292,6 +90762,7 @@ width = 636;
 unicode = 361;
 },
 {
+<<<<<<< Updated upstream
 glyphname = utildeacute;
 layers = (
 {
@@ -90484,6 +90955,8 @@ width = 636;
 unicode = 7797;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = v;
 kernLeft = v;
 kernRight = v;
@@ -90667,6 +91140,7 @@ width = 612;
 unicode = 118;
 },
 {
+<<<<<<< Updated upstream
 glyphname = vdotbelow;
 layers = (
 {
@@ -90751,6 +91225,8 @@ width = 612;
 unicode = 7807;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = vhook;
 lastChange = "2025-06-27 16:38:09 +0000";
 layers = (
@@ -91927,7 +92403,10 @@ unicode = 7815;
 },
 {
 glyphname = wdotbelow;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -94853,7 +95332,11 @@ unicode = 380;
 glyphname = zdotbelow;
 kernLeft = z;
 kernRight = z;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:40 +0000";
+=======
+lastChange = "2025-06-26 21:36:15 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -95021,6 +95504,7 @@ width = 463;
 unicode = 7829;
 },
 {
+<<<<<<< Updated upstream
 glyphname = zstroke;
 layers = (
 {
@@ -95105,6 +95589,8 @@ width = 463;
 unicode = 438;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = saltillo;
 lastChange = "2025-06-26 21:31:45 +0000";
 layers = (
@@ -96748,6 +97234,7 @@ metricLeft = f;
 metricRight = i;
 },
 {
+<<<<<<< Updated upstream
 glyphname = f_i.liga;
 kernLeft = f;
 kernRight = i;
@@ -97479,6 +97966,8 @@ metricLeft = f;
 metricRight = i;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = ordfeminine;
 kernLeft = o;
 kernRight = straight;
@@ -98037,7 +98526,11 @@ unicode = 49;
 glyphname = two;
 kernLeft = "2";
 kernRight = "2";
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:46:44 +0000";
+=======
+lastChange = "2025-07-02 12:45:58 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -98286,7 +98779,11 @@ unicode = 50;
 glyphname = three;
 kernLeft = "3";
 kernRight = "3";
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+lastChange = "2025-07-02 10:34:00 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -98810,7 +99307,11 @@ unicode = 52;
 glyphname = five;
 kernLeft = "5";
 kernRight = "5";
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+lastChange = "2025-07-02 13:07:59 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -99109,7 +99610,11 @@ unicode = 53;
 glyphname = six;
 kernLeft = "6";
 kernRight = "6";
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+lastChange = "2025-07-02 10:34:52 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -99954,7 +100459,11 @@ unicode = 56;
 glyphname = nine;
 kernLeft = "9";
 kernRight = "9";
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+lastChange = "2025-07-02 13:16:56 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -100941,7 +101450,11 @@ width = 600;
 },
 {
 glyphname = three.osf;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+lastChange = "2025-06-26 21:31:45 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -101003,7 +101516,11 @@ metricRight = three;
 },
 {
 glyphname = three.tf;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+lastChange = "2025-06-26 21:31:45 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -101065,7 +101582,11 @@ metricRight = three;
 },
 {
 glyphname = three.tosf;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+lastChange = "2025-06-26 21:31:45 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -101461,7 +101982,11 @@ width = 600;
 },
 {
 glyphname = five.osf;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+lastChange = "2025-06-26 21:31:45 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -101523,7 +102048,11 @@ metricRight = five;
 },
 {
 glyphname = five.tf;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+lastChange = "2025-06-26 21:31:45 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -101585,7 +102114,11 @@ metricRight = five;
 },
 {
 glyphname = five.tosf;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+lastChange = "2025-06-26 21:31:45 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -101721,7 +102254,11 @@ width = 600;
 },
 {
 glyphname = six.osf;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+lastChange = "2025-06-26 21:31:45 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -101783,7 +102320,11 @@ metricRight = six;
 },
 {
 glyphname = six.tf;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+lastChange = "2025-06-26 21:31:45 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -101845,7 +102386,11 @@ metricRight = six;
 },
 {
 glyphname = six.tosf;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+lastChange = "2025-06-26 21:31:45 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -102501,7 +103046,11 @@ width = 600;
 },
 {
 glyphname = nine.osf;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+lastChange = "2025-06-26 21:31:45 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -102563,7 +103112,11 @@ metricRight = nine;
 },
 {
 glyphname = nine.tf;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+lastChange = "2025-06-26 21:31:45 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -102625,7 +103178,11 @@ metricRight = nine;
 },
 {
 glyphname = nine.tosf;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+lastChange = "2025-06-26 21:31:45 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -102687,7 +103244,11 @@ metricRight = nine;
 },
 {
 glyphname = zero.dnom;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 08:35:07 +0000";
+=======
+lastChange = "2025-06-26 21:31:45 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -102948,6 +103509,7 @@ nodes = (
 );
 },
 {
+<<<<<<< Updated upstream
 closed = 1;
 nodes = (
 (93,98,o),
@@ -102985,6 +103547,10 @@ source = zero;
 {
 glyphname = one.dnom;
 lastChange = "2025-09-29 08:35:39 +0000";
+=======
+glyphname = one.dnom;
+lastChange = "2025-06-26 21:32:52 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -103157,6 +103723,7 @@ nodes = (
 );
 },
 {
+<<<<<<< Updated upstream
 closed = 1;
 nodes = (
 (9,0,l),
@@ -103186,6 +103753,10 @@ source = one;
 {
 glyphname = two.dnom;
 lastChange = "2025-09-29 12:45:24 +0000";
+=======
+glyphname = two.dnom;
+lastChange = "2025-06-26 21:32:52 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -103482,7 +104053,11 @@ source = two;
 },
 {
 glyphname = three.dnom;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 08:35:58 +0000";
+=======
+lastChange = "2025-06-26 21:32:52 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -103806,6 +104381,7 @@ nodes = (
 );
 },
 {
+<<<<<<< Updated upstream
 closed = 1;
 nodes = (
 (118,143,l),
@@ -103846,6 +104422,10 @@ source = three;
 {
 glyphname = four.dnom;
 lastChange = "2025-09-29 08:36:05 +0000";
+=======
+glyphname = four.dnom;
+lastChange = "2025-06-26 21:32:52 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -104070,6 +104650,7 @@ nodes = (
 );
 },
 {
+<<<<<<< Updated upstream
 closed = 1;
 nodes = (
 (199,149,l),
@@ -104103,6 +104684,10 @@ glyphname = five.dnom;
 kernLeft = "5";
 kernRight = "5";
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+glyphname = five.dnom;
+lastChange = "2025-06-26 21:32:52 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -104417,6 +105002,7 @@ nodes = (
 );
 },
 {
+<<<<<<< Updated upstream
 closed = 1;
 nodes = (
 (147,252,l),
@@ -104452,6 +105038,10 @@ glyphname = six.dnom;
 kernLeft = "6";
 kernRight = "6";
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+glyphname = six.dnom;
+lastChange = "2025-06-26 21:32:52 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -104730,6 +105320,7 @@ nodes = (
 );
 },
 {
+<<<<<<< Updated upstream
 closed = 1;
 nodes = (
 (81,97,o),
@@ -104770,6 +105361,10 @@ glyphname = seven.dnom;
 kernLeft = "7";
 kernRight = "7";
 lastChange = "2025-09-29 08:36:50 +0000";
+=======
+glyphname = seven.dnom;
+lastChange = "2025-06-26 21:32:52 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -104942,6 +105537,7 @@ nodes = (
 );
 },
 {
+<<<<<<< Updated upstream
 closed = 1;
 nodes = (
 (229,247,l),
@@ -104973,6 +105569,10 @@ glyphname = eight.dnom;
 kernLeft = "8";
 kernRight = B;
 lastChange = "2025-09-29 08:39:30 +0000";
+=======
+glyphname = eight.dnom;
+lastChange = "2025-06-26 21:32:52 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -105378,6 +105978,7 @@ nodes = (
 );
 },
 {
+<<<<<<< Updated upstream
 closed = 1;
 nodes = (
 (126,140,o),
@@ -105447,6 +106048,10 @@ glyphname = nine.dnom;
 kernLeft = "9";
 kernRight = "9";
 lastChange = "2025-09-29 08:37:04 +0000";
+=======
+glyphname = nine.dnom;
+lastChange = "2025-06-26 21:31:45 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -105725,6 +106330,7 @@ nodes = (
 );
 },
 {
+<<<<<<< Updated upstream
 closed = 1;
 nodes = (
 (145,253,o),
@@ -105762,6 +106368,10 @@ source = nine;
 {
 glyphname = zero.numr;
 lastChange = "2025-09-29 08:37:18 +0000";
+=======
+glyphname = zero.numr;
+lastChange = "2025-06-26 21:31:45 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -106022,6 +106632,7 @@ nodes = (
 );
 },
 {
+<<<<<<< Updated upstream
 closed = 1;
 nodes = (
 (173,456,o),
@@ -106059,6 +106670,10 @@ source = zero;
 {
 glyphname = one.numr;
 lastChange = "2025-09-29 08:37:25 +0000";
+=======
+glyphname = one.numr;
+lastChange = "2025-06-26 21:32:52 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -106231,6 +106846,7 @@ nodes = (
 );
 },
 {
+<<<<<<< Updated upstream
 closed = 1;
 nodes = (
 (89,350,l),
@@ -106260,6 +106876,10 @@ source = one;
 {
 glyphname = two.numr;
 lastChange = "2025-09-29 12:44:45 +0000";
+=======
+glyphname = two.numr;
+lastChange = "2025-06-26 21:32:52 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -106556,7 +107176,11 @@ source = two;
 },
 {
 glyphname = three.numr;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 08:37:36 +0000";
+=======
+lastChange = "2025-06-26 21:32:52 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -106880,6 +107504,7 @@ nodes = (
 );
 },
 {
+<<<<<<< Updated upstream
 closed = 1;
 nodes = (
 (199,493,l),
@@ -106920,6 +107545,10 @@ source = three;
 {
 glyphname = four.numr;
 lastChange = "2025-09-29 08:37:42 +0000";
+=======
+glyphname = four.numr;
+lastChange = "2025-06-26 21:32:52 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -107144,6 +107773,7 @@ nodes = (
 );
 },
 {
+<<<<<<< Updated upstream
 closed = 1;
 nodes = (
 (280,499,l),
@@ -107177,6 +107807,10 @@ glyphname = five.numr;
 kernLeft = "5";
 kernRight = "5";
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+glyphname = five.numr;
+lastChange = "2025-06-26 21:32:52 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -107491,6 +108125,7 @@ nodes = (
 );
 },
 {
+<<<<<<< Updated upstream
 closed = 1;
 nodes = (
 (209,602,l),
@@ -107526,6 +108161,10 @@ glyphname = six.numr;
 kernLeft = "6";
 kernRight = "6";
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+glyphname = six.numr;
+lastChange = "2025-06-26 21:32:52 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -107804,6 +108443,7 @@ nodes = (
 );
 },
 {
+<<<<<<< Updated upstream
 closed = 1;
 nodes = (
 (162,447,o),
@@ -107844,6 +108484,10 @@ glyphname = seven.numr;
 kernLeft = "7";
 kernRight = "7";
 lastChange = "2025-09-29 08:38:16 +0000";
+=======
+glyphname = seven.numr;
+lastChange = "2025-06-26 21:32:52 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -108016,6 +108660,7 @@ nodes = (
 );
 },
 {
+<<<<<<< Updated upstream
 closed = 1;
 nodes = (
 (310,597,l),
@@ -108047,6 +108692,10 @@ glyphname = eight.numr;
 kernLeft = "8";
 kernRight = B;
 lastChange = "2025-09-29 08:38:26 +0000";
+=======
+glyphname = eight.numr;
+lastChange = "2025-06-26 21:32:52 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -108452,6 +109101,7 @@ nodes = (
 );
 },
 {
+<<<<<<< Updated upstream
 closed = 1;
 nodes = (
 (207,498,o),
@@ -108521,6 +109171,10 @@ glyphname = nine.numr;
 kernLeft = "9";
 kernRight = "9";
 lastChange = "2025-09-29 08:38:33 +0000";
+=======
+glyphname = nine.numr;
+lastChange = "2025-06-26 21:31:45 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -108799,6 +109453,7 @@ nodes = (
 );
 },
 {
+<<<<<<< Updated upstream
 closed = 1;
 nodes = (
 (251,611,o),
@@ -108836,6 +109491,10 @@ source = nine;
 {
 glyphname = fraction;
 lastChange = "2025-09-29 08:38:43 +0000";
+=======
+glyphname = fraction;
+lastChange = "2025-07-02 12:32:59 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -108932,7 +109591,11 @@ unicode = 8260;
 },
 {
 glyphname = onehalf;
+<<<<<<< Updated upstream
 lastChange = "2025-09-18 21:54:39 +0000";
+=======
+lastChange = "2025-07-02 12:32:59 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -109000,6 +109663,624 @@ pos = (400,0);
 ref = two.dnom;
 }
 );
+<<<<<<< Updated upstream
+=======
+width = 613;
+},
+{
+layerId = "E8DB84F4-EFBC-40F4-A45F-BC833EAAD3BD";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (139,0);
+ref = fraction;
+},
+{
+pos = (445,0);
+ref = two.dnom;
+}
+);
+width = 684;
+},
+{
+layerId = "ACA72793-194A-4122-860A-C95C9895C61C";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (168,0);
+ref = fraction;
+},
+{
+pos = (516,0);
+ref = two.dnom;
+}
+);
+width = 777;
+}
+);
+metricLeft = one.numr;
+metricRight = one.numr;
+unicode = 189;
+},
+{
+glyphname = onethird;
+lastChange = "2025-07-02 12:32:59 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (95,0);
+ref = fraction;
+},
+{
+pos = (273,0);
+ref = three.dnom;
+}
+);
+width = 530;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (139,0);
+ref = fraction;
+},
+{
+pos = (445,0);
+ref = three.dnom;
+}
+);
+width = 704;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (168,0);
+ref = fraction;
+},
+{
+pos = (516,0);
+ref = three.dnom;
+}
+);
+width = 777;
+},
+{
+layerId = "A4970244-97B1-4FA9-B3E0-2569B3FA35F0";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (95,0);
+ref = fraction;
+},
+{
+pos = (377,0);
+ref = three.dnom;
+}
+);
+width = 634;
+},
+{
+layerId = "E8DB84F4-EFBC-40F4-A45F-BC833EAAD3BD";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (139,0);
+ref = fraction;
+},
+{
+pos = (445,0);
+ref = three.dnom;
+}
+);
+width = 704;
+},
+{
+layerId = "ACA72793-194A-4122-860A-C95C9895C61C";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (168,0);
+ref = fraction;
+},
+{
+pos = (516,0);
+ref = three.dnom;
+}
+);
+width = 777;
+}
+);
+metricLeft = one.numr;
+metricRight = one.numr;
+unicode = 8531;
+},
+{
+glyphname = twothirds;
+lastChange = "2025-07-02 12:32:59 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = two.numr;
+},
+{
+pos = (236,0);
+ref = fraction;
+},
+{
+pos = (414,0);
+ref = three.dnom;
+}
+);
+width = 671;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = two.numr;
+},
+{
+pos = (239,0);
+ref = fraction;
+},
+{
+pos = (545,0);
+ref = three.dnom;
+}
+);
+width = 804;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = two.numr;
+},
+{
+pos = (261,0);
+ref = fraction;
+},
+{
+pos = (609,0);
+ref = three.dnom;
+}
+);
+width = 870;
+},
+{
+layerId = "A4970244-97B1-4FA9-B3E0-2569B3FA35F0";
+shapes = (
+{
+ref = two.numr;
+},
+{
+pos = (236,0);
+ref = fraction;
+},
+{
+pos = (518,0);
+ref = three.dnom;
+}
+);
+width = 775;
+},
+{
+layerId = "E8DB84F4-EFBC-40F4-A45F-BC833EAAD3BD";
+shapes = (
+{
+ref = two.numr;
+},
+{
+pos = (239,0);
+ref = fraction;
+},
+{
+pos = (545,0);
+ref = three.dnom;
+}
+);
+width = 804;
+},
+{
+layerId = "ACA72793-194A-4122-860A-C95C9895C61C";
+shapes = (
+{
+ref = two.numr;
+},
+{
+pos = (261,0);
+ref = fraction;
+},
+{
+pos = (609,0);
+ref = three.dnom;
+}
+);
+width = 870;
+}
+);
+metricLeft = two.numr;
+metricRight = two.numr;
+unicode = 8532;
+},
+{
+glyphname = onequarter;
+lastChange = "2025-07-02 12:32:59 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (95,0);
+ref = fraction;
+},
+{
+pos = (273,0);
+ref = four.dnom;
+}
+);
+width = 506;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (139,0);
+ref = fraction;
+},
+{
+pos = (445,0);
+ref = four.dnom;
+}
+);
+width = 695;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (168,0);
+ref = fraction;
+},
+{
+pos = (516,0);
+ref = four.dnom;
+}
+);
+width = 799;
+},
+{
+layerId = "A4970244-97B1-4FA9-B3E0-2569B3FA35F0";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (95,0);
+ref = fraction;
+},
+{
+pos = (377,0);
+ref = four.dnom;
+}
+);
+width = 610;
+},
+{
+layerId = "E8DB84F4-EFBC-40F4-A45F-BC833EAAD3BD";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (139,0);
+ref = fraction;
+},
+{
+pos = (445,0);
+ref = four.dnom;
+}
+);
+width = 696;
+},
+{
+layerId = "ACA72793-194A-4122-860A-C95C9895C61C";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (168,0);
+ref = fraction;
+},
+{
+pos = (516,0);
+ref = four.dnom;
+}
+);
+width = 799;
+}
+);
+metricLeft = one.numr;
+metricRight = one.numr;
+unicode = 188;
+},
+{
+glyphname = threequarters;
+lastChange = "2025-07-02 12:32:59 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = three.numr;
+},
+{
+pos = (257,0);
+ref = fraction;
+},
+{
+pos = (435,0);
+ref = four.dnom;
+}
+);
+width = 668;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = three.numr;
+},
+{
+pos = (259,0);
+ref = fraction;
+},
+{
+pos = (565,0);
+ref = four.dnom;
+}
+);
+width = 815;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = three.numr;
+},
+{
+pos = (261,0);
+ref = fraction;
+},
+{
+pos = (609,0);
+ref = four.dnom;
+}
+);
+width = 892;
+},
+{
+layerId = "A4970244-97B1-4FA9-B3E0-2569B3FA35F0";
+shapes = (
+{
+ref = three.numr;
+},
+{
+pos = (257,0);
+ref = fraction;
+},
+{
+pos = (539,0);
+ref = four.dnom;
+}
+);
+width = 772;
+},
+{
+layerId = "E8DB84F4-EFBC-40F4-A45F-BC833EAAD3BD";
+shapes = (
+{
+ref = three.numr;
+},
+{
+pos = (259,0);
+ref = fraction;
+},
+{
+pos = (565,0);
+ref = four.dnom;
+}
+);
+width = 816;
+},
+{
+layerId = "ACA72793-194A-4122-860A-C95C9895C61C";
+shapes = (
+{
+ref = three.numr;
+},
+{
+pos = (261,0);
+ref = fraction;
+},
+{
+pos = (609,0);
+ref = four.dnom;
+}
+);
+width = 892;
+}
+);
+metricLeft = three.numr;
+metricRight = three.numr;
+unicode = 190;
+},
+{
+glyphname = oneeighth;
+lastChange = "2025-07-02 12:32:59 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (95,0);
+ref = fraction;
+},
+{
+pos = (273,0);
+ref = eight.dnom;
+}
+);
+width = 502;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (139,0);
+ref = fraction;
+},
+{
+pos = (445,0);
+ref = eight.dnom;
+}
+);
+width = 687;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (168,0);
+ref = fraction;
+},
+{
+pos = (516,0);
+ref = eight.dnom;
+}
+);
+width = 764;
+},
+{
+layerId = "A4970244-97B1-4FA9-B3E0-2569B3FA35F0";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (95,0);
+ref = fraction;
+},
+{
+pos = (377,0);
+ref = eight.dnom;
+}
+);
+width = 606;
+},
+{
+layerId = "E8DB84F4-EFBC-40F4-A45F-BC833EAAD3BD";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (139,0);
+ref = fraction;
+},
+{
+pos = (445,0);
+ref = eight.dnom;
+}
+);
+width = 687;
+},
+{
+layerId = "ACA72793-194A-4122-860A-C95C9895C61C";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (168,0);
+ref = fraction;
+},
+{
+pos = (516,0);
+ref = eight.dnom;
+}
+);
+width = 764;
+}
+);
+metricLeft = one.numr;
+metricRight = one.numr;
+unicode = 8539;
+},
+{
+glyphname = threeeighths;
+lastChange = "2025-07-02 12:32:59 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = three.numr;
+},
+{
+pos = (257,0);
+ref = fraction;
+},
+{
+pos = (435,0);
+ref = eight.dnom;
+}
+);
+>>>>>>> Stashed changes
 width = 664;
 },
 {
@@ -109040,8 +110321,13 @@ width = 862;
 unicode = 189;
 },
 {
+<<<<<<< Updated upstream
 glyphname = onethird;
 lastChange = "2025-09-18 21:54:39 +0000";
+=======
+glyphname = fiveeighths;
+lastChange = "2025-07-02 12:32:59 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -109804,7 +111090,11 @@ unicode = 8541;
 },
 {
 glyphname = seveneighths;
+<<<<<<< Updated upstream
 lastChange = "2025-09-18 21:50:37 +0000";
+=======
+lastChange = "2025-07-02 12:32:59 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -109913,7 +111203,11 @@ unicode = 8542;
 },
 {
 glyphname = zeroinferior;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 08:46:50 +0000";
+=======
+lastChange = "2025-07-02 11:20:10 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -109982,7 +111276,11 @@ unicode = 8320;
 },
 {
 glyphname = oneinferior;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 08:46:50 +0000";
+=======
+lastChange = "2025-07-02 14:16:49 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -110051,7 +111349,11 @@ unicode = 8321;
 },
 {
 glyphname = twoinferior;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+lastChange = "2025-07-02 14:16:49 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -110120,7 +111422,11 @@ unicode = 8322;
 },
 {
 glyphname = threeinferior;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 08:46:50 +0000";
+=======
+lastChange = "2025-07-02 14:16:49 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -110189,7 +111495,11 @@ unicode = 8323;
 },
 {
 glyphname = fourinferior;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 08:46:50 +0000";
+=======
+lastChange = "2025-07-02 14:16:49 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -110258,7 +111568,11 @@ unicode = 8324;
 },
 {
 glyphname = fiveinferior;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+lastChange = "2025-07-02 14:16:49 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -110327,7 +111641,11 @@ unicode = 8325;
 },
 {
 glyphname = sixinferior;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+lastChange = "2025-07-02 14:16:49 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -110396,7 +111714,11 @@ unicode = 8326;
 },
 {
 glyphname = seveninferior;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 08:46:50 +0000";
+=======
+lastChange = "2025-07-02 14:16:49 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -110465,7 +111787,11 @@ unicode = 8327;
 },
 {
 glyphname = eightinferior;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 08:46:50 +0000";
+=======
+lastChange = "2025-07-02 21:48:56 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -110534,7 +111860,11 @@ unicode = 8328;
 },
 {
 glyphname = nineinferior;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 08:46:50 +0000";
+=======
+lastChange = "2025-06-26 21:31:45 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -110603,7 +111933,11 @@ unicode = 8329;
 },
 {
 glyphname = zerosuperior;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+lastChange = "2025-07-02 12:26:06 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -110672,7 +112006,11 @@ unicode = 8304;
 },
 {
 glyphname = onesuperior;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+lastChange = "2025-07-02 11:17:45 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -110741,7 +112079,11 @@ unicode = 185;
 },
 {
 glyphname = twosuperior;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+lastChange = "2025-07-02 14:16:49 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -110810,7 +112152,11 @@ unicode = 178;
 },
 {
 glyphname = threesuperior;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+lastChange = "2025-07-02 14:16:49 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -110879,7 +112225,11 @@ unicode = 179;
 },
 {
 glyphname = foursuperior;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+lastChange = "2025-07-02 14:16:49 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -110905,8 +112255,588 @@ width = 316;
 layerId = m003;
 shapes = (
 {
+<<<<<<< Updated upstream
 pos = (0,360);
 ref = four.dnom;
+=======
+closed = 1;
+nodes = (
+(311,316,l),
+(311,393,l),
+(346,393,l),
+(346,486,l),
+(311,486,l),
+(311,736,l),
+(188,736,l),
+(7,473,l),
+(7,393,l),
+(213,393,l),
+(213,316,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(257,486,l),
+(87,486,l),
+(110,456,l),
+(275,693,l),
+(213,697,l),
+(213,453,l)
+);
+}
+);
+width = 368;
+},
+{
+layerId = "A4970244-97B1-4FA9-B3E0-2569B3FA35F0";
+shapes = (
+{
+closed = 1;
+nodes = (
+(226,316,l),
+(251,454,l),
+(327,454,l),
+(329,468,l),
+(253,468,l),
+(300,736,l),
+(275,736,l),
+(43,469,l),
+(41,454,l),
+(234,454,l),
+(209,316,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(249,468,l),
+(54,468,l),
+(56,460,l),
+(292,732,l),
+(283,732,l),
+(234,458,l)
+);
+}
+);
+width = 305;
+},
+{
+layerId = "E8DB84F4-EFBC-40F4-A45F-BC833EAAD3BD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(273,316,l),
+(293,426,l),
+(339,426,l),
+(347,474,l),
+(301,474,l),
+(347,736,l),
+(274,736,l),
+(47,473,l),
+(39,426,l),
+(241,426,l),
+(221,316,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(270,474,l),
+(84,474,l),
+(93,456,l),
+(300,693,l),
+(289,697,l),
+(246,453,l)
+);
+}
+);
+width = 326;
+},
+{
+layerId = "ACA72793-194A-4122-860A-C95C9895C61C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(324,316,l),
+(338,393,l),
+(373,393,l),
+(389,486,l),
+(354,486,l),
+(398,736,l),
+(275,736,l),
+(48,473,l),
+(34,393,l),
+(240,393,l),
+(226,316,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(300,486,l),
+(130,486,l),
+(148,456,l),
+(355,693,l),
+(294,697,l),
+(251,453,l)
+);
+}
+);
+width = 367;
+}
+);
+metricLeft = four.numr;
+metricRight = four.numr;
+unicode = 8308;
+},
+{
+glyphname = fivesuperior;
+lastChange = "2025-07-02 14:16:49 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(263,306,o),
+(334,374,o),
+(334,459,cs),
+(334,546,o),
+(263,614,o),
+(172,614,cs),
+(119,614,o),
+(58,578,o),
+(34,533,c),
+(49,524,l),
+(68,566,o),
+(124,599,o),
+(176,599,cs),
+(255,599,o),
+(316,537,o),
+(316,460,cs),
+(316,383,o),
+(255,321,o),
+(176,321,cs),
+(97,321,o),
+(36,381,o),
+(36,456,c),
+(18,456,l),
+(18,372,o),
+(86,306,o),
+(172,306,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(68,720,l),
+(305,720,l),
+(305,736,l),
+(56,736,l),
+(34,533,l),
+(51,528,l)
+);
+}
+);
+width = 351;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(265,306,o),
+(336,374,o),
+(336,459,cs),
+(336,546,o),
+(265,614,o),
+(174,614,cs),
+(114,614,o),
+(62,581,o),
+(36,533,c),
+(82,505,l),
+(98,540,o),
+(135,564,o),
+(178,564,cs),
+(236,564,o),
+(282,518,o),
+(282,460,cs),
+(282,402,o),
+(236,356,o),
+(178,356,cs),
+(120,356,o),
+(74,399,o),
+(74,456,c),
+(20,456,l),
+(20,372,o),
+(88,306,o),
+(174,306,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(100,689,l),
+(307,689,l),
+(307,736,l),
+(58,736,l),
+(36,533,l),
+(81,509,l)
+);
+}
+);
+width = 355;
+},
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(261,306,o),
+(332,374,o),
+(332,459,cs),
+(332,546,o),
+(261,614,o),
+(170,614,cs),
+(117,614,o),
+(56,578,o),
+(32,533,c),
+(110,486,l),
+(118,504,o),
+(146,519,o),
+(174,519,cs),
+(207,519,o),
+(233,493,o),
+(233,460,cs),
+(233,427,o),
+(207,401,o),
+(174,401,cs),
+(141,401,o),
+(115,425,o),
+(115,456,c),
+(15,456,l),
+(15,372,o),
+(84,306,o),
+(170,306,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(128,647,l),
+(303,647,l),
+(303,736,l),
+(54,736,l),
+(32,533,l),
+(111,492,l)
+);
+}
+);
+width = 346;
+},
+{
+layerId = "A4970244-97B1-4FA9-B3E0-2569B3FA35F0";
+shapes = (
+{
+closed = 1;
+nodes = (
+(276,306,o),
+(357,373,o),
+(372,458,cs),
+(388,545,o),
+(328,614,o),
+(237,614,cs),
+(184,614,o),
+(117,579,o),
+(85,534,c),
+(99,523,l),
+(126,565,o),
+(188,599,o),
+(240,599,cs),
+(319,599,o),
+(369,538,o),
+(355,461,cs),
+(341,384,o),
+(268,321,o),
+(189,321,cs),
+(110,321,o),
+(61,380,o),
+(74,455,c),
+(56,457,l),
+(41,373,o),
+(99,306,o),
+(185,306,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(153,720,l),
+(390,720,l),
+(392,736,l),
+(143,736,l),
+(86,533,l),
+(102,528,l)
+);
+}
+);
+width = 351;
+},
+{
+layerId = "E8DB84F4-EFBC-40F4-A45F-BC833EAAD3BD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(280,306,o),
+(359,371,o),
+(374,456,cs),
+(389,543,o),
+(328,614,o),
+(237,614,cs),
+(177,614,o),
+(121,583,o),
+(87,535,c),
+(130,502,l),
+(152,537,o),
+(195,564,o),
+(238,564,cs),
+(296,564,o),
+(332,521,o),
+(321,463,cs),
+(311,405,o),
+(253,356,o),
+(195,356,cs),
+(137,356,o),
+(102,396,o),
+(112,453,c),
+(59,459,l),
+(44,375,o),
+(103,306,o),
+(189,306,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(179,689,l),
+(386,689,l),
+(394,736,l),
+(145,736,l),
+(88,533,l),
+(128,509,l)
+);
+}
+);
+width = 354;
+},
+{
+layerId = "ACA72793-194A-4122-860A-C95C9895C61C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(279,306,o),
+(356,369,o),
+(371,454,cs),
+(386,541,o),
+(322,614,o),
+(231,614,cs),
+(178,614,o),
+(115,583,o),
+(83,538,c),
+(156,481,l),
+(167,499,o),
+(202,519,o),
+(230,519,cs),
+(263,519,o),
+(280,498,o),
+(274,465,cs),
+(268,432,o),
+(231,401,o),
+(198,401,cs),
+(165,401,o),
+(148,420,o),
+(153,451,c),
+(55,461,l),
+(40,377,o),
+(102,306,o),
+(188,306,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(201,647,l),
+(376,647,l),
+(391,736,l),
+(142,736,l),
+(85,533,l),
+(156,492,l)
+);
+}
+);
+width = 347;
+}
+);
+metricLeft = five.numr;
+metricRight = five.numr;
+unicode = 8309;
+},
+{
+glyphname = sixsuperior;
+lastChange = "2025-07-02 14:16:49 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(257,306,o),
+(328,374,o),
+(328,459,cs),
+(328,546,o),
+(257,614,o),
+(166,614,cs),
+(80,614,o),
+(11,546,o),
+(11,460,cs),
+(11,374,o),
+(80,306,o),
+(166,306,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(91,321,o),
+(29,383,o),
+(29,460,cs),
+(29,537,o),
+(91,599,o),
+(170,599,cs),
+(248,599,o),
+(310,537,o),
+(310,459,cs),
+(310,382,o),
+(248,321,o),
+(170,321,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(45,532,l),
+(155,736,l),
+(138,736,l),
+(29,532,l)
+);
+}
+);
+width = 343;
+},
+{
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(256,306,o),
+(328,374,o),
+(328,459,cs),
+(328,546,o),
+(256,614,o),
+(166,614,cs),
+(79,614,o),
+(11,543,o),
+(11,460,cs),
+(11,377,o),
+(79,306,o),
+(166,306,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(111,356,o),
+(65,404,o),
+(65,460,cs),
+(65,516,o),
+(111,564,o),
+(169,564,cs),
+(228,564,o),
+(274,518,o),
+(274,459,cs),
+(274,401,o),
+(228,356,o),
+(169,356,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(89,532,l),
+(198,736,l),
+(138,736,l),
+(29,532,l)
+);
+}
+);
+width = 344;
+},
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(254,306,o),
+(326,374,o),
+(326,459,cs),
+(326,546,o),
+(254,614,o),
+(164,614,cs),
+(77,614,o),
+(9,546,o),
+(9,460,cs),
+(9,374,o),
+(77,306,o),
+(164,306,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(134,401,o),
+(109,427,o),
+(109,460,cs),
+(109,493,o),
+(134,519,o),
+(167,519,cs),
+(200,519,o),
+(226,493,o),
+(226,460,cs),
+(226,427,o),
+(200,401,o),
+(167,401,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(137,532,l),
+(247,736,l),
+(136,736,l),
+(27,532,l)
+);
+>>>>>>> Stashed changes
 }
 );
 width = 339;
@@ -111086,7 +113016,11 @@ unicode = 8310;
 },
 {
 glyphname = sevensuperior;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+lastChange = "2025-07-02 14:16:49 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -111155,7 +113089,11 @@ unicode = 8311;
 },
 {
 glyphname = eightsuperior;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+lastChange = "2025-07-02 14:16:49 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -111224,7 +113162,11 @@ unicode = 8312;
 },
 {
 glyphname = ninesuperior;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 12:47:09 +0000";
+=======
+lastChange = "2025-07-02 11:17:45 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -113506,7 +115448,11 @@ unicode = 8222;
 glyphname = quotedblleft;
 kernLeft = quoteleft;
 kernRight = quoteleft;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 18:10:26 +0000";
+=======
+lastChange = "2025-09-18 14:20:12 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -113551,10 +115497,11 @@ width = 607;
 layerId = "A4970244-97B1-4FA9-B3E0-2569B3FA35F0";
 shapes = (
 {
+pos = (-13,0);
 ref = quoteleft;
 },
 {
-pos = (160,0);
+pos = (147,0);
 ref = quoteleft;
 }
 );
@@ -113763,7 +115710,11 @@ unicode = 8216;
 glyphname = quoteright;
 kernLeft = quotesinglbase;
 kernRight = comma;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 18:10:26 +0000";
+=======
+lastChange = "2025-09-18 14:20:12 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -113779,7 +115730,7 @@ width = 206;
 layerId = m002;
 shapes = (
 {
-pos = (0,644);
+pos = (-20,644);
 ref = quotesinglbase;
 }
 );
@@ -114932,7 +116883,11 @@ width = 278;
 glyphname = semicolon;
 kernLeft = colon;
 kernRight = period;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 18:10:26 +0000";
+=======
+lastChange = "2025-09-18 14:20:37 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -115016,7 +116971,7 @@ pos = (3,-5);
 ref = comma;
 }
 );
-width = 406;
+width = 429;
 }
 );
 metricLeft = colon;
@@ -116731,7 +118686,11 @@ unicode = 92;
 glyphname = florin;
 kernLeft = florin;
 kernRight = florin;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 13:04:10 +0000";
+=======
+lastChange = "2025-06-27 11:58:00 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -116739,41 +118698,41 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(161,-44,ls),
-(161,-122,o),
-(102,-183,o),
-(26,-183,cs),
-(-20,-183,l),
-(-20,-207,l),
-(17,-207,l),
-(28,-207,ls),
-(118,-207,o),
-(189,-135,o),
-(189,-44,cs),
-(189,573,ls),
-(189,651,o),
-(248,712,o),
-(324,712,cs),
-(370,712,l),
-(370,736,l),
-(333,736,l),
-(322,736,ls),
-(232,736,o),
-(161,664,o),
-(161,573,cs)
+(185,-44,ls),
+(185,-122,o),
+(126,-183,o),
+(50,-183,cs),
+(4,-183,l),
+(4,-207,l),
+(41,-207,l),
+(52,-207,ls),
+(142,-207,o),
+(213,-135,o),
+(213,-44,cs),
+(213,573,ls),
+(213,651,o),
+(272,712,o),
+(348,712,cs),
+(394,712,l),
+(394,736,l),
+(357,736,l),
+(346,736,ls),
+(256,736,o),
+(185,664,o),
+(185,573,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(325,458,l),
-(325,480,l),
-(54,480,l),
-(54,458,l)
+(349,458,l),
+(349,480,l),
+(78,480,l),
+(78,458,l)
 );
 }
 );
-width = 451;
+width = 475;
 },
 {
 layerId = m002;
@@ -116781,41 +118740,41 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(152,-24,ls),
-(152,-81,o),
-(112,-125,o),
-(71,-125,cs),
-(-14,-125,l),
-(-14,-207,l),
-(64,-207,l),
-(69,-207,ls),
-(159,-207,o),
-(240,-126,o),
-(240,-24,cs),
-(240,553,ls),
-(240,610,o),
-(280,654,o),
-(321,654,cs),
-(406,654,l),
-(406,736,l),
-(328,736,l),
-(323,736,ls),
-(233,736,o),
-(152,655,o),
-(152,553,cs)
+(174,-24,ls),
+(174,-81,o),
+(134,-125,o),
+(93,-125,cs),
+(8,-125,l),
+(8,-207,l),
+(86,-207,l),
+(91,-207,ls),
+(181,-207,o),
+(262,-126,o),
+(262,-24,cs),
+(262,553,ls),
+(262,610,o),
+(302,654,o),
+(343,654,cs),
+(428,654,l),
+(428,736,l),
+(350,736,l),
+(345,736,ls),
+(255,736,o),
+(174,655,o),
+(174,553,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(348,402,l),
-(348,480,l),
-(77,480,l),
-(77,402,l)
+(370,402,l),
+(370,480,l),
+(99,480,l),
+(99,402,l)
 );
 }
 );
-width = 441;
+width = 463;
 },
 {
 layerId = m003;
@@ -116865,41 +118824,41 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(111,-43,ls),
-(97,-121,o),
-(26,-183,o),
-(-50,-183,cs),
-(-95,-183,l),
-(-99,-207,l),
-(-62,-207,l),
-(-50,-207,ls),
-(40,-207,o),
-(123,-136,o),
-(139,-45,cs),
-(248,572,ls),
-(261,650,o),
-(332,712,o),
-(408,712,cs),
-(453,712,l),
-(457,736,l),
-(420,736,l),
-(408,736,ls),
-(318,736,o),
-(236,665,o),
-(220,574,cs)
+(135,-43,ls),
+(121,-121,o),
+(50,-183,o),
+(-26,-183,cs),
+(-71,-183,l),
+(-75,-207,l),
+(-38,-207,l),
+(-26,-207,ls),
+(64,-207,o),
+(147,-136,o),
+(163,-45,cs),
+(272,572,ls),
+(285,650,o),
+(356,712,o),
+(432,712,cs),
+(477,712,l),
+(481,736,l),
+(444,736,l),
+(432,736,ls),
+(342,736,o),
+(260,665,o),
+(244,574,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(363,458,l),
-(367,480,l),
-(96,480,l),
-(92,458,l)
+(387,458,l),
+(391,480,l),
+(120,480,l),
+(116,458,l)
 );
 }
 );
-width = 451;
+width = 475;
 },
 {
 layerId = "E8DB84F4-EFBC-40F4-A45F-BC833EAAD3BD";
@@ -116907,41 +118866,41 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(106,-21,ls),
-(96,-78,o),
-(45,-125,o),
-(4,-125,cs),
-(-78,-125,l),
-(-93,-207,l),
-(-15,-207,l),
-(-7,-207,ls),
-(83,-207,o),
-(175,-129,o),
-(193,-27,cs),
-(295,550,ls),
-(305,607,o),
-(356,654,o),
-(397,654,cs),
-(479,654,l),
-(493,736,l),
-(415,736,l),
-(407,736,ls),
-(317,736,o),
-(226,658,o),
-(208,556,cs)
+(128,-21,ls),
+(118,-78,o),
+(67,-125,o),
+(26,-125,cs),
+(-56,-125,l),
+(-71,-207,l),
+(7,-207,l),
+(15,-207,ls),
+(105,-207,o),
+(197,-129,o),
+(215,-27,cs),
+(317,550,ls),
+(327,607,o),
+(378,654,o),
+(419,654,cs),
+(501,654,l),
+(515,736,l),
+(437,736,l),
+(429,736,ls),
+(339,736,o),
+(248,658,o),
+(230,556,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(377,402,l),
-(390,480,l),
-(119,480,l),
-(106,402,l)
+(399,402,l),
+(412,480,l),
+(141,480,l),
+(128,402,l)
 );
 }
 );
-width = 441;
+width = 463;
 },
 {
 layerId = "ACA72793-194A-4122-860A-C95C9895C61C";
@@ -118680,6 +120639,7 @@ width = 736;
 unicode = 8372;
 },
 {
+<<<<<<< Updated upstream
 glyphname = lira;
 lastChange = "2025-09-29 18:40:38 +0000";
 layers = (
@@ -118987,6 +120947,8 @@ width = 603;
 unicode = 8356;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = naira;
 kernLeft = naira;
 kernRight = naira;
@@ -120242,7 +122204,11 @@ unicode = 8362;
 glyphname = sterling;
 kernLeft = sterling;
 kernRight = sterling;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 18:43:17 +0000";
+=======
+lastChange = "2025-06-26 21:36:50 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 layerId = m01;
@@ -121020,6 +122986,7 @@ width = 716;
 unicode = 165;
 },
 {
+<<<<<<< Updated upstream
 glyphname = YturnedSansSerif;
 lastChange = "2025-09-29 18:03:07 +0000";
 layers = (
@@ -121153,6 +123120,8 @@ width = 700;
 unicode = 8516;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = plus;
 kernLeft = plus;
 kernRight = plus;
@@ -135747,7 +137716,11 @@ unicode = 771;
 glyphname = tildecomb.narrow;
 kernLeft = tildecomb;
 kernRight = tildecomb;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 13:34:31 +0000";
+=======
+lastChange = "2025-06-26 21:36:47 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 anchors = (
@@ -136872,6 +138845,7 @@ metricRight = "=50";
 unicode = 777;
 },
 {
+<<<<<<< Updated upstream
 glyphname = dblgravecomb;
 lastChange = "2025-09-29 18:07:57 +0000";
 layers = (
@@ -137083,6 +139057,8 @@ width = 478;
 unicode = 783;
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = candraBinducomb;
 lastChange = "2025-06-26 21:36:47 +0000";
 layers = (
@@ -137626,29 +139602,33 @@ unicode = 785;
 glyphname = commaturnedabovecomb;
 kernLeft = commaturnedabovecomb;
 kernRight = commaturnedabovecomb;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 13:50:39 +0000";
+=======
+lastChange = "2025-06-27 11:53:27 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 anchors = (
 {
 name = _top;
-pos = (93,480);
+pos = (100,480);
 },
 {
 name = top;
-pos = (93,788);
+pos = (100,788);
 }
 );
 layerId = m01;
 shapes = (
 {
 angle = 180;
-pos = (150,635);
+pos = (157,635);
 ref = comma;
 scale = (0.6,0.6);
 }
 );
-width = 164;
+width = 171;
 },
 {
 anchors = (
@@ -137676,45 +139656,45 @@ width = 200;
 anchors = (
 {
 name = _top;
-pos = (107,450);
+pos = (122,450);
 },
 {
 name = top;
-pos = (107,823);
+pos = (122,823);
 }
 );
 layerId = m003;
 shapes = (
 {
 angle = 180;
-pos = (235,623);
+pos = (250,623);
 ref = comma;
 scale = (0.6,0.6);
 }
 );
-width = 230;
+width = 245;
 },
 {
 anchors = (
 {
 name = _top;
-pos = (137,480);
+pos = (145,480);
 },
 {
 name = top;
-pos = (137,788);
+pos = (145,788);
 }
 );
 layerId = "A4970244-97B1-4FA9-B3E0-2569B3FA35F0";
 shapes = (
 {
 angle = 180;
-pos = (194,635);
+pos = (202,635);
 ref = comma;
 scale = (0.6,0.6);
 }
 );
-width = 164;
+width = 171;
 },
 {
 anchors = (
@@ -137742,23 +139722,23 @@ width = 200;
 anchors = (
 {
 name = _top;
-pos = (150,450);
+pos = (164,450);
 },
 {
 name = top;
-pos = (150,823);
+pos = (164,823);
 }
 );
 layerId = "ACA72793-194A-4122-860A-C95C9895C61C";
 shapes = (
 {
 angle = 180;
-pos = (278,623);
+pos = (292,623);
 ref = comma;
 scale = (0.6,0.6);
 }
 );
-width = 231;
+width = 245;
 }
 );
 metricLeft = "=50";
@@ -137976,7 +139956,11 @@ unicode = 795;
 glyphname = dotbelowcomb;
 kernLeft = period;
 kernRight = period;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 16:28:35 +0000";
+=======
+lastChange = "2025-06-27 13:21:00 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 anchors = (
@@ -138104,6 +140088,7 @@ metricRight = "=50";
 unicode = 803;
 },
 {
+<<<<<<< Updated upstream
 glyphname = dieresisbelowcomb;
 lastChange = "2025-09-29 18:04:43 +0000";
 layers = (
@@ -138488,6 +140473,12 @@ glyphname = commaaccentcomb.loclMAH;
 kernLeft = commaaccentcomb;
 kernRight = commaaccentcomb;
 lastChange = "2025-09-29 16:35:24 +0000";
+=======
+glyphname = commaaccentcomb.loclMAH;
+kernLeft = commaaccentcomb;
+kernRight = commaaccentcomb;
+lastChange = "2025-09-18 13:54:40 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 anchors = (
@@ -138502,7 +140493,7 @@ shapes = (
 ref = commaaccentcomb;
 }
 );
-width = 164;
+width = 171;
 },
 {
 anchors = (
@@ -138547,7 +140538,7 @@ shapes = (
 ref = commaaccentcomb;
 }
 );
-width = 164;
+width = 171;
 },
 {
 anchors = (
@@ -138577,7 +140568,7 @@ shapes = (
 ref = commaaccentcomb;
 }
 );
-width = 231;
+width = 244;
 }
 );
 metricLeft = "=50";
@@ -138587,7 +140578,11 @@ metricRight = "=50";
 glyphname = commaaccentcomb;
 kernLeft = commaaccentcomb;
 kernRight = commaaccentcomb;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 13:50:39 +0000";
+=======
+lastChange = "2025-06-27 11:53:27 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 anchors = (
@@ -138608,7 +140603,7 @@ ref = comma;
 scale = (0.6,0.6);
 }
 );
-width = 164;
+width = 171;
 },
 {
 anchors = (
@@ -138650,28 +140645,28 @@ ref = comma;
 scale = (0.6,0.6);
 }
 );
-width = 230;
+width = 245;
 },
 {
 anchors = (
 {
 name = _bottom;
-pos = (26,0);
+pos = (25,0);
 },
 {
 name = bottom;
-pos = (26,-254);
+pos = (25,-254);
 }
 );
 layerId = "A4970244-97B1-4FA9-B3E0-2569B3FA35F0";
 shapes = (
 {
-pos = (-31,-162);
+pos = (-32,-162);
 ref = comma;
 scale = (0.6,0.6);
 }
 );
-width = 164;
+width = 171;
 },
 {
 anchors = (
@@ -138698,22 +140693,22 @@ width = 199;
 anchors = (
 {
 name = _bottom;
-pos = (76,0);
+pos = (75,0);
 },
 {
 name = bottom;
-pos = (76,-256);
+pos = (75,-256);
 }
 );
 layerId = "ACA72793-194A-4122-860A-C95C9895C61C";
 shapes = (
 {
-pos = (-52,-173);
+pos = (-53,-173);
 ref = comma;
 scale = (0.6,0.6);
 }
 );
-width = 231;
+width = 244;
 }
 );
 metricLeft = "=50";
@@ -139777,6 +141772,7 @@ glyphname = verticallinebelowcomb;
 lastChange = "2025-09-29 16:24:41 +0000";
 layers = (
 {
+<<<<<<< Updated upstream
 anchors = (
 {
 name = _bottom;
@@ -139925,6 +141921,30 @@ nodes = (
 }
 );
 width = 260;
+=======
+layerId = m01;
+width = 300;
+},
+{
+layerId = m002;
+width = 300;
+},
+{
+layerId = m003;
+width = 300;
+},
+{
+layerId = "A4970244-97B1-4FA9-B3E0-2569B3FA35F0";
+width = 300;
+},
+{
+layerId = "E8DB84F4-EFBC-40F4-A45F-BC833EAAD3BD";
+width = 300;
+},
+{
+layerId = "ACA72793-194A-4122-860A-C95C9895C61C";
+width = 300;
+>>>>>>> Stashed changes
 }
 );
 unicode = 809;
@@ -140545,6 +142565,7 @@ metricRight = "=50";
 unicode = 815;
 },
 {
+<<<<<<< Updated upstream
 glyphname = tildebelowcomb;
 lastChange = "2025-09-29 13:00:32 +0000";
 layers = (
@@ -141050,6 +143071,8 @@ width = 450;
 );
 },
 {
+=======
+>>>>>>> Stashed changes
 glyphname = macronbelowcomb;
 kernLeft = macroncomb;
 kernRight = macroncomb;
@@ -141720,7 +143743,11 @@ unicode = 824;
 },
 {
 glyphname = brevecomb_acutecomb;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 13:50:39 +0000";
+=======
+lastChange = "2025-06-27 11:53:27 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 anchors = (
@@ -141812,7 +143839,7 @@ pos = (175,200);
 ref = acutecomb;
 }
 );
-width = 397;
+width = 398;
 },
 {
 anchors = (
@@ -141835,7 +143862,7 @@ pos = (184,200);
 ref = acutecomb;
 }
 );
-width = 447;
+width = 448;
 },
 {
 anchors = (
@@ -141858,7 +143885,7 @@ pos = (182,220);
 ref = acutecomb;
 }
 );
-width = 486;
+width = 488;
 }
 );
 metricLeft = "=50";
@@ -141866,7 +143893,11 @@ metricRight = "=50";
 },
 {
 glyphname = brevecomb_gravecomb;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 13:50:39 +0000";
+=======
+lastChange = "2025-06-27 14:49:54 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 anchors = (
@@ -141958,7 +143989,7 @@ pos = (99,200);
 ref = gravecomb;
 }
 );
-width = 397;
+width = 398;
 },
 {
 anchors = (
@@ -141981,7 +144012,7 @@ pos = (81,200);
 ref = gravecomb;
 }
 );
-width = 447;
+width = 448;
 },
 {
 anchors = (
@@ -142004,7 +144035,7 @@ pos = (69,220);
 ref = gravecomb;
 }
 );
-width = 486;
+width = 488;
 }
 );
 metricLeft = "=50";
@@ -142012,7 +144043,11 @@ metricRight = "=50";
 },
 {
 glyphname = brevecomb_hookabovecomb;
+<<<<<<< Updated upstream
 lastChange = "2025-09-29 13:50:39 +0000";
+=======
+lastChange = "2025-06-27 13:32:08 +0000";
+>>>>>>> Stashed changes
 layers = (
 {
 anchors = (
@@ -142104,7 +144139,7 @@ pos = (96,200);
 ref = hookabovecomb;
 }
 );
-width = 397;
+width = 398;
 },
 {
 anchors = (
@@ -142127,7 +144162,7 @@ pos = (113,200);
 ref = hookabovecomb;
 }
 );
-width = 447;
+width = 448;
 },
 {
 anchors = (
@@ -142150,7 +144185,7 @@ pos = (107,220);
 ref = hookabovecomb;
 }
 );
-width = 486;
+width = 488;
 }
 );
 metricLeft = "=50";
