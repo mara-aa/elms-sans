@@ -1,6 +1,6 @@
 ## FontBakery report
 
-fontbakery version: 1.0.1
+fontbakery version: 1.1.0
 
 
 
@@ -182,7 +182,7 @@ fontbakery version: 1.0.1
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
     <div>
 
 
@@ -191,214 +191,113 @@ fontbakery version: 1.0.1
 
 
 
-* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
-<pre><code>- Glyph name: kgreenlandic	Expected: 1 or 2
+* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
+<pre><code>- acutecomb
 
-- Glyph name: uni0222	Expected: 2
+- dotbelowcomb
 
-- Glyph name: uni0223	Expected: 2
+- gravecomb
 
-- Glyph name: uni024A	Expected: 2
+- hookabovecomb
 
-- Glyph name: uni024B	Expected: 2
+- tildecomb
 
-- Glyph name: uni02BB	Expected: 1
+- uni0302
 
-- Glyph name: uni02BE	Expected: 1
+- uni0304
 
-- Glyph name: uni02BF	Expected: 1
+- uni0306
 
-- Glyph name: uni02CA	Expected: 1
+- uni0307
 
-- Glyph name: uni02CB	Expected: 1
+- uni0308
 
-- Glyph name: uni0313	Expected: 1
+- uni030A
 
-- Glyph name: uni0334	Expected: 1
+- uni030B
 
-- Glyph name: theta	Expected: 3
+- uni030C
 
-- Glyph name: uni03BC	Expected: 1
+- uni030F
 
-- Glyph name: pi	Expected: 1
+- uni0310
 
-- Glyph name: chi	Expected: 1
+- uni0311
 
-- Glyph name: uni2016	Expected: 2
+- uni0312
 
-- Glyph name: minute	Expected: 1
+- uni0313
 
-- Glyph name: second	Expected: 2
+- uni0315
 
-- Glyph name: colonmonetary	Expected: 1 or 3
+- uni031B
 
-- Glyph name: dong	Expected: 3 or 4
+- uni0324
 
-- Glyph name: uni20AE	Expected: 1
+- uni0325
 
-- Glyph name: uni20B1	Expected: 1, 2 or 4
+- uni0326
 
-- Glyph name: uni20B2	Expected: 1, 2 or 3
+- uni0327
 
-- Glyph name: uni20B8	Expected: 2
+- uni0328
 
-- Glyph name: uni20BA	Expected: 1
+- uni0329
 
-- Glyph name: uni20BC	Expected: 1
+- uni032D
 
-- Glyph name: uni20BF	Expected: 3
+- uni032E
 
-- Glyph name: uni2113	Expected: 2
+- uni032F
 
-- Glyph name: uni2126	Expected: 1
+- uni0330
 
-- Glyph name: estimated	Expected: 2
+- uni0331
 
-- Glyph name: emptyset	Expected: 3
+- uni0332
 
-- Glyph name: uni2206	Expected: 2
+- uni0334
 
-- Glyph name: filledbox	Expected: 1
+- uni0335
 
-- Glyph name: uni25A1	Expected: 2
+- uni0336
 
-- Glyph name: uni25AA	Expected: 1
+- uni0337
 
-- Glyph name: uni25AB	Expected: 2
+- uni0338
 
-- Glyph name: triagup	Expected: 1
+- uni0358
 
-- Glyph name: uni25B3	Expected: 2
+- uni1DC4
 
-- Glyph name: uni25B6	Expected: 1
+- uni1DC5
 
-- Glyph name: uni25B7	Expected: 2
+- uni1DC6
 
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
-
-- Glyph name: chi	Expected: 1
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: colonmonetary	Expected: 1 or 3
-
-- Glyph name: dong	Expected: 3 or 4
-
-- Glyph name: emptyset	Expected: 3
-
-- Glyph name: estimated	Expected: 2
-
-- Glyph name: kgreenlandic	Expected: 1 or 2
-
-- Glyph name: pi	Expected: 1
-
-- Glyph name: theta	Expected: 3
-
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: triagup	Expected: 1
-
-- Glyph name: uni0222	Expected: 2
-
-- Glyph name: uni0223	Expected: 2
-
-- Glyph name: uni024A	Expected: 2
-
-- Glyph name: uni024B	Expected: 2
-
-- Glyph name: uni02BB	Expected: 1
-
-- Glyph name: uni02BE	Expected: 1
-
-- Glyph name: uni02BF	Expected: 1
-
-- Glyph name: uni02CA	Expected: 1
-
-- Glyph name: uni02CB	Expected: 1
-
-- Glyph name: uni0313	Expected: 1
-
-- Glyph name: uni03BC	Expected: 1
-
-- Glyph name: uni2016	Expected: 2
-
-- Glyph name: uni20AE	Expected: 1
-
-- Glyph name: uni20B1	Expected: 1, 2 or 4
-
-- Glyph name: uni20B2	Expected: 1, 2 or 3
-
-- Glyph name: uni20B8	Expected: 2
-
-- Glyph name: uni20BA	Expected: 1
-
-- Glyph name: uni20BC	Expected: 1
-
-- Glyph name: uni20BF	Expected: 3
-
-- Glyph name: uni2113	Expected: 2
-
-- Glyph name: uni2126	Expected: 1
-
-- Glyph name: uni2206	Expected: 2
-
-- Glyph name: uni25A1	Expected: 2
-
-- Glyph name: uni25AA	Expected: 1
-
-- Glyph name: uni25AB	Expected: 2
-
-- Glyph name: uni25B3	Expected: 2
-
-- Glyph name: uni25B6	Expected: 1
-
-- Glyph name: uni25B7	Expected: 2
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
+- uni1DC7
 </code></pre>
- [code: no-contour]
+ [code: unattached-dotted-circle-marks]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <div>
+
+
+
+
 
 
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -482,6 +381,16 @@ fontbakery version: 1.0.1
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
+
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -496,6 +405,8 @@ fontbakery version: 1.0.1
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: hbar	Contours detected: 2	Expected: 1
@@ -503,6 +414,8 @@ fontbakery version: 1.0.1
 - Glyph name: tbar	Contours detected: 2	Expected: 1
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
@@ -561,92 +474,16 @@ fontbakery version: 1.0.1
 - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
 </code></pre>
  [code: contour-count]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-</code></pre>
- [code: unattached-dotted-circle-marks]
 
 
 
@@ -665,6 +502,8 @@ fontbakery version: 1.0.1
 
 * ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
 - f_i.liga</p>
+<pre><code>- fl
+</code></pre>
  [code: incomplete-caret-pos-data]
 
 
@@ -775,30 +614,30 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, math, syriac, todhri, canadian-aboriginal, coptic, malayalam, tai-le, tifinagh, old-permic</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, syriac, hebrew, tai-le, coptic, canadian-aboriginal, tifinagh, duployan, malayalam, math, old-permic</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, syriac, thai, gothic, cherokee, tifinagh, sunuwar</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, syriac, tifinagh, caucasian-albanian</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -806,13 +645,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: math, elbasan, greek</li>
-<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: math, elbasan, greek</li>
-<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: math, greek</li>
-<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek</li>
-<li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
-<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek</li>
+<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: greek, math, elbasan</li>
+<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: greek, math, elbasan</li>
+<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
+<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
+<li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
+<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
 <li>U+1DC5 COMBINING GRAVE-MACRON: not included in any glyphset definition</li>
@@ -851,14 +690,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
@@ -876,26 +715,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: mende-kikakui, wancho, symbols, telugu, mongolian, devanagari, sogdian, pahawh-hmong, armenian, zanabazar-square, caucasian-albanian, siddham, myanmar, limbu, music, oriya, duployan, math, syriac, manichaean, warang-citi, canadian-aboriginal, ahom, bengali, tibetan, new-tai-lue, soyombo, bhaiksuki, buhid, mahajani, coptic, meetei-mayek, tirhuta, adlam, sharada, tai-viet, khojki, kannada, malayalam, khmer, cham, tai-tham, sundanese, batak, miao, javanese, grantha, saurashtra, marchen, sinhala, chakma, tamil, gunjala-gondi, psalter-pahlavi, mandaic, hanunoo, rejang, tai-le, lepcha, elbasan, nko, takri, thaana, khudawadi, tifinagh, brahmi, newa, phags-pa, thai, buginese, syloti-nagri, hanifi-rohingya, dogra, tagbanwa, balinese, osage, kaithi, modi, masaram-gondi, kayah-li, lao, bassa-vah, old-permic, yi, gujarati, hebrew, gurmukhi, kharoshthi, tagalog</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: buginese, marchen, chakma, myanmar, gunjala-gondi, syriac, takri, syloti-nagri, duployan, math, grantha, masaram-gondi, yi, newa, oriya, warang-citi, siddham, armenian, rejang, bengali, sundanese, bassa-vah, osage, tagalog, symbols, old-permic, brahmi, canadian-aboriginal, dogra, tamil, modi, phags-pa, tai-tham, new-tai-lue, kharoshthi, sogdian, pahawh-hmong, adlam, tai-le, saurashtra, devanagari, psalter-pahlavi, tifinagh, tibetan, mongolian, ahom, sharada, elbasan, malayalam, telugu, buhid, limbu, kaithi, tai-viet, lepcha, lao, hebrew, thaana, cham, gurmukhi, nko, wancho, music, soyombo, balinese, miao, khojki, mende-kikakui, zanabazar-square, khmer, tagbanwa, manichaean, tirhuta, khudawadi, gujarati, coptic, meetei-mayek, sinhala, hanunoo, caucasian-albanian, kayah-li, kannada, mahajani, thai, batak, hanifi-rohingya, javanese, mandaic, bhaiksuki</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -922,8 +761,8 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̍ i̓ i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i᷄ i᷅ i̛̍ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤̍ i̤̓ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥̍ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ḭ̀ ḭ́ ḭ̂ ḭ̃ ḭ̄ ḭ̆ ḭ̇ ḭ̈ ḭ̉ ḭ̊ ḭ̋ ḭ̌ ḭ̍ ḭ̏ ḭ̐ ḭ̑ ḭ̒ ḭ̓ ḭ᷄ ḭ᷅</p>
  [code: soft-dotted]
 
 
@@ -1010,6 +849,14 @@ definitions.</p>
 
 * uni1ED5 (U+1ED5): X=404.5,Y=702.0 (should be at cap-height 700?)
 
+* uni0223 (U+0223): X=47.0,Y=702.0 (should be at cap-height 700?)
+
+* uni0223 (U+0223): X=101.0,Y=702.0 (should be at cap-height 700?)
+
+* uni0223 (U+0223): X=355.0,Y=702.0 (should be at cap-height 700?)
+
+* uni0223 (U+0223): X=409.0,Y=702.0 (should be at cap-height 700?)
+
 * r (U+0072): X=337.5,Y=478.0 (should be at x-height 480?)
 
 * uni1E7B (U+1E7B): X=370.0,Y=698.0 (should be at cap-height 700?)
@@ -1044,7 +891,13 @@ definitions.</p>
 
 * quotedblleft (U+201C): X=330.0,Y=699.0 (should be at cap-height 700?)
 
+* quotedblright (U+201D): X=259.0,Y=701.0 (should be at cap-height 700?)
+
+* quotedblright (U+201D): X=74.0,Y=701.0 (should be at cap-height 700?)
+
 * quoteleft (U+2018): X=145.0,Y=699.0 (should be at cap-height 700?)
+
+* quoteright (U+2019): X=74.0,Y=701.0 (should be at cap-height 700?)
 
 * comma (U+002C): X=88.5,Y=1.0 (should be at baseline 0?)
 
@@ -1056,13 +909,25 @@ definitions.</p>
 
 * question (U+003F): X=293.5,Y=1.0 (should be at baseline 0?)
 
+* colonmonetary (U+20A1): X=507.0,Y=701.0 (should be at cap-height 700?)
+
 * dollar (U+0024): X=228.0,Y=2.0 (should be at baseline 0?)
 
 * dollar (U+0024): X=282.0,Y=699.0 (should be at cap-height 700?)
 
+* uni25CF (U+25CF): X=402.0,Y=2.0 (should be at baseline 0?)
+
+* uni25CF (U+25CF): X=402.0,Y=2.0 (should be at baseline 0?)
+
+* circle (U+25CB): X=402.0,Y=2.0 (should be at baseline 0?)
+
+* circle (U+25CB): X=402.0,Y=2.0 (should be at baseline 0?)
+
 * section (U+00A7): X=124.0,Y=698.5 (should be at cap-height 700?)
 
 * registered (U+00AE): X=201.0,Y=698.0 (should be at cap-height 700?)
+
+* uni02BC (U+02BC): X=74.0,Y=701.0 (should be at cap-height 700?)
 
 * uni03020309.case: X=346.5,Y=699.5 (should be at cap-height 700?)
 
@@ -1121,6 +986,8 @@ definitions.</p>
 * uni2075 (U+2075): L&lt;&lt;99.0,515.0&gt;--&lt;57.0,540.0&gt;&gt; -&gt; L&lt;&lt;57.0,540.0&gt;--&lt;54.0,542.0&gt;&gt;
 
 * uni2085 (U+2085): L&lt;&lt;99.0,30.0&gt;--&lt;57.0,55.0&gt;&gt; -&gt; L&lt;&lt;57.0,55.0&gt;--&lt;54.0,57.0&gt;&gt;
+
+* uniA7B2 (U+A7B2): L&lt;&lt;345.0,235.0&gt;--&lt;345.0,236.0&gt;&gt; -&gt; L&lt;&lt;345.0,236.0&gt;--&lt;345.0,700.0&gt;&gt;
 </code></pre>
  [code: found-colinear-vectors]
 
@@ -1147,6 +1014,10 @@ definitions.</p>
 * uni01B1 (U+01B1): L&lt;&lt;708.0,650.0&gt;--&lt;570.0,650.0&gt;&gt;/B&lt;&lt;570.0,650.0&gt;-&lt;623.0,638.0&gt;-&lt;666.0,591.5&gt;&gt; = 12.757532160876671
 
 * uni025B (U+025B): B&lt;&lt;71.5,216.0&gt;-&lt;103.0,251.0&gt;-&lt;155.0,256.0&gt;&gt;/B&lt;&lt;155.0,256.0&gt;-&lt;103.0,262.0&gt;-&lt;71.5,292.0&gt;&gt; = 12.074269212305435
+
+* uni2126 (U+2126): B&lt;&lt;666.0,108.5&gt;-&lt;623.0,62.0&gt;-&lt;570.0,50.0&gt;&gt;/L&lt;&lt;570.0,50.0&gt;--&lt;708.0,50.0&gt;&gt; = 12.757532160876671
+
+* uni2126 (U+2126): L&lt;&lt;88.0,50.0&gt;--&lt;226.0,50.0&gt;&gt;/B&lt;&lt;226.0,50.0&gt;-&lt;177.0,62.0&gt;-&lt;137.0,109.0&gt;&gt; = 13.760785111791225
 </code></pre>
  [code: found-jaggy-segments]
 
@@ -1185,6 +1056,12 @@ definitions.</p>
 * uni01C3 (U+01C3): L&lt;&lt;108.0,41.0&gt;--&lt;105.0,720.0&gt;&gt;
 
 * uni01C3 (U+01C3): L&lt;&lt;160.0,720.0&gt;--&lt;158.0,41.0&gt;&gt;
+
+* uni0222 (U+0222): L&lt;&lt;110.0,772.0&gt;--&lt;109.0,580.0&gt;&gt;
+
+* uni0222 (U+0222): L&lt;&lt;525.0,772.0&gt;--&lt;524.0,589.0&gt;&gt;
+
+* uni0223 (U+0223): L&lt;&lt;46.0,525.0&gt;--&lt;47.0,702.0&gt;&gt;
 
 * uni030C.alt: L&lt;&lt;51.0,542.0&gt;--&lt;50.0,720.0&gt;&gt;
 
@@ -1254,6 +1131,10 @@ definitions.</p>
 
 * uni01E4 (U+01E4) contains a short segment L&lt;&lt;737.0,331.0&gt;--&lt;737.0,330.0&gt;&gt;
 
+* uni0162 (U+0162) contains a short segment L&lt;&lt;279.0,0.0&gt;--&lt;272.0,0.0&gt;&gt;
+
+* uni0162 (U+0162) contains a short segment L&lt;&lt;330.0,0.0&gt;--&lt;326.0,0.0&gt;&gt;
+
 * uniA7B8 (U+A7B8) contains a short segment L&lt;&lt;628.0,700.0&gt;--&lt;649.0,700.0&gt;&gt;
 
 * uni01B2 (U+01B2) contains a short segment L&lt;&lt;507.0,607.0&gt;--&lt;507.0,607.0&gt;&gt;
@@ -1276,7 +1157,13 @@ definitions.</p>
 
 * eth (U+00F0) contains a short segment L&lt;&lt;524.0,360.0&gt;--&lt;523.0,360.0&gt;&gt;
 
+* kgreenlandic (U+0138) contains a short segment L&lt;&lt;142.0,244.0&gt;--&lt;128.0,244.0&gt;&gt;
+
 * uni0199 (U+0199) contains a short segment L&lt;&lt;148.0,266.0&gt;--&lt;129.0,266.0&gt;&gt;
+
+* uniA7A9 (U+A7A9) contains a short segment B&lt;&lt;240.0,223.0&gt;-&lt;231.0,225.0&gt;-&lt;222.5,227.0&gt;&gt;
+
+* uniA7A9 (U+A7A9) contains a short segment B&lt;&lt;222.5,227.0&gt;-&lt;214.0,229.0&gt;-&lt;205.0,231.0&gt;&gt;
 
 * uniA7B9 (U+A7B9) contains a short segment L&lt;&lt;500.0,470.0&gt;--&lt;500.0,480.0&gt;&gt;
 
@@ -1305,6 +1192,14 @@ definitions.</p>
 * Euro (U+20AC) contains a short segment B&lt;&lt;194.0,350.0&gt;-&lt;194.0,337.0&gt;-&lt;195.0,324.0&gt;&gt;
 
 * uni20AD (U+20AD) contains a short segment L&lt;&lt;121.0,387.0&gt;--&lt;134.0,387.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;364.0,690.0&gt;-&lt;375.0,692.0&gt;-&lt;386.5,693.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;386.5,693.0&gt;-&lt;398.0,694.0&gt;-&lt;410.0,694.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;452.0,637.0&gt;-&lt;442.0,639.0&gt;-&lt;431.0,640.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;431.0,640.0&gt;-&lt;420.0,641.0&gt;-&lt;410.0,641.0&gt;&gt;
 
 * sterling (U+00A3) contains a short segment L&lt;&lt;190.0,322.0&gt;--&lt;190.0,305.0&gt;&gt;
 </code></pre>
@@ -1398,7 +1293,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
     <div>
 
 
@@ -1407,214 +1302,113 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
-<pre><code>- Glyph name: kgreenlandic	Expected: 1 or 2
+* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
+<pre><code>- acutecomb
 
-- Glyph name: uni0222	Expected: 2
+- dotbelowcomb
 
-- Glyph name: uni0223	Expected: 2
+- gravecomb
 
-- Glyph name: uni024A	Expected: 2
+- hookabovecomb
 
-- Glyph name: uni024B	Expected: 2
+- tildecomb
 
-- Glyph name: uni02BB	Expected: 1
+- uni0302
 
-- Glyph name: uni02BE	Expected: 1
+- uni0304
 
-- Glyph name: uni02BF	Expected: 1
+- uni0306
 
-- Glyph name: uni02CA	Expected: 1
+- uni0307
 
-- Glyph name: uni02CB	Expected: 1
+- uni0308
 
-- Glyph name: uni0313	Expected: 1
+- uni030A
 
-- Glyph name: uni0334	Expected: 1
+- uni030B
 
-- Glyph name: theta	Expected: 3
+- uni030C
 
-- Glyph name: uni03BC	Expected: 1
+- uni030F
 
-- Glyph name: pi	Expected: 1
+- uni0310
 
-- Glyph name: chi	Expected: 1
+- uni0311
 
-- Glyph name: uni2016	Expected: 2
+- uni0312
 
-- Glyph name: minute	Expected: 1
+- uni0313
 
-- Glyph name: second	Expected: 2
+- uni0315
 
-- Glyph name: colonmonetary	Expected: 1 or 3
+- uni031B
 
-- Glyph name: dong	Expected: 3 or 4
+- uni0324
 
-- Glyph name: uni20AE	Expected: 1
+- uni0325
 
-- Glyph name: uni20B1	Expected: 1, 2 or 4
+- uni0326
 
-- Glyph name: uni20B2	Expected: 1, 2 or 3
+- uni0327
 
-- Glyph name: uni20B8	Expected: 2
+- uni0328
 
-- Glyph name: uni20BA	Expected: 1
+- uni0329
 
-- Glyph name: uni20BC	Expected: 1
+- uni032D
 
-- Glyph name: uni20BF	Expected: 3
+- uni032E
 
-- Glyph name: uni2113	Expected: 2
+- uni032F
 
-- Glyph name: uni2126	Expected: 1
+- uni0330
 
-- Glyph name: estimated	Expected: 2
+- uni0331
 
-- Glyph name: emptyset	Expected: 3
+- uni0332
 
-- Glyph name: uni2206	Expected: 2
+- uni0334
 
-- Glyph name: filledbox	Expected: 1
+- uni0335
 
-- Glyph name: uni25A1	Expected: 2
+- uni0336
 
-- Glyph name: uni25AA	Expected: 1
+- uni0337
 
-- Glyph name: uni25AB	Expected: 2
+- uni0338
 
-- Glyph name: triagup	Expected: 1
+- uni0358
 
-- Glyph name: uni25B3	Expected: 2
+- uni1DC4
 
-- Glyph name: uni25B6	Expected: 1
+- uni1DC5
 
-- Glyph name: uni25B7	Expected: 2
+- uni1DC6
 
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
-
-- Glyph name: chi	Expected: 1
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: colonmonetary	Expected: 1 or 3
-
-- Glyph name: dong	Expected: 3 or 4
-
-- Glyph name: emptyset	Expected: 3
-
-- Glyph name: estimated	Expected: 2
-
-- Glyph name: kgreenlandic	Expected: 1 or 2
-
-- Glyph name: pi	Expected: 1
-
-- Glyph name: theta	Expected: 3
-
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: triagup	Expected: 1
-
-- Glyph name: uni0222	Expected: 2
-
-- Glyph name: uni0223	Expected: 2
-
-- Glyph name: uni024A	Expected: 2
-
-- Glyph name: uni024B	Expected: 2
-
-- Glyph name: uni02BB	Expected: 1
-
-- Glyph name: uni02BE	Expected: 1
-
-- Glyph name: uni02BF	Expected: 1
-
-- Glyph name: uni02CA	Expected: 1
-
-- Glyph name: uni02CB	Expected: 1
-
-- Glyph name: uni0313	Expected: 1
-
-- Glyph name: uni03BC	Expected: 1
-
-- Glyph name: uni2016	Expected: 2
-
-- Glyph name: uni20AE	Expected: 1
-
-- Glyph name: uni20B1	Expected: 1, 2 or 4
-
-- Glyph name: uni20B2	Expected: 1, 2 or 3
-
-- Glyph name: uni20B8	Expected: 2
-
-- Glyph name: uni20BA	Expected: 1
-
-- Glyph name: uni20BC	Expected: 1
-
-- Glyph name: uni20BF	Expected: 3
-
-- Glyph name: uni2113	Expected: 2
-
-- Glyph name: uni2126	Expected: 1
-
-- Glyph name: uni2206	Expected: 2
-
-- Glyph name: uni25A1	Expected: 2
-
-- Glyph name: uni25AA	Expected: 1
-
-- Glyph name: uni25AB	Expected: 2
-
-- Glyph name: uni25B3	Expected: 2
-
-- Glyph name: uni25B6	Expected: 1
-
-- Glyph name: uni25B7	Expected: 2
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
+- uni1DC7
 </code></pre>
- [code: no-contour]
+ [code: unattached-dotted-circle-marks]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <div>
+
+
+
+
 
 
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -1698,6 +1492,16 @@ definitions.</p>
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
+
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -1712,6 +1516,8 @@ definitions.</p>
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: hbar	Contours detected: 2	Expected: 1
@@ -1719,6 +1525,8 @@ definitions.</p>
 - Glyph name: tbar	Contours detected: 2	Expected: 1
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
@@ -1777,92 +1585,16 @@ definitions.</p>
 - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
 </code></pre>
  [code: contour-count]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-</code></pre>
- [code: unattached-dotted-circle-marks]
 
 
 
@@ -1881,6 +1613,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
 - f_i.liga</p>
+<pre><code>- fl
+</code></pre>
  [code: incomplete-caret-pos-data]
 
 
@@ -1987,30 +1721,30 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, math, syriac, todhri, canadian-aboriginal, coptic, malayalam, tai-le, tifinagh, old-permic</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, syriac, hebrew, tai-le, coptic, canadian-aboriginal, tifinagh, duployan, malayalam, math, old-permic</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, syriac, thai, gothic, cherokee, tifinagh, sunuwar</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, syriac, tifinagh, caucasian-albanian</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -2018,13 +1752,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: math, elbasan, greek</li>
-<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: math, elbasan, greek</li>
-<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: math, greek</li>
-<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek</li>
-<li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
-<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek</li>
+<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: greek, math, elbasan</li>
+<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: greek, math, elbasan</li>
+<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
+<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
+<li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
+<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
 <li>U+1DC5 COMBINING GRAVE-MACRON: not included in any glyphset definition</li>
@@ -2063,14 +1797,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
@@ -2088,26 +1822,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: mende-kikakui, wancho, symbols, telugu, mongolian, devanagari, sogdian, pahawh-hmong, armenian, zanabazar-square, caucasian-albanian, siddham, myanmar, limbu, music, oriya, duployan, math, syriac, manichaean, warang-citi, canadian-aboriginal, ahom, bengali, tibetan, new-tai-lue, soyombo, bhaiksuki, buhid, mahajani, coptic, meetei-mayek, tirhuta, adlam, sharada, tai-viet, khojki, kannada, malayalam, khmer, cham, tai-tham, sundanese, batak, miao, javanese, grantha, saurashtra, marchen, sinhala, chakma, tamil, gunjala-gondi, psalter-pahlavi, mandaic, hanunoo, rejang, tai-le, lepcha, elbasan, nko, takri, thaana, khudawadi, tifinagh, brahmi, newa, phags-pa, thai, buginese, syloti-nagri, hanifi-rohingya, dogra, tagbanwa, balinese, osage, kaithi, modi, masaram-gondi, kayah-li, lao, bassa-vah, old-permic, yi, gujarati, hebrew, gurmukhi, kharoshthi, tagalog</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: buginese, marchen, chakma, myanmar, gunjala-gondi, syriac, takri, syloti-nagri, duployan, math, grantha, masaram-gondi, yi, newa, oriya, warang-citi, siddham, armenian, rejang, bengali, sundanese, bassa-vah, osage, tagalog, symbols, old-permic, brahmi, canadian-aboriginal, dogra, tamil, modi, phags-pa, tai-tham, new-tai-lue, kharoshthi, sogdian, pahawh-hmong, adlam, tai-le, saurashtra, devanagari, psalter-pahlavi, tifinagh, tibetan, mongolian, ahom, sharada, elbasan, malayalam, telugu, buhid, limbu, kaithi, tai-viet, lepcha, lao, hebrew, thaana, cham, gurmukhi, nko, wancho, music, soyombo, balinese, miao, khojki, mende-kikakui, zanabazar-square, khmer, tagbanwa, manichaean, tirhuta, khudawadi, gujarati, coptic, meetei-mayek, sinhala, hanunoo, caucasian-albanian, kayah-li, kannada, mahajani, thai, batak, hanifi-rohingya, javanese, mandaic, bhaiksuki</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -2134,8 +1868,8 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̍ i̓ i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i᷄ i᷅ i̛̍ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤̍ i̤̓ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥̍ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ḭ̀ ḭ́ ḭ̂ ḭ̃ ḭ̄ ḭ̆ ḭ̇ ḭ̈ ḭ̉ ḭ̊ ḭ̋ ḭ̌ ḭ̍ ḭ̏ ḭ̐ ḭ̑ ḭ̒ ḭ̓ ḭ᷄ ḭ᷅</p>
  [code: soft-dotted]
 
 
@@ -2240,9 +1974,7 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
-<pre><code>* cedillashortcomb: L&lt;&lt;87.0,-86.0&gt;--&lt;88.0,-81.0&gt;&gt;/L&lt;&lt;88.0,-81.0&gt;--&lt;86.0,-86.0&gt;&gt; = 10.491477012331565
-
-* integral (U+222B): L&lt;&lt;248.0,-32.0&gt;--&lt;212.0,-32.0&gt;&gt;/L&lt;&lt;212.0,-32.0&gt;--&lt;247.0,-35.0&gt;&gt; = 4.899092453787774
+<pre><code>* integral (U+222B): L&lt;&lt;248.0,-32.0&gt;--&lt;212.0,-32.0&gt;&gt;/L&lt;&lt;212.0,-32.0&gt;--&lt;247.0,-35.0&gt;&gt; = 4.899092453787774
 
 * integral (U+222B): L&lt;&lt;466.0,561.0&gt;--&lt;502.0,560.0&gt;&gt;/L&lt;&lt;502.0,560.0&gt;--&lt;467.0,563.0&gt;&gt; = 3.3079521825931653
 
@@ -2261,6 +1993,8 @@ definitions.</p>
 * uni01B1 (U+01B1): B&lt;&lt;289.5,579.5&gt;-&lt;341.0,624.0&gt;-&lt;391.0,637.0&gt;&gt;/L&lt;&lt;391.0,637.0&gt;--&lt;270.0,636.0&gt;&gt; = 14.100708139303768
 
 * uni025B (U+025B): B&lt;&lt;103.5,219.5&gt;-&lt;143.0,252.0&gt;-&lt;195.0,256.0&gt;&gt;/B&lt;&lt;195.0,256.0&gt;-&lt;150.0,262.0&gt;-&lt;130.5,292.5&gt;&gt; = 11.993348723586953
+
+* uni2126 (U+2126): B&lt;&lt;675.5,120.5&gt;-&lt;621.0,76.0&gt;-&lt;567.0,63.0&gt;&gt;/L&lt;&lt;567.0,63.0&gt;--&lt;688.0,64.0&gt;&gt; = 13.062348310399319
 </code></pre>
  [code: found-jaggy-segments]
 
@@ -2352,7 +2086,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
     <div>
 
 
@@ -2361,214 +2095,113 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
-<pre><code>- Glyph name: kgreenlandic	Expected: 1 or 2
+* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
+<pre><code>- acutecomb
 
-- Glyph name: uni0222	Expected: 2
+- dotbelowcomb
 
-- Glyph name: uni0223	Expected: 2
+- gravecomb
 
-- Glyph name: uni024A	Expected: 2
+- hookabovecomb
 
-- Glyph name: uni024B	Expected: 2
+- tildecomb
 
-- Glyph name: uni02BB	Expected: 1
+- uni0302
 
-- Glyph name: uni02BE	Expected: 1
+- uni0304
 
-- Glyph name: uni02BF	Expected: 1
+- uni0306
 
-- Glyph name: uni02CA	Expected: 1
+- uni0307
 
-- Glyph name: uni02CB	Expected: 1
+- uni0308
 
-- Glyph name: uni0313	Expected: 1
+- uni030A
 
-- Glyph name: uni0334	Expected: 1
+- uni030B
 
-- Glyph name: theta	Expected: 3
+- uni030C
 
-- Glyph name: uni03BC	Expected: 1
+- uni030F
 
-- Glyph name: pi	Expected: 1
+- uni0310
 
-- Glyph name: chi	Expected: 1
+- uni0311
 
-- Glyph name: uni2016	Expected: 2
+- uni0312
 
-- Glyph name: minute	Expected: 1
+- uni0313
 
-- Glyph name: second	Expected: 2
+- uni0315
 
-- Glyph name: colonmonetary	Expected: 1 or 3
+- uni031B
 
-- Glyph name: dong	Expected: 3 or 4
+- uni0324
 
-- Glyph name: uni20AE	Expected: 1
+- uni0325
 
-- Glyph name: uni20B1	Expected: 1, 2 or 4
+- uni0326
 
-- Glyph name: uni20B2	Expected: 1, 2 or 3
+- uni0327
 
-- Glyph name: uni20B8	Expected: 2
+- uni0328
 
-- Glyph name: uni20BA	Expected: 1
+- uni0329
 
-- Glyph name: uni20BC	Expected: 1
+- uni032D
 
-- Glyph name: uni20BF	Expected: 3
+- uni032E
 
-- Glyph name: uni2113	Expected: 2
+- uni032F
 
-- Glyph name: uni2126	Expected: 1
+- uni0330
 
-- Glyph name: estimated	Expected: 2
+- uni0331
 
-- Glyph name: emptyset	Expected: 3
+- uni0332
 
-- Glyph name: uni2206	Expected: 2
+- uni0334
 
-- Glyph name: filledbox	Expected: 1
+- uni0335
 
-- Glyph name: uni25A1	Expected: 2
+- uni0336
 
-- Glyph name: uni25AA	Expected: 1
+- uni0337
 
-- Glyph name: uni25AB	Expected: 2
+- uni0338
 
-- Glyph name: triagup	Expected: 1
+- uni0358
 
-- Glyph name: uni25B3	Expected: 2
+- uni1DC4
 
-- Glyph name: uni25B6	Expected: 1
+- uni1DC5
 
-- Glyph name: uni25B7	Expected: 2
+- uni1DC6
 
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
-
-- Glyph name: chi	Expected: 1
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: colonmonetary	Expected: 1 or 3
-
-- Glyph name: dong	Expected: 3 or 4
-
-- Glyph name: emptyset	Expected: 3
-
-- Glyph name: estimated	Expected: 2
-
-- Glyph name: kgreenlandic	Expected: 1 or 2
-
-- Glyph name: pi	Expected: 1
-
-- Glyph name: theta	Expected: 3
-
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: triagup	Expected: 1
-
-- Glyph name: uni0222	Expected: 2
-
-- Glyph name: uni0223	Expected: 2
-
-- Glyph name: uni024A	Expected: 2
-
-- Glyph name: uni024B	Expected: 2
-
-- Glyph name: uni02BB	Expected: 1
-
-- Glyph name: uni02BE	Expected: 1
-
-- Glyph name: uni02BF	Expected: 1
-
-- Glyph name: uni02CA	Expected: 1
-
-- Glyph name: uni02CB	Expected: 1
-
-- Glyph name: uni0313	Expected: 1
-
-- Glyph name: uni03BC	Expected: 1
-
-- Glyph name: uni2016	Expected: 2
-
-- Glyph name: uni20AE	Expected: 1
-
-- Glyph name: uni20B1	Expected: 1, 2 or 4
-
-- Glyph name: uni20B2	Expected: 1, 2 or 3
-
-- Glyph name: uni20B8	Expected: 2
-
-- Glyph name: uni20BA	Expected: 1
-
-- Glyph name: uni20BC	Expected: 1
-
-- Glyph name: uni20BF	Expected: 3
-
-- Glyph name: uni2113	Expected: 2
-
-- Glyph name: uni2126	Expected: 1
-
-- Glyph name: uni2206	Expected: 2
-
-- Glyph name: uni25A1	Expected: 2
-
-- Glyph name: uni25AA	Expected: 1
-
-- Glyph name: uni25AB	Expected: 2
-
-- Glyph name: uni25B3	Expected: 2
-
-- Glyph name: uni25B6	Expected: 1
-
-- Glyph name: uni25B7	Expected: 2
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
+- uni1DC7
 </code></pre>
- [code: no-contour]
+ [code: unattached-dotted-circle-marks]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <div>
+
+
+
+
 
 
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -2652,6 +2285,16 @@ definitions.</p>
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
+
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -2666,6 +2309,8 @@ definitions.</p>
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: hbar	Contours detected: 2	Expected: 1
@@ -2673,6 +2318,8 @@ definitions.</p>
 - Glyph name: tbar	Contours detected: 2	Expected: 1
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
@@ -2731,92 +2378,16 @@ definitions.</p>
 - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
 </code></pre>
  [code: contour-count]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-</code></pre>
- [code: unattached-dotted-circle-marks]
 
 
 
@@ -2835,6 +2406,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
 - f_i.liga</p>
+<pre><code>- fl
+</code></pre>
  [code: incomplete-caret-pos-data]
 
 
@@ -2945,30 +2518,30 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, math, syriac, todhri, canadian-aboriginal, coptic, malayalam, tai-le, tifinagh, old-permic</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, syriac, hebrew, tai-le, coptic, canadian-aboriginal, tifinagh, duployan, malayalam, math, old-permic</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, syriac, thai, gothic, cherokee, tifinagh, sunuwar</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, syriac, tifinagh, caucasian-albanian</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -2976,13 +2549,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: math, elbasan, greek</li>
-<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: math, elbasan, greek</li>
-<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: math, greek</li>
-<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek</li>
-<li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
-<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek</li>
+<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: greek, math, elbasan</li>
+<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: greek, math, elbasan</li>
+<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
+<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
+<li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
+<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
 <li>U+1DC5 COMBINING GRAVE-MACRON: not included in any glyphset definition</li>
@@ -3021,14 +2594,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
@@ -3046,26 +2619,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: mende-kikakui, wancho, symbols, telugu, mongolian, devanagari, sogdian, pahawh-hmong, armenian, zanabazar-square, caucasian-albanian, siddham, myanmar, limbu, music, oriya, duployan, math, syriac, manichaean, warang-citi, canadian-aboriginal, ahom, bengali, tibetan, new-tai-lue, soyombo, bhaiksuki, buhid, mahajani, coptic, meetei-mayek, tirhuta, adlam, sharada, tai-viet, khojki, kannada, malayalam, khmer, cham, tai-tham, sundanese, batak, miao, javanese, grantha, saurashtra, marchen, sinhala, chakma, tamil, gunjala-gondi, psalter-pahlavi, mandaic, hanunoo, rejang, tai-le, lepcha, elbasan, nko, takri, thaana, khudawadi, tifinagh, brahmi, newa, phags-pa, thai, buginese, syloti-nagri, hanifi-rohingya, dogra, tagbanwa, balinese, osage, kaithi, modi, masaram-gondi, kayah-li, lao, bassa-vah, old-permic, yi, gujarati, hebrew, gurmukhi, kharoshthi, tagalog</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: buginese, marchen, chakma, myanmar, gunjala-gondi, syriac, takri, syloti-nagri, duployan, math, grantha, masaram-gondi, yi, newa, oriya, warang-citi, siddham, armenian, rejang, bengali, sundanese, bassa-vah, osage, tagalog, symbols, old-permic, brahmi, canadian-aboriginal, dogra, tamil, modi, phags-pa, tai-tham, new-tai-lue, kharoshthi, sogdian, pahawh-hmong, adlam, tai-le, saurashtra, devanagari, psalter-pahlavi, tifinagh, tibetan, mongolian, ahom, sharada, elbasan, malayalam, telugu, buhid, limbu, kaithi, tai-viet, lepcha, lao, hebrew, thaana, cham, gurmukhi, nko, wancho, music, soyombo, balinese, miao, khojki, mende-kikakui, zanabazar-square, khmer, tagbanwa, manichaean, tirhuta, khudawadi, gujarati, coptic, meetei-mayek, sinhala, hanunoo, caucasian-albanian, kayah-li, kannada, mahajani, thai, batak, hanifi-rohingya, javanese, mandaic, bhaiksuki</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -3092,8 +2665,8 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̍ i̓ i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i᷄ i᷅ i̛̍ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤̍ i̤̓ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥̍ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ḭ̀ ḭ́ ḭ̂ ḭ̃ ḭ̄ ḭ̆ ḭ̇ ḭ̈ ḭ̉ ḭ̊ ḭ̋ ḭ̌ ḭ̍ ḭ̏ ḭ̐ ḭ̑ ḭ̒ ḭ̓ ḭ᷄ ḭ᷅</p>
  [code: soft-dotted]
 
 
@@ -3268,6 +2841,14 @@ definitions.</p>
 
 * uni019D (U+019D) contains a short segment B&lt;&lt;122.5,-97.5&gt;-&lt;131.0,-89.0&gt;-&lt;131.0,-76.0&gt;&gt;
 
+* uniA7A8 (U+A7A8) contains a short segment B&lt;&lt;328.0,425.0&gt;-&lt;332.0,424.0&gt;-&lt;336.5,423.0&gt;&gt;
+
+* uniA7A8 (U+A7A8) contains a short segment B&lt;&lt;336.5,423.0&gt;-&lt;341.0,422.0&gt;-&lt;347.0,420.0&gt;&gt;
+
+* uni0162 (U+0162) contains a short segment L&lt;&lt;347.0,0.0&gt;--&lt;338.0,0.0&gt;&gt;
+
+* uni0162 (U+0162) contains a short segment L&lt;&lt;273.0,0.0&gt;--&lt;259.0,0.0&gt;&gt;
+
 * uni01B2 (U+01B2) contains a short segment L&lt;&lt;524.0,623.0&gt;--&lt;525.0,623.0&gt;&gt;
 
 * uni2C72 (U+2C72) contains a short segment L&lt;&lt;898.0,700.0&gt;--&lt;899.0,700.0&gt;&gt;
@@ -3279,6 +2860,8 @@ definitions.</p>
 * uni2C72 (U+2C72) contains a short segment L&lt;&lt;994.0,700.0&gt;--&lt;994.0,700.0&gt;&gt;
 
 * uni01B3 (U+01B3) contains a short segment L&lt;&lt;616.0,656.0&gt;--&lt;615.0,657.0&gt;&gt;
+
+* uni023C (U+023C) contains a short segment L&lt;&lt;302.0,418.0&gt;--&lt;298.0,418.0&gt;&gt;
 
 * eth (U+00F0) contains a short segment L&lt;&lt;518.0,360.0&gt;--&lt;518.0,360.0&gt;&gt;
 
@@ -3316,6 +2899,8 @@ definitions.</p>
 
 * uni1E33 (U+1E33) contains a short segment L&lt;&lt;168.0,289.0&gt;--&lt;169.0,289.0&gt;&gt;
 
+* kgreenlandic (U+0138) contains a short segment L&lt;&lt;178.0,244.0&gt;--&lt;165.0,244.0&gt;&gt;
+
 * uni0199 (U+0199) contains a short segment L&lt;&lt;163.0,283.0&gt;--&lt;169.0,288.0&gt;&gt;
 
 * uni0199 (U+0199) contains a short segment L&lt;&lt;169.0,288.0&gt;--&lt;168.0,289.0&gt;&gt;
@@ -3342,6 +2927,10 @@ definitions.</p>
 
 * uni026B (U+026B) contains a short segment B&lt;&lt;159.0,317.0&gt;-&lt;153.0,317.0&gt;-&lt;148.0,318.0&gt;&gt;
 
+* uniA7A9 (U+A7A9) contains a short segment B&lt;&lt;237.0,212.0&gt;-&lt;231.0,213.0&gt;-&lt;225.0,214.5&gt;&gt;
+
+* uniA7A9 (U+A7A9) contains a short segment B&lt;&lt;225.0,214.5&gt;-&lt;219.0,216.0&gt;-&lt;213.0,217.0&gt;&gt;
+
 * uni2C66 (U+2C66) contains a short segment L&lt;&lt;314.0,480.0&gt;--&lt;324.0,480.0&gt;&gt;
 
 * uniA7B9 (U+A7B9) contains a short segment L&lt;&lt;499.0,468.0&gt;--&lt;499.0,480.0&gt;&gt;
@@ -3354,13 +2943,29 @@ definitions.</p>
 
 * f_f_i.liga contains a short segment L&lt;&lt;90.0,480.0&gt;--&lt;90.0,497.0&gt;&gt;
 
+* pi (U+03C0) contains a short segment B&lt;&lt;484.5,85.0&gt;-&lt;491.0,78.0&gt;-&lt;499.0,78.0&gt;&gt;
+
 * uni0E3F (U+0E3F) contains a short segment L&lt;&lt;363.0,700.0&gt;--&lt;376.0,700.0&gt;&gt;
+
+* colonmonetary (U+20A1) contains a short segment B&lt;&lt;395.0,66.0&gt;-&lt;398.0,66.0&gt;-&lt;402.0,66.0&gt;&gt;
 
 * Euro (U+20AC) contains a short segment B&lt;&lt;121.0,335.0&gt;-&lt;121.0,342.0&gt;-&lt;121.0,350.0&gt;&gt;
 
 * Euro (U+20AC) contains a short segment B&lt;&lt;211.0,350.0&gt;-&lt;211.0,342.0&gt;-&lt;211.0,335.0&gt;&gt;
 
 * uni20AD (U+20AD) contains a short segment L&lt;&lt;155.0,400.0&gt;--&lt;177.0,400.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;394.0,706.0&gt;-&lt;402.0,707.0&gt;-&lt;412.0,707.5&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;412.0,707.5&gt;-&lt;422.0,708.0&gt;-&lt;431.0,708.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;431.0,708.0&gt;-&lt;439.0,708.0&gt;-&lt;446.0,708.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;446.0,708.0&gt;-&lt;453.0,708.0&gt;-&lt;460.0,707.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;460.0,624.0&gt;-&lt;453.0,625.0&gt;-&lt;446.0,625.5&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;446.0,625.5&gt;-&lt;439.0,626.0&gt;-&lt;431.0,626.0&gt;&gt;
 </code></pre>
  [code: found-short-segments]
 
@@ -3452,7 +3057,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
     <div>
 
 
@@ -3461,214 +3066,113 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
-<pre><code>- Glyph name: kgreenlandic	Expected: 1 or 2
+* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
+<pre><code>- acutecomb
 
-- Glyph name: uni0222	Expected: 2
+- dotbelowcomb
 
-- Glyph name: uni0223	Expected: 2
+- gravecomb
 
-- Glyph name: uni024A	Expected: 2
+- hookabovecomb
 
-- Glyph name: uni024B	Expected: 2
+- tildecomb
 
-- Glyph name: uni02BB	Expected: 1
+- uni0302
 
-- Glyph name: uni02BE	Expected: 1
+- uni0304
 
-- Glyph name: uni02BF	Expected: 1
+- uni0306
 
-- Glyph name: uni02CA	Expected: 1
+- uni0307
 
-- Glyph name: uni02CB	Expected: 1
+- uni0308
 
-- Glyph name: uni0313	Expected: 1
+- uni030A
 
-- Glyph name: uni0334	Expected: 1
+- uni030B
 
-- Glyph name: theta	Expected: 3
+- uni030C
 
-- Glyph name: uni03BC	Expected: 1
+- uni030F
 
-- Glyph name: pi	Expected: 1
+- uni0310
 
-- Glyph name: chi	Expected: 1
+- uni0311
 
-- Glyph name: uni2016	Expected: 2
+- uni0312
 
-- Glyph name: minute	Expected: 1
+- uni0313
 
-- Glyph name: second	Expected: 2
+- uni0315
 
-- Glyph name: colonmonetary	Expected: 1 or 3
+- uni031B
 
-- Glyph name: dong	Expected: 3 or 4
+- uni0324
 
-- Glyph name: uni20AE	Expected: 1
+- uni0325
 
-- Glyph name: uni20B1	Expected: 1, 2 or 4
+- uni0326
 
-- Glyph name: uni20B2	Expected: 1, 2 or 3
+- uni0327
 
-- Glyph name: uni20B8	Expected: 2
+- uni0328
 
-- Glyph name: uni20BA	Expected: 1
+- uni0329
 
-- Glyph name: uni20BC	Expected: 1
+- uni032D
 
-- Glyph name: uni20BF	Expected: 3
+- uni032E
 
-- Glyph name: uni2113	Expected: 2
+- uni032F
 
-- Glyph name: uni2126	Expected: 1
+- uni0330
 
-- Glyph name: estimated	Expected: 2
+- uni0331
 
-- Glyph name: emptyset	Expected: 3
+- uni0332
 
-- Glyph name: uni2206	Expected: 2
+- uni0334
 
-- Glyph name: filledbox	Expected: 1
+- uni0335
 
-- Glyph name: uni25A1	Expected: 2
+- uni0336
 
-- Glyph name: uni25AA	Expected: 1
+- uni0337
 
-- Glyph name: uni25AB	Expected: 2
+- uni0338
 
-- Glyph name: triagup	Expected: 1
+- uni0358
 
-- Glyph name: uni25B3	Expected: 2
+- uni1DC4
 
-- Glyph name: uni25B6	Expected: 1
+- uni1DC5
 
-- Glyph name: uni25B7	Expected: 2
+- uni1DC6
 
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
-
-- Glyph name: chi	Expected: 1
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: colonmonetary	Expected: 1 or 3
-
-- Glyph name: dong	Expected: 3 or 4
-
-- Glyph name: emptyset	Expected: 3
-
-- Glyph name: estimated	Expected: 2
-
-- Glyph name: kgreenlandic	Expected: 1 or 2
-
-- Glyph name: pi	Expected: 1
-
-- Glyph name: theta	Expected: 3
-
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: triagup	Expected: 1
-
-- Glyph name: uni0222	Expected: 2
-
-- Glyph name: uni0223	Expected: 2
-
-- Glyph name: uni024A	Expected: 2
-
-- Glyph name: uni024B	Expected: 2
-
-- Glyph name: uni02BB	Expected: 1
-
-- Glyph name: uni02BE	Expected: 1
-
-- Glyph name: uni02BF	Expected: 1
-
-- Glyph name: uni02CA	Expected: 1
-
-- Glyph name: uni02CB	Expected: 1
-
-- Glyph name: uni0313	Expected: 1
-
-- Glyph name: uni03BC	Expected: 1
-
-- Glyph name: uni2016	Expected: 2
-
-- Glyph name: uni20AE	Expected: 1
-
-- Glyph name: uni20B1	Expected: 1, 2 or 4
-
-- Glyph name: uni20B2	Expected: 1, 2 or 3
-
-- Glyph name: uni20B8	Expected: 2
-
-- Glyph name: uni20BA	Expected: 1
-
-- Glyph name: uni20BC	Expected: 1
-
-- Glyph name: uni20BF	Expected: 3
-
-- Glyph name: uni2113	Expected: 2
-
-- Glyph name: uni2126	Expected: 1
-
-- Glyph name: uni2206	Expected: 2
-
-- Glyph name: uni25A1	Expected: 2
-
-- Glyph name: uni25AA	Expected: 1
-
-- Glyph name: uni25AB	Expected: 2
-
-- Glyph name: uni25B3	Expected: 2
-
-- Glyph name: uni25B6	Expected: 1
-
-- Glyph name: uni25B7	Expected: 2
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
+- uni1DC7
 </code></pre>
- [code: no-contour]
+ [code: unattached-dotted-circle-marks]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <div>
+
+
+
+
 
 
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -3752,6 +3256,16 @@ definitions.</p>
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
+
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -3766,6 +3280,8 @@ definitions.</p>
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: hbar	Contours detected: 2	Expected: 1
@@ -3773,6 +3289,8 @@ definitions.</p>
 - Glyph name: tbar	Contours detected: 2	Expected: 1
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
@@ -3831,92 +3349,16 @@ definitions.</p>
 - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
 </code></pre>
  [code: contour-count]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-</code></pre>
- [code: unattached-dotted-circle-marks]
 
 
 
@@ -3935,6 +3377,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
 - f_i.liga</p>
+<pre><code>- fl
+</code></pre>
  [code: incomplete-caret-pos-data]
 
 
@@ -4059,30 +3503,30 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, math, syriac, todhri, canadian-aboriginal, coptic, malayalam, tai-le, tifinagh, old-permic</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, syriac, hebrew, tai-le, coptic, canadian-aboriginal, tifinagh, duployan, malayalam, math, old-permic</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, syriac, thai, gothic, cherokee, tifinagh, sunuwar</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, syriac, tifinagh, caucasian-albanian</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -4090,13 +3534,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: math, elbasan, greek</li>
-<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: math, elbasan, greek</li>
-<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: math, greek</li>
-<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek</li>
-<li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
-<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek</li>
+<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: greek, math, elbasan</li>
+<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: greek, math, elbasan</li>
+<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
+<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
+<li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
+<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
 <li>U+1DC5 COMBINING GRAVE-MACRON: not included in any glyphset definition</li>
@@ -4135,14 +3579,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
@@ -4160,26 +3604,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: mende-kikakui, wancho, symbols, telugu, mongolian, devanagari, sogdian, pahawh-hmong, armenian, zanabazar-square, caucasian-albanian, siddham, myanmar, limbu, music, oriya, duployan, math, syriac, manichaean, warang-citi, canadian-aboriginal, ahom, bengali, tibetan, new-tai-lue, soyombo, bhaiksuki, buhid, mahajani, coptic, meetei-mayek, tirhuta, adlam, sharada, tai-viet, khojki, kannada, malayalam, khmer, cham, tai-tham, sundanese, batak, miao, javanese, grantha, saurashtra, marchen, sinhala, chakma, tamil, gunjala-gondi, psalter-pahlavi, mandaic, hanunoo, rejang, tai-le, lepcha, elbasan, nko, takri, thaana, khudawadi, tifinagh, brahmi, newa, phags-pa, thai, buginese, syloti-nagri, hanifi-rohingya, dogra, tagbanwa, balinese, osage, kaithi, modi, masaram-gondi, kayah-li, lao, bassa-vah, old-permic, yi, gujarati, hebrew, gurmukhi, kharoshthi, tagalog</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: buginese, marchen, chakma, myanmar, gunjala-gondi, syriac, takri, syloti-nagri, duployan, math, grantha, masaram-gondi, yi, newa, oriya, warang-citi, siddham, armenian, rejang, bengali, sundanese, bassa-vah, osage, tagalog, symbols, old-permic, brahmi, canadian-aboriginal, dogra, tamil, modi, phags-pa, tai-tham, new-tai-lue, kharoshthi, sogdian, pahawh-hmong, adlam, tai-le, saurashtra, devanagari, psalter-pahlavi, tifinagh, tibetan, mongolian, ahom, sharada, elbasan, malayalam, telugu, buhid, limbu, kaithi, tai-viet, lepcha, lao, hebrew, thaana, cham, gurmukhi, nko, wancho, music, soyombo, balinese, miao, khojki, mende-kikakui, zanabazar-square, khmer, tagbanwa, manichaean, tirhuta, khudawadi, gujarati, coptic, meetei-mayek, sinhala, hanunoo, caucasian-albanian, kayah-li, kannada, mahajani, thai, batak, hanifi-rohingya, javanese, mandaic, bhaiksuki</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -4206,8 +3650,8 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̍ i̓ i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i᷄ i᷅ i̛̍ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤̍ i̤̓ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥̍ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ḭ̀ ḭ́ ḭ̂ ḭ̃ ḭ̄ ḭ̆ ḭ̇ ḭ̈ ḭ̉ ḭ̊ ḭ̋ ḭ̌ ḭ̍ ḭ̏ ḭ̐ ḭ̑ ḭ̒ ḭ̓ ḭ᷄ ḭ᷅</p>
  [code: soft-dotted]
 
 
@@ -4306,6 +3750,8 @@ definitions.</p>
 
 * uni01C3 (U+01C3): L&lt;&lt;171.0,720.0&gt;--&lt;169.0,46.0&gt;&gt;
 
+* uni0222 (U+0222): L&lt;&lt;526.0,773.0&gt;--&lt;525.0,582.0&gt;&gt;
+
 * uni030C.alt: L&lt;&lt;51.0,542.0&gt;--&lt;50.0,720.0&gt;&gt;
 
 * uni2196 (U+2196): L&lt;&lt;50.0,173.0&gt;--&lt;51.0,630.0&gt;&gt;
@@ -4372,6 +3818,12 @@ definitions.</p>
 
 * uni2C62 (U+2C62) contains a short segment B&lt;&lt;191.0,319.0&gt;-&lt;182.0,319.0&gt;-&lt;174.0,320.0&gt;&gt;
 
+* uniA7A8 (U+A7A8) contains a short segment B&lt;&lt;324.0,413.0&gt;-&lt;327.0,412.0&gt;-&lt;330.0,411.0&gt;&gt;
+
+* uni0162 (U+0162) contains a short segment L&lt;&lt;276.0,0.0&gt;--&lt;266.0,0.0&gt;&gt;
+
+* uni0162 (U+0162) contains a short segment L&lt;&lt;339.0,0.0&gt;--&lt;332.0,0.0&gt;&gt;
+
 * uni01B2 (U+01B2) contains a short segment L&lt;&lt;515.0,615.0&gt;--&lt;516.0,615.0&gt;&gt;
 
 * uni01B2 (U+01B2) contains a short segment B&lt;&lt;516.0,615.0&gt;-&lt;517.0,606.0&gt;-&lt;517.0,597.0&gt;&gt;
@@ -4420,6 +3872,8 @@ definitions.</p>
 
 * uni1E33 (U+1E33) contains a short segment L&lt;&lt;150.0,286.0&gt;--&lt;150.0,286.0&gt;&gt;
 
+* kgreenlandic (U+0138) contains a short segment L&lt;&lt;160.0,244.0&gt;--&lt;146.0,244.0&gt;&gt;
+
 * uni0199 (U+0199) contains a short segment L&lt;&lt;146.0,282.0&gt;--&lt;150.0,286.0&gt;&gt;
 
 * uni0199 (U+0199) contains a short segment L&lt;&lt;150.0,286.0&gt;--&lt;150.0,286.0&gt;&gt;
@@ -4437,6 +3891,10 @@ definitions.</p>
 * uniA741 (U+A741) contains a short segment L&lt;&lt;150.0,286.0&gt;--&lt;150.0,286.0&gt;&gt;
 
 * uniA741 (U+A741) contains a short segment L&lt;&lt;150.0,286.0&gt;--&lt;150.0,286.0&gt;&gt;
+
+* uniA7A9 (U+A7A9) contains a short segment B&lt;&lt;238.0,218.0&gt;-&lt;231.0,219.0&gt;-&lt;224.0,220.5&gt;&gt;
+
+* uniA7A9 (U+A7A9) contains a short segment B&lt;&lt;224.0,220.5&gt;-&lt;217.0,222.0&gt;-&lt;209.0,224.0&gt;&gt;
 
 * uniA7B9 (U+A7B9) contains a short segment L&lt;&lt;500.0,469.0&gt;--&lt;500.0,480.0&gt;&gt;
 
@@ -4463,6 +3921,14 @@ definitions.</p>
 * Euro (U+20AC) contains a short segment B&lt;&lt;203.0,350.0&gt;-&lt;203.0,339.0&gt;-&lt;203.0,329.0&gt;&gt;
 
 * uni20AD (U+20AD) contains a short segment L&lt;&lt;138.0,393.0&gt;--&lt;156.0,393.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;379.0,698.0&gt;-&lt;389.0,699.0&gt;-&lt;399.5,700.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;399.5,700.0&gt;-&lt;410.0,701.0&gt;-&lt;420.0,701.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;456.0,631.0&gt;-&lt;448.0,632.0&gt;-&lt;438.5,632.5&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;438.5,632.5&gt;-&lt;429.0,633.0&gt;-&lt;420.0,633.0&gt;&gt;
 
 * sterling (U+00A3) contains a short segment L&lt;&lt;199.0,315.0&gt;--&lt;199.0,313.0&gt;&gt;
 </code></pre>
@@ -4556,7 +4022,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
     <div>
 
 
@@ -4565,214 +4031,113 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
-<pre><code>- Glyph name: kgreenlandic	Expected: 1 or 2
+* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
+<pre><code>- acutecomb
 
-- Glyph name: uni0222	Expected: 2
+- dotbelowcomb
 
-- Glyph name: uni0223	Expected: 2
+- gravecomb
 
-- Glyph name: uni024A	Expected: 2
+- hookabovecomb
 
-- Glyph name: uni024B	Expected: 2
+- tildecomb
 
-- Glyph name: uni02BB	Expected: 1
+- uni0302
 
-- Glyph name: uni02BE	Expected: 1
+- uni0304
 
-- Glyph name: uni02BF	Expected: 1
+- uni0306
 
-- Glyph name: uni02CA	Expected: 1
+- uni0307
 
-- Glyph name: uni02CB	Expected: 1
+- uni0308
 
-- Glyph name: uni0313	Expected: 1
+- uni030A
 
-- Glyph name: uni0334	Expected: 1
+- uni030B
 
-- Glyph name: theta	Expected: 3
+- uni030C
 
-- Glyph name: uni03BC	Expected: 1
+- uni030F
 
-- Glyph name: pi	Expected: 1
+- uni0310
 
-- Glyph name: chi	Expected: 1
+- uni0311
 
-- Glyph name: uni2016	Expected: 2
+- uni0312
 
-- Glyph name: minute	Expected: 1
+- uni0313
 
-- Glyph name: second	Expected: 2
+- uni0315
 
-- Glyph name: colonmonetary	Expected: 1 or 3
+- uni031B
 
-- Glyph name: dong	Expected: 3 or 4
+- uni0324
 
-- Glyph name: uni20AE	Expected: 1
+- uni0325
 
-- Glyph name: uni20B1	Expected: 1, 2 or 4
+- uni0326
 
-- Glyph name: uni20B2	Expected: 1, 2 or 3
+- uni0327
 
-- Glyph name: uni20B8	Expected: 2
+- uni0328
 
-- Glyph name: uni20BA	Expected: 1
+- uni0329
 
-- Glyph name: uni20BC	Expected: 1
+- uni032D
 
-- Glyph name: uni20BF	Expected: 3
+- uni032E
 
-- Glyph name: uni2113	Expected: 2
+- uni032F
 
-- Glyph name: uni2126	Expected: 1
+- uni0330
 
-- Glyph name: estimated	Expected: 2
+- uni0331
 
-- Glyph name: emptyset	Expected: 3
+- uni0332
 
-- Glyph name: uni2206	Expected: 2
+- uni0334
 
-- Glyph name: filledbox	Expected: 1
+- uni0335
 
-- Glyph name: uni25A1	Expected: 2
+- uni0336
 
-- Glyph name: uni25AA	Expected: 1
+- uni0337
 
-- Glyph name: uni25AB	Expected: 2
+- uni0338
 
-- Glyph name: triagup	Expected: 1
+- uni0358
 
-- Glyph name: uni25B3	Expected: 2
+- uni1DC4
 
-- Glyph name: uni25B6	Expected: 1
+- uni1DC5
 
-- Glyph name: uni25B7	Expected: 2
+- uni1DC6
 
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
-
-- Glyph name: chi	Expected: 1
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: colonmonetary	Expected: 1 or 3
-
-- Glyph name: dong	Expected: 3 or 4
-
-- Glyph name: emptyset	Expected: 3
-
-- Glyph name: estimated	Expected: 2
-
-- Glyph name: kgreenlandic	Expected: 1 or 2
-
-- Glyph name: pi	Expected: 1
-
-- Glyph name: theta	Expected: 3
-
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: triagup	Expected: 1
-
-- Glyph name: uni0222	Expected: 2
-
-- Glyph name: uni0223	Expected: 2
-
-- Glyph name: uni024A	Expected: 2
-
-- Glyph name: uni024B	Expected: 2
-
-- Glyph name: uni02BB	Expected: 1
-
-- Glyph name: uni02BE	Expected: 1
-
-- Glyph name: uni02BF	Expected: 1
-
-- Glyph name: uni02CA	Expected: 1
-
-- Glyph name: uni02CB	Expected: 1
-
-- Glyph name: uni0313	Expected: 1
-
-- Glyph name: uni03BC	Expected: 1
-
-- Glyph name: uni2016	Expected: 2
-
-- Glyph name: uni20AE	Expected: 1
-
-- Glyph name: uni20B1	Expected: 1, 2 or 4
-
-- Glyph name: uni20B2	Expected: 1, 2 or 3
-
-- Glyph name: uni20B8	Expected: 2
-
-- Glyph name: uni20BA	Expected: 1
-
-- Glyph name: uni20BC	Expected: 1
-
-- Glyph name: uni20BF	Expected: 3
-
-- Glyph name: uni2113	Expected: 2
-
-- Glyph name: uni2126	Expected: 1
-
-- Glyph name: uni2206	Expected: 2
-
-- Glyph name: uni25A1	Expected: 2
-
-- Glyph name: uni25AA	Expected: 1
-
-- Glyph name: uni25AB	Expected: 2
-
-- Glyph name: uni25B3	Expected: 2
-
-- Glyph name: uni25B6	Expected: 1
-
-- Glyph name: uni25B7	Expected: 2
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
+- uni1DC7
 </code></pre>
- [code: no-contour]
+ [code: unattached-dotted-circle-marks]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <div>
+
+
+
+
 
 
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -4854,6 +4219,16 @@ definitions.</p>
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
+
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -4868,6 +4243,8 @@ definitions.</p>
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: hbar	Contours detected: 2	Expected: 1
@@ -4875,6 +4252,8 @@ definitions.</p>
 - Glyph name: tbar	Contours detected: 2	Expected: 1
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
@@ -4931,92 +4310,16 @@ definitions.</p>
 - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
 </code></pre>
  [code: contour-count]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-</code></pre>
- [code: unattached-dotted-circle-marks]
 
 
 
@@ -5035,6 +4338,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
 - f_i.liga</p>
+<pre><code>- fl
+</code></pre>
  [code: incomplete-caret-pos-data]
 
 
@@ -5147,30 +4452,30 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, math, syriac, todhri, canadian-aboriginal, coptic, malayalam, tai-le, tifinagh, old-permic</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, syriac, hebrew, tai-le, coptic, canadian-aboriginal, tifinagh, duployan, malayalam, math, old-permic</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, syriac, thai, gothic, cherokee, tifinagh, sunuwar</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, syriac, tifinagh, caucasian-albanian</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -5178,13 +4483,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: math, elbasan, greek</li>
-<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: math, elbasan, greek</li>
-<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: math, greek</li>
-<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek</li>
-<li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
-<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek</li>
+<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: greek, math, elbasan</li>
+<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: greek, math, elbasan</li>
+<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
+<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
+<li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
+<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
 <li>U+1DC5 COMBINING GRAVE-MACRON: not included in any glyphset definition</li>
@@ -5223,14 +4528,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
@@ -5248,26 +4553,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: mende-kikakui, wancho, symbols, telugu, mongolian, devanagari, sogdian, pahawh-hmong, armenian, zanabazar-square, caucasian-albanian, siddham, myanmar, limbu, music, oriya, duployan, math, syriac, manichaean, warang-citi, canadian-aboriginal, ahom, bengali, tibetan, new-tai-lue, soyombo, bhaiksuki, buhid, mahajani, coptic, meetei-mayek, tirhuta, adlam, sharada, tai-viet, khojki, kannada, malayalam, khmer, cham, tai-tham, sundanese, batak, miao, javanese, grantha, saurashtra, marchen, sinhala, chakma, tamil, gunjala-gondi, psalter-pahlavi, mandaic, hanunoo, rejang, tai-le, lepcha, elbasan, nko, takri, thaana, khudawadi, tifinagh, brahmi, newa, phags-pa, thai, buginese, syloti-nagri, hanifi-rohingya, dogra, tagbanwa, balinese, osage, kaithi, modi, masaram-gondi, kayah-li, lao, bassa-vah, old-permic, yi, gujarati, hebrew, gurmukhi, kharoshthi, tagalog</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: buginese, marchen, chakma, myanmar, gunjala-gondi, syriac, takri, syloti-nagri, duployan, math, grantha, masaram-gondi, yi, newa, oriya, warang-citi, siddham, armenian, rejang, bengali, sundanese, bassa-vah, osage, tagalog, symbols, old-permic, brahmi, canadian-aboriginal, dogra, tamil, modi, phags-pa, tai-tham, new-tai-lue, kharoshthi, sogdian, pahawh-hmong, adlam, tai-le, saurashtra, devanagari, psalter-pahlavi, tifinagh, tibetan, mongolian, ahom, sharada, elbasan, malayalam, telugu, buhid, limbu, kaithi, tai-viet, lepcha, lao, hebrew, thaana, cham, gurmukhi, nko, wancho, music, soyombo, balinese, miao, khojki, mende-kikakui, zanabazar-square, khmer, tagbanwa, manichaean, tirhuta, khudawadi, gujarati, coptic, meetei-mayek, sinhala, hanunoo, caucasian-albanian, kayah-li, kannada, mahajani, thai, batak, hanifi-rohingya, javanese, mandaic, bhaiksuki</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -5294,8 +4599,8 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̍ i̓ i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i᷄ i᷅ i̛̍ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤̍ i̤̓ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥̍ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ḭ̀ ḭ́ ḭ̂ ḭ̃ ḭ̄ ḭ̆ ḭ̇ ḭ̈ ḭ̉ ḭ̊ ḭ̋ ḭ̌ ḭ̍ ḭ̏ ḭ̐ ḭ̑ ḭ̒ ḭ̓ ḭ᷄ ḭ᷅</p>
  [code: soft-dotted]
 
 
@@ -5408,9 +4713,7 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
-<pre><code>* cedillashortcomb: L&lt;&lt;88.0,-101.0&gt;--&lt;91.0,-86.0&gt;&gt;/L&lt;&lt;91.0,-86.0&gt;--&lt;86.0,-101.0&gt;&gt; = 7.125016348901757
-
-* integral (U+222B): L&lt;&lt;273.0,-15.0&gt;--&lt;220.0,-15.0&gt;&gt;/L&lt;&lt;220.0,-15.0&gt;--&lt;273.0,-18.0&gt;&gt; = 3.239700296102106
+<pre><code>* integral (U+222B): L&lt;&lt;273.0,-15.0&gt;--&lt;220.0,-15.0&gt;&gt;/L&lt;&lt;220.0,-15.0&gt;--&lt;273.0,-18.0&gt;&gt; = 3.239700296102106
 
 * integral (U+222B): L&lt;&lt;438.0,543.0&gt;--&lt;492.0,543.0&gt;&gt;/L&lt;&lt;492.0,543.0&gt;--&lt;439.0,547.0&gt;&gt; = 4.316027519865585
 
@@ -5418,7 +4721,7 @@ definitions.</p>
 
 * sterling (U+00A3): L&lt;&lt;253.0,515.0&gt;--&lt;307.0,515.0&gt;&gt;/L&lt;&lt;307.0,515.0&gt;--&lt;254.0,519.0&gt;&gt; = 4.316027519865585
 
-* uni0162 (U+0162): L&lt;&lt;225.0,-101.0&gt;--&lt;228.0,-86.0&gt;&gt;/L&lt;&lt;228.0,-86.0&gt;--&lt;223.0,-101.0&gt;&gt; = 7.125016348901757
+* uni0162 (U+0162): L&lt;&lt;224.0,-101.0&gt;--&lt;228.0,-86.0&gt;&gt;/L&lt;&lt;228.0,-86.0&gt;--&lt;222.0,-101.0&gt;&gt; = 6.86999230821421
 
 * uni0190 (U+0190): B&lt;&lt;203.0,342.0&gt;-&lt;252.0,367.0&gt;-&lt;308.0,372.0&gt;&gt;/B&lt;&lt;308.0,372.0&gt;-&lt;260.0,379.0&gt;-&lt;227.0,400.5&gt;&gt; = 13.399310222195037
 
@@ -5516,7 +4819,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
     <div>
 
 
@@ -5525,214 +4828,113 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
-<pre><code>- Glyph name: kgreenlandic	Expected: 1 or 2
+* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
+<pre><code>- acutecomb
 
-- Glyph name: uni0222	Expected: 2
+- dotbelowcomb
 
-- Glyph name: uni0223	Expected: 2
+- gravecomb
 
-- Glyph name: uni024A	Expected: 2
+- hookabovecomb
 
-- Glyph name: uni024B	Expected: 2
+- tildecomb
 
-- Glyph name: uni02BB	Expected: 1
+- uni0302
 
-- Glyph name: uni02BE	Expected: 1
+- uni0304
 
-- Glyph name: uni02BF	Expected: 1
+- uni0306
 
-- Glyph name: uni02CA	Expected: 1
+- uni0307
 
-- Glyph name: uni02CB	Expected: 1
+- uni0308
 
-- Glyph name: uni0313	Expected: 1
+- uni030A
 
-- Glyph name: uni0334	Expected: 1
+- uni030B
 
-- Glyph name: theta	Expected: 3
+- uni030C
 
-- Glyph name: uni03BC	Expected: 1
+- uni030F
 
-- Glyph name: pi	Expected: 1
+- uni0310
 
-- Glyph name: chi	Expected: 1
+- uni0311
 
-- Glyph name: uni2016	Expected: 2
+- uni0312
 
-- Glyph name: minute	Expected: 1
+- uni0313
 
-- Glyph name: second	Expected: 2
+- uni0315
 
-- Glyph name: colonmonetary	Expected: 1 or 3
+- uni031B
 
-- Glyph name: dong	Expected: 3 or 4
+- uni0324
 
-- Glyph name: uni20AE	Expected: 1
+- uni0325
 
-- Glyph name: uni20B1	Expected: 1, 2 or 4
+- uni0326
 
-- Glyph name: uni20B2	Expected: 1, 2 or 3
+- uni0327
 
-- Glyph name: uni20B8	Expected: 2
+- uni0328
 
-- Glyph name: uni20BA	Expected: 1
+- uni0329
 
-- Glyph name: uni20BC	Expected: 1
+- uni032D
 
-- Glyph name: uni20BF	Expected: 3
+- uni032E
 
-- Glyph name: uni2113	Expected: 2
+- uni032F
 
-- Glyph name: uni2126	Expected: 1
+- uni0330
 
-- Glyph name: estimated	Expected: 2
+- uni0331
 
-- Glyph name: emptyset	Expected: 3
+- uni0332
 
-- Glyph name: uni2206	Expected: 2
+- uni0334
 
-- Glyph name: filledbox	Expected: 1
+- uni0335
 
-- Glyph name: uni25A1	Expected: 2
+- uni0336
 
-- Glyph name: uni25AA	Expected: 1
+- uni0337
 
-- Glyph name: uni25AB	Expected: 2
+- uni0338
 
-- Glyph name: triagup	Expected: 1
+- uni0358
 
-- Glyph name: uni25B3	Expected: 2
+- uni1DC4
 
-- Glyph name: uni25B6	Expected: 1
+- uni1DC5
 
-- Glyph name: uni25B7	Expected: 2
+- uni1DC6
 
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
-
-- Glyph name: chi	Expected: 1
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: colonmonetary	Expected: 1 or 3
-
-- Glyph name: dong	Expected: 3 or 4
-
-- Glyph name: emptyset	Expected: 3
-
-- Glyph name: estimated	Expected: 2
-
-- Glyph name: kgreenlandic	Expected: 1 or 2
-
-- Glyph name: pi	Expected: 1
-
-- Glyph name: theta	Expected: 3
-
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: triagup	Expected: 1
-
-- Glyph name: uni0222	Expected: 2
-
-- Glyph name: uni0223	Expected: 2
-
-- Glyph name: uni024A	Expected: 2
-
-- Glyph name: uni024B	Expected: 2
-
-- Glyph name: uni02BB	Expected: 1
-
-- Glyph name: uni02BE	Expected: 1
-
-- Glyph name: uni02BF	Expected: 1
-
-- Glyph name: uni02CA	Expected: 1
-
-- Glyph name: uni02CB	Expected: 1
-
-- Glyph name: uni0313	Expected: 1
-
-- Glyph name: uni03BC	Expected: 1
-
-- Glyph name: uni2016	Expected: 2
-
-- Glyph name: uni20AE	Expected: 1
-
-- Glyph name: uni20B1	Expected: 1, 2 or 4
-
-- Glyph name: uni20B2	Expected: 1, 2 or 3
-
-- Glyph name: uni20B8	Expected: 2
-
-- Glyph name: uni20BA	Expected: 1
-
-- Glyph name: uni20BC	Expected: 1
-
-- Glyph name: uni20BF	Expected: 3
-
-- Glyph name: uni2113	Expected: 2
-
-- Glyph name: uni2126	Expected: 1
-
-- Glyph name: uni2206	Expected: 2
-
-- Glyph name: uni25A1	Expected: 2
-
-- Glyph name: uni25AA	Expected: 1
-
-- Glyph name: uni25AB	Expected: 2
-
-- Glyph name: uni25B3	Expected: 2
-
-- Glyph name: uni25B6	Expected: 1
-
-- Glyph name: uni25B7	Expected: 2
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
+- uni1DC7
 </code></pre>
- [code: no-contour]
+ [code: unattached-dotted-circle-marks]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <div>
+
+
+
+
 
 
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -5816,6 +5018,16 @@ definitions.</p>
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
+
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -5830,6 +5042,8 @@ definitions.</p>
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: hbar	Contours detected: 2	Expected: 1
@@ -5837,6 +5051,8 @@ definitions.</p>
 - Glyph name: tbar	Contours detected: 2	Expected: 1
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
@@ -5895,92 +5111,16 @@ definitions.</p>
 - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
 </code></pre>
  [code: contour-count]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-</code></pre>
- [code: unattached-dotted-circle-marks]
 
 
 
@@ -5999,6 +5139,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
 - f_i.liga</p>
+<pre><code>- fl
+</code></pre>
  [code: incomplete-caret-pos-data]
 
 
@@ -6113,30 +5255,30 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, math, syriac, todhri, canadian-aboriginal, coptic, malayalam, tai-le, tifinagh, old-permic</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, syriac, hebrew, tai-le, coptic, canadian-aboriginal, tifinagh, duployan, malayalam, math, old-permic</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, syriac, thai, gothic, cherokee, tifinagh, sunuwar</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, syriac, tifinagh, caucasian-albanian</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -6144,13 +5286,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: math, elbasan, greek</li>
-<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: math, elbasan, greek</li>
-<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: math, greek</li>
-<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek</li>
-<li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
-<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek</li>
+<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: greek, math, elbasan</li>
+<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: greek, math, elbasan</li>
+<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
+<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
+<li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
+<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
 <li>U+1DC5 COMBINING GRAVE-MACRON: not included in any glyphset definition</li>
@@ -6189,14 +5331,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
@@ -6214,26 +5356,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: mende-kikakui, wancho, symbols, telugu, mongolian, devanagari, sogdian, pahawh-hmong, armenian, zanabazar-square, caucasian-albanian, siddham, myanmar, limbu, music, oriya, duployan, math, syriac, manichaean, warang-citi, canadian-aboriginal, ahom, bengali, tibetan, new-tai-lue, soyombo, bhaiksuki, buhid, mahajani, coptic, meetei-mayek, tirhuta, adlam, sharada, tai-viet, khojki, kannada, malayalam, khmer, cham, tai-tham, sundanese, batak, miao, javanese, grantha, saurashtra, marchen, sinhala, chakma, tamil, gunjala-gondi, psalter-pahlavi, mandaic, hanunoo, rejang, tai-le, lepcha, elbasan, nko, takri, thaana, khudawadi, tifinagh, brahmi, newa, phags-pa, thai, buginese, syloti-nagri, hanifi-rohingya, dogra, tagbanwa, balinese, osage, kaithi, modi, masaram-gondi, kayah-li, lao, bassa-vah, old-permic, yi, gujarati, hebrew, gurmukhi, kharoshthi, tagalog</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: buginese, marchen, chakma, myanmar, gunjala-gondi, syriac, takri, syloti-nagri, duployan, math, grantha, masaram-gondi, yi, newa, oriya, warang-citi, siddham, armenian, rejang, bengali, sundanese, bassa-vah, osage, tagalog, symbols, old-permic, brahmi, canadian-aboriginal, dogra, tamil, modi, phags-pa, tai-tham, new-tai-lue, kharoshthi, sogdian, pahawh-hmong, adlam, tai-le, saurashtra, devanagari, psalter-pahlavi, tifinagh, tibetan, mongolian, ahom, sharada, elbasan, malayalam, telugu, buhid, limbu, kaithi, tai-viet, lepcha, lao, hebrew, thaana, cham, gurmukhi, nko, wancho, music, soyombo, balinese, miao, khojki, mende-kikakui, zanabazar-square, khmer, tagbanwa, manichaean, tirhuta, khudawadi, gujarati, coptic, meetei-mayek, sinhala, hanunoo, caucasian-albanian, kayah-li, kannada, mahajani, thai, batak, hanifi-rohingya, javanese, mandaic, bhaiksuki</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -6260,8 +5402,8 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̍ i̓ i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i᷄ i᷅ i̛̍ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤̍ i̤̓ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥̍ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ḭ̀ ḭ́ ḭ̂ ḭ̃ ḭ̄ ḭ̆ ḭ̇ ḭ̈ ḭ̉ ḭ̊ ḭ̋ ḭ̌ ḭ̍ ḭ̏ ḭ̐ ḭ̑ ḭ̒ ḭ̓ ḭ᷄ ḭ᷅</p>
  [code: soft-dotted]
 
 
@@ -6400,9 +5542,7 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
-<pre><code>* cedillashortcomb: L&lt;&lt;84.0,-94.0&gt;--&lt;87.0,-84.0&gt;&gt;/L&lt;&lt;87.0,-84.0&gt;--&lt;83.0,-94.0&gt;&gt; = 5.102165252358075
-
-* integral (U+222B): L&lt;&lt;258.0,-25.0&gt;--&lt;214.0,-25.0&gt;&gt;/L&lt;&lt;214.0,-25.0&gt;--&lt;257.0,-28.0&gt;&gt; = 3.9909130984297856
+<pre><code>* integral (U+222B): L&lt;&lt;258.0,-25.0&gt;--&lt;214.0,-25.0&gt;&gt;/L&lt;&lt;214.0,-25.0&gt;--&lt;257.0,-28.0&gt;&gt; = 3.9909130984297856
 
 * integral (U+222B): L&lt;&lt;454.0,553.0&gt;--&lt;497.0,553.0&gt;&gt;/L&lt;&lt;497.0,553.0&gt;--&lt;454.0,556.0&gt;&gt; = 3.9909130984297856
 
@@ -6510,7 +5650,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
     <div>
 
 
@@ -6519,214 +5659,113 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
-<pre><code>- Glyph name: kgreenlandic	Expected: 1 or 2
+* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
+<pre><code>- acutecomb
 
-- Glyph name: uni0222	Expected: 2
+- dotbelowcomb
 
-- Glyph name: uni0223	Expected: 2
+- gravecomb
 
-- Glyph name: uni024A	Expected: 2
+- hookabovecomb
 
-- Glyph name: uni024B	Expected: 2
+- tildecomb
 
-- Glyph name: uni02BB	Expected: 1
+- uni0302
 
-- Glyph name: uni02BE	Expected: 1
+- uni0304
 
-- Glyph name: uni02BF	Expected: 1
+- uni0306
 
-- Glyph name: uni02CA	Expected: 1
+- uni0307
 
-- Glyph name: uni02CB	Expected: 1
+- uni0308
 
-- Glyph name: uni0313	Expected: 1
+- uni030A
 
-- Glyph name: uni0334	Expected: 1
+- uni030B
 
-- Glyph name: theta	Expected: 3
+- uni030C
 
-- Glyph name: uni03BC	Expected: 1
+- uni030F
 
-- Glyph name: pi	Expected: 1
+- uni0310
 
-- Glyph name: chi	Expected: 1
+- uni0311
 
-- Glyph name: uni2016	Expected: 2
+- uni0312
 
-- Glyph name: minute	Expected: 1
+- uni0313
 
-- Glyph name: second	Expected: 2
+- uni0315
 
-- Glyph name: colonmonetary	Expected: 1 or 3
+- uni031B
 
-- Glyph name: dong	Expected: 3 or 4
+- uni0324
 
-- Glyph name: uni20AE	Expected: 1
+- uni0325
 
-- Glyph name: uni20B1	Expected: 1, 2 or 4
+- uni0326
 
-- Glyph name: uni20B2	Expected: 1, 2 or 3
+- uni0327
 
-- Glyph name: uni20B8	Expected: 2
+- uni0328
 
-- Glyph name: uni20BA	Expected: 1
+- uni0329
 
-- Glyph name: uni20BC	Expected: 1
+- uni032D
 
-- Glyph name: uni20BF	Expected: 3
+- uni032E
 
-- Glyph name: uni2113	Expected: 2
+- uni032F
 
-- Glyph name: uni2126	Expected: 1
+- uni0330
 
-- Glyph name: estimated	Expected: 2
+- uni0331
 
-- Glyph name: emptyset	Expected: 3
+- uni0332
 
-- Glyph name: uni2206	Expected: 2
+- uni0334
 
-- Glyph name: filledbox	Expected: 1
+- uni0335
 
-- Glyph name: uni25A1	Expected: 2
+- uni0336
 
-- Glyph name: uni25AA	Expected: 1
+- uni0337
 
-- Glyph name: uni25AB	Expected: 2
+- uni0338
 
-- Glyph name: triagup	Expected: 1
+- uni0358
 
-- Glyph name: uni25B3	Expected: 2
+- uni1DC4
 
-- Glyph name: uni25B6	Expected: 1
+- uni1DC5
 
-- Glyph name: uni25B7	Expected: 2
+- uni1DC6
 
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
-
-- Glyph name: chi	Expected: 1
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: colonmonetary	Expected: 1 or 3
-
-- Glyph name: dong	Expected: 3 or 4
-
-- Glyph name: emptyset	Expected: 3
-
-- Glyph name: estimated	Expected: 2
-
-- Glyph name: kgreenlandic	Expected: 1 or 2
-
-- Glyph name: pi	Expected: 1
-
-- Glyph name: theta	Expected: 3
-
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: triagup	Expected: 1
-
-- Glyph name: uni0222	Expected: 2
-
-- Glyph name: uni0223	Expected: 2
-
-- Glyph name: uni024A	Expected: 2
-
-- Glyph name: uni024B	Expected: 2
-
-- Glyph name: uni02BB	Expected: 1
-
-- Glyph name: uni02BE	Expected: 1
-
-- Glyph name: uni02BF	Expected: 1
-
-- Glyph name: uni02CA	Expected: 1
-
-- Glyph name: uni02CB	Expected: 1
-
-- Glyph name: uni0313	Expected: 1
-
-- Glyph name: uni03BC	Expected: 1
-
-- Glyph name: uni2016	Expected: 2
-
-- Glyph name: uni20AE	Expected: 1
-
-- Glyph name: uni20B1	Expected: 1, 2 or 4
-
-- Glyph name: uni20B2	Expected: 1, 2 or 3
-
-- Glyph name: uni20B8	Expected: 2
-
-- Glyph name: uni20BA	Expected: 1
-
-- Glyph name: uni20BC	Expected: 1
-
-- Glyph name: uni20BF	Expected: 3
-
-- Glyph name: uni2113	Expected: 2
-
-- Glyph name: uni2126	Expected: 1
-
-- Glyph name: uni2206	Expected: 2
-
-- Glyph name: uni25A1	Expected: 2
-
-- Glyph name: uni25AA	Expected: 1
-
-- Glyph name: uni25AB	Expected: 2
-
-- Glyph name: uni25B3	Expected: 2
-
-- Glyph name: uni25B6	Expected: 1
-
-- Glyph name: uni25B7	Expected: 2
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
+- uni1DC7
 </code></pre>
- [code: no-contour]
+ [code: unattached-dotted-circle-marks]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <div>
+
+
+
+
 
 
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -6808,6 +5847,16 @@ definitions.</p>
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
+
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -6822,6 +5871,8 @@ definitions.</p>
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: hbar	Contours detected: 2	Expected: 1
@@ -6829,6 +5880,8 @@ definitions.</p>
 - Glyph name: tbar	Contours detected: 2	Expected: 1
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
@@ -6885,92 +5938,16 @@ definitions.</p>
 - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
 </code></pre>
  [code: contour-count]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-</code></pre>
- [code: unattached-dotted-circle-marks]
 
 
 
@@ -6989,6 +5966,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
 - f_i.liga</p>
+<pre><code>- fl
+</code></pre>
  [code: incomplete-caret-pos-data]
 
 
@@ -7099,30 +6078,30 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, math, syriac, todhri, canadian-aboriginal, coptic, malayalam, tai-le, tifinagh, old-permic</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, syriac, hebrew, tai-le, coptic, canadian-aboriginal, tifinagh, duployan, malayalam, math, old-permic</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, syriac, thai, gothic, cherokee, tifinagh, sunuwar</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, syriac, tifinagh, caucasian-albanian</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -7130,13 +6109,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: math, elbasan, greek</li>
-<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: math, elbasan, greek</li>
-<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: math, greek</li>
-<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek</li>
-<li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
-<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek</li>
+<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: greek, math, elbasan</li>
+<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: greek, math, elbasan</li>
+<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
+<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
+<li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
+<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
 <li>U+1DC5 COMBINING GRAVE-MACRON: not included in any glyphset definition</li>
@@ -7175,14 +6154,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
@@ -7200,26 +6179,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: mende-kikakui, wancho, symbols, telugu, mongolian, devanagari, sogdian, pahawh-hmong, armenian, zanabazar-square, caucasian-albanian, siddham, myanmar, limbu, music, oriya, duployan, math, syriac, manichaean, warang-citi, canadian-aboriginal, ahom, bengali, tibetan, new-tai-lue, soyombo, bhaiksuki, buhid, mahajani, coptic, meetei-mayek, tirhuta, adlam, sharada, tai-viet, khojki, kannada, malayalam, khmer, cham, tai-tham, sundanese, batak, miao, javanese, grantha, saurashtra, marchen, sinhala, chakma, tamil, gunjala-gondi, psalter-pahlavi, mandaic, hanunoo, rejang, tai-le, lepcha, elbasan, nko, takri, thaana, khudawadi, tifinagh, brahmi, newa, phags-pa, thai, buginese, syloti-nagri, hanifi-rohingya, dogra, tagbanwa, balinese, osage, kaithi, modi, masaram-gondi, kayah-li, lao, bassa-vah, old-permic, yi, gujarati, hebrew, gurmukhi, kharoshthi, tagalog</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: buginese, marchen, chakma, myanmar, gunjala-gondi, syriac, takri, syloti-nagri, duployan, math, grantha, masaram-gondi, yi, newa, oriya, warang-citi, siddham, armenian, rejang, bengali, sundanese, bassa-vah, osage, tagalog, symbols, old-permic, brahmi, canadian-aboriginal, dogra, tamil, modi, phags-pa, tai-tham, new-tai-lue, kharoshthi, sogdian, pahawh-hmong, adlam, tai-le, saurashtra, devanagari, psalter-pahlavi, tifinagh, tibetan, mongolian, ahom, sharada, elbasan, malayalam, telugu, buhid, limbu, kaithi, tai-viet, lepcha, lao, hebrew, thaana, cham, gurmukhi, nko, wancho, music, soyombo, balinese, miao, khojki, mende-kikakui, zanabazar-square, khmer, tagbanwa, manichaean, tirhuta, khudawadi, gujarati, coptic, meetei-mayek, sinhala, hanunoo, caucasian-albanian, kayah-li, kannada, mahajani, thai, batak, hanifi-rohingya, javanese, mandaic, bhaiksuki</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -7246,8 +6225,8 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̍ i̓ i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i᷄ i᷅ i̛̍ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤̍ i̤̓ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥̍ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ḭ̀ ḭ́ ḭ̂ ḭ̃ ḭ̄ ḭ̆ ḭ̇ ḭ̈ ḭ̉ ḭ̊ ḭ̋ ḭ̌ ḭ̍ ḭ̏ ḭ̐ ḭ̑ ḭ̒ ḭ̓ ḭ᷄ ḭ᷅</p>
  [code: soft-dotted]
 
 
@@ -7358,9 +6337,7 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
-<pre><code>* cedillashortcomb: L&lt;&lt;91.0,-109.0&gt;--&lt;95.0,-88.0&gt;&gt;/L&lt;&lt;95.0,-88.0&gt;--&lt;88.0,-109.0&gt;&gt; = 7.650650955359453
-
-* integral (U+222B): L&lt;&lt;289.0,-5.0&gt;--&lt;226.0,-5.0&gt;&gt;/L&lt;&lt;226.0,-5.0&gt;--&lt;288.0,-9.0&gt;&gt; = 3.6913859864512575
+<pre><code>* integral (U+222B): L&lt;&lt;289.0,-5.0&gt;--&lt;226.0,-5.0&gt;&gt;/L&lt;&lt;226.0,-5.0&gt;--&lt;288.0,-9.0&gt;&gt; = 3.6913859864512575
 
 * integral (U+222B): L&lt;&lt;422.0,533.0&gt;--&lt;486.0,533.0&gt;&gt;/L&lt;&lt;486.0,533.0&gt;--&lt;423.0,537.0&gt;&gt; = 3.6329507394881446
 
@@ -7466,7 +6443,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
     <div>
 
 
@@ -7475,214 +6452,113 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
-<pre><code>- Glyph name: kgreenlandic	Expected: 1 or 2
+* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
+<pre><code>- acutecomb
 
-- Glyph name: uni0222	Expected: 2
+- dotbelowcomb
 
-- Glyph name: uni0223	Expected: 2
+- gravecomb
 
-- Glyph name: uni024A	Expected: 2
+- hookabovecomb
 
-- Glyph name: uni024B	Expected: 2
+- tildecomb
 
-- Glyph name: uni02BB	Expected: 1
+- uni0302
 
-- Glyph name: uni02BE	Expected: 1
+- uni0304
 
-- Glyph name: uni02BF	Expected: 1
+- uni0306
 
-- Glyph name: uni02CA	Expected: 1
+- uni0307
 
-- Glyph name: uni02CB	Expected: 1
+- uni0308
 
-- Glyph name: uni0313	Expected: 1
+- uni030A
 
-- Glyph name: uni0334	Expected: 1
+- uni030B
 
-- Glyph name: theta	Expected: 3
+- uni030C
 
-- Glyph name: uni03BC	Expected: 1
+- uni030F
 
-- Glyph name: pi	Expected: 1
+- uni0310
 
-- Glyph name: chi	Expected: 1
+- uni0311
 
-- Glyph name: uni2016	Expected: 2
+- uni0312
 
-- Glyph name: minute	Expected: 1
+- uni0313
 
-- Glyph name: second	Expected: 2
+- uni0315
 
-- Glyph name: colonmonetary	Expected: 1 or 3
+- uni031B
 
-- Glyph name: dong	Expected: 3 or 4
+- uni0324
 
-- Glyph name: uni20AE	Expected: 1
+- uni0325
 
-- Glyph name: uni20B1	Expected: 1, 2 or 4
+- uni0326
 
-- Glyph name: uni20B2	Expected: 1, 2 or 3
+- uni0327
 
-- Glyph name: uni20B8	Expected: 2
+- uni0328
 
-- Glyph name: uni20BA	Expected: 1
+- uni0329
 
-- Glyph name: uni20BC	Expected: 1
+- uni032D
 
-- Glyph name: uni20BF	Expected: 3
+- uni032E
 
-- Glyph name: uni2113	Expected: 2
+- uni032F
 
-- Glyph name: uni2126	Expected: 1
+- uni0330
 
-- Glyph name: estimated	Expected: 2
+- uni0331
 
-- Glyph name: emptyset	Expected: 3
+- uni0332
 
-- Glyph name: uni2206	Expected: 2
+- uni0334
 
-- Glyph name: filledbox	Expected: 1
+- uni0335
 
-- Glyph name: uni25A1	Expected: 2
+- uni0336
 
-- Glyph name: uni25AA	Expected: 1
+- uni0337
 
-- Glyph name: uni25AB	Expected: 2
+- uni0338
 
-- Glyph name: triagup	Expected: 1
+- uni0358
 
-- Glyph name: uni25B3	Expected: 2
+- uni1DC4
 
-- Glyph name: uni25B6	Expected: 1
+- uni1DC5
 
-- Glyph name: uni25B7	Expected: 2
+- uni1DC6
 
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
-
-- Glyph name: chi	Expected: 1
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: colonmonetary	Expected: 1 or 3
-
-- Glyph name: dong	Expected: 3 or 4
-
-- Glyph name: emptyset	Expected: 3
-
-- Glyph name: estimated	Expected: 2
-
-- Glyph name: kgreenlandic	Expected: 1 or 2
-
-- Glyph name: pi	Expected: 1
-
-- Glyph name: theta	Expected: 3
-
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: triagup	Expected: 1
-
-- Glyph name: uni0222	Expected: 2
-
-- Glyph name: uni0223	Expected: 2
-
-- Glyph name: uni024A	Expected: 2
-
-- Glyph name: uni024B	Expected: 2
-
-- Glyph name: uni02BB	Expected: 1
-
-- Glyph name: uni02BE	Expected: 1
-
-- Glyph name: uni02BF	Expected: 1
-
-- Glyph name: uni02CA	Expected: 1
-
-- Glyph name: uni02CB	Expected: 1
-
-- Glyph name: uni0313	Expected: 1
-
-- Glyph name: uni03BC	Expected: 1
-
-- Glyph name: uni2016	Expected: 2
-
-- Glyph name: uni20AE	Expected: 1
-
-- Glyph name: uni20B1	Expected: 1, 2 or 4
-
-- Glyph name: uni20B2	Expected: 1, 2 or 3
-
-- Glyph name: uni20B8	Expected: 2
-
-- Glyph name: uni20BA	Expected: 1
-
-- Glyph name: uni20BC	Expected: 1
-
-- Glyph name: uni20BF	Expected: 3
-
-- Glyph name: uni2113	Expected: 2
-
-- Glyph name: uni2126	Expected: 1
-
-- Glyph name: uni2206	Expected: 2
-
-- Glyph name: uni25A1	Expected: 2
-
-- Glyph name: uni25AA	Expected: 1
-
-- Glyph name: uni25AB	Expected: 2
-
-- Glyph name: uni25B3	Expected: 2
-
-- Glyph name: uni25B6	Expected: 1
-
-- Glyph name: uni25B7	Expected: 2
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
+- uni1DC7
 </code></pre>
- [code: no-contour]
+ [code: unattached-dotted-circle-marks]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <div>
+
+
+
+
 
 
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -7768,6 +6644,16 @@ definitions.</p>
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
+
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -7782,6 +6668,8 @@ definitions.</p>
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: hbar	Contours detected: 2	Expected: 1
@@ -7791,6 +6679,8 @@ definitions.</p>
 - Glyph name: tbar	Contours detected: 2	Expected: 1
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
@@ -7849,92 +6739,16 @@ definitions.</p>
 - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
 </code></pre>
  [code: contour-count]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-</code></pre>
- [code: unattached-dotted-circle-marks]
 
 
 
@@ -7953,6 +6767,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
 - f_i.liga</p>
+<pre><code>- fl
+</code></pre>
  [code: incomplete-caret-pos-data]
 
 
@@ -7972,8 +6788,6 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
 <pre><code>* Iogonek (U+012E): L&lt;&lt;70.0,0.0&gt;--&lt;98.0,0.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni0162 (U+0162): L&lt;&lt;285.0,0.0&gt;--&lt;313.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
 * aogonek (U+0105): L&lt;&lt;515.0,0.0&gt;--&lt;543.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
@@ -8067,30 +6881,30 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, math, syriac, todhri, canadian-aboriginal, coptic, malayalam, tai-le, tifinagh, old-permic</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, syriac, hebrew, tai-le, coptic, canadian-aboriginal, tifinagh, duployan, malayalam, math, old-permic</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, syriac, thai, gothic, cherokee, tifinagh, sunuwar</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, syriac, tifinagh, caucasian-albanian</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -8098,13 +6912,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: math, elbasan, greek</li>
-<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: math, elbasan, greek</li>
-<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: math, greek</li>
-<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek</li>
-<li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
-<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek</li>
+<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: greek, math, elbasan</li>
+<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: greek, math, elbasan</li>
+<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
+<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
+<li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
+<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
 <li>U+1DC5 COMBINING GRAVE-MACRON: not included in any glyphset definition</li>
@@ -8143,14 +6957,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
@@ -8168,26 +6982,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: mende-kikakui, wancho, symbols, telugu, mongolian, devanagari, sogdian, pahawh-hmong, armenian, zanabazar-square, caucasian-albanian, siddham, myanmar, limbu, music, oriya, duployan, math, syriac, manichaean, warang-citi, canadian-aboriginal, ahom, bengali, tibetan, new-tai-lue, soyombo, bhaiksuki, buhid, mahajani, coptic, meetei-mayek, tirhuta, adlam, sharada, tai-viet, khojki, kannada, malayalam, khmer, cham, tai-tham, sundanese, batak, miao, javanese, grantha, saurashtra, marchen, sinhala, chakma, tamil, gunjala-gondi, psalter-pahlavi, mandaic, hanunoo, rejang, tai-le, lepcha, elbasan, nko, takri, thaana, khudawadi, tifinagh, brahmi, newa, phags-pa, thai, buginese, syloti-nagri, hanifi-rohingya, dogra, tagbanwa, balinese, osage, kaithi, modi, masaram-gondi, kayah-li, lao, bassa-vah, old-permic, yi, gujarati, hebrew, gurmukhi, kharoshthi, tagalog</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: buginese, marchen, chakma, myanmar, gunjala-gondi, syriac, takri, syloti-nagri, duployan, math, grantha, masaram-gondi, yi, newa, oriya, warang-citi, siddham, armenian, rejang, bengali, sundanese, bassa-vah, osage, tagalog, symbols, old-permic, brahmi, canadian-aboriginal, dogra, tamil, modi, phags-pa, tai-tham, new-tai-lue, kharoshthi, sogdian, pahawh-hmong, adlam, tai-le, saurashtra, devanagari, psalter-pahlavi, tifinagh, tibetan, mongolian, ahom, sharada, elbasan, malayalam, telugu, buhid, limbu, kaithi, tai-viet, lepcha, lao, hebrew, thaana, cham, gurmukhi, nko, wancho, music, soyombo, balinese, miao, khojki, mende-kikakui, zanabazar-square, khmer, tagbanwa, manichaean, tirhuta, khudawadi, gujarati, coptic, meetei-mayek, sinhala, hanunoo, caucasian-albanian, kayah-li, kannada, mahajani, thai, batak, hanifi-rohingya, javanese, mandaic, bhaiksuki</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -8214,8 +7028,8 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̍ i̓ i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i᷄ i᷅ i̛̍ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤̍ i̤̓ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥̍ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ḭ̀ ḭ́ ḭ̂ ḭ̃ ḭ̄ ḭ̆ ḭ̇ ḭ̈ ḭ̉ ḭ̊ ḭ̋ ḭ̌ ḭ̍ ḭ̏ ḭ̐ ḭ̑ ḭ̒ ḭ̓ ḭ᷄ ḭ᷅</p>
  [code: soft-dotted]
 
 
@@ -8364,6 +7178,8 @@ definitions.</p>
 
 * quoteleft (U+2018): X=112.5,Y=702.0 (should be at cap-height 700?)
 
+* quoteright (U+2019): X=140.0,Y=702.0 (should be at cap-height 700?)
+
 * semicolon (U+003B): X=77.0,Y=0.5 (should be at baseline 0?)
 
 * exclam (U+0021): X=86.0,Y=1.0 (should be at baseline 0?)
@@ -8372,12 +7188,20 @@ definitions.</p>
 
 * questiondown (U+00BF): X=168.5,Y=1.0 (should be at baseline 0?)
 
+* uni02EE (U+02EE): X=140.0,Y=701.0 (should be at cap-height 700?)
+
+* uni02EE (U+02EE): X=260.0,Y=701.0 (should be at cap-height 700?)
+
+* colonmonetary (U+20A1): X=283.0,Y=2.0 (should be at baseline 0?)
+
 * dollar (U+0024): X=222.0,Y=2.0 (should be at baseline 0?)
 
 * dollar (U+0024): X=222.0,Y=698.0 (should be at cap-height 700?)
 
 * uni20B4 (U+20B4): X=225.5,Y=1.5 (should be at baseline 0?)
 
+* emptyset (U+2205): X=200.0,Y=-2.0 (should be at baseline 0?)
+
 * arrowright (U+2192): X=457.0,Y=-2.0 (should be at baseline 0?)
 
 * arrowright (U+2192): X=457.0,Y=-2.0 (should be at baseline 0?)
@@ -8385,6 +7209,14 @@ definitions.</p>
 * arrowleft (U+2190): X=357.0,Y=-2.0 (should be at baseline 0?)
 
 * arrowleft (U+2190): X=357.0,Y=-2.0 (should be at baseline 0?)
+
+* uni25CF (U+25CF): X=402.0,Y=2.0 (should be at baseline 0?)
+
+* uni25CF (U+25CF): X=402.0,Y=2.0 (should be at baseline 0?)
+
+* circle (U+25CB): X=402.0,Y=2.0 (should be at baseline 0?)
+
+* circle (U+25CB): X=402.0,Y=2.0 (should be at baseline 0?)
 
 * section (U+00A7): X=121.5,Y=698.5 (should be at cap-height 700?)
 
@@ -8403,6 +7235,8 @@ definitions.</p>
 * cedilla (U+00B8): X=186.0,Y=2.0 (should be at baseline 0?)
 
 * cedilla (U+00B8): X=213.0,Y=2.0 (should be at baseline 0?)
+
+* uni02BB (U+02BB): X=156.0,Y=699.0 (should be at cap-height 700?)
 </code></pre>
  [code: found-misalignments]
 
@@ -8457,6 +7291,12 @@ definitions.</p>
 * uni01B1 (U+01B1): L&lt;&lt;708.0,678.0&gt;--&lt;540.0,678.0&gt;&gt;/B&lt;&lt;540.0,678.0&gt;-&lt;586.0,670.0&gt;-&lt;626.0,639.5&gt;&gt; = 9.865806943084365
 
 * uni025B (U+025B): B&lt;&lt;77.0,211.5&gt;-&lt;114.0,249.0&gt;-&lt;174.0,256.0&gt;&gt;/B&lt;&lt;174.0,256.0&gt;-&lt;114.0,263.0&gt;-&lt;77.0,294.0&gt;&gt; = 13.308850092013184
+
+* uni20BE (U+20BE): L&lt;&lt;32.0,53.0&gt;--&lt;296.0,53.0&gt;&gt;/B&lt;&lt;296.0,53.0&gt;-&lt;224.0,71.0&gt;-&lt;171.0,117.5&gt;&gt; = 14.036243467926484
+
+* uni2126 (U+2126): B&lt;&lt;626.0,60.5&gt;-&lt;586.0,30.0&gt;-&lt;540.0,22.0&gt;&gt;/L&lt;&lt;540.0,22.0&gt;--&lt;708.0,22.0&gt;&gt; = 9.865806943084365
+
+* uni2126 (U+2126): L&lt;&lt;88.0,22.0&gt;--&lt;256.0,22.0&gt;&gt;/B&lt;&lt;256.0,22.0&gt;-&lt;213.0,31.0&gt;-&lt;175.5,62.0&gt;&gt; = 11.821488340607226
 </code></pre>
  [code: found-jaggy-segments]
 
@@ -8600,7 +7440,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
     <div>
 
 
@@ -8609,214 +7449,113 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
-<pre><code>- Glyph name: kgreenlandic	Expected: 1 or 2
+* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
+<pre><code>- acutecomb
 
-- Glyph name: uni0222	Expected: 2
+- dotbelowcomb
 
-- Glyph name: uni0223	Expected: 2
+- gravecomb
 
-- Glyph name: uni024A	Expected: 2
+- hookabovecomb
 
-- Glyph name: uni024B	Expected: 2
+- tildecomb
 
-- Glyph name: uni02BB	Expected: 1
+- uni0302
 
-- Glyph name: uni02BE	Expected: 1
+- uni0304
 
-- Glyph name: uni02BF	Expected: 1
+- uni0306
 
-- Glyph name: uni02CA	Expected: 1
+- uni0307
 
-- Glyph name: uni02CB	Expected: 1
+- uni0308
 
-- Glyph name: uni0313	Expected: 1
+- uni030A
 
-- Glyph name: uni0334	Expected: 1
+- uni030B
 
-- Glyph name: theta	Expected: 3
+- uni030C
 
-- Glyph name: uni03BC	Expected: 1
+- uni030F
 
-- Glyph name: pi	Expected: 1
+- uni0310
 
-- Glyph name: chi	Expected: 1
+- uni0311
 
-- Glyph name: uni2016	Expected: 2
+- uni0312
 
-- Glyph name: minute	Expected: 1
+- uni0313
 
-- Glyph name: second	Expected: 2
+- uni0315
 
-- Glyph name: colonmonetary	Expected: 1 or 3
+- uni031B
 
-- Glyph name: dong	Expected: 3 or 4
+- uni0324
 
-- Glyph name: uni20AE	Expected: 1
+- uni0325
 
-- Glyph name: uni20B1	Expected: 1, 2 or 4
+- uni0326
 
-- Glyph name: uni20B2	Expected: 1, 2 or 3
+- uni0327
 
-- Glyph name: uni20B8	Expected: 2
+- uni0328
 
-- Glyph name: uni20BA	Expected: 1
+- uni0329
 
-- Glyph name: uni20BC	Expected: 1
+- uni032D
 
-- Glyph name: uni20BF	Expected: 3
+- uni032E
 
-- Glyph name: uni2113	Expected: 2
+- uni032F
 
-- Glyph name: uni2126	Expected: 1
+- uni0330
 
-- Glyph name: estimated	Expected: 2
+- uni0331
 
-- Glyph name: emptyset	Expected: 3
+- uni0332
 
-- Glyph name: uni2206	Expected: 2
+- uni0334
 
-- Glyph name: filledbox	Expected: 1
+- uni0335
 
-- Glyph name: uni25A1	Expected: 2
+- uni0336
 
-- Glyph name: uni25AA	Expected: 1
+- uni0337
 
-- Glyph name: uni25AB	Expected: 2
+- uni0338
 
-- Glyph name: triagup	Expected: 1
+- uni0358
 
-- Glyph name: uni25B3	Expected: 2
+- uni1DC4
 
-- Glyph name: uni25B6	Expected: 1
+- uni1DC5
 
-- Glyph name: uni25B7	Expected: 2
+- uni1DC6
 
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
-
-- Glyph name: chi	Expected: 1
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: colonmonetary	Expected: 1 or 3
-
-- Glyph name: dong	Expected: 3 or 4
-
-- Glyph name: emptyset	Expected: 3
-
-- Glyph name: estimated	Expected: 2
-
-- Glyph name: kgreenlandic	Expected: 1 or 2
-
-- Glyph name: pi	Expected: 1
-
-- Glyph name: theta	Expected: 3
-
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: triagup	Expected: 1
-
-- Glyph name: uni0222	Expected: 2
-
-- Glyph name: uni0223	Expected: 2
-
-- Glyph name: uni024A	Expected: 2
-
-- Glyph name: uni024B	Expected: 2
-
-- Glyph name: uni02BB	Expected: 1
-
-- Glyph name: uni02BE	Expected: 1
-
-- Glyph name: uni02BF	Expected: 1
-
-- Glyph name: uni02CA	Expected: 1
-
-- Glyph name: uni02CB	Expected: 1
-
-- Glyph name: uni0313	Expected: 1
-
-- Glyph name: uni03BC	Expected: 1
-
-- Glyph name: uni2016	Expected: 2
-
-- Glyph name: uni20AE	Expected: 1
-
-- Glyph name: uni20B1	Expected: 1, 2 or 4
-
-- Glyph name: uni20B2	Expected: 1, 2 or 3
-
-- Glyph name: uni20B8	Expected: 2
-
-- Glyph name: uni20BA	Expected: 1
-
-- Glyph name: uni20BC	Expected: 1
-
-- Glyph name: uni20BF	Expected: 3
-
-- Glyph name: uni2113	Expected: 2
-
-- Glyph name: uni2126	Expected: 1
-
-- Glyph name: uni2206	Expected: 2
-
-- Glyph name: uni25A1	Expected: 2
-
-- Glyph name: uni25AA	Expected: 1
-
-- Glyph name: uni25AB	Expected: 2
-
-- Glyph name: uni25B3	Expected: 2
-
-- Glyph name: uni25B6	Expected: 1
-
-- Glyph name: uni25B7	Expected: 2
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
+- uni1DC7
 </code></pre>
- [code: no-contour]
+ [code: unattached-dotted-circle-marks]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <div>
+
+
+
+
 
 
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -8900,6 +7639,16 @@ definitions.</p>
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
+
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -8914,6 +7663,8 @@ definitions.</p>
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: hbar	Contours detected: 2	Expected: 1
@@ -8921,6 +7672,8 @@ definitions.</p>
 - Glyph name: tbar	Contours detected: 2	Expected: 1
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
@@ -8979,92 +7732,16 @@ definitions.</p>
 - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
 </code></pre>
  [code: contour-count]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-</code></pre>
- [code: unattached-dotted-circle-marks]
 
 
 
@@ -9083,6 +7760,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
 - f_i.liga</p>
+<pre><code>- fl
+</code></pre>
  [code: incomplete-caret-pos-data]
 
 
@@ -9193,30 +7872,30 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, math, syriac, todhri, canadian-aboriginal, coptic, malayalam, tai-le, tifinagh, old-permic</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, syriac, hebrew, tai-le, coptic, canadian-aboriginal, tifinagh, duployan, malayalam, math, old-permic</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, syriac, thai, gothic, cherokee, tifinagh, sunuwar</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, syriac, tifinagh, caucasian-albanian</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -9224,13 +7903,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: math, elbasan, greek</li>
-<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: math, elbasan, greek</li>
-<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: math, greek</li>
-<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek</li>
-<li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
-<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek</li>
+<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: greek, math, elbasan</li>
+<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: greek, math, elbasan</li>
+<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
+<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
+<li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
+<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
 <li>U+1DC5 COMBINING GRAVE-MACRON: not included in any glyphset definition</li>
@@ -9269,14 +7948,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
@@ -9294,26 +7973,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: mende-kikakui, wancho, symbols, telugu, mongolian, devanagari, sogdian, pahawh-hmong, armenian, zanabazar-square, caucasian-albanian, siddham, myanmar, limbu, music, oriya, duployan, math, syriac, manichaean, warang-citi, canadian-aboriginal, ahom, bengali, tibetan, new-tai-lue, soyombo, bhaiksuki, buhid, mahajani, coptic, meetei-mayek, tirhuta, adlam, sharada, tai-viet, khojki, kannada, malayalam, khmer, cham, tai-tham, sundanese, batak, miao, javanese, grantha, saurashtra, marchen, sinhala, chakma, tamil, gunjala-gondi, psalter-pahlavi, mandaic, hanunoo, rejang, tai-le, lepcha, elbasan, nko, takri, thaana, khudawadi, tifinagh, brahmi, newa, phags-pa, thai, buginese, syloti-nagri, hanifi-rohingya, dogra, tagbanwa, balinese, osage, kaithi, modi, masaram-gondi, kayah-li, lao, bassa-vah, old-permic, yi, gujarati, hebrew, gurmukhi, kharoshthi, tagalog</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: buginese, marchen, chakma, myanmar, gunjala-gondi, syriac, takri, syloti-nagri, duployan, math, grantha, masaram-gondi, yi, newa, oriya, warang-citi, siddham, armenian, rejang, bengali, sundanese, bassa-vah, osage, tagalog, symbols, old-permic, brahmi, canadian-aboriginal, dogra, tamil, modi, phags-pa, tai-tham, new-tai-lue, kharoshthi, sogdian, pahawh-hmong, adlam, tai-le, saurashtra, devanagari, psalter-pahlavi, tifinagh, tibetan, mongolian, ahom, sharada, elbasan, malayalam, telugu, buhid, limbu, kaithi, tai-viet, lepcha, lao, hebrew, thaana, cham, gurmukhi, nko, wancho, music, soyombo, balinese, miao, khojki, mende-kikakui, zanabazar-square, khmer, tagbanwa, manichaean, tirhuta, khudawadi, gujarati, coptic, meetei-mayek, sinhala, hanunoo, caucasian-albanian, kayah-li, kannada, mahajani, thai, batak, hanifi-rohingya, javanese, mandaic, bhaiksuki</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -9340,8 +8019,8 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̍ i̓ i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i᷄ i᷅ i̛̍ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤̍ i̤̓ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥̍ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ḭ̀ ḭ́ ḭ̂ ḭ̃ ḭ̄ ḭ̆ ḭ̇ ḭ̈ ḭ̉ ḭ̊ ḭ̋ ḭ̌ ḭ̍ ḭ̏ ḭ̐ ḭ̑ ḭ̒ ḭ̓ ḭ᷄ ḭ᷅</p>
  [code: soft-dotted]
 
 
@@ -9448,6 +8127,14 @@ definitions.</p>
 
 * uni0199 (U+0199): X=295.0,Y=699.0 (should be at cap-height 700?)
 
+* uni0223 (U+0223): X=252.0,Y=702.0 (should be at cap-height 700?)
+
+* uni0223 (U+0223): X=305.0,Y=702.0 (should be at cap-height 700?)
+
+* uni0223 (U+0223): X=560.0,Y=702.0 (should be at cap-height 700?)
+
+* uni0223 (U+0223): X=614.0,Y=702.0 (should be at cap-height 700?)
+
 * uni1E7B (U+1E7B): X=576.0,Y=698.0 (should be at cap-height 700?)
 
 * uni1E7B (U+1E7B): X=576.0,Y=698.0 (should be at cap-height 700?)
@@ -9486,8 +8173,6 @@ definitions.</p>
 
 * uni1EF9 (U+1EF9): X=203.0,Y=1.0 (should be at baseline 0?)
 
-* uni02B8 (U+02B8): X=203.0,Y=1.0 (should be at baseline 0?)
-
 * nine.numr: X=438.5,Y=698.5 (should be at cap-height 700?)
 
 * nine.numr: X=306.0,Y=699.5 (should be at cap-height 700?)
@@ -9524,9 +8209,21 @@ definitions.</p>
 
 * dollar (U+0024): X=256.0,Y=1.0 (should be at baseline 0?)
 
+* uni2206 (U+2206): X=571.5,Y=700.5 (should be at cap-height 700?)
+
+* uni25CF (U+25CF): X=362.0,Y=2.0 (should be at baseline 0?)
+
+* uni25CF (U+25CF): X=362.0,Y=2.0 (should be at baseline 0?)
+
+* circle (U+25CB): X=362.0,Y=2.0 (should be at baseline 0?)
+
+* circle (U+25CB): X=362.0,Y=2.0 (should be at baseline 0?)
+
 * section (U+00A7): X=326.5,Y=699.0 (should be at cap-height 700?)
 
 * registered (U+00AE): X=407.0,Y=698.0 (should be at cap-height 700?)
+
+* uni02BC (U+02BC): X=278.0,Y=702.0 (should be at cap-height 700?)
 
 * uni03020309.case: X=549.0,Y=699.5 (should be at cap-height 700?)
 </code></pre>
@@ -9659,6 +8356,8 @@ definitions.</p>
 * uni01B1 (U+01B1): L&lt;&lt;895.0,650.0&gt;--&lt;755.0,650.0&gt;&gt;/B&lt;&lt;755.0,650.0&gt;-&lt;804.0,638.0&gt;-&lt;831.0,591.0&gt;&gt; = 13.760785111791225
 
 * uni025B (U+025B): B&lt;&lt;105.0,217.0&gt;-&lt;148.0,251.0&gt;-&lt;205.0,256.0&gt;&gt;/B&lt;&lt;205.0,256.0&gt;-&lt;155.0,262.0&gt;-&lt;133.5,293.0&gt;&gt; = 11.855887167666735
+
+* uni2126 (U+2126): B&lt;&lt;663.5,108.0&gt;-&lt;605.0,62.0&gt;-&lt;547.0,50.0&gt;&gt;/L&lt;&lt;547.0,50.0&gt;--&lt;683.0,50.0&gt;&gt; = 11.689369175439202
 </code></pre>
  [code: found-jaggy-segments]
 
@@ -9750,7 +8449,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
     <div>
 
 
@@ -9759,214 +8458,113 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
-<pre><code>- Glyph name: kgreenlandic	Expected: 1 or 2
+* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
+<pre><code>- acutecomb
 
-- Glyph name: uni0222	Expected: 2
+- dotbelowcomb
 
-- Glyph name: uni0223	Expected: 2
+- gravecomb
 
-- Glyph name: uni024A	Expected: 2
+- hookabovecomb
 
-- Glyph name: uni024B	Expected: 2
+- tildecomb
 
-- Glyph name: uni02BB	Expected: 1
+- uni0302
 
-- Glyph name: uni02BE	Expected: 1
+- uni0304
 
-- Glyph name: uni02BF	Expected: 1
+- uni0306
 
-- Glyph name: uni02CA	Expected: 1
+- uni0307
 
-- Glyph name: uni02CB	Expected: 1
+- uni0308
 
-- Glyph name: uni0313	Expected: 1
+- uni030A
 
-- Glyph name: uni0334	Expected: 1
+- uni030B
 
-- Glyph name: theta	Expected: 3
+- uni030C
 
-- Glyph name: uni03BC	Expected: 1
+- uni030F
 
-- Glyph name: pi	Expected: 1
+- uni0310
 
-- Glyph name: chi	Expected: 1
+- uni0311
 
-- Glyph name: uni2016	Expected: 2
+- uni0312
 
-- Glyph name: minute	Expected: 1
+- uni0313
 
-- Glyph name: second	Expected: 2
+- uni0315
 
-- Glyph name: colonmonetary	Expected: 1 or 3
+- uni031B
 
-- Glyph name: dong	Expected: 3 or 4
+- uni0324
 
-- Glyph name: uni20AE	Expected: 1
+- uni0325
 
-- Glyph name: uni20B1	Expected: 1, 2 or 4
+- uni0326
 
-- Glyph name: uni20B2	Expected: 1, 2 or 3
+- uni0327
 
-- Glyph name: uni20B8	Expected: 2
+- uni0328
 
-- Glyph name: uni20BA	Expected: 1
+- uni0329
 
-- Glyph name: uni20BC	Expected: 1
+- uni032D
 
-- Glyph name: uni20BF	Expected: 3
+- uni032E
 
-- Glyph name: uni2113	Expected: 2
+- uni032F
 
-- Glyph name: uni2126	Expected: 1
+- uni0330
 
-- Glyph name: estimated	Expected: 2
+- uni0331
 
-- Glyph name: emptyset	Expected: 3
+- uni0332
 
-- Glyph name: uni2206	Expected: 2
+- uni0334
 
-- Glyph name: filledbox	Expected: 1
+- uni0335
 
-- Glyph name: uni25A1	Expected: 2
+- uni0336
 
-- Glyph name: uni25AA	Expected: 1
+- uni0337
 
-- Glyph name: uni25AB	Expected: 2
+- uni0338
 
-- Glyph name: triagup	Expected: 1
+- uni0358
 
-- Glyph name: uni25B3	Expected: 2
+- uni1DC4
 
-- Glyph name: uni25B6	Expected: 1
+- uni1DC5
 
-- Glyph name: uni25B7	Expected: 2
+- uni1DC6
 
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
-
-- Glyph name: chi	Expected: 1
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: colonmonetary	Expected: 1 or 3
-
-- Glyph name: dong	Expected: 3 or 4
-
-- Glyph name: emptyset	Expected: 3
-
-- Glyph name: estimated	Expected: 2
-
-- Glyph name: kgreenlandic	Expected: 1 or 2
-
-- Glyph name: pi	Expected: 1
-
-- Glyph name: theta	Expected: 3
-
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: triagup	Expected: 1
-
-- Glyph name: uni0222	Expected: 2
-
-- Glyph name: uni0223	Expected: 2
-
-- Glyph name: uni024A	Expected: 2
-
-- Glyph name: uni024B	Expected: 2
-
-- Glyph name: uni02BB	Expected: 1
-
-- Glyph name: uni02BE	Expected: 1
-
-- Glyph name: uni02BF	Expected: 1
-
-- Glyph name: uni02CA	Expected: 1
-
-- Glyph name: uni02CB	Expected: 1
-
-- Glyph name: uni0313	Expected: 1
-
-- Glyph name: uni03BC	Expected: 1
-
-- Glyph name: uni2016	Expected: 2
-
-- Glyph name: uni20AE	Expected: 1
-
-- Glyph name: uni20B1	Expected: 1, 2 or 4
-
-- Glyph name: uni20B2	Expected: 1, 2 or 3
-
-- Glyph name: uni20B8	Expected: 2
-
-- Glyph name: uni20BA	Expected: 1
-
-- Glyph name: uni20BC	Expected: 1
-
-- Glyph name: uni20BF	Expected: 3
-
-- Glyph name: uni2113	Expected: 2
-
-- Glyph name: uni2126	Expected: 1
-
-- Glyph name: uni2206	Expected: 2
-
-- Glyph name: uni25A1	Expected: 2
-
-- Glyph name: uni25AA	Expected: 1
-
-- Glyph name: uni25AB	Expected: 2
-
-- Glyph name: uni25B3	Expected: 2
-
-- Glyph name: uni25B6	Expected: 1
-
-- Glyph name: uni25B7	Expected: 2
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
+- uni1DC7
 </code></pre>
- [code: no-contour]
+ [code: unattached-dotted-circle-marks]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <div>
+
+
+
+
 
 
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -10048,6 +8646,16 @@ definitions.</p>
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
+
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -10062,6 +8670,8 @@ definitions.</p>
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: hbar	Contours detected: 2	Expected: 1
@@ -10069,6 +8679,8 @@ definitions.</p>
 - Glyph name: tbar	Contours detected: 2	Expected: 1
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
@@ -10125,92 +8737,16 @@ definitions.</p>
 - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
 </code></pre>
  [code: contour-count]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-</code></pre>
- [code: unattached-dotted-circle-marks]
 
 
 
@@ -10229,6 +8765,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
 - f_i.liga</p>
+<pre><code>- fl
+</code></pre>
  [code: incomplete-caret-pos-data]
 
 
@@ -10335,30 +8873,30 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, math, syriac, todhri, canadian-aboriginal, coptic, malayalam, tai-le, tifinagh, old-permic</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, syriac, hebrew, tai-le, coptic, canadian-aboriginal, tifinagh, duployan, malayalam, math, old-permic</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, syriac, thai, gothic, cherokee, tifinagh, sunuwar</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, syriac, tifinagh, caucasian-albanian</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -10366,13 +8904,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: math, elbasan, greek</li>
-<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: math, elbasan, greek</li>
-<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: math, greek</li>
-<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek</li>
-<li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
-<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek</li>
+<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: greek, math, elbasan</li>
+<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: greek, math, elbasan</li>
+<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
+<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
+<li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
+<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
 <li>U+1DC5 COMBINING GRAVE-MACRON: not included in any glyphset definition</li>
@@ -10411,14 +8949,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
@@ -10436,26 +8974,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: mende-kikakui, wancho, symbols, telugu, mongolian, devanagari, sogdian, pahawh-hmong, armenian, zanabazar-square, caucasian-albanian, siddham, myanmar, limbu, music, oriya, duployan, math, syriac, manichaean, warang-citi, canadian-aboriginal, ahom, bengali, tibetan, new-tai-lue, soyombo, bhaiksuki, buhid, mahajani, coptic, meetei-mayek, tirhuta, adlam, sharada, tai-viet, khojki, kannada, malayalam, khmer, cham, tai-tham, sundanese, batak, miao, javanese, grantha, saurashtra, marchen, sinhala, chakma, tamil, gunjala-gondi, psalter-pahlavi, mandaic, hanunoo, rejang, tai-le, lepcha, elbasan, nko, takri, thaana, khudawadi, tifinagh, brahmi, newa, phags-pa, thai, buginese, syloti-nagri, hanifi-rohingya, dogra, tagbanwa, balinese, osage, kaithi, modi, masaram-gondi, kayah-li, lao, bassa-vah, old-permic, yi, gujarati, hebrew, gurmukhi, kharoshthi, tagalog</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: buginese, marchen, chakma, myanmar, gunjala-gondi, syriac, takri, syloti-nagri, duployan, math, grantha, masaram-gondi, yi, newa, oriya, warang-citi, siddham, armenian, rejang, bengali, sundanese, bassa-vah, osage, tagalog, symbols, old-permic, brahmi, canadian-aboriginal, dogra, tamil, modi, phags-pa, tai-tham, new-tai-lue, kharoshthi, sogdian, pahawh-hmong, adlam, tai-le, saurashtra, devanagari, psalter-pahlavi, tifinagh, tibetan, mongolian, ahom, sharada, elbasan, malayalam, telugu, buhid, limbu, kaithi, tai-viet, lepcha, lao, hebrew, thaana, cham, gurmukhi, nko, wancho, music, soyombo, balinese, miao, khojki, mende-kikakui, zanabazar-square, khmer, tagbanwa, manichaean, tirhuta, khudawadi, gujarati, coptic, meetei-mayek, sinhala, hanunoo, caucasian-albanian, kayah-li, kannada, mahajani, thai, batak, hanifi-rohingya, javanese, mandaic, bhaiksuki</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -10482,8 +9020,8 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̍ i̓ i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i᷄ i᷅ i̛̍ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤̍ i̤̓ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥̍ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ḭ̀ ḭ́ ḭ̂ ḭ̃ ḭ̄ ḭ̆ ḭ̇ ḭ̈ ḭ̉ ḭ̊ ḭ̋ ḭ̌ ḭ̍ ḭ̏ ḭ̐ ḭ̑ ḭ̒ ḭ̓ ḭ᷄ ḭ᷅</p>
  [code: soft-dotted]
 
 
@@ -10563,6 +9101,8 @@ definitions.</p>
 * uni01C3 (U+01C3): L&lt;&lt;103.0,106.0&gt;--&lt;100.0,720.0&gt;&gt;
 
 * uni01C3 (U+01C3): L&lt;&lt;223.0,720.0&gt;--&lt;220.0,106.0&gt;&gt;
+
+* uni0222 (U+0222): L&lt;&lt;527.0,773.0&gt;--&lt;526.0,569.0&gt;&gt;
 
 * uni030C.alt: L&lt;&lt;51.0,542.0&gt;--&lt;50.0,720.0&gt;&gt;
 
@@ -10652,6 +9192,12 @@ definitions.</p>
 
 * uni019D (U+019D) contains a short segment B&lt;&lt;117.5,-82.5&gt;-&lt;126.0,-74.0&gt;-&lt;126.0,-61.0&gt;&gt;
 
+* uniA7A8 (U+A7A8) contains a short segment B&lt;&lt;352.0,435.0&gt;-&lt;356.0,433.0&gt;-&lt;362.0,431.0&gt;&gt;
+
+* uni0162 (U+0162) contains a short segment L&lt;&lt;357.0,0.0&gt;--&lt;343.0,0.0&gt;&gt;
+
+* uni0162 (U+0162) contains a short segment L&lt;&lt;249.0,0.0&gt;--&lt;231.0,0.0&gt;&gt;
+
 * uni01B2 (U+01B2) contains a short segment L&lt;&lt;555.0,579.0&gt;--&lt;556.0,579.0&gt;&gt;
 
 * uni01B2 (U+01B2) contains a short segment B&lt;&lt;556.0,579.0&gt;-&lt;557.0,569.0&gt;-&lt;557.0,559.0&gt;&gt;
@@ -10678,6 +9224,8 @@ definitions.</p>
 
 * eogonek (U+0119) contains a short segment B&lt;&lt;267.0,-11.5&gt;-&lt;258.0,-11.0&gt;-&lt;253.0,-10.0&gt;&gt;
 
+* kgreenlandic (U+0138) contains a short segment L&lt;&lt;200.0,244.0&gt;--&lt;200.0,244.0&gt;&gt;
+
 * uni026B (U+026B) contains a short segment B&lt;&lt;79.0,461.0&gt;-&lt;85.0,461.0&gt;-&lt;92.0,460.0&gt;&gt;
 
 * uni026B (U+026B) contains a short segment B&lt;&lt;227.0,311.0&gt;-&lt;221.0,311.0&gt;-&lt;216.0,311.0&gt;&gt;
@@ -10688,11 +9236,33 @@ definitions.</p>
 
 * uni01B4 (U+01B4) contains a short segment L&lt;&lt;572.0,428.0&gt;--&lt;571.0,428.0&gt;&gt;
 
+* pi (U+03C0) contains a short segment B&lt;&lt;534.0,113.5&gt;-&lt;540.0,107.0&gt;-&lt;548.0,107.0&gt;&gt;
+
+* chi (U+03C7) contains a short segment B&lt;&lt;131.5,367.5&gt;-&lt;121.0,362.0&gt;-&lt;117.0,354.0&gt;&gt;
+
+* chi (U+03C7) contains a short segment B&lt;&lt;630.5,-72.5&gt;-&lt;642.0,-67.0&gt;-&lt;646.0,-61.0&gt;&gt;
+
+* colonmonetary (U+20A1) contains a short segment B&lt;&lt;400.0,-16.0&gt;-&lt;389.0,-16.0&gt;-&lt;379.0,-15.0&gt;&gt;
+
 * dollar (U+0024) contains a short segment B&lt;&lt;330.0,433.0&gt;-&lt;333.0,432.0&gt;-&lt;337.0,431.0&gt;&gt;
 
 * Euro (U+20AC) contains a short segment B&lt;&lt;100.0,330.0&gt;-&lt;100.0,340.0&gt;-&lt;100.0,350.0&gt;&gt;
 
 * Euro (U+20AC) contains a short segment B&lt;&lt;228.0,350.0&gt;-&lt;227.0,340.0&gt;-&lt;228.0,330.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;419.0,708.0&gt;-&lt;425.0,708.0&gt;-&lt;432.0,708.5&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;432.0,708.5&gt;-&lt;439.0,709.0&gt;-&lt;446.0,709.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;446.0,709.0&gt;-&lt;452.0,709.0&gt;-&lt;458.0,709.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;458.0,709.0&gt;-&lt;464.0,709.0&gt;-&lt;470.0,709.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;470.0,589.0&gt;-&lt;458.0,590.0&gt;-&lt;446.0,590.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;446.0,590.0&gt;-&lt;432.0,590.0&gt;-&lt;419.0,588.0&gt;&gt;
+
+* uni20B1 (U+20B1) contains a short segment B&lt;&lt;691.0,463.0&gt;-&lt;691.0,455.0&gt;-&lt;691.0,448.0&gt;&gt;
 
 * uni20B9 (U+20B9) contains a short segment L&lt;&lt;296.0,593.0&gt;--&lt;296.0,593.0&gt;&gt;
 
@@ -10794,7 +9364,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
     <div>
 
 
@@ -10803,214 +9373,113 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
-<pre><code>- Glyph name: kgreenlandic	Expected: 1 or 2
+* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
+<pre><code>- acutecomb
 
-- Glyph name: uni0222	Expected: 2
+- dotbelowcomb
 
-- Glyph name: uni0223	Expected: 2
+- gravecomb
 
-- Glyph name: uni024A	Expected: 2
+- hookabovecomb
 
-- Glyph name: uni024B	Expected: 2
+- tildecomb
 
-- Glyph name: uni02BB	Expected: 1
+- uni0302
 
-- Glyph name: uni02BE	Expected: 1
+- uni0304
 
-- Glyph name: uni02BF	Expected: 1
+- uni0306
 
-- Glyph name: uni02CA	Expected: 1
+- uni0307
 
-- Glyph name: uni02CB	Expected: 1
+- uni0308
 
-- Glyph name: uni0313	Expected: 1
+- uni030A
 
-- Glyph name: uni0334	Expected: 1
+- uni030B
 
-- Glyph name: theta	Expected: 3
+- uni030C
 
-- Glyph name: uni03BC	Expected: 1
+- uni030F
 
-- Glyph name: pi	Expected: 1
+- uni0310
 
-- Glyph name: chi	Expected: 1
+- uni0311
 
-- Glyph name: uni2016	Expected: 2
+- uni0312
 
-- Glyph name: minute	Expected: 1
+- uni0313
 
-- Glyph name: second	Expected: 2
+- uni0315
 
-- Glyph name: colonmonetary	Expected: 1 or 3
+- uni031B
 
-- Glyph name: dong	Expected: 3 or 4
+- uni0324
 
-- Glyph name: uni20AE	Expected: 1
+- uni0325
 
-- Glyph name: uni20B1	Expected: 1, 2 or 4
+- uni0326
 
-- Glyph name: uni20B2	Expected: 1, 2 or 3
+- uni0327
 
-- Glyph name: uni20B8	Expected: 2
+- uni0328
 
-- Glyph name: uni20BA	Expected: 1
+- uni0329
 
-- Glyph name: uni20BC	Expected: 1
+- uni032D
 
-- Glyph name: uni20BF	Expected: 3
+- uni032E
 
-- Glyph name: uni2113	Expected: 2
+- uni032F
 
-- Glyph name: uni2126	Expected: 1
+- uni0330
 
-- Glyph name: estimated	Expected: 2
+- uni0331
 
-- Glyph name: emptyset	Expected: 3
+- uni0332
 
-- Glyph name: uni2206	Expected: 2
+- uni0334
 
-- Glyph name: filledbox	Expected: 1
+- uni0335
 
-- Glyph name: uni25A1	Expected: 2
+- uni0336
 
-- Glyph name: uni25AA	Expected: 1
+- uni0337
 
-- Glyph name: uni25AB	Expected: 2
+- uni0338
 
-- Glyph name: triagup	Expected: 1
+- uni0358
 
-- Glyph name: uni25B3	Expected: 2
+- uni1DC4
 
-- Glyph name: uni25B6	Expected: 1
+- uni1DC5
 
-- Glyph name: uni25B7	Expected: 2
+- uni1DC6
 
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
-
-- Glyph name: chi	Expected: 1
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: colonmonetary	Expected: 1 or 3
-
-- Glyph name: dong	Expected: 3 or 4
-
-- Glyph name: emptyset	Expected: 3
-
-- Glyph name: estimated	Expected: 2
-
-- Glyph name: kgreenlandic	Expected: 1 or 2
-
-- Glyph name: pi	Expected: 1
-
-- Glyph name: theta	Expected: 3
-
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: triagup	Expected: 1
-
-- Glyph name: uni0222	Expected: 2
-
-- Glyph name: uni0223	Expected: 2
-
-- Glyph name: uni024A	Expected: 2
-
-- Glyph name: uni024B	Expected: 2
-
-- Glyph name: uni02BB	Expected: 1
-
-- Glyph name: uni02BE	Expected: 1
-
-- Glyph name: uni02BF	Expected: 1
-
-- Glyph name: uni02CA	Expected: 1
-
-- Glyph name: uni02CB	Expected: 1
-
-- Glyph name: uni0313	Expected: 1
-
-- Glyph name: uni03BC	Expected: 1
-
-- Glyph name: uni2016	Expected: 2
-
-- Glyph name: uni20AE	Expected: 1
-
-- Glyph name: uni20B1	Expected: 1, 2 or 4
-
-- Glyph name: uni20B2	Expected: 1, 2 or 3
-
-- Glyph name: uni20B8	Expected: 2
-
-- Glyph name: uni20BA	Expected: 1
-
-- Glyph name: uni20BC	Expected: 1
-
-- Glyph name: uni20BF	Expected: 3
-
-- Glyph name: uni2113	Expected: 2
-
-- Glyph name: uni2126	Expected: 1
-
-- Glyph name: uni2206	Expected: 2
-
-- Glyph name: uni25A1	Expected: 2
-
-- Glyph name: uni25AA	Expected: 1
-
-- Glyph name: uni25AB	Expected: 2
-
-- Glyph name: uni25B3	Expected: 2
-
-- Glyph name: uni25B6	Expected: 1
-
-- Glyph name: uni25B7	Expected: 2
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
+- uni1DC7
 </code></pre>
- [code: no-contour]
+ [code: unattached-dotted-circle-marks]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <div>
+
+
+
+
 
 
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -11096,6 +9565,16 @@ definitions.</p>
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
+
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -11110,6 +9589,8 @@ definitions.</p>
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: hbar	Contours detected: 2	Expected: 1
@@ -11119,6 +9600,8 @@ definitions.</p>
 - Glyph name: tbar	Contours detected: 2	Expected: 1
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
@@ -11177,92 +9660,16 @@ definitions.</p>
 - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
 </code></pre>
  [code: contour-count]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-</code></pre>
- [code: unattached-dotted-circle-marks]
 
 
 
@@ -11281,6 +9688,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
 - f_i.liga</p>
+<pre><code>- fl
+</code></pre>
  [code: incomplete-caret-pos-data]
 
 
@@ -11300,8 +9709,6 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
 <pre><code>* Eng (U+014A): L&lt;&lt;547.0,0.0&gt;--&lt;547.0,0.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni0162 (U+0162): L&lt;&lt;243.0,0.0&gt;--&lt;271.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
 * aogonek (U+0105): L&lt;&lt;473.0,0.0&gt;--&lt;501.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
@@ -11393,30 +9800,30 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, math, syriac, todhri, canadian-aboriginal, coptic, malayalam, tai-le, tifinagh, old-permic</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, syriac, hebrew, tai-le, coptic, canadian-aboriginal, tifinagh, duployan, malayalam, math, old-permic</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, syriac, thai, gothic, cherokee, tifinagh, sunuwar</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, syriac, tifinagh, caucasian-albanian</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -11424,13 +9831,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: math, elbasan, greek</li>
-<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: math, elbasan, greek</li>
-<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: math, greek</li>
-<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek</li>
-<li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
-<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek</li>
+<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: greek, math, elbasan</li>
+<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: greek, math, elbasan</li>
+<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
+<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
+<li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
+<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
 <li>U+1DC5 COMBINING GRAVE-MACRON: not included in any glyphset definition</li>
@@ -11469,14 +9876,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
@@ -11494,26 +9901,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: mende-kikakui, wancho, symbols, telugu, mongolian, devanagari, sogdian, pahawh-hmong, armenian, zanabazar-square, caucasian-albanian, siddham, myanmar, limbu, music, oriya, duployan, math, syriac, manichaean, warang-citi, canadian-aboriginal, ahom, bengali, tibetan, new-tai-lue, soyombo, bhaiksuki, buhid, mahajani, coptic, meetei-mayek, tirhuta, adlam, sharada, tai-viet, khojki, kannada, malayalam, khmer, cham, tai-tham, sundanese, batak, miao, javanese, grantha, saurashtra, marchen, sinhala, chakma, tamil, gunjala-gondi, psalter-pahlavi, mandaic, hanunoo, rejang, tai-le, lepcha, elbasan, nko, takri, thaana, khudawadi, tifinagh, brahmi, newa, phags-pa, thai, buginese, syloti-nagri, hanifi-rohingya, dogra, tagbanwa, balinese, osage, kaithi, modi, masaram-gondi, kayah-li, lao, bassa-vah, old-permic, yi, gujarati, hebrew, gurmukhi, kharoshthi, tagalog</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: buginese, marchen, chakma, myanmar, gunjala-gondi, syriac, takri, syloti-nagri, duployan, math, grantha, masaram-gondi, yi, newa, oriya, warang-citi, siddham, armenian, rejang, bengali, sundanese, bassa-vah, osage, tagalog, symbols, old-permic, brahmi, canadian-aboriginal, dogra, tamil, modi, phags-pa, tai-tham, new-tai-lue, kharoshthi, sogdian, pahawh-hmong, adlam, tai-le, saurashtra, devanagari, psalter-pahlavi, tifinagh, tibetan, mongolian, ahom, sharada, elbasan, malayalam, telugu, buhid, limbu, kaithi, tai-viet, lepcha, lao, hebrew, thaana, cham, gurmukhi, nko, wancho, music, soyombo, balinese, miao, khojki, mende-kikakui, zanabazar-square, khmer, tagbanwa, manichaean, tirhuta, khudawadi, gujarati, coptic, meetei-mayek, sinhala, hanunoo, caucasian-albanian, kayah-li, kannada, mahajani, thai, batak, hanifi-rohingya, javanese, mandaic, bhaiksuki</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -11540,8 +9947,8 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̍ i̓ i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i᷄ i᷅ i̛̍ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤̍ i̤̓ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥̍ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ḭ̀ ḭ́ ḭ̂ ḭ̃ ḭ̄ ḭ̆ ḭ̇ ḭ̈ ḭ̉ ḭ̊ ḭ̋ ḭ̌ ḭ̍ ḭ̏ ḭ̐ ḭ̑ ḭ̒ ḭ̓ ḭ᷄ ḭ᷅</p>
  [code: soft-dotted]
 
 
@@ -11683,6 +10090,10 @@ definitions.</p>
 * uni01B1 (U+01B1): L&lt;&lt;905.0,678.0&gt;--&lt;736.0,678.0&gt;&gt;/B&lt;&lt;736.0,678.0&gt;-&lt;794.0,668.0&gt;-&lt;826.5,617.5&gt;&gt; = 9.782407031807285
 
 * uni025B (U+025B): B&lt;&lt;109.5,212.0&gt;-&lt;159.0,249.0&gt;-&lt;223.0,256.0&gt;&gt;/B&lt;&lt;223.0,256.0&gt;-&lt;165.0,263.0&gt;-&lt;138.5,294.5&gt;&gt; = 13.123637978051972
+
+* uni2126 (U+2126): B&lt;&lt;606.0,60.5&gt;-&lt;556.0,30.0&gt;-&lt;507.0,22.0&gt;&gt;/L&lt;&lt;507.0,22.0&gt;--&lt;674.0,22.0&gt;&gt; = 9.272601777200284
+
+* uni2126 (U+2126): L&lt;&lt;54.0,22.0&gt;--&lt;223.0,22.0&gt;&gt;/B&lt;&lt;223.0,22.0&gt;-&lt;169.0,34.0&gt;-&lt;140.0,84.0&gt;&gt; = 12.528807709151492
 </code></pre>
  [code: found-jaggy-segments]
 
@@ -11774,7 +10185,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
     <div>
 
 
@@ -11783,214 +10194,113 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
-<pre><code>- Glyph name: kgreenlandic	Expected: 1 or 2
+* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
+<pre><code>- acutecomb
 
-- Glyph name: uni0222	Expected: 2
+- dotbelowcomb
 
-- Glyph name: uni0223	Expected: 2
+- gravecomb
 
-- Glyph name: uni024A	Expected: 2
+- hookabovecomb
 
-- Glyph name: uni024B	Expected: 2
+- tildecomb
 
-- Glyph name: uni02BB	Expected: 1
+- uni0302
 
-- Glyph name: uni02BE	Expected: 1
+- uni0304
 
-- Glyph name: uni02BF	Expected: 1
+- uni0306
 
-- Glyph name: uni02CA	Expected: 1
+- uni0307
 
-- Glyph name: uni02CB	Expected: 1
+- uni0308
 
-- Glyph name: uni0313	Expected: 1
+- uni030A
 
-- Glyph name: uni0334	Expected: 1
+- uni030B
 
-- Glyph name: theta	Expected: 3
+- uni030C
 
-- Glyph name: uni03BC	Expected: 1
+- uni030F
 
-- Glyph name: pi	Expected: 1
+- uni0310
 
-- Glyph name: chi	Expected: 1
+- uni0311
 
-- Glyph name: uni2016	Expected: 2
+- uni0312
 
-- Glyph name: minute	Expected: 1
+- uni0313
 
-- Glyph name: second	Expected: 2
+- uni0315
 
-- Glyph name: colonmonetary	Expected: 1 or 3
+- uni031B
 
-- Glyph name: dong	Expected: 3 or 4
+- uni0324
 
-- Glyph name: uni20AE	Expected: 1
+- uni0325
 
-- Glyph name: uni20B1	Expected: 1, 2 or 4
+- uni0326
 
-- Glyph name: uni20B2	Expected: 1, 2 or 3
+- uni0327
 
-- Glyph name: uni20B8	Expected: 2
+- uni0328
 
-- Glyph name: uni20BA	Expected: 1
+- uni0329
 
-- Glyph name: uni20BC	Expected: 1
+- uni032D
 
-- Glyph name: uni20BF	Expected: 3
+- uni032E
 
-- Glyph name: uni2113	Expected: 2
+- uni032F
 
-- Glyph name: uni2126	Expected: 1
+- uni0330
 
-- Glyph name: estimated	Expected: 2
+- uni0331
 
-- Glyph name: emptyset	Expected: 3
+- uni0332
 
-- Glyph name: uni2206	Expected: 2
+- uni0334
 
-- Glyph name: filledbox	Expected: 1
+- uni0335
 
-- Glyph name: uni25A1	Expected: 2
+- uni0336
 
-- Glyph name: uni25AA	Expected: 1
+- uni0337
 
-- Glyph name: uni25AB	Expected: 2
+- uni0338
 
-- Glyph name: triagup	Expected: 1
+- uni0358
 
-- Glyph name: uni25B3	Expected: 2
+- uni1DC4
 
-- Glyph name: uni25B6	Expected: 1
+- uni1DC5
 
-- Glyph name: uni25B7	Expected: 2
+- uni1DC6
 
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
-
-- Glyph name: chi	Expected: 1
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: colonmonetary	Expected: 1 or 3
-
-- Glyph name: dong	Expected: 3 or 4
-
-- Glyph name: emptyset	Expected: 3
-
-- Glyph name: estimated	Expected: 2
-
-- Glyph name: kgreenlandic	Expected: 1 or 2
-
-- Glyph name: pi	Expected: 1
-
-- Glyph name: theta	Expected: 3
-
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: triagup	Expected: 1
-
-- Glyph name: uni0222	Expected: 2
-
-- Glyph name: uni0223	Expected: 2
-
-- Glyph name: uni024A	Expected: 2
-
-- Glyph name: uni024B	Expected: 2
-
-- Glyph name: uni02BB	Expected: 1
-
-- Glyph name: uni02BE	Expected: 1
-
-- Glyph name: uni02BF	Expected: 1
-
-- Glyph name: uni02CA	Expected: 1
-
-- Glyph name: uni02CB	Expected: 1
-
-- Glyph name: uni0313	Expected: 1
-
-- Glyph name: uni03BC	Expected: 1
-
-- Glyph name: uni2016	Expected: 2
-
-- Glyph name: uni20AE	Expected: 1
-
-- Glyph name: uni20B1	Expected: 1, 2 or 4
-
-- Glyph name: uni20B2	Expected: 1, 2 or 3
-
-- Glyph name: uni20B8	Expected: 2
-
-- Glyph name: uni20BA	Expected: 1
-
-- Glyph name: uni20BC	Expected: 1
-
-- Glyph name: uni20BF	Expected: 3
-
-- Glyph name: uni2113	Expected: 2
-
-- Glyph name: uni2126	Expected: 1
-
-- Glyph name: uni2206	Expected: 2
-
-- Glyph name: uni25A1	Expected: 2
-
-- Glyph name: uni25AA	Expected: 1
-
-- Glyph name: uni25AB	Expected: 2
-
-- Glyph name: uni25B3	Expected: 2
-
-- Glyph name: uni25B6	Expected: 1
-
-- Glyph name: uni25B7	Expected: 2
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
+- uni1DC7
 </code></pre>
- [code: no-contour]
+ [code: unattached-dotted-circle-marks]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <div>
+
+
+
+
 
 
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -12074,6 +10384,16 @@ definitions.</p>
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
+
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -12088,6 +10408,8 @@ definitions.</p>
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: hbar	Contours detected: 2	Expected: 1
@@ -12095,6 +10417,8 @@ definitions.</p>
 - Glyph name: tbar	Contours detected: 2	Expected: 1
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
@@ -12153,92 +10477,16 @@ definitions.</p>
 - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
 </code></pre>
  [code: contour-count]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-</code></pre>
- [code: unattached-dotted-circle-marks]
 
 
 
@@ -12257,6 +10505,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
 - f_i.liga</p>
+<pre><code>- fl
+</code></pre>
  [code: incomplete-caret-pos-data]
 
 
@@ -12367,30 +10617,30 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, math, syriac, todhri, canadian-aboriginal, coptic, malayalam, tai-le, tifinagh, old-permic</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, syriac, hebrew, tai-le, coptic, canadian-aboriginal, tifinagh, duployan, malayalam, math, old-permic</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, syriac, thai, gothic, cherokee, tifinagh, sunuwar</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, syriac, tifinagh, caucasian-albanian</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -12398,13 +10648,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: math, elbasan, greek</li>
-<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: math, elbasan, greek</li>
-<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: math, greek</li>
-<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek</li>
-<li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
-<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek</li>
+<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: greek, math, elbasan</li>
+<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: greek, math, elbasan</li>
+<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
+<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
+<li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
+<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
 <li>U+1DC5 COMBINING GRAVE-MACRON: not included in any glyphset definition</li>
@@ -12443,14 +10693,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
@@ -12468,26 +10718,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: mende-kikakui, wancho, symbols, telugu, mongolian, devanagari, sogdian, pahawh-hmong, armenian, zanabazar-square, caucasian-albanian, siddham, myanmar, limbu, music, oriya, duployan, math, syriac, manichaean, warang-citi, canadian-aboriginal, ahom, bengali, tibetan, new-tai-lue, soyombo, bhaiksuki, buhid, mahajani, coptic, meetei-mayek, tirhuta, adlam, sharada, tai-viet, khojki, kannada, malayalam, khmer, cham, tai-tham, sundanese, batak, miao, javanese, grantha, saurashtra, marchen, sinhala, chakma, tamil, gunjala-gondi, psalter-pahlavi, mandaic, hanunoo, rejang, tai-le, lepcha, elbasan, nko, takri, thaana, khudawadi, tifinagh, brahmi, newa, phags-pa, thai, buginese, syloti-nagri, hanifi-rohingya, dogra, tagbanwa, balinese, osage, kaithi, modi, masaram-gondi, kayah-li, lao, bassa-vah, old-permic, yi, gujarati, hebrew, gurmukhi, kharoshthi, tagalog</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: buginese, marchen, chakma, myanmar, gunjala-gondi, syriac, takri, syloti-nagri, duployan, math, grantha, masaram-gondi, yi, newa, oriya, warang-citi, siddham, armenian, rejang, bengali, sundanese, bassa-vah, osage, tagalog, symbols, old-permic, brahmi, canadian-aboriginal, dogra, tamil, modi, phags-pa, tai-tham, new-tai-lue, kharoshthi, sogdian, pahawh-hmong, adlam, tai-le, saurashtra, devanagari, psalter-pahlavi, tifinagh, tibetan, mongolian, ahom, sharada, elbasan, malayalam, telugu, buhid, limbu, kaithi, tai-viet, lepcha, lao, hebrew, thaana, cham, gurmukhi, nko, wancho, music, soyombo, balinese, miao, khojki, mende-kikakui, zanabazar-square, khmer, tagbanwa, manichaean, tirhuta, khudawadi, gujarati, coptic, meetei-mayek, sinhala, hanunoo, caucasian-albanian, kayah-li, kannada, mahajani, thai, batak, hanifi-rohingya, javanese, mandaic, bhaiksuki</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -12514,8 +10764,8 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̍ i̓ i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i᷄ i᷅ i̛̍ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤̍ i̤̓ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥̍ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ḭ̀ ḭ́ ḭ̂ ḭ̃ ḭ̄ ḭ̆ ḭ̇ ḭ̈ ḭ̉ ḭ̊ ḭ̋ ḭ̌ ḭ̍ ḭ̏ ḭ̐ ḭ̑ ḭ̒ ḭ̓ ḭ᷄ ḭ᷅</p>
  [code: soft-dotted]
 
 
@@ -12671,6 +10921,10 @@ definitions.</p>
 * uni01B1 (U+01B1): L&lt;&lt;900.0,664.0&gt;--&lt;745.0,664.0&gt;&gt;/B&lt;&lt;745.0,664.0&gt;-&lt;799.0,653.0&gt;-&lt;828.5,604.0&gt;&gt; = 11.513831184487014
 
 * uni025B (U+025B): B&lt;&lt;107.5,214.5&gt;-&lt;154.0,250.0&gt;-&lt;214.0,256.0&gt;&gt;/B&lt;&lt;214.0,256.0&gt;-&lt;160.0,263.0&gt;-&lt;136.0,294.0&gt;&gt; = 13.09663628876691
+
+* uni2126 (U+2126): B&lt;&lt;620.5,73.5&gt;-&lt;573.0,44.0&gt;-&lt;527.0,36.0&gt;&gt;/L&lt;&lt;527.0,36.0&gt;--&lt;679.0,36.0&gt;&gt; = 9.865806943084365
+
+* uni2126 (U+2126): L&lt;&lt;59.0,36.0&gt;--&lt;213.0,36.0&gt;&gt;/B&lt;&lt;213.0,36.0&gt;-&lt;164.0,48.0&gt;-&lt;137.5,97.0&gt;&gt; = 13.760785111791225
 </code></pre>
  [code: found-jaggy-segments]
 
@@ -12762,7 +11016,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
     <div>
 
 
@@ -12771,214 +11025,113 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
-<pre><code>- Glyph name: kgreenlandic	Expected: 1 or 2
+* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
+<pre><code>- acutecomb
 
-- Glyph name: uni0222	Expected: 2
+- dotbelowcomb
 
-- Glyph name: uni0223	Expected: 2
+- gravecomb
 
-- Glyph name: uni024A	Expected: 2
+- hookabovecomb
 
-- Glyph name: uni024B	Expected: 2
+- tildecomb
 
-- Glyph name: uni02BB	Expected: 1
+- uni0302
 
-- Glyph name: uni02BE	Expected: 1
+- uni0304
 
-- Glyph name: uni02BF	Expected: 1
+- uni0306
 
-- Glyph name: uni02CA	Expected: 1
+- uni0307
 
-- Glyph name: uni02CB	Expected: 1
+- uni0308
 
-- Glyph name: uni0313	Expected: 1
+- uni030A
 
-- Glyph name: uni0334	Expected: 1
+- uni030B
 
-- Glyph name: theta	Expected: 3
+- uni030C
 
-- Glyph name: uni03BC	Expected: 1
+- uni030F
 
-- Glyph name: pi	Expected: 1
+- uni0310
 
-- Glyph name: chi	Expected: 1
+- uni0311
 
-- Glyph name: uni2016	Expected: 2
+- uni0312
 
-- Glyph name: minute	Expected: 1
+- uni0313
 
-- Glyph name: second	Expected: 2
+- uni0315
 
-- Glyph name: colonmonetary	Expected: 1 or 3
+- uni031B
 
-- Glyph name: dong	Expected: 3 or 4
+- uni0324
 
-- Glyph name: uni20AE	Expected: 1
+- uni0325
 
-- Glyph name: uni20B1	Expected: 1, 2 or 4
+- uni0326
 
-- Glyph name: uni20B2	Expected: 1, 2 or 3
+- uni0327
 
-- Glyph name: uni20B8	Expected: 2
+- uni0328
 
-- Glyph name: uni20BA	Expected: 1
+- uni0329
 
-- Glyph name: uni20BC	Expected: 1
+- uni032D
 
-- Glyph name: uni20BF	Expected: 3
+- uni032E
 
-- Glyph name: uni2113	Expected: 2
+- uni032F
 
-- Glyph name: uni2126	Expected: 1
+- uni0330
 
-- Glyph name: estimated	Expected: 2
+- uni0331
 
-- Glyph name: emptyset	Expected: 3
+- uni0332
 
-- Glyph name: uni2206	Expected: 2
+- uni0334
 
-- Glyph name: filledbox	Expected: 1
+- uni0335
 
-- Glyph name: uni25A1	Expected: 2
+- uni0336
 
-- Glyph name: uni25AA	Expected: 1
+- uni0337
 
-- Glyph name: uni25AB	Expected: 2
+- uni0338
 
-- Glyph name: triagup	Expected: 1
+- uni0358
 
-- Glyph name: uni25B3	Expected: 2
+- uni1DC4
 
-- Glyph name: uni25B6	Expected: 1
+- uni1DC5
 
-- Glyph name: uni25B7	Expected: 2
+- uni1DC6
 
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
-
-- Glyph name: chi	Expected: 1
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: colonmonetary	Expected: 1 or 3
-
-- Glyph name: dong	Expected: 3 or 4
-
-- Glyph name: emptyset	Expected: 3
-
-- Glyph name: estimated	Expected: 2
-
-- Glyph name: kgreenlandic	Expected: 1 or 2
-
-- Glyph name: pi	Expected: 1
-
-- Glyph name: theta	Expected: 3
-
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: triagup	Expected: 1
-
-- Glyph name: uni0222	Expected: 2
-
-- Glyph name: uni0223	Expected: 2
-
-- Glyph name: uni024A	Expected: 2
-
-- Glyph name: uni024B	Expected: 2
-
-- Glyph name: uni02BB	Expected: 1
-
-- Glyph name: uni02BE	Expected: 1
-
-- Glyph name: uni02BF	Expected: 1
-
-- Glyph name: uni02CA	Expected: 1
-
-- Glyph name: uni02CB	Expected: 1
-
-- Glyph name: uni0313	Expected: 1
-
-- Glyph name: uni03BC	Expected: 1
-
-- Glyph name: uni2016	Expected: 2
-
-- Glyph name: uni20AE	Expected: 1
-
-- Glyph name: uni20B1	Expected: 1, 2 or 4
-
-- Glyph name: uni20B2	Expected: 1, 2 or 3
-
-- Glyph name: uni20B8	Expected: 2
-
-- Glyph name: uni20BA	Expected: 1
-
-- Glyph name: uni20BC	Expected: 1
-
-- Glyph name: uni20BF	Expected: 3
-
-- Glyph name: uni2113	Expected: 2
-
-- Glyph name: uni2126	Expected: 1
-
-- Glyph name: uni2206	Expected: 2
-
-- Glyph name: uni25A1	Expected: 2
-
-- Glyph name: uni25AA	Expected: 1
-
-- Glyph name: uni25AB	Expected: 2
-
-- Glyph name: uni25B3	Expected: 2
-
-- Glyph name: uni25B6	Expected: 1
-
-- Glyph name: uni25B7	Expected: 2
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
+- uni1DC7
 </code></pre>
- [code: no-contour]
+ [code: unattached-dotted-circle-marks]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <div>
+
+
+
+
 
 
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -13064,6 +11217,16 @@ definitions.</p>
 
 - Glyph name: uni20A9	Contours detected: 6	Expected: 1, 3, 4 or 7
 
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
+
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -13078,6 +11241,8 @@ definitions.</p>
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: hbar	Contours detected: 2	Expected: 1
@@ -13085,6 +11250,8 @@ definitions.</p>
 - Glyph name: tbar	Contours detected: 2	Expected: 1
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
@@ -13145,92 +11312,16 @@ definitions.</p>
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
 - Glyph name: uni20A9	Contours detected: 6	Expected: 1, 3, 4 or 7
+
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
 </code></pre>
  [code: contour-count]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-</code></pre>
- [code: unattached-dotted-circle-marks]
 
 
 
@@ -13249,6 +11340,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
 - f_i.liga</p>
+<pre><code>- fl
+</code></pre>
  [code: incomplete-caret-pos-data]
 
 
@@ -13361,30 +11454,30 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, math, syriac, todhri, canadian-aboriginal, coptic, malayalam, tai-le, tifinagh, old-permic</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, syriac, hebrew, tai-le, coptic, canadian-aboriginal, tifinagh, duployan, malayalam, math, old-permic</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, syriac, thai, gothic, cherokee, tifinagh, sunuwar</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, syriac, tifinagh, caucasian-albanian</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -13392,13 +11485,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: math, elbasan, greek</li>
-<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: math, elbasan, greek</li>
-<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: math, greek</li>
-<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek</li>
-<li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
-<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek</li>
+<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: greek, math, elbasan</li>
+<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: greek, math, elbasan</li>
+<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
+<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
+<li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
+<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
 <li>U+1DC5 COMBINING GRAVE-MACRON: not included in any glyphset definition</li>
@@ -13437,14 +11530,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
@@ -13462,26 +11555,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: mende-kikakui, wancho, symbols, telugu, mongolian, devanagari, sogdian, pahawh-hmong, armenian, zanabazar-square, caucasian-albanian, siddham, myanmar, limbu, music, oriya, duployan, math, syriac, manichaean, warang-citi, canadian-aboriginal, ahom, bengali, tibetan, new-tai-lue, soyombo, bhaiksuki, buhid, mahajani, coptic, meetei-mayek, tirhuta, adlam, sharada, tai-viet, khojki, kannada, malayalam, khmer, cham, tai-tham, sundanese, batak, miao, javanese, grantha, saurashtra, marchen, sinhala, chakma, tamil, gunjala-gondi, psalter-pahlavi, mandaic, hanunoo, rejang, tai-le, lepcha, elbasan, nko, takri, thaana, khudawadi, tifinagh, brahmi, newa, phags-pa, thai, buginese, syloti-nagri, hanifi-rohingya, dogra, tagbanwa, balinese, osage, kaithi, modi, masaram-gondi, kayah-li, lao, bassa-vah, old-permic, yi, gujarati, hebrew, gurmukhi, kharoshthi, tagalog</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: buginese, marchen, chakma, myanmar, gunjala-gondi, syriac, takri, syloti-nagri, duployan, math, grantha, masaram-gondi, yi, newa, oriya, warang-citi, siddham, armenian, rejang, bengali, sundanese, bassa-vah, osage, tagalog, symbols, old-permic, brahmi, canadian-aboriginal, dogra, tamil, modi, phags-pa, tai-tham, new-tai-lue, kharoshthi, sogdian, pahawh-hmong, adlam, tai-le, saurashtra, devanagari, psalter-pahlavi, tifinagh, tibetan, mongolian, ahom, sharada, elbasan, malayalam, telugu, buhid, limbu, kaithi, tai-viet, lepcha, lao, hebrew, thaana, cham, gurmukhi, nko, wancho, music, soyombo, balinese, miao, khojki, mende-kikakui, zanabazar-square, khmer, tagbanwa, manichaean, tirhuta, khudawadi, gujarati, coptic, meetei-mayek, sinhala, hanunoo, caucasian-albanian, kayah-li, kannada, mahajani, thai, batak, hanifi-rohingya, javanese, mandaic, bhaiksuki</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -13508,8 +11601,8 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̍ i̓ i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i᷄ i᷅ i̛̍ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤̍ i̤̓ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥̍ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ḭ̀ ḭ́ ḭ̂ ḭ̃ ḭ̄ ḭ̆ ḭ̇ ḭ̈ ḭ̉ ḭ̊ ḭ̋ ḭ̌ ḭ̍ ḭ̏ ḭ̐ ḭ̑ ḭ̒ ḭ̓ ḭ᷄ ḭ᷅</p>
  [code: soft-dotted]
 
 
@@ -13622,9 +11715,7 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
-<pre><code>* cedillashortcomb: L&lt;&lt;97.0,-124.0&gt;--&lt;103.0,-94.0&gt;&gt;/L&lt;&lt;103.0,-94.0&gt;--&lt;93.0,-124.0&gt;&gt; = 7.125016348901757
-
-* integral (U+222B): L&lt;&lt;321.0,15.0&gt;--&lt;239.0,16.0&gt;&gt;/L&lt;&lt;239.0,16.0&gt;--&lt;320.0,10.0&gt;&gt; = 3.5377004160753733
+<pre><code>* integral (U+222B): L&lt;&lt;321.0,15.0&gt;--&lt;239.0,16.0&gt;&gt;/L&lt;&lt;239.0,16.0&gt;--&lt;320.0,10.0&gt;&gt; = 3.5377004160753733
 
 * integral (U+222B): L&lt;&lt;391.0,513.0&gt;--&lt;474.0,513.0&gt;&gt;/L&lt;&lt;474.0,513.0&gt;--&lt;392.0,518.0&gt;&gt; = 3.489324905796376
 
@@ -13732,7 +11823,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
     <div>
 
 
@@ -13741,214 +11832,113 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
-<pre><code>- Glyph name: kgreenlandic	Expected: 1 or 2
+* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
+<pre><code>- acutecomb
 
-- Glyph name: uni0222	Expected: 2
+- dotbelowcomb
 
-- Glyph name: uni0223	Expected: 2
+- gravecomb
 
-- Glyph name: uni024A	Expected: 2
+- hookabovecomb
 
-- Glyph name: uni024B	Expected: 2
+- tildecomb
 
-- Glyph name: uni02BB	Expected: 1
+- uni0302
 
-- Glyph name: uni02BE	Expected: 1
+- uni0304
 
-- Glyph name: uni02BF	Expected: 1
+- uni0306
 
-- Glyph name: uni02CA	Expected: 1
+- uni0307
 
-- Glyph name: uni02CB	Expected: 1
+- uni0308
 
-- Glyph name: uni0313	Expected: 1
+- uni030A
 
-- Glyph name: uni0334	Expected: 1
+- uni030B
 
-- Glyph name: theta	Expected: 3
+- uni030C
 
-- Glyph name: uni03BC	Expected: 1
+- uni030F
 
-- Glyph name: pi	Expected: 1
+- uni0310
 
-- Glyph name: chi	Expected: 1
+- uni0311
 
-- Glyph name: uni2016	Expected: 2
+- uni0312
 
-- Glyph name: minute	Expected: 1
+- uni0313
 
-- Glyph name: second	Expected: 2
+- uni0315
 
-- Glyph name: colonmonetary	Expected: 1 or 3
+- uni031B
 
-- Glyph name: dong	Expected: 3 or 4
+- uni0324
 
-- Glyph name: uni20AE	Expected: 1
+- uni0325
 
-- Glyph name: uni20B1	Expected: 1, 2 or 4
+- uni0326
 
-- Glyph name: uni20B2	Expected: 1, 2 or 3
+- uni0327
 
-- Glyph name: uni20B8	Expected: 2
+- uni0328
 
-- Glyph name: uni20BA	Expected: 1
+- uni0329
 
-- Glyph name: uni20BC	Expected: 1
+- uni032D
 
-- Glyph name: uni20BF	Expected: 3
+- uni032E
 
-- Glyph name: uni2113	Expected: 2
+- uni032F
 
-- Glyph name: uni2126	Expected: 1
+- uni0330
 
-- Glyph name: estimated	Expected: 2
+- uni0331
 
-- Glyph name: emptyset	Expected: 3
+- uni0332
 
-- Glyph name: uni2206	Expected: 2
+- uni0334
 
-- Glyph name: filledbox	Expected: 1
+- uni0335
 
-- Glyph name: uni25A1	Expected: 2
+- uni0336
 
-- Glyph name: uni25AA	Expected: 1
+- uni0337
 
-- Glyph name: uni25AB	Expected: 2
+- uni0338
 
-- Glyph name: triagup	Expected: 1
+- uni0358
 
-- Glyph name: uni25B3	Expected: 2
+- uni1DC4
 
-- Glyph name: uni25B6	Expected: 1
+- uni1DC5
 
-- Glyph name: uni25B7	Expected: 2
+- uni1DC6
 
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
-
-- Glyph name: chi	Expected: 1
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: colonmonetary	Expected: 1 or 3
-
-- Glyph name: dong	Expected: 3 or 4
-
-- Glyph name: emptyset	Expected: 3
-
-- Glyph name: estimated	Expected: 2
-
-- Glyph name: kgreenlandic	Expected: 1 or 2
-
-- Glyph name: pi	Expected: 1
-
-- Glyph name: theta	Expected: 3
-
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: triagup	Expected: 1
-
-- Glyph name: uni0222	Expected: 2
-
-- Glyph name: uni0223	Expected: 2
-
-- Glyph name: uni024A	Expected: 2
-
-- Glyph name: uni024B	Expected: 2
-
-- Glyph name: uni02BB	Expected: 1
-
-- Glyph name: uni02BE	Expected: 1
-
-- Glyph name: uni02BF	Expected: 1
-
-- Glyph name: uni02CA	Expected: 1
-
-- Glyph name: uni02CB	Expected: 1
-
-- Glyph name: uni0313	Expected: 1
-
-- Glyph name: uni03BC	Expected: 1
-
-- Glyph name: uni2016	Expected: 2
-
-- Glyph name: uni20AE	Expected: 1
-
-- Glyph name: uni20B1	Expected: 1, 2 or 4
-
-- Glyph name: uni20B2	Expected: 1, 2 or 3
-
-- Glyph name: uni20B8	Expected: 2
-
-- Glyph name: uni20BA	Expected: 1
-
-- Glyph name: uni20BC	Expected: 1
-
-- Glyph name: uni20BF	Expected: 3
-
-- Glyph name: uni2113	Expected: 2
-
-- Glyph name: uni2126	Expected: 1
-
-- Glyph name: uni2206	Expected: 2
-
-- Glyph name: uni25A1	Expected: 2
-
-- Glyph name: uni25AA	Expected: 1
-
-- Glyph name: uni25AB	Expected: 2
-
-- Glyph name: uni25B3	Expected: 2
-
-- Glyph name: uni25B6	Expected: 1
-
-- Glyph name: uni25B7	Expected: 2
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
+- uni1DC7
 </code></pre>
- [code: no-contour]
+ [code: unattached-dotted-circle-marks]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <div>
+
+
+
+
 
 
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -14030,6 +12020,16 @@ definitions.</p>
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
+
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -14044,6 +12044,8 @@ definitions.</p>
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: hbar	Contours detected: 2	Expected: 1
@@ -14051,6 +12053,8 @@ definitions.</p>
 - Glyph name: tbar	Contours detected: 2	Expected: 1
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
@@ -14107,92 +12111,16 @@ definitions.</p>
 - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
 </code></pre>
  [code: contour-count]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-</code></pre>
- [code: unattached-dotted-circle-marks]
 
 
 
@@ -14211,6 +12139,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
 - f_i.liga</p>
+<pre><code>- fl
+</code></pre>
  [code: incomplete-caret-pos-data]
 
 
@@ -14317,30 +12247,30 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, math, syriac, todhri, canadian-aboriginal, coptic, malayalam, tai-le, tifinagh, old-permic</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, syriac, hebrew, tai-le, coptic, canadian-aboriginal, tifinagh, duployan, malayalam, math, old-permic</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, syriac, thai, gothic, cherokee, tifinagh, sunuwar</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, syriac, tifinagh, caucasian-albanian</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -14348,13 +12278,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: math, elbasan, greek</li>
-<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: math, elbasan, greek</li>
-<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: math, greek</li>
-<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek</li>
-<li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
-<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek</li>
+<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: greek, math, elbasan</li>
+<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: greek, math, elbasan</li>
+<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
+<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
+<li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
+<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
 <li>U+1DC5 COMBINING GRAVE-MACRON: not included in any glyphset definition</li>
@@ -14393,14 +12323,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
@@ -14418,26 +12348,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: mende-kikakui, wancho, symbols, telugu, mongolian, devanagari, sogdian, pahawh-hmong, armenian, zanabazar-square, caucasian-albanian, siddham, myanmar, limbu, music, oriya, duployan, math, syriac, manichaean, warang-citi, canadian-aboriginal, ahom, bengali, tibetan, new-tai-lue, soyombo, bhaiksuki, buhid, mahajani, coptic, meetei-mayek, tirhuta, adlam, sharada, tai-viet, khojki, kannada, malayalam, khmer, cham, tai-tham, sundanese, batak, miao, javanese, grantha, saurashtra, marchen, sinhala, chakma, tamil, gunjala-gondi, psalter-pahlavi, mandaic, hanunoo, rejang, tai-le, lepcha, elbasan, nko, takri, thaana, khudawadi, tifinagh, brahmi, newa, phags-pa, thai, buginese, syloti-nagri, hanifi-rohingya, dogra, tagbanwa, balinese, osage, kaithi, modi, masaram-gondi, kayah-li, lao, bassa-vah, old-permic, yi, gujarati, hebrew, gurmukhi, kharoshthi, tagalog</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: buginese, marchen, chakma, myanmar, gunjala-gondi, syriac, takri, syloti-nagri, duployan, math, grantha, masaram-gondi, yi, newa, oriya, warang-citi, siddham, armenian, rejang, bengali, sundanese, bassa-vah, osage, tagalog, symbols, old-permic, brahmi, canadian-aboriginal, dogra, tamil, modi, phags-pa, tai-tham, new-tai-lue, kharoshthi, sogdian, pahawh-hmong, adlam, tai-le, saurashtra, devanagari, psalter-pahlavi, tifinagh, tibetan, mongolian, ahom, sharada, elbasan, malayalam, telugu, buhid, limbu, kaithi, tai-viet, lepcha, lao, hebrew, thaana, cham, gurmukhi, nko, wancho, music, soyombo, balinese, miao, khojki, mende-kikakui, zanabazar-square, khmer, tagbanwa, manichaean, tirhuta, khudawadi, gujarati, coptic, meetei-mayek, sinhala, hanunoo, caucasian-albanian, kayah-li, kannada, mahajani, thai, batak, hanifi-rohingya, javanese, mandaic, bhaiksuki</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -14464,8 +12394,8 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̍ i̓ i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i᷄ i᷅ i̛̍ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤̍ i̤̓ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥̍ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ḭ̀ ḭ́ ḭ̂ ḭ̃ ḭ̄ ḭ̆ ḭ̇ ḭ̈ ḭ̉ ḭ̊ ḭ̋ ḭ̌ ḭ̍ ḭ̏ ḭ̐ ḭ̑ ḭ̒ ḭ̓ ḭ᷄ ḭ᷅</p>
  [code: soft-dotted]
 
 
@@ -14650,6 +12580,12 @@ definitions.</p>
 
 * uni019D (U+019D) contains a short segment B&lt;&lt;120.0,-89.5&gt;-&lt;129.0,-81.0&gt;-&lt;129.0,-68.0&gt;&gt;
 
+* uniA7A8 (U+A7A8) contains a short segment B&lt;&lt;340.0,430.0&gt;-&lt;345.0,428.0&gt;-&lt;354.0,426.0&gt;&gt;
+
+* uni0162 (U+0162) contains a short segment L&lt;&lt;352.0,0.0&gt;--&lt;341.0,0.0&gt;&gt;
+
+* uni0162 (U+0162) contains a short segment L&lt;&lt;261.0,0.0&gt;--&lt;245.0,0.0&gt;&gt;
+
 * uni01B2 (U+01B2) contains a short segment L&lt;&lt;540.0,601.0&gt;--&lt;540.0,601.0&gt;&gt;
 
 * uni2C72 (U+2C72) contains a short segment L&lt;&lt;887.0,687.0&gt;--&lt;887.0,686.0&gt;&gt;
@@ -14672,6 +12608,8 @@ definitions.</p>
 
 * eogonek (U+0119) contains a short segment B&lt;&lt;286.5,-13.5&gt;-&lt;276.0,-14.0&gt;-&lt;271.0,-13.0&gt;&gt;
 
+* kgreenlandic (U+0138) contains a short segment L&lt;&lt;189.0,244.0&gt;--&lt;182.0,244.0&gt;&gt;
+
 * uni026B (U+026B) contains a short segment B&lt;&lt;78.0,370.0&gt;-&lt;75.0,371.0&gt;-&lt;72.0,371.0&gt;&gt;
 
 * uni026B (U+026B) contains a short segment B&lt;&lt;65.0,457.0&gt;-&lt;72.0,457.0&gt;-&lt;78.0,457.0&gt;&gt;
@@ -14679,6 +12617,12 @@ definitions.</p>
 * uni026B (U+026B) contains a short segment B&lt;&lt;182.0,401.0&gt;-&lt;184.0,401.0&gt;-&lt;186.0,401.0&gt;&gt;
 
 * uni026B (U+026B) contains a short segment B&lt;&lt;193.0,314.0&gt;-&lt;187.0,314.0&gt;-&lt;182.0,315.0&gt;&gt;
+
+* uniA7A9 (U+A7A9) contains a short segment L&lt;&lt;393.0,269.0&gt;--&lt;377.0,264.0&gt;&gt;
+
+* uniA7A9 (U+A7A9) contains a short segment B&lt;&lt;246.0,208.0&gt;-&lt;238.0,209.0&gt;-&lt;230.0,211.0&gt;&gt;
+
+* uniA7A9 (U+A7A9) contains a short segment B&lt;&lt;230.0,211.0&gt;-&lt;222.0,213.0&gt;-&lt;213.0,215.0&gt;&gt;
 
 * uni2C66 (U+2C66) contains a short segment L&lt;&lt;332.0,480.0&gt;--&lt;333.0,480.0&gt;&gt;
 
@@ -14692,6 +12636,12 @@ definitions.</p>
 
 * f_f_i.liga contains a short segment L&lt;&lt;99.0,480.0&gt;--&lt;99.0,489.0&gt;&gt;
 
+* pi (U+03C0) contains a short segment B&lt;&lt;509.0,99.5&gt;-&lt;515.0,93.0&gt;-&lt;523.0,93.0&gt;&gt;
+
+* chi (U+03C7) contains a short segment B&lt;&lt;115.5,390.5&gt;-&lt;104.0,384.0&gt;-&lt;100.0,377.0&gt;&gt;
+
+* chi (U+03C7) contains a short segment B&lt;&lt;628.0,-93.5&gt;-&lt;640.0,-87.0&gt;-&lt;643.0,-80.0&gt;&gt;
+
 * dollar (U+0024) contains a short segment L&lt;&lt;323.0,427.0&gt;--&lt;326.0,426.0&gt;&gt;
 
 * Euro (U+20AC) contains a short segment B&lt;&lt;111.0,333.0&gt;-&lt;110.0,341.0&gt;-&lt;110.0,350.0&gt;&gt;
@@ -14699,6 +12649,18 @@ definitions.</p>
 * Euro (U+20AC) contains a short segment B&lt;&lt;219.0,350.0&gt;-&lt;219.0,341.0&gt;-&lt;220.0,333.0&gt;&gt;
 
 * uni20AD (U+20AD) contains a short segment L&lt;&lt;178.0,410.0&gt;--&lt;202.0,410.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;406.0,707.0&gt;-&lt;413.0,708.0&gt;-&lt;422.0,708.5&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;422.0,708.5&gt;-&lt;431.0,709.0&gt;-&lt;439.0,709.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;439.0,709.0&gt;-&lt;445.0,709.0&gt;-&lt;451.5,708.5&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;451.5,708.5&gt;-&lt;458.0,708.0&gt;-&lt;465.0,708.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;465.0,606.0&gt;-&lt;458.0,607.0&gt;-&lt;451.5,607.5&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;451.5,607.5&gt;-&lt;445.0,608.0&gt;-&lt;439.0,608.0&gt;&gt;
 
 * uni20B9 (U+20B9) contains a short segment L&lt;&lt;298.0,605.0&gt;--&lt;298.0,606.0&gt;&gt;
 
@@ -14798,7 +12760,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
     <div>
 
 
@@ -14807,214 +12769,113 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
-<pre><code>- Glyph name: kgreenlandic	Expected: 1 or 2
+* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
+<pre><code>- acutecomb
 
-- Glyph name: uni0222	Expected: 2
+- dotbelowcomb
 
-- Glyph name: uni0223	Expected: 2
+- gravecomb
 
-- Glyph name: uni024A	Expected: 2
+- hookabovecomb
 
-- Glyph name: uni024B	Expected: 2
+- tildecomb
 
-- Glyph name: uni02BB	Expected: 1
+- uni0302
 
-- Glyph name: uni02BE	Expected: 1
+- uni0304
 
-- Glyph name: uni02BF	Expected: 1
+- uni0306
 
-- Glyph name: uni02CA	Expected: 1
+- uni0307
 
-- Glyph name: uni02CB	Expected: 1
+- uni0308
 
-- Glyph name: uni0313	Expected: 1
+- uni030A
 
-- Glyph name: uni0334	Expected: 1
+- uni030B
 
-- Glyph name: theta	Expected: 3
+- uni030C
 
-- Glyph name: uni03BC	Expected: 1
+- uni030F
 
-- Glyph name: pi	Expected: 1
+- uni0310
 
-- Glyph name: chi	Expected: 1
+- uni0311
 
-- Glyph name: uni2016	Expected: 2
+- uni0312
 
-- Glyph name: minute	Expected: 1
+- uni0313
 
-- Glyph name: second	Expected: 2
+- uni0315
 
-- Glyph name: colonmonetary	Expected: 1 or 3
+- uni031B
 
-- Glyph name: dong	Expected: 3 or 4
+- uni0324
 
-- Glyph name: uni20AE	Expected: 1
+- uni0325
 
-- Glyph name: uni20B1	Expected: 1, 2 or 4
+- uni0326
 
-- Glyph name: uni20B2	Expected: 1, 2 or 3
+- uni0327
 
-- Glyph name: uni20B8	Expected: 2
+- uni0328
 
-- Glyph name: uni20BA	Expected: 1
+- uni0329
 
-- Glyph name: uni20BC	Expected: 1
+- uni032D
 
-- Glyph name: uni20BF	Expected: 3
+- uni032E
 
-- Glyph name: uni2113	Expected: 2
+- uni032F
 
-- Glyph name: uni2126	Expected: 1
+- uni0330
 
-- Glyph name: estimated	Expected: 2
+- uni0331
 
-- Glyph name: emptyset	Expected: 3
+- uni0332
 
-- Glyph name: uni2206	Expected: 2
+- uni0334
 
-- Glyph name: filledbox	Expected: 1
+- uni0335
 
-- Glyph name: uni25A1	Expected: 2
+- uni0336
 
-- Glyph name: uni25AA	Expected: 1
+- uni0337
 
-- Glyph name: uni25AB	Expected: 2
+- uni0338
 
-- Glyph name: triagup	Expected: 1
+- uni0358
 
-- Glyph name: uni25B3	Expected: 2
+- uni1DC4
 
-- Glyph name: uni25B6	Expected: 1
+- uni1DC5
 
-- Glyph name: uni25B7	Expected: 2
+- uni1DC6
 
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
-
-- Glyph name: chi	Expected: 1
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: colonmonetary	Expected: 1 or 3
-
-- Glyph name: dong	Expected: 3 or 4
-
-- Glyph name: emptyset	Expected: 3
-
-- Glyph name: estimated	Expected: 2
-
-- Glyph name: kgreenlandic	Expected: 1 or 2
-
-- Glyph name: pi	Expected: 1
-
-- Glyph name: theta	Expected: 3
-
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: triagup	Expected: 1
-
-- Glyph name: uni0222	Expected: 2
-
-- Glyph name: uni0223	Expected: 2
-
-- Glyph name: uni024A	Expected: 2
-
-- Glyph name: uni024B	Expected: 2
-
-- Glyph name: uni02BB	Expected: 1
-
-- Glyph name: uni02BE	Expected: 1
-
-- Glyph name: uni02BF	Expected: 1
-
-- Glyph name: uni02CA	Expected: 1
-
-- Glyph name: uni02CB	Expected: 1
-
-- Glyph name: uni0313	Expected: 1
-
-- Glyph name: uni03BC	Expected: 1
-
-- Glyph name: uni2016	Expected: 2
-
-- Glyph name: uni20AE	Expected: 1
-
-- Glyph name: uni20B1	Expected: 1, 2 or 4
-
-- Glyph name: uni20B2	Expected: 1, 2 or 3
-
-- Glyph name: uni20B8	Expected: 2
-
-- Glyph name: uni20BA	Expected: 1
-
-- Glyph name: uni20BC	Expected: 1
-
-- Glyph name: uni20BF	Expected: 3
-
-- Glyph name: uni2113	Expected: 2
-
-- Glyph name: uni2126	Expected: 1
-
-- Glyph name: uni2206	Expected: 2
-
-- Glyph name: uni25A1	Expected: 2
-
-- Glyph name: uni25AA	Expected: 1
-
-- Glyph name: uni25AB	Expected: 2
-
-- Glyph name: uni25B3	Expected: 2
-
-- Glyph name: uni25B6	Expected: 1
-
-- Glyph name: uni25B7	Expected: 2
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
+- uni1DC7
 </code></pre>
- [code: no-contour]
+ [code: unattached-dotted-circle-marks]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <div>
+
+
+
+
 
 
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -15100,6 +12961,16 @@ definitions.</p>
 
 - Glyph name: uni20A9	Contours detected: 6	Expected: 1, 3, 4 or 7
 
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
+
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -15114,6 +12985,8 @@ definitions.</p>
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: hbar	Contours detected: 2	Expected: 1
@@ -15121,6 +12994,8 @@ definitions.</p>
 - Glyph name: tbar	Contours detected: 2	Expected: 1
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
@@ -15181,92 +13056,16 @@ definitions.</p>
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
 - Glyph name: uni20A9	Contours detected: 6	Expected: 1, 3, 4 or 7
+
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
 </code></pre>
  [code: contour-count]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-</code></pre>
- [code: unattached-dotted-circle-marks]
 
 
 
@@ -15285,6 +13084,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
 - f_i.liga</p>
+<pre><code>- fl
+</code></pre>
  [code: incomplete-caret-pos-data]
 
 
@@ -15391,30 +13192,30 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, math, syriac, todhri, canadian-aboriginal, coptic, malayalam, tai-le, tifinagh, old-permic</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, syriac, hebrew, tai-le, coptic, canadian-aboriginal, tifinagh, duployan, malayalam, math, old-permic</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, syriac, thai, gothic, cherokee, tifinagh, sunuwar</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, syriac, tifinagh, caucasian-albanian</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -15422,13 +13223,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: math, elbasan, greek</li>
-<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: math, elbasan, greek</li>
-<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: math, greek</li>
-<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek</li>
-<li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
-<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek</li>
+<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: greek, math, elbasan</li>
+<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: greek, math, elbasan</li>
+<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
+<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
+<li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
+<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
 <li>U+1DC5 COMBINING GRAVE-MACRON: not included in any glyphset definition</li>
@@ -15467,14 +13268,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
@@ -15492,26 +13293,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: mende-kikakui, wancho, symbols, telugu, mongolian, devanagari, sogdian, pahawh-hmong, armenian, zanabazar-square, caucasian-albanian, siddham, myanmar, limbu, music, oriya, duployan, math, syriac, manichaean, warang-citi, canadian-aboriginal, ahom, bengali, tibetan, new-tai-lue, soyombo, bhaiksuki, buhid, mahajani, coptic, meetei-mayek, tirhuta, adlam, sharada, tai-viet, khojki, kannada, malayalam, khmer, cham, tai-tham, sundanese, batak, miao, javanese, grantha, saurashtra, marchen, sinhala, chakma, tamil, gunjala-gondi, psalter-pahlavi, mandaic, hanunoo, rejang, tai-le, lepcha, elbasan, nko, takri, thaana, khudawadi, tifinagh, brahmi, newa, phags-pa, thai, buginese, syloti-nagri, hanifi-rohingya, dogra, tagbanwa, balinese, osage, kaithi, modi, masaram-gondi, kayah-li, lao, bassa-vah, old-permic, yi, gujarati, hebrew, gurmukhi, kharoshthi, tagalog</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: buginese, marchen, chakma, myanmar, gunjala-gondi, syriac, takri, syloti-nagri, duployan, math, grantha, masaram-gondi, yi, newa, oriya, warang-citi, siddham, armenian, rejang, bengali, sundanese, bassa-vah, osage, tagalog, symbols, old-permic, brahmi, canadian-aboriginal, dogra, tamil, modi, phags-pa, tai-tham, new-tai-lue, kharoshthi, sogdian, pahawh-hmong, adlam, tai-le, saurashtra, devanagari, psalter-pahlavi, tifinagh, tibetan, mongolian, ahom, sharada, elbasan, malayalam, telugu, buhid, limbu, kaithi, tai-viet, lepcha, lao, hebrew, thaana, cham, gurmukhi, nko, wancho, music, soyombo, balinese, miao, khojki, mende-kikakui, zanabazar-square, khmer, tagbanwa, manichaean, tirhuta, khudawadi, gujarati, coptic, meetei-mayek, sinhala, hanunoo, caucasian-albanian, kayah-li, kannada, mahajani, thai, batak, hanifi-rohingya, javanese, mandaic, bhaiksuki</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -15538,8 +13339,8 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̍ i̓ i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i᷄ i᷅ i̛̍ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤̍ i̤̓ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥̍ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ḭ̀ ḭ́ ḭ̂ ḭ̃ ḭ̄ ḭ̆ ḭ̇ ḭ̈ ḭ̉ ḭ̊ ḭ̋ ḭ̌ ḭ̍ ḭ̏ ḭ̐ ḭ̑ ḭ̒ ḭ̓ ḭ᷄ ḭ᷅</p>
  [code: soft-dotted]
 
 
@@ -15748,6 +13549,26 @@ definitions.</p>
 
 * Eng (U+014A) contains a short segment B&lt;&lt;529.5,-56.5&gt;-&lt;539.0,-47.0&gt;-&lt;539.0,-33.0&gt;&gt;
 
+* uniA7A8 (U+A7A8) contains a short segment B&lt;&lt;363.0,439.0&gt;-&lt;366.0,438.0&gt;-&lt;370.0,437.0&gt;&gt;
+
+* uniA7A8 (U+A7A8) contains a short segment B&lt;&lt;306.0,314.0&gt;-&lt;304.0,315.0&gt;-&lt;303.0,315.0&gt;&gt;
+
+* uni0162 (U+0162) contains a short segment L&lt;&lt;362.0,0.0&gt;--&lt;346.0,0.0&gt;&gt;
+
+* uni0162 (U+0162) contains a short segment B&lt;&lt;278.0,-147.0&gt;-&lt;278.0,-156.0&gt;-&lt;285.5,-162.0&gt;&gt;
+
+* uni0162 (U+0162) contains a short segment B&lt;&lt;285.5,-162.0&gt;-&lt;293.0,-168.0&gt;-&lt;304.0,-168.0&gt;&gt;
+
+* uni0162 (U+0162) contains a short segment B&lt;&lt;304.0,-168.0&gt;-&lt;314.0,-168.0&gt;-&lt;321.5,-160.5&gt;&gt;
+
+* uni0162 (U+0162) contains a short segment B&lt;&lt;321.5,-160.5&gt;-&lt;329.0,-153.0&gt;-&lt;329.0,-142.0&gt;&gt;
+
+* uni0162 (U+0162) contains a short segment B&lt;&lt;329.0,-142.0&gt;-&lt;329.0,-131.0&gt;-&lt;321.5,-123.5&gt;&gt;
+
+* uni0162 (U+0162) contains a short segment B&lt;&lt;321.5,-123.5&gt;-&lt;314.0,-116.0&gt;-&lt;304.0,-116.0&gt;&gt;
+
+* uni0162 (U+0162) contains a short segment L&lt;&lt;236.0,0.0&gt;--&lt;217.0,0.0&gt;&gt;
+
 * uni01B2 (U+01B2) contains a short segment L&lt;&lt;571.0,557.0&gt;--&lt;571.0,557.0&gt;&gt;
 
 * uni2C72 (U+2C72) contains a short segment L&lt;&lt;864.0,660.0&gt;--&lt;864.0,659.0&gt;&gt;
@@ -15760,7 +13581,13 @@ definitions.</p>
 
 * uni01B3 (U+01B3) contains a short segment L&lt;&lt;645.0,626.0&gt;--&lt;645.0,626.0&gt;&gt;
 
+* uni2C65 (U+2C65) contains a short segment B&lt;&lt;272.0,-16.0&gt;-&lt;266.0,-16.0&gt;-&lt;261.0,-16.0&gt;&gt;
+
+* uni2C65 (U+2C65) contains a short segment L&lt;&lt;414.0,446.0&gt;--&lt;415.0,445.0&gt;&gt;
+
 * uniAB53 (U+AB53) contains a short segment B&lt;&lt;633.5,-52.5&gt;-&lt;644.0,-48.0&gt;-&lt;648.0,-42.0&gt;&gt;
+
+* uni023C (U+023C) contains a short segment B&lt;&lt;287.0,116.0&gt;-&lt;290.0,116.0&gt;-&lt;294.0,116.0&gt;&gt;
 
 * eogonek (U+0119) contains a short segment B&lt;&lt;263.0,-12.0&gt;-&lt;255.0,-11.0&gt;-&lt;247.5,-10.0&gt;&gt;
 
@@ -15776,6 +13603,12 @@ definitions.</p>
 
 * uni01B4 (U+01B4) contains a short segment L&lt;&lt;590.0,420.0&gt;--&lt;590.0,420.0&gt;&gt;
 
+* pi (U+03C0) contains a short segment B&lt;&lt;558.5,128.0&gt;-&lt;564.0,122.0&gt;-&lt;572.0,122.0&gt;&gt;
+
+* chi (U+03C7) contains a short segment B&lt;&lt;633.5,-52.5&gt;-&lt;644.0,-48.0&gt;-&lt;648.0,-42.0&gt;&gt;
+
+* colonmonetary (U+20A1) contains a short segment B&lt;&lt;399.0,-16.0&gt;-&lt;391.0,-16.0&gt;-&lt;384.0,-16.0&gt;&gt;
+
 * dollar (U+0024) contains a short segment B&lt;&lt;336.0,439.0&gt;-&lt;343.0,437.0&gt;-&lt;348.0,435.0&gt;&gt;
 
 * Euro (U+20AC) contains a short segment B&lt;&lt;89.0,328.0&gt;-&lt;89.0,339.0&gt;-&lt;89.0,350.0&gt;&gt;
@@ -15785,6 +13618,22 @@ definitions.</p>
 * Euro (U+20AC) contains a short segment B&lt;&lt;237.0,372.0&gt;-&lt;236.0,361.0&gt;-&lt;236.0,350.0&gt;&gt;
 
 * Euro (U+20AC) contains a short segment B&lt;&lt;236.0,350.0&gt;-&lt;236.0,338.0&gt;-&lt;237.0,328.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;431.0,709.0&gt;-&lt;436.0,709.0&gt;-&lt;442.0,709.5&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;442.0,709.5&gt;-&lt;448.0,710.0&gt;-&lt;454.0,710.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;454.0,710.0&gt;-&lt;459.0,710.0&gt;-&lt;464.5,709.5&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;464.5,709.5&gt;-&lt;470.0,709.0&gt;-&lt;474.0,709.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;474.0,571.0&gt;-&lt;465.0,572.0&gt;-&lt;454.0,572.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;454.0,572.0&gt;-&lt;441.0,572.0&gt;-&lt;431.0,571.0&gt;&gt;
+
+* uni20B1 (U+20B1) contains a short segment B&lt;&lt;700.0,470.0&gt;-&lt;700.0,464.0&gt;-&lt;700.0,458.0&gt;&gt;
+
+* uni20B1 (U+20B1) contains a short segment B&lt;&lt;700.0,458.0&gt;-&lt;700.0,452.0&gt;-&lt;700.0,446.0&gt;&gt;
 
 * uni20B9 (U+20B9) contains a short segment L&lt;&lt;294.0,580.0&gt;--&lt;294.0,581.0&gt;&gt;
 
@@ -15886,7 +13735,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
     <div>
 
 
@@ -15895,214 +13744,113 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
-<pre><code>- Glyph name: kgreenlandic	Expected: 1 or 2
+* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
+<pre><code>- acutecomb
 
-- Glyph name: uni0222	Expected: 2
+- dotbelowcomb
 
-- Glyph name: uni0223	Expected: 2
+- gravecomb
 
-- Glyph name: uni024A	Expected: 2
+- hookabovecomb
 
-- Glyph name: uni024B	Expected: 2
+- tildecomb
 
-- Glyph name: uni02BB	Expected: 1
+- uni0302
 
-- Glyph name: uni02BE	Expected: 1
+- uni0304
 
-- Glyph name: uni02BF	Expected: 1
+- uni0306
 
-- Glyph name: uni02CA	Expected: 1
+- uni0307
 
-- Glyph name: uni02CB	Expected: 1
+- uni0308
 
-- Glyph name: uni0313	Expected: 1
+- uni030A
 
-- Glyph name: uni0334	Expected: 1
+- uni030B
 
-- Glyph name: theta	Expected: 3
+- uni030C
 
-- Glyph name: uni03BC	Expected: 1
+- uni030F
 
-- Glyph name: pi	Expected: 1
+- uni0310
 
-- Glyph name: chi	Expected: 1
+- uni0311
 
-- Glyph name: uni2016	Expected: 2
+- uni0312
 
-- Glyph name: minute	Expected: 1
+- uni0313
 
-- Glyph name: second	Expected: 2
+- uni0315
 
-- Glyph name: colonmonetary	Expected: 1 or 3
+- uni031B
 
-- Glyph name: dong	Expected: 3 or 4
+- uni0324
 
-- Glyph name: uni20AE	Expected: 1
+- uni0325
 
-- Glyph name: uni20B1	Expected: 1, 2 or 4
+- uni0326
 
-- Glyph name: uni20B2	Expected: 1, 2 or 3
+- uni0327
 
-- Glyph name: uni20B8	Expected: 2
+- uni0328
 
-- Glyph name: uni20BA	Expected: 1
+- uni0329
 
-- Glyph name: uni20BC	Expected: 1
+- uni032D
 
-- Glyph name: uni20BF	Expected: 3
+- uni032E
 
-- Glyph name: uni2113	Expected: 2
+- uni032F
 
-- Glyph name: uni2126	Expected: 1
+- uni0330
 
-- Glyph name: estimated	Expected: 2
+- uni0331
 
-- Glyph name: emptyset	Expected: 3
+- uni0332
 
-- Glyph name: uni2206	Expected: 2
+- uni0334
 
-- Glyph name: filledbox	Expected: 1
+- uni0335
 
-- Glyph name: uni25A1	Expected: 2
+- uni0336
 
-- Glyph name: uni25AA	Expected: 1
+- uni0337
 
-- Glyph name: uni25AB	Expected: 2
+- uni0338
 
-- Glyph name: triagup	Expected: 1
+- uni0358
 
-- Glyph name: uni25B3	Expected: 2
+- uni1DC4
 
-- Glyph name: uni25B6	Expected: 1
+- uni1DC5
 
-- Glyph name: uni25B7	Expected: 2
+- uni1DC6
 
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
-
-- Glyph name: chi	Expected: 1
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: colonmonetary	Expected: 1 or 3
-
-- Glyph name: dong	Expected: 3 or 4
-
-- Glyph name: emptyset	Expected: 3
-
-- Glyph name: estimated	Expected: 2
-
-- Glyph name: kgreenlandic	Expected: 1 or 2
-
-- Glyph name: pi	Expected: 1
-
-- Glyph name: theta	Expected: 3
-
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: triagup	Expected: 1
-
-- Glyph name: uni0222	Expected: 2
-
-- Glyph name: uni0223	Expected: 2
-
-- Glyph name: uni024A	Expected: 2
-
-- Glyph name: uni024B	Expected: 2
-
-- Glyph name: uni02BB	Expected: 1
-
-- Glyph name: uni02BE	Expected: 1
-
-- Glyph name: uni02BF	Expected: 1
-
-- Glyph name: uni02CA	Expected: 1
-
-- Glyph name: uni02CB	Expected: 1
-
-- Glyph name: uni0313	Expected: 1
-
-- Glyph name: uni03BC	Expected: 1
-
-- Glyph name: uni2016	Expected: 2
-
-- Glyph name: uni20AE	Expected: 1
-
-- Glyph name: uni20B1	Expected: 1, 2 or 4
-
-- Glyph name: uni20B2	Expected: 1, 2 or 3
-
-- Glyph name: uni20B8	Expected: 2
-
-- Glyph name: uni20BA	Expected: 1
-
-- Glyph name: uni20BC	Expected: 1
-
-- Glyph name: uni20BF	Expected: 3
-
-- Glyph name: uni2113	Expected: 2
-
-- Glyph name: uni2126	Expected: 1
-
-- Glyph name: uni2206	Expected: 2
-
-- Glyph name: uni25A1	Expected: 2
-
-- Glyph name: uni25AA	Expected: 1
-
-- Glyph name: uni25AB	Expected: 2
-
-- Glyph name: uni25B3	Expected: 2
-
-- Glyph name: uni25B6	Expected: 1
-
-- Glyph name: uni25B7	Expected: 2
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
+- uni1DC7
 </code></pre>
- [code: no-contour]
+ [code: unattached-dotted-circle-marks]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <div>
+
+
+
+
 
 
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -16188,6 +13936,16 @@ definitions.</p>
 
 - Glyph name: uni20A9	Contours detected: 6	Expected: 1, 3, 4 or 7
 
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
+
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -16202,6 +13960,8 @@ definitions.</p>
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: hbar	Contours detected: 2	Expected: 1
@@ -16209,6 +13969,8 @@ definitions.</p>
 - Glyph name: tbar	Contours detected: 2	Expected: 1
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
@@ -16269,92 +14031,16 @@ definitions.</p>
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
 - Glyph name: uni20A9	Contours detected: 6	Expected: 1, 3, 4 or 7
+
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
 </code></pre>
  [code: contour-count]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-</code></pre>
- [code: unattached-dotted-circle-marks]
 
 
 
@@ -16373,6 +14059,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
 - f_i.liga</p>
+<pre><code>- fl
+</code></pre>
  [code: incomplete-caret-pos-data]
 
 
@@ -16479,30 +14167,30 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, math, syriac, todhri, canadian-aboriginal, coptic, malayalam, tai-le, tifinagh, old-permic</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, syriac, hebrew, tai-le, coptic, canadian-aboriginal, tifinagh, duployan, malayalam, math, old-permic</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, syriac, thai, gothic, cherokee, tifinagh, sunuwar</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, syriac, tifinagh, caucasian-albanian</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -16510,13 +14198,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: math, elbasan, greek</li>
-<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: math, elbasan, greek</li>
-<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: math, greek</li>
-<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek</li>
-<li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
-<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek</li>
+<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: greek, math, elbasan</li>
+<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: greek, math, elbasan</li>
+<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
+<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
+<li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
+<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
 <li>U+1DC5 COMBINING GRAVE-MACRON: not included in any glyphset definition</li>
@@ -16555,14 +14243,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
@@ -16580,26 +14268,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: mende-kikakui, wancho, symbols, telugu, mongolian, devanagari, sogdian, pahawh-hmong, armenian, zanabazar-square, caucasian-albanian, siddham, myanmar, limbu, music, oriya, duployan, math, syriac, manichaean, warang-citi, canadian-aboriginal, ahom, bengali, tibetan, new-tai-lue, soyombo, bhaiksuki, buhid, mahajani, coptic, meetei-mayek, tirhuta, adlam, sharada, tai-viet, khojki, kannada, malayalam, khmer, cham, tai-tham, sundanese, batak, miao, javanese, grantha, saurashtra, marchen, sinhala, chakma, tamil, gunjala-gondi, psalter-pahlavi, mandaic, hanunoo, rejang, tai-le, lepcha, elbasan, nko, takri, thaana, khudawadi, tifinagh, brahmi, newa, phags-pa, thai, buginese, syloti-nagri, hanifi-rohingya, dogra, tagbanwa, balinese, osage, kaithi, modi, masaram-gondi, kayah-li, lao, bassa-vah, old-permic, yi, gujarati, hebrew, gurmukhi, kharoshthi, tagalog</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: buginese, marchen, chakma, myanmar, gunjala-gondi, syriac, takri, syloti-nagri, duployan, math, grantha, masaram-gondi, yi, newa, oriya, warang-citi, siddham, armenian, rejang, bengali, sundanese, bassa-vah, osage, tagalog, symbols, old-permic, brahmi, canadian-aboriginal, dogra, tamil, modi, phags-pa, tai-tham, new-tai-lue, kharoshthi, sogdian, pahawh-hmong, adlam, tai-le, saurashtra, devanagari, psalter-pahlavi, tifinagh, tibetan, mongolian, ahom, sharada, elbasan, malayalam, telugu, buhid, limbu, kaithi, tai-viet, lepcha, lao, hebrew, thaana, cham, gurmukhi, nko, wancho, music, soyombo, balinese, miao, khojki, mende-kikakui, zanabazar-square, khmer, tagbanwa, manichaean, tirhuta, khudawadi, gujarati, coptic, meetei-mayek, sinhala, hanunoo, caucasian-albanian, kayah-li, kannada, mahajani, thai, batak, hanifi-rohingya, javanese, mandaic, bhaiksuki</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -16626,8 +14314,8 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̍ i̓ i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i᷄ i᷅ i̛̍ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤̍ i̤̓ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥̍ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ḭ̀ ḭ́ ḭ̂ ḭ̃ ḭ̄ ḭ̆ ḭ̇ ḭ̈ ḭ̉ ḭ̊ ḭ̋ ḭ̌ ḭ̍ ḭ̏ ḭ̐ ḭ̑ ḭ̒ ḭ̓ ḭ᷄ ḭ᷅</p>
  [code: soft-dotted]
 
 
@@ -16725,6 +14413,8 @@ definitions.</p>
 * uni01C3 (U+01C3): L&lt;&lt;104.0,160.0&gt;--&lt;100.0,720.0&gt;&gt;
 
 * uni01C3 (U+01C3): L&lt;&lt;264.0,720.0&gt;--&lt;260.0,160.0&gt;&gt;
+
+* uni0222 (U+0222): L&lt;&lt;526.0,771.0&gt;--&lt;525.0,563.0&gt;&gt;
 
 * uni026F (U+026F): L&lt;&lt;227.0,480.0&gt;--&lt;228.0,221.0&gt;&gt;
 
@@ -16850,6 +14540,18 @@ definitions.</p>
 
 * Eng (U+014A) contains a short segment B&lt;&lt;524.0,-48.5&gt;-&lt;531.0,-41.0&gt;-&lt;531.0,-31.0&gt;&gt;
 
+* uniA7A8 (U+A7A8) contains a short segment B&lt;&lt;315.0,305.0&gt;-&lt;307.0,308.0&gt;-&lt;295.0,311.0&gt;&gt;
+
+* uni0162 (U+0162) contains a short segment L&lt;&lt;367.0,0.0&gt;--&lt;348.0,0.0&gt;&gt;
+
+* uni0162 (U+0162) contains a short segment B&lt;&lt;306.0,-160.0&gt;-&lt;314.0,-160.0&gt;-&lt;319.0,-154.5&gt;&gt;
+
+* uni0162 (U+0162) contains a short segment B&lt;&lt;319.0,-154.5&gt;-&lt;324.0,-149.0&gt;-&lt;324.0,-142.0&gt;&gt;
+
+* uni0162 (U+0162) contains a short segment B&lt;&lt;324.0,-142.0&gt;-&lt;324.0,-134.0&gt;-&lt;319.0,-129.0&gt;&gt;
+
+* uni0162 (U+0162) contains a short segment B&lt;&lt;319.0,-129.0&gt;-&lt;314.0,-124.0&gt;-&lt;306.0,-124.0&gt;&gt;
+
 * uni01B2 (U+01B2) contains a short segment L&lt;&lt;586.0,535.0&gt;--&lt;587.0,535.0&gt;&gt;
 
 * uni2C72 (U+2C72) contains a short segment B&lt;&lt;1057.0,652.0&gt;-&lt;1045.0,655.0&gt;-&lt;1034.5,648.0&gt;&gt;
@@ -16914,13 +14616,31 @@ definitions.</p>
 
 * uni0E3F (U+0E3F) contains a short segment L&lt;&lt;395.0,440.0&gt;--&lt;396.0,440.0&gt;&gt;
 
+* colonmonetary (U+20A1) contains a short segment B&lt;&lt;398.0,-16.0&gt;-&lt;394.0,-16.0&gt;-&lt;390.0,-16.0&gt;&gt;
+
 * dollar (U+0024) contains a short segment B&lt;&lt;343.0,445.0&gt;-&lt;352.0,442.0&gt;-&lt;360.0,440.0&gt;&gt;
 
 * Euro (U+20AC) contains a short segment B&lt;&lt;78.0,350.0&gt;-&lt;78.0,359.0&gt;-&lt;78.0,367.0&gt;&gt;
 
 * Euro (U+20AC) contains a short segment B&lt;&lt;245.0,367.0&gt;-&lt;244.0,359.0&gt;-&lt;244.0,350.0&gt;&gt;
 
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;479.0,553.0&gt;-&lt;474.0,554.0&gt;-&lt;470.0,554.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;470.0,554.0&gt;-&lt;466.0,554.0&gt;-&lt;461.0,554.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;461.0,554.0&gt;-&lt;457.0,554.0&gt;-&lt;452.5,554.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;452.5,554.0&gt;-&lt;448.0,554.0&gt;-&lt;443.0,553.0&gt;&gt;
+
 * lira (U+20A4) contains a short segment L&lt;&lt;82.0,475.0&gt;--&lt;82.0,485.0&gt;&gt;
+
+* uni20B1 (U+20B1) contains a short segment L&lt;&lt;139.0,445.0&gt;--&lt;139.0,459.0&gt;&gt;
+
+* uni20B1 (U+20B1) contains a short segment B&lt;&lt;709.0,459.0&gt;-&lt;709.0,456.0&gt;-&lt;709.0,453.0&gt;&gt;
+
+* uni20B1 (U+20B1) contains a short segment B&lt;&lt;709.0,453.0&gt;-&lt;709.0,449.0&gt;-&lt;709.0,445.0&gt;&gt;
+
+* uni20B1 (U+20B1) contains a short segment B&lt;&lt;549.0,453.0&gt;-&lt;549.0,453.0&gt;-&lt;549.0,454.0&gt;&gt;
 
 * uni20B9 (U+20B9) contains a short segment L&lt;&lt;292.0,567.0&gt;--&lt;292.0,568.0&gt;&gt;
 
@@ -16955,7 +14675,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[15] ElmsSans-ExtraBoldItalic.ttf</summary>
+<details><summary>[14] ElmsSans-ExtraBoldItalic.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -17018,7 +14738,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
     <div>
 
 
@@ -17027,214 +14747,113 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
-<pre><code>- Glyph name: kgreenlandic	Expected: 1 or 2
+* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
+<pre><code>- acutecomb
 
-- Glyph name: uni0222	Expected: 2
+- dotbelowcomb
 
-- Glyph name: uni0223	Expected: 2
+- gravecomb
 
-- Glyph name: uni024A	Expected: 2
+- hookabovecomb
 
-- Glyph name: uni024B	Expected: 2
+- tildecomb
 
-- Glyph name: uni02BB	Expected: 1
+- uni0302
 
-- Glyph name: uni02BE	Expected: 1
+- uni0304
 
-- Glyph name: uni02BF	Expected: 1
+- uni0306
 
-- Glyph name: uni02CA	Expected: 1
+- uni0307
 
-- Glyph name: uni02CB	Expected: 1
+- uni0308
 
-- Glyph name: uni0313	Expected: 1
+- uni030A
 
-- Glyph name: uni0334	Expected: 1
+- uni030B
 
-- Glyph name: theta	Expected: 3
+- uni030C
 
-- Glyph name: uni03BC	Expected: 1
+- uni030F
 
-- Glyph name: pi	Expected: 1
+- uni0310
 
-- Glyph name: chi	Expected: 1
+- uni0311
 
-- Glyph name: uni2016	Expected: 2
+- uni0312
 
-- Glyph name: minute	Expected: 1
+- uni0313
 
-- Glyph name: second	Expected: 2
+- uni0315
 
-- Glyph name: colonmonetary	Expected: 1 or 3
+- uni031B
 
-- Glyph name: dong	Expected: 3 or 4
+- uni0324
 
-- Glyph name: uni20AE	Expected: 1
+- uni0325
 
-- Glyph name: uni20B1	Expected: 1, 2 or 4
+- uni0326
 
-- Glyph name: uni20B2	Expected: 1, 2 or 3
+- uni0327
 
-- Glyph name: uni20B8	Expected: 2
+- uni0328
 
-- Glyph name: uni20BA	Expected: 1
+- uni0329
 
-- Glyph name: uni20BC	Expected: 1
+- uni032D
 
-- Glyph name: uni20BF	Expected: 3
+- uni032E
 
-- Glyph name: uni2113	Expected: 2
+- uni032F
 
-- Glyph name: uni2126	Expected: 1
+- uni0330
 
-- Glyph name: estimated	Expected: 2
+- uni0331
 
-- Glyph name: emptyset	Expected: 3
+- uni0332
 
-- Glyph name: uni2206	Expected: 2
+- uni0334
 
-- Glyph name: filledbox	Expected: 1
+- uni0335
 
-- Glyph name: uni25A1	Expected: 2
+- uni0336
 
-- Glyph name: uni25AA	Expected: 1
+- uni0337
 
-- Glyph name: uni25AB	Expected: 2
+- uni0338
 
-- Glyph name: triagup	Expected: 1
+- uni0358
 
-- Glyph name: uni25B3	Expected: 2
+- uni1DC4
 
-- Glyph name: uni25B6	Expected: 1
+- uni1DC5
 
-- Glyph name: uni25B7	Expected: 2
+- uni1DC6
 
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
-
-- Glyph name: chi	Expected: 1
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: colonmonetary	Expected: 1 or 3
-
-- Glyph name: dong	Expected: 3 or 4
-
-- Glyph name: emptyset	Expected: 3
-
-- Glyph name: estimated	Expected: 2
-
-- Glyph name: kgreenlandic	Expected: 1 or 2
-
-- Glyph name: pi	Expected: 1
-
-- Glyph name: theta	Expected: 3
-
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: triagup	Expected: 1
-
-- Glyph name: uni0222	Expected: 2
-
-- Glyph name: uni0223	Expected: 2
-
-- Glyph name: uni024A	Expected: 2
-
-- Glyph name: uni024B	Expected: 2
-
-- Glyph name: uni02BB	Expected: 1
-
-- Glyph name: uni02BE	Expected: 1
-
-- Glyph name: uni02BF	Expected: 1
-
-- Glyph name: uni02CA	Expected: 1
-
-- Glyph name: uni02CB	Expected: 1
-
-- Glyph name: uni0313	Expected: 1
-
-- Glyph name: uni03BC	Expected: 1
-
-- Glyph name: uni2016	Expected: 2
-
-- Glyph name: uni20AE	Expected: 1
-
-- Glyph name: uni20B1	Expected: 1, 2 or 4
-
-- Glyph name: uni20B2	Expected: 1, 2 or 3
-
-- Glyph name: uni20B8	Expected: 2
-
-- Glyph name: uni20BA	Expected: 1
-
-- Glyph name: uni20BC	Expected: 1
-
-- Glyph name: uni20BF	Expected: 3
-
-- Glyph name: uni2113	Expected: 2
-
-- Glyph name: uni2126	Expected: 1
-
-- Glyph name: uni2206	Expected: 2
-
-- Glyph name: uni25A1	Expected: 2
-
-- Glyph name: uni25AA	Expected: 1
-
-- Glyph name: uni25AB	Expected: 2
-
-- Glyph name: uni25B3	Expected: 2
-
-- Glyph name: uni25B6	Expected: 1
-
-- Glyph name: uni25B7	Expected: 2
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
+- uni1DC7
 </code></pre>
- [code: no-contour]
+ [code: unattached-dotted-circle-marks]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <div>
+
+
+
+
 
 
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -17320,6 +14939,16 @@ definitions.</p>
 
 - Glyph name: uni20A9	Contours detected: 6	Expected: 1, 3, 4 or 7
 
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
+
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -17334,6 +14963,8 @@ definitions.</p>
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: hbar	Contours detected: 2	Expected: 1
@@ -17341,6 +14972,8 @@ definitions.</p>
 - Glyph name: tbar	Contours detected: 2	Expected: 1
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
@@ -17401,92 +15034,16 @@ definitions.</p>
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
 - Glyph name: uni20A9	Contours detected: 6	Expected: 1, 3, 4 or 7
+
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
 </code></pre>
  [code: contour-count]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-</code></pre>
- [code: unattached-dotted-circle-marks]
 
 
 
@@ -17505,6 +15062,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
 - f_i.liga</p>
+<pre><code>- fl
+</code></pre>
  [code: incomplete-caret-pos-data]
 
 
@@ -17611,30 +15170,30 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, math, syriac, todhri, canadian-aboriginal, coptic, malayalam, tai-le, tifinagh, old-permic</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, syriac, hebrew, tai-le, coptic, canadian-aboriginal, tifinagh, duployan, malayalam, math, old-permic</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, syriac, thai, gothic, cherokee, tifinagh, sunuwar</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, syriac, tifinagh, caucasian-albanian</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -17642,13 +15201,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: math, elbasan, greek</li>
-<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: math, elbasan, greek</li>
-<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: math, greek</li>
-<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek</li>
-<li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
-<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek</li>
+<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: greek, math, elbasan</li>
+<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: greek, math, elbasan</li>
+<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
+<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
+<li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
+<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
 <li>U+1DC5 COMBINING GRAVE-MACRON: not included in any glyphset definition</li>
@@ -17687,14 +15246,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
@@ -17712,26 +15271,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: mende-kikakui, wancho, symbols, telugu, mongolian, devanagari, sogdian, pahawh-hmong, armenian, zanabazar-square, caucasian-albanian, siddham, myanmar, limbu, music, oriya, duployan, math, syriac, manichaean, warang-citi, canadian-aboriginal, ahom, bengali, tibetan, new-tai-lue, soyombo, bhaiksuki, buhid, mahajani, coptic, meetei-mayek, tirhuta, adlam, sharada, tai-viet, khojki, kannada, malayalam, khmer, cham, tai-tham, sundanese, batak, miao, javanese, grantha, saurashtra, marchen, sinhala, chakma, tamil, gunjala-gondi, psalter-pahlavi, mandaic, hanunoo, rejang, tai-le, lepcha, elbasan, nko, takri, thaana, khudawadi, tifinagh, brahmi, newa, phags-pa, thai, buginese, syloti-nagri, hanifi-rohingya, dogra, tagbanwa, balinese, osage, kaithi, modi, masaram-gondi, kayah-li, lao, bassa-vah, old-permic, yi, gujarati, hebrew, gurmukhi, kharoshthi, tagalog</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: buginese, marchen, chakma, myanmar, gunjala-gondi, syriac, takri, syloti-nagri, duployan, math, grantha, masaram-gondi, yi, newa, oriya, warang-citi, siddham, armenian, rejang, bengali, sundanese, bassa-vah, osage, tagalog, symbols, old-permic, brahmi, canadian-aboriginal, dogra, tamil, modi, phags-pa, tai-tham, new-tai-lue, kharoshthi, sogdian, pahawh-hmong, adlam, tai-le, saurashtra, devanagari, psalter-pahlavi, tifinagh, tibetan, mongolian, ahom, sharada, elbasan, malayalam, telugu, buhid, limbu, kaithi, tai-viet, lepcha, lao, hebrew, thaana, cham, gurmukhi, nko, wancho, music, soyombo, balinese, miao, khojki, mende-kikakui, zanabazar-square, khmer, tagbanwa, manichaean, tirhuta, khudawadi, gujarati, coptic, meetei-mayek, sinhala, hanunoo, caucasian-albanian, kayah-li, kannada, mahajani, thai, batak, hanifi-rohingya, javanese, mandaic, bhaiksuki</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -17758,8 +15317,8 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̍ i̓ i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i᷄ i᷅ i̛̍ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤̍ i̤̓ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥̍ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ḭ̀ ḭ́ ḭ̂ ḭ̃ ḭ̄ ḭ̆ ḭ̇ ḭ̈ ḭ̉ ḭ̊ ḭ̋ ḭ̌ ḭ̍ ḭ̏ ḭ̐ ḭ̑ ḭ̒ ḭ̓ ḭ᷄ ḭ᷅</p>
  [code: soft-dotted]
 
 
@@ -17870,9 +15429,7 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
-<pre><code>* cedillashortcomb: L&lt;&lt;94.0,-116.0&gt;--&lt;100.0,-91.0&gt;&gt;/L&lt;&lt;100.0,-91.0&gt;--&lt;91.0,-116.0&gt;&gt; = 6.303143073729064
-
-* integral (U+222B): L&lt;&lt;305.0,5.0&gt;--&lt;233.0,5.0&gt;&gt;/L&lt;&lt;233.0,5.0&gt;--&lt;304.0,1.0&gt;&gt; = 3.22452260651989
+<pre><code>* integral (U+222B): L&lt;&lt;305.0,5.0&gt;--&lt;233.0,5.0&gt;&gt;/L&lt;&lt;233.0,5.0&gt;--&lt;304.0,1.0&gt;&gt; = 3.22452260651989
 
 * integral (U+222B): L&lt;&lt;407.0,523.0&gt;--&lt;480.0,523.0&gt;&gt;/L&lt;&lt;480.0,523.0&gt;--&lt;408.0,528.0&gt;&gt; = 3.9724959407506057
 
@@ -17880,7 +15437,7 @@ definitions.</p>
 
 * sterling (U+00A3): L&lt;&lt;229.0,495.0&gt;--&lt;302.0,495.0&gt;&gt;/L&lt;&lt;302.0,495.0&gt;--&lt;230.0,500.0&gt;&gt; = 3.9724959407506057
 
-* uni0162 (U+0162): L&lt;&lt;226.0,-116.0&gt;--&lt;232.0,-91.0&gt;&gt;/L&lt;&lt;232.0,-91.0&gt;--&lt;223.0,-116.0&gt;&gt; = 6.303143073729064
+* uni0162 (U+0162): L&lt;&lt;225.0,-116.0&gt;--&lt;231.0,-91.0&gt;&gt;/L&lt;&lt;231.0,-91.0&gt;--&lt;222.0,-116.0&gt;&gt; = 6.303143073729064
 
 * uni01AD (U+01AD): L&lt;&lt;254.0,216.0&gt;--&lt;182.0,216.0&gt;&gt;/L&lt;&lt;182.0,216.0&gt;--&lt;253.0,212.0&gt;&gt; = 3.22452260651989
 
@@ -17889,212 +15446,6 @@ definitions.</p>
 * uni028A (U+028A): B&lt;&lt;128.0,318.5&gt;-&lt;167.0,365.0&gt;-&lt;209.0,376.0&gt;&gt;/L&lt;&lt;209.0,376.0&gt;--&lt;130.0,374.0&gt;&gt; = 13.226176846516575
 </code></pre>
  [code: found-jaggy-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Are any segments inordinately short? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-short-segments">outline_short_segments</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have segments which seem very short:</p>
-<pre><code>* uniA7B3 (U+A7B3) contains a short segment B&lt;&lt;332.0,582.0&gt;-&lt;320.0,586.0&gt;-&lt;307.0,579.0&gt;&gt;
-
-* uniA7B3 (U+A7B3) contains a short segment B&lt;&lt;307.0,579.0&gt;-&lt;294.0,572.0&gt;-&lt;285.0,564.0&gt;&gt;
-
-* uniA7B3 (U+A7B3) contains a short segment B&lt;&lt;703.0,-114.0&gt;-&lt;716.0,-117.0&gt;-&lt;729.5,-110.5&gt;&gt;
-
-* uniA7B3 (U+A7B3) contains a short segment B&lt;&lt;729.5,-110.5&gt;-&lt;743.0,-104.0&gt;-&lt;751.0,-95.0&gt;&gt;
-
-* uni0187 (U+0187) contains a short segment L&lt;&lt;712.0,453.0&gt;--&lt;715.0,461.0&gt;&gt;
-
-* uni018A (U+018A) contains a short segment L&lt;&lt;403.0,573.0&gt;--&lt;388.0,573.0&gt;&gt;
-
-* G (U+0047) contains a short segment L&lt;&lt;825.0,331.0&gt;--&lt;825.0,331.0&gt;&gt;
-
-* G.ss01 contains a short segment L&lt;&lt;839.0,341.0&gt;--&lt;836.0,337.0&gt;&gt;
-
-* G.ss01 contains a short segment L&lt;&lt;836.0,337.0&gt;--&lt;837.0,337.0&gt;&gt;
-
-* uni01F4 (U+01F4) contains a short segment L&lt;&lt;825.0,331.0&gt;--&lt;825.0,331.0&gt;&gt;
-
-* Gbreve (U+011E) contains a short segment L&lt;&lt;825.0,331.0&gt;--&lt;825.0,331.0&gt;&gt;
-
-* Gcaron (U+01E6) contains a short segment L&lt;&lt;825.0,331.0&gt;--&lt;825.0,331.0&gt;&gt;
-
-* Gcircumflex (U+011C) contains a short segment L&lt;&lt;825.0,331.0&gt;--&lt;825.0,331.0&gt;&gt;
-
-* uni0122 (U+0122) contains a short segment L&lt;&lt;825.0,331.0&gt;--&lt;825.0,331.0&gt;&gt;
-
-* Gdotaccent (U+0120) contains a short segment L&lt;&lt;825.0,331.0&gt;--&lt;825.0,331.0&gt;&gt;
-
-* uni0193 (U+0193) contains a short segment L&lt;&lt;723.0,501.0&gt;--&lt;726.0,508.0&gt;&gt;
-
-* uni0193 (U+0193) contains a short segment L&lt;&lt;839.0,341.0&gt;--&lt;835.0,337.0&gt;&gt;
-
-* uni0193 (U+0193) contains a short segment L&lt;&lt;835.0,337.0&gt;--&lt;837.0,337.0&gt;&gt;
-
-* uni1E20 (U+1E20) contains a short segment L&lt;&lt;825.0,331.0&gt;--&lt;825.0,331.0&gt;&gt;
-
-* uni01E4 (U+01E4) contains a short segment L&lt;&lt;825.0,331.0&gt;--&lt;825.0,331.0&gt;&gt;
-
-* uniA7AA (U+A7AA) contains a short segment L&lt;&lt;389.0,573.0&gt;--&lt;368.0,573.0&gt;&gt;
-
-* K (U+004B) contains a short segment L&lt;&lt;313.0,349.0&gt;--&lt;300.0,349.0&gt;&gt;
-
-* uni1E30 (U+1E30) contains a short segment L&lt;&lt;313.0,349.0&gt;--&lt;300.0,349.0&gt;&gt;
-
-* uni01E8 (U+01E8) contains a short segment L&lt;&lt;313.0,349.0&gt;--&lt;300.0,349.0&gt;&gt;
-
-* uni0136 (U+0136) contains a short segment L&lt;&lt;313.0,349.0&gt;--&lt;300.0,349.0&gt;&gt;
-
-* uni1E32 (U+1E32) contains a short segment L&lt;&lt;313.0,349.0&gt;--&lt;300.0,349.0&gt;&gt;
-
-* uni0198 (U+0198) contains a short segment L&lt;&lt;254.0,349.0&gt;--&lt;235.0,349.0&gt;&gt;
-
-* uni1E34 (U+1E34) contains a short segment L&lt;&lt;313.0,349.0&gt;--&lt;300.0,349.0&gt;&gt;
-
-* uniA740 (U+A740) contains a short segment L&lt;&lt;313.0,349.0&gt;--&lt;300.0,349.0&gt;&gt;
-
-* uni2C62 (U+2C62) contains a short segment B&lt;&lt;224.0,464.0&gt;-&lt;233.0,464.0&gt;-&lt;241.0,463.0&gt;&gt;
-
-* uni2C62 (U+2C62) contains a short segment B&lt;&lt;348.0,308.0&gt;-&lt;339.0,308.0&gt;-&lt;331.0,309.0&gt;&gt;
-
-* uni01B2 (U+01B2) contains a short segment L&lt;&lt;722.0,544.0&gt;--&lt;721.0,544.0&gt;&gt;
-
-* uni2C72 (U+2C72) contains a short segment B&lt;&lt;1251.0,673.0&gt;-&lt;1241.0,676.0&gt;-&lt;1225.5,667.0&gt;&gt;
-
-* uni2C72 (U+2C72) contains a short segment B&lt;&lt;1225.5,667.0&gt;-&lt;1210.0,658.0&gt;-&lt;1202.0,646.0&gt;&gt;
-
-* uni01B3 (U+01B3) contains a short segment L&lt;&lt;823.0,626.0&gt;--&lt;823.0,626.0&gt;&gt;
-
-* uni0188 (U+0188) contains a short segment L&lt;&lt;465.0,287.0&gt;--&lt;468.0,296.0&gt;&gt;
-
-* eth (U+00F0) contains a short segment L&lt;&lt;602.0,360.0&gt;--&lt;600.0,360.0&gt;&gt;
-
-* eogonek (U+0119) contains a short segment B&lt;&lt;216.0,-12.0&gt;-&lt;209.0,-11.0&gt;-&lt;202.0,-10.0&gt;&gt;
-
-* eogonek (U+0119) contains a short segment B&lt;&lt;202.0,-10.0&gt;-&lt;195.0,-9.0&gt;-&lt;190.0,-7.0&gt;&gt;
-
-* l.alt contains a short segment L&lt;&lt;96.0,225.0&gt;--&lt;97.0,228.0&gt;&gt;
-
-* l.alt contains a short segment L&lt;&lt;97.0,228.0&gt;--&lt;97.0,228.0&gt;&gt;
-
-* uni019B (U+019B) contains a short segment L&lt;&lt;355.0,414.0&gt;--&lt;353.0,434.0&gt;&gt;
-
-* uni01A5 (U+01A5) contains a short segment L&lt;&lt;431.0,575.0&gt;--&lt;415.0,575.0&gt;&gt;
-
-* uni01B4 (U+01B4) contains a short segment L&lt;&lt;696.0,420.0&gt;--&lt;695.0,420.0&gt;&gt;
-
-* five (U+0035) contains a short segment L&lt;&lt;167.0,350.0&gt;--&lt;149.0,361.0&gt;&gt;
-
-* five (U+0035) contains a short segment L&lt;&lt;149.0,361.0&gt;--&lt;150.0,364.0&gt;&gt;
-
-* five (U+0035) contains a short segment L&lt;&lt;150.0,364.0&gt;--&lt;149.0,365.0&gt;&gt;
-
-* five (U+0035) contains a short segment B&lt;&lt;149.0,365.0&gt;-&lt;151.0,368.0&gt;-&lt;153.0,370.0&gt;&gt;
-
-* five.lf contains a short segment L&lt;&lt;183.0,350.0&gt;--&lt;165.0,361.0&gt;&gt;
-
-* five.lf contains a short segment L&lt;&lt;165.0,361.0&gt;--&lt;166.0,364.0&gt;&gt;
-
-* five.lf contains a short segment L&lt;&lt;166.0,364.0&gt;--&lt;165.0,365.0&gt;&gt;
-
-* five.lf contains a short segment B&lt;&lt;165.0,365.0&gt;-&lt;167.0,368.0&gt;-&lt;169.0,370.0&gt;&gt;
-
-* five.osf contains a short segment L&lt;&lt;167.0,350.0&gt;--&lt;149.0,361.0&gt;&gt;
-
-* five.osf contains a short segment L&lt;&lt;149.0,361.0&gt;--&lt;150.0,364.0&gt;&gt;
-
-* five.osf contains a short segment L&lt;&lt;150.0,364.0&gt;--&lt;149.0,365.0&gt;&gt;
-
-* five.osf contains a short segment B&lt;&lt;149.0,365.0&gt;-&lt;151.0,368.0&gt;-&lt;153.0,370.0&gt;&gt;
-
-* five.tf contains a short segment L&lt;&lt;167.0,350.0&gt;--&lt;149.0,361.0&gt;&gt;
-
-* five.tf contains a short segment L&lt;&lt;149.0,361.0&gt;--&lt;150.0,364.0&gt;&gt;
-
-* five.tf contains a short segment L&lt;&lt;150.0,364.0&gt;--&lt;149.0,365.0&gt;&gt;
-
-* five.tf contains a short segment B&lt;&lt;149.0,365.0&gt;-&lt;151.0,368.0&gt;-&lt;153.0,370.0&gt;&gt;
-
-* five.tosf contains a short segment L&lt;&lt;167.0,350.0&gt;--&lt;149.0,361.0&gt;&gt;
-
-* five.tosf contains a short segment L&lt;&lt;149.0,361.0&gt;--&lt;150.0,364.0&gt;&gt;
-
-* five.tosf contains a short segment L&lt;&lt;150.0,364.0&gt;--&lt;149.0,365.0&gt;&gt;
-
-* five.tosf contains a short segment B&lt;&lt;149.0,365.0&gt;-&lt;151.0,368.0&gt;-&lt;153.0,370.0&gt;&gt;
-
-* five.dnom contains a short segment L&lt;&lt;71.0,181.0&gt;--&lt;72.0,183.0&gt;&gt;
-
-* five.dnom contains a short segment L&lt;&lt;72.0,183.0&gt;--&lt;72.0,184.0&gt;&gt;
-
-* five.dnom contains a short segment B&lt;&lt;72.0,184.0&gt;-&lt;73.0,185.0&gt;-&lt;74.0,186.0&gt;&gt;
-
-* five.numr contains a short segment L&lt;&lt;196.0,533.0&gt;--&lt;197.0,535.0&gt;&gt;
-
-* five.numr contains a short segment L&lt;&lt;197.0,535.0&gt;--&lt;196.0,536.0&gt;&gt;
-
-* five.numr contains a short segment B&lt;&lt;196.0,536.0&gt;-&lt;197.0,537.0&gt;-&lt;198.0,538.0&gt;&gt;
-
-* fiveeighths (U+215D) contains a short segment L&lt;&lt;196.0,533.0&gt;--&lt;197.0,535.0&gt;&gt;
-
-* fiveeighths (U+215D) contains a short segment L&lt;&lt;197.0,535.0&gt;--&lt;196.0,536.0&gt;&gt;
-
-* fiveeighths (U+215D) contains a short segment B&lt;&lt;196.0,536.0&gt;-&lt;197.0,537.0&gt;-&lt;198.0,538.0&gt;&gt;
-
-* uni2085 (U+2085) contains a short segment L&lt;&lt;27.0,56.0&gt;--&lt;28.0,58.0&gt;&gt;
-
-* uni2085 (U+2085) contains a short segment L&lt;&lt;28.0,58.0&gt;--&lt;28.0,59.0&gt;&gt;
-
-* uni2085 (U+2085) contains a short segment B&lt;&lt;28.0,59.0&gt;-&lt;29.0,60.0&gt;-&lt;30.0,61.0&gt;&gt;
-
-* uni2075 (U+2075) contains a short segment L&lt;&lt;197.0,541.0&gt;--&lt;198.0,543.0&gt;&gt;
-
-* uni2075 (U+2075) contains a short segment L&lt;&lt;198.0,543.0&gt;--&lt;198.0,544.0&gt;&gt;
-
-* uni2075 (U+2075) contains a short segment B&lt;&lt;198.0,544.0&gt;-&lt;199.0,545.0&gt;-&lt;200.0,546.0&gt;&gt;
-
-* braceleft (U+007B) contains a short segment L&lt;&lt;75.0,349.0&gt;--&lt;75.0,349.0&gt;&gt;
-
-* braceleft (U+007B) contains a short segment L&lt;&lt;83.0,371.0&gt;--&lt;93.0,371.0&gt;&gt;
-
-* braceright (U+007D) contains a short segment L&lt;&lt;510.0,264.0&gt;--&lt;510.0,264.0&gt;&gt;
-
-* braceright (U+007D) contains a short segment L&lt;&lt;502.0,242.0&gt;--&lt;493.0,242.0&gt;&gt;
-
-* Euro (U+20AC) contains a short segment B&lt;&lt;171.0,355.0&gt;-&lt;174.0,363.0&gt;-&lt;178.0,372.0&gt;&gt;
-
-* Euro (U+20AC) contains a short segment B&lt;&lt;315.0,346.0&gt;-&lt;312.0,336.0&gt;-&lt;309.0,328.0&gt;&gt;
-
-* uni20B9 (U+20B9) contains a short segment L&lt;&lt;456.0,580.0&gt;--&lt;457.0,581.0&gt;&gt;
-
-* uni20B9 (U+20B9) contains a short segment B&lt;&lt;503.0,700.0&gt;-&lt;505.0,700.0&gt;-&lt;507.0,700.0&gt;&gt;
-
-* uni20AA (U+20AA) contains a short segment L&lt;&lt;235.0,0.0&gt;--&lt;236.0,3.0&gt;&gt;
-
-* uni20AA (U+20AA) contains a short segment L&lt;&lt;236.0,3.0&gt;--&lt;217.0,3.0&gt;&gt;
-
-* uni20AA (U+20AA) contains a short segment L&lt;&lt;311.0,698.0&gt;--&lt;312.0,700.0&gt;&gt;
-
-* sterling (U+00A3) contains a short segment L&lt;&lt;373.0,491.0&gt;--&lt;373.0,491.0&gt;&gt;
-
-* logicalnot (U+00AC) contains a short segment L&lt;&lt;552.0,290.0&gt;--&lt;552.0,290.0&gt;&gt;
-
-* logicalnot (U+00AC) contains a short segment L&lt;&lt;512.0,176.0&gt;--&lt;512.0,176.0&gt;&gt;
-
-* uni00B5 (U+00B5) contains a short segment B&lt;&lt;574.5,122.0&gt;-&lt;581.0,114.0&gt;-&lt;591.0,114.0&gt;&gt;
-</code></pre>
- [code: found-short-segments]
 
 
 
@@ -18121,7 +15472,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[17] ElmsSans-ExtraLight.ttf</summary>
+<details><summary>[16] ElmsSans-ExtraLight.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -18184,7 +15535,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
     <div>
 
 
@@ -18193,214 +15544,113 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
-<pre><code>- Glyph name: kgreenlandic	Expected: 1 or 2
+* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
+<pre><code>- acutecomb
 
-- Glyph name: uni0222	Expected: 2
+- dotbelowcomb
 
-- Glyph name: uni0223	Expected: 2
+- gravecomb
 
-- Glyph name: uni024A	Expected: 2
+- hookabovecomb
 
-- Glyph name: uni024B	Expected: 2
+- tildecomb
 
-- Glyph name: uni02BB	Expected: 1
+- uni0302
 
-- Glyph name: uni02BE	Expected: 1
+- uni0304
 
-- Glyph name: uni02BF	Expected: 1
+- uni0306
 
-- Glyph name: uni02CA	Expected: 1
+- uni0307
 
-- Glyph name: uni02CB	Expected: 1
+- uni0308
 
-- Glyph name: uni0313	Expected: 1
+- uni030A
 
-- Glyph name: uni0334	Expected: 1
+- uni030B
 
-- Glyph name: theta	Expected: 3
+- uni030C
 
-- Glyph name: uni03BC	Expected: 1
+- uni030F
 
-- Glyph name: pi	Expected: 1
+- uni0310
 
-- Glyph name: chi	Expected: 1
+- uni0311
 
-- Glyph name: uni2016	Expected: 2
+- uni0312
 
-- Glyph name: minute	Expected: 1
+- uni0313
 
-- Glyph name: second	Expected: 2
+- uni0315
 
-- Glyph name: colonmonetary	Expected: 1 or 3
+- uni031B
 
-- Glyph name: dong	Expected: 3 or 4
+- uni0324
 
-- Glyph name: uni20AE	Expected: 1
+- uni0325
 
-- Glyph name: uni20B1	Expected: 1, 2 or 4
+- uni0326
 
-- Glyph name: uni20B2	Expected: 1, 2 or 3
+- uni0327
 
-- Glyph name: uni20B8	Expected: 2
+- uni0328
 
-- Glyph name: uni20BA	Expected: 1
+- uni0329
 
-- Glyph name: uni20BC	Expected: 1
+- uni032D
 
-- Glyph name: uni20BF	Expected: 3
+- uni032E
 
-- Glyph name: uni2113	Expected: 2
+- uni032F
 
-- Glyph name: uni2126	Expected: 1
+- uni0330
 
-- Glyph name: estimated	Expected: 2
+- uni0331
 
-- Glyph name: emptyset	Expected: 3
+- uni0332
 
-- Glyph name: uni2206	Expected: 2
+- uni0334
 
-- Glyph name: filledbox	Expected: 1
+- uni0335
 
-- Glyph name: uni25A1	Expected: 2
+- uni0336
 
-- Glyph name: uni25AA	Expected: 1
+- uni0337
 
-- Glyph name: uni25AB	Expected: 2
+- uni0338
 
-- Glyph name: triagup	Expected: 1
+- uni0358
 
-- Glyph name: uni25B3	Expected: 2
+- uni1DC4
 
-- Glyph name: uni25B6	Expected: 1
+- uni1DC5
 
-- Glyph name: uni25B7	Expected: 2
+- uni1DC6
 
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
-
-- Glyph name: chi	Expected: 1
-
-- Glyph name: circle	Expected: 2
-
-- Glyph name: colonmonetary	Expected: 1 or 3
-
-- Glyph name: dong	Expected: 3 or 4
-
-- Glyph name: emptyset	Expected: 3
-
-- Glyph name: estimated	Expected: 2
-
-- Glyph name: kgreenlandic	Expected: 1 or 2
-
-- Glyph name: pi	Expected: 1
-
-- Glyph name: theta	Expected: 3
-
-- Glyph name: triagdn	Expected: 1
-
-- Glyph name: triagup	Expected: 1
-
-- Glyph name: uni0222	Expected: 2
-
-- Glyph name: uni0223	Expected: 2
-
-- Glyph name: uni024A	Expected: 2
-
-- Glyph name: uni024B	Expected: 2
-
-- Glyph name: uni02BB	Expected: 1
-
-- Glyph name: uni02BE	Expected: 1
-
-- Glyph name: uni02BF	Expected: 1
-
-- Glyph name: uni02CA	Expected: 1
-
-- Glyph name: uni02CB	Expected: 1
-
-- Glyph name: uni0313	Expected: 1
-
-- Glyph name: uni03BC	Expected: 1
-
-- Glyph name: uni2016	Expected: 2
-
-- Glyph name: uni20AE	Expected: 1
-
-- Glyph name: uni20B1	Expected: 1, 2 or 4
-
-- Glyph name: uni20B2	Expected: 1, 2 or 3
-
-- Glyph name: uni20B8	Expected: 2
-
-- Glyph name: uni20BA	Expected: 1
-
-- Glyph name: uni20BC	Expected: 1
-
-- Glyph name: uni20BF	Expected: 3
-
-- Glyph name: uni2113	Expected: 2
-
-- Glyph name: uni2126	Expected: 1
-
-- Glyph name: uni2206	Expected: 2
-
-- Glyph name: uni25A1	Expected: 2
-
-- Glyph name: uni25AA	Expected: 1
-
-- Glyph name: uni25AB	Expected: 2
-
-- Glyph name: uni25B3	Expected: 2
-
-- Glyph name: uni25B6	Expected: 1
-
-- Glyph name: uni25B7	Expected: 2
-
-- Glyph name: uni25BD	Expected: 2
-
-- Glyph name: uni25C0	Expected: 1
-
-- Glyph name: uni25C1	Expected: 2
-
-- Glyph name: uni25C6	Expected: 1
-
-- Glyph name: uni25C7	Expected: 2
-
-- Glyph name: uni25CC	Expected: 16 or 12
-
-- Glyph name: uni25CF	Expected: 1
-
-- Glyph name: uni27E8	Expected: 1
-
-- Glyph name: uni27E9	Expected: 1
+- uni1DC7
 </code></pre>
- [code: no-contour]
+ [code: unattached-dotted-circle-marks]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <div>
+
+
+
+
 
 
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -18484,6 +15734,16 @@ definitions.</p>
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
+
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -18498,6 +15758,8 @@ definitions.</p>
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+- Glyph name: circle	Contours detected: 1	Expected: 2
+
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: hbar	Contours detected: 2	Expected: 1
@@ -18505,6 +15767,8 @@ definitions.</p>
 - Glyph name: tbar	Contours detected: 2	Expected: 1
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
@@ -18563,92 +15827,16 @@ definitions.</p>
 - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+- Glyph name: uni25A1	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25AB	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 1	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 15	Expected: 16 or 12
 </code></pre>
  [code: contour-count]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-</code></pre>
- [code: unattached-dotted-circle-marks]
 
 
 
@@ -18667,6 +15855,8 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
 - f_i.liga</p>
+<pre><code>- fl
+</code></pre>
  [code: incomplete-caret-pos-data]
 
 
@@ -18777,30 +15967,30 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, hebrew, math, syriac, todhri, canadian-aboriginal, coptic, malayalam, tai-le, tifinagh, old-permic</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, syriac, hebrew, tai-le, coptic, canadian-aboriginal, tifinagh, duployan, malayalam, math, old-permic</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
-<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, syriac, thai, gothic, cherokee, tifinagh, sunuwar</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, cherokee, sunuwar, gothic, syriac, tifinagh, caucasian-albanian</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -18808,13 +15998,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
-<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: math, elbasan, greek</li>
-<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: math, elbasan, greek</li>
-<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: math, greek</li>
-<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek</li>
-<li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
-<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek</li>
+<li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: greek, math, elbasan</li>
+<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: greek, math, elbasan</li>
+<li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
+<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
+<li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
+<li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
 <li>U+1DC5 COMBINING GRAVE-MACRON: not included in any glyphset definition</li>
@@ -18853,14 +16043,14 @@ definitions.</p>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
@@ -18878,26 +16068,26 @@ definitions.</p>
 <li>U+25AA BLACK SMALL SQUARE: try adding symbols</li>
 <li>U+25AB WHITE SMALL SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: mende-kikakui, wancho, symbols, telugu, mongolian, devanagari, sogdian, pahawh-hmong, armenian, zanabazar-square, caucasian-albanian, siddham, myanmar, limbu, music, oriya, duployan, math, syriac, manichaean, warang-citi, canadian-aboriginal, ahom, bengali, tibetan, new-tai-lue, soyombo, bhaiksuki, buhid, mahajani, coptic, meetei-mayek, tirhuta, adlam, sharada, tai-viet, khojki, kannada, malayalam, khmer, cham, tai-tham, sundanese, batak, miao, javanese, grantha, saurashtra, marchen, sinhala, chakma, tamil, gunjala-gondi, psalter-pahlavi, mandaic, hanunoo, rejang, tai-le, lepcha, elbasan, nko, takri, thaana, khudawadi, tifinagh, brahmi, newa, phags-pa, thai, buginese, syloti-nagri, hanifi-rohingya, dogra, tagbanwa, balinese, osage, kaithi, modi, masaram-gondi, kayah-li, lao, bassa-vah, old-permic, yi, gujarati, hebrew, gurmukhi, kharoshthi, tagalog</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: buginese, marchen, chakma, myanmar, gunjala-gondi, syriac, takri, syloti-nagri, duployan, math, grantha, masaram-gondi, yi, newa, oriya, warang-citi, siddham, armenian, rejang, bengali, sundanese, bassa-vah, osage, tagalog, symbols, old-permic, brahmi, canadian-aboriginal, dogra, tamil, modi, phags-pa, tai-tham, new-tai-lue, kharoshthi, sogdian, pahawh-hmong, adlam, tai-le, saurashtra, devanagari, psalter-pahlavi, tifinagh, tibetan, mongolian, ahom, sharada, elbasan, malayalam, telugu, buhid, limbu, kaithi, tai-viet, lepcha, lao, hebrew, thaana, cham, gurmukhi, nko, wancho, music, soyombo, balinese, miao, khojki, mende-kikakui, zanabazar-square, khmer, tagbanwa, manichaean, tirhuta, khudawadi, gujarati, coptic, meetei-mayek, sinhala, hanunoo, caucasian-albanian, kayah-li, kannada, mahajani, thai, batak, hanifi-rohingya, javanese, mandaic, bhaiksuki</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -18924,209 +16114,9 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̍ i̓ i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i᷄ i᷅ i̛̍ i̛̓ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤̍ i̤̓ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥̍ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ḭ̀ ḭ́ ḭ̂ ḭ̃ ḭ̄ ḭ̆ ḭ̇ ḭ̈ ḭ̉ ḭ̊ ḭ̋ ḭ̌ ḭ̍ ḭ̏ ḭ̐ ḭ̑ ḭ̒ ḭ̓ ḭ᷄ ḭ᷅</p>
  [code: soft-dotted]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Are there any misaligned on-curve points? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-alignment-miss">outline_alignment_miss</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* .notdef: X=185.0,Y=702.0 (should be at cap-height 700?)
-
-* .notdef: X=548.0,Y=702.0 (should be at cap-height 700?)
-
-* uni1EB2 (U+1EB2): X=289.5,Y=999.0 (should be at ascender 1000?)
-
-* uni1EB4 (U+1EB4): X=406.5,Y=999.0 (should be at ascender 1000?)
-
-* uni01E0 (U+01E0): X=154.0,Y=999.0 (should be at ascender 1000?)
-
-* uni01E0 (U+01E0): X=458.0,Y=999.0 (should be at ascender 1000?)
-
-* uni0241 (U+0241): X=220.0,Y=698.0 (should be at cap-height 700?)
-
-* uni0230 (U+0230): X=247.0,Y=999.0 (should be at ascender 1000?)
-
-* uni0230 (U+0230): X=551.0,Y=999.0 (should be at ascender 1000?)
-
-* uni1EA9 (U+1EA9): X=405.0,Y=701.5 (should be at cap-height 700?)
-
-* uniA7B5 (U+A7B5): X=394.5,Y=698.0 (should be at cap-height 700?)
-
-* uni0253 (U+0253): X=226.0,Y=698.0 (should be at cap-height 700?)
-
-* uni0253 (U+0253): X=169.0,Y=698.0 (should be at cap-height 700?)
-
-* c (U+0063): X=386.5,Y=478.0 (should be at x-height 480?)
-
-* uni1EC3 (U+1EC3): X=372.0,Y=701.5 (should be at cap-height 700?)
-
-* uni0294 (U+0294): X=220.0,Y=698.0 (should be at cap-height 700?)
-
-* uni0295 (U+0295): X=235.0,Y=698.0 (should be at cap-height 700?)
-
-* uni0266 (U+0266): X=226.0,Y=698.0 (should be at cap-height 700?)
-
-* uni0266 (U+0266): X=169.0,Y=698.0 (should be at cap-height 700?)
-
-* uni1ED5 (U+1ED5): X=386.0,Y=701.5 (should be at cap-height 700?)
-
-* r (U+0072): X=326.5,Y=478.5 (should be at x-height 480?)
-
-* germandbls (U+00DF): X=155.0,Y=698.0 (should be at cap-height 700?)
-
-* germandbls (U+00DF): X=396.5,Y=698.5 (should be at cap-height 700?)
-
-* uni1E7B (U+1E7B): X=331.5,Y=701.5 (should be at cap-height 700?)
-
-* uni1E7B (U+1E7B): X=392.0,Y=701.5 (should be at cap-height 700?)
-
-* uni1E7B (U+1E7B): X=182.5,Y=701.5 (should be at cap-height 700?)
-
-* uni1E7B (U+1E7B): X=243.5,Y=701.5 (should be at cap-height 700?)
-
-* y (U+0079): X=450.0,Y=481.0 (should be at x-height 480?)
-
-* y (U+0079): X=497.0,Y=481.0 (should be at x-height 480?)
-
-* one.numr: X=29.0,Y=702.0 (should be at cap-height 700?)
-
-* one.numr: X=107.0,Y=702.0 (should be at cap-height 700?)
-
-* three.numr: X=48.0,Y=702.0 (should be at cap-height 700?)
-
-* three.numr: X=244.0,Y=702.0 (should be at cap-height 700?)
-
-* four.numr: X=158.0,Y=702.0 (should be at cap-height 700?)
-
-* four.numr: X=212.0,Y=702.0 (should be at cap-height 700?)
-
-* five.numr: X=69.0,Y=702.0 (should be at cap-height 700?)
-
-* five.numr: X=281.0,Y=702.0 (should be at cap-height 700?)
-
-* six.numr: X=118.0,Y=702.0 (should be at cap-height 700?)
-
-* six.numr: X=162.0,Y=702.0 (should be at cap-height 700?)
-
-* seven.numr: X=4.0,Y=702.0 (should be at cap-height 700?)
-
-* seven.numr: X=223.0,Y=702.0 (should be at cap-height 700?)
-
-* nine.numr: X=228.0,Y=699.0 (should be at cap-height 700?)
-
-* nine.numr: X=93.5,Y=699.0 (should be at cap-height 700?)
-
-* onehalf (U+00BD): X=29.0,Y=702.0 (should be at cap-height 700?)
-
-* onehalf (U+00BD): X=107.0,Y=702.0 (should be at cap-height 700?)
-
-* uni2153 (U+2153): X=29.0,Y=702.0 (should be at cap-height 700?)
-
-* uni2153 (U+2153): X=107.0,Y=702.0 (should be at cap-height 700?)
-
-* onequarter (U+00BC): X=29.0,Y=702.0 (should be at cap-height 700?)
-
-* onequarter (U+00BC): X=107.0,Y=702.0 (should be at cap-height 700?)
-
-* threequarters (U+00BE): X=48.0,Y=702.0 (should be at cap-height 700?)
-
-* threequarters (U+00BE): X=244.0,Y=702.0 (should be at cap-height 700?)
-
-* oneeighth (U+215B): X=29.0,Y=702.0 (should be at cap-height 700?)
-
-* oneeighth (U+215B): X=107.0,Y=702.0 (should be at cap-height 700?)
-
-* threeeighths (U+215C): X=48.0,Y=702.0 (should be at cap-height 700?)
-
-* threeeighths (U+215C): X=244.0,Y=702.0 (should be at cap-height 700?)
-
-* fiveeighths (U+215D): X=69.0,Y=702.0 (should be at cap-height 700?)
-
-* fiveeighths (U+215D): X=281.0,Y=702.0 (should be at cap-height 700?)
-
-* seveneighths (U+215E): X=4.0,Y=702.0 (should be at cap-height 700?)
-
-* seveneighths (U+215E): X=223.0,Y=702.0 (should be at cap-height 700?)
-
-* uni2089 (U+2089): X=86.5,Y=1.0 (should be at baseline 0?)
-
-* uni2079 (U+2079): X=228.0,Y=701.0 (should be at cap-height 700?)
-
-* uni2079 (U+2079): X=93.5,Y=701.0 (should be at cap-height 700?)
-
-* parenleft (U+0028): X=326.0,Y=698.0 (should be at cap-height 700?)
-
-* parenright (U+0029): X=66.0,Y=698.0 (should be at cap-height 700?)
-
-* braceleft (U+007B): X=161.0,Y=2.0 (should be at baseline 0?)
-
-* braceright (U+007D): X=293.0,Y=2.0 (should be at baseline 0?)
-
-* quotesinglbase (U+201A): X=68.5,Y=-0.5 (should be at baseline 0?)
-
-* quotedblbase (U+201E): X=236.5,Y=-0.5 (should be at baseline 0?)
-
-* quotedblbase (U+201E): X=68.5,Y=-0.5 (should be at baseline 0?)
-
-* quotedblleft (U+201C): X=129.0,Y=700.5 (should be at cap-height 700?)
-
-* quotedblleft (U+201C): X=297.0,Y=700.5 (should be at cap-height 700?)
-
-* quotedblright (U+201D): X=340.0,Y=699.0 (should be at cap-height 700?)
-
-* quotedblright (U+201D): X=172.0,Y=699.0 (should be at cap-height 700?)
-
-* quoteleft (U+2018): X=129.0,Y=700.5 (should be at cap-height 700?)
-
-* quoteright (U+2019): X=172.0,Y=699.0 (should be at cap-height 700?)
-
-* comma (U+002C): X=82.5,Y=-0.5 (should be at baseline 0?)
-
-* exclam (U+0021): X=89.0,Y=1.0 (should be at baseline 0?)
-
-* exclam (U+0021): X=168.0,Y=1.0 (should be at baseline 0?)
-
-* question (U+003F): X=200.0,Y=0.5 (should be at baseline 0?)
-
-* question (U+003F): X=279.0,Y=0.5 (should be at baseline 0?)
-
-* florin (U+0192): X=379.0,Y=698.0 (should be at cap-height 700?)
-
-* florin (U+0192): X=323.0,Y=698.0 (should be at cap-height 700?)
-
-* dollar (U+0024): X=225.0,Y=2.0 (should be at baseline 0?)
-
-* dollar (U+0024): X=225.0,Y=698.0 (should be at cap-height 700?)
-
-* integral (U+222B): X=556.0,Y=699.0 (should be at cap-height 700?)
-
-* integral (U+222B): X=485.0,Y=699.0 (should be at cap-height 700?)
-
-* section (U+00A7): X=122.5,Y=698.5 (should be at cap-height 700?)
-
-* uni03020309.case: X=263.0,Y=701.5 (should be at cap-height 700?)
-
-* uni03020309.case: X=322.5,Y=698.5 (should be at cap-height 700?)
-
-* uni03020309: X=283.0,Y=701.5 (should be at cap-height 700?)
-
-* uni02BC (U+02BC): X=172.0,Y=699.0 (should be at cap-height 700?)
-</code></pre>
- [code: found-misalignments]
 
 
 
@@ -19185,6 +16175,10 @@ definitions.</p>
 * uni01B1 (U+01B1): L&lt;&lt;708.0,664.0&gt;--&lt;555.0,664.0&gt;&gt;/B&lt;&lt;555.0,664.0&gt;-&lt;612.0,653.0&gt;-&lt;658.5,604.5&gt;&gt; = 10.922804719869259
 
 * uni025B (U+025B): B&lt;&lt;74.5,213.5&gt;-&lt;109.0,250.0&gt;-&lt;164.0,256.0&gt;&gt;/B&lt;&lt;164.0,256.0&gt;-&lt;109.0,263.0&gt;-&lt;74.5,293.0&gt;&gt; = 13.479023677151083
+
+* uni2126 (U+2126): B&lt;&lt;658.5,95.5&gt;-&lt;612.0,47.0&gt;-&lt;555.0,36.0&gt;&gt;/L&lt;&lt;555.0,36.0&gt;--&lt;708.0,36.0&gt;&gt; = 10.922804719869259
+
+* uni2126 (U+2126): L&lt;&lt;88.0,36.0&gt;--&lt;241.0,36.0&gt;&gt;/B&lt;&lt;241.0,36.0&gt;-&lt;188.0,48.0&gt;-&lt;144.5,96.5&gt;&gt; = 12.757532160876671
 </code></pre>
  [code: found-jaggy-segments]
 
@@ -19227,6 +16221,14 @@ definitions.</p>
 * uni01C3 (U+01C3): L&lt;&lt;148.0,720.0&gt;--&lt;146.0,35.0&gt;&gt;
 
 * uni01E3 (U+01E3): L&lt;&lt;400.0,245.0&gt;--&lt;255.0,244.0&gt;&gt;
+
+* uni0222 (U+0222): L&lt;&lt;51.0,587.0&gt;--&lt;52.0,771.0&gt;&gt;
+
+* uni0222 (U+0222): L&lt;&lt;523.0,771.0&gt;--&lt;522.0,597.0&gt;&gt;
+
+* uni0222 (U+0222): L&lt;&lt;94.0,771.0&gt;--&lt;93.0,588.0&gt;&gt;
+
+* uni0223 (U+0223): L&lt;&lt;44.0,533.0&gt;--&lt;45.0,701.0&gt;&gt;
 
 * uni030C.alt: L&lt;&lt;51.0,542.0&gt;--&lt;50.0,720.0&gt;&gt;
 
@@ -19298,6 +16300,12 @@ definitions.</p>
 
 * uni1E9E (U+1E9E) contains a short segment L&lt;&lt;380.0,403.0&gt;--&lt;380.0,429.0&gt;&gt;
 
+* uniA7A8 (U+A7A8) contains a short segment B&lt;&lt;297.0,346.0&gt;-&lt;291.0,347.0&gt;-&lt;283.0,349.0&gt;&gt;
+
+* uni0162 (U+0162) contains a short segment L&lt;&lt;282.0,0.0&gt;--&lt;279.0,0.0&gt;&gt;
+
+* uni0162 (U+0162) contains a short segment L&lt;&lt;322.0,0.0&gt;--&lt;319.0,0.0&gt;&gt;
+
 * uniA7B8 (U+A7B8) contains a short segment L&lt;&lt;641.0,683.0&gt;--&lt;641.0,700.0&gt;&gt;
 
 * uniA7B8 (U+A7B8) contains a short segment L&lt;&lt;641.0,700.0&gt;--&lt;654.0,700.0&gt;&gt;
@@ -19368,6 +16376,14 @@ definitions.</p>
 
 * uni20AD (U+20AD) contains a short segment L&lt;&lt;103.0,380.0&gt;--&lt;113.0,380.0&gt;&gt;
 
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;349.0,682.0&gt;-&lt;361.0,684.0&gt;-&lt;373.5,685.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;373.5,685.0&gt;-&lt;386.0,686.0&gt;-&lt;399.0,686.0&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;448.0,644.0&gt;-&lt;437.0,645.0&gt;-&lt;424.0,646.5&gt;&gt;
+
+* uni20BE (U+20BE) contains a short segment B&lt;&lt;424.0,646.5&gt;-&lt;411.0,648.0&gt;-&lt;399.0,648.0&gt;&gt;
+
 * at (U+0040) contains a short segment L&lt;&lt;651.0,480.0&gt;--&lt;685.0,480.0&gt;&gt;
 </code></pre>
  [code: found-short-segments]
@@ -19404,8 +16420,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 18 | 0 | 55 | 202 | 1839 | 109 | 1736 | 0 | 
-| 0% | 0% | 1% | 5% | 46% | 3% | 44% | 0% | 
+| 18 | 0 | 37 | 218 | 1839 | 109 | 1738 | 0 | 
+| 0% | 0% | 1% | 6% | 46% | 3% | 44% | 0% | 
 
 
 
