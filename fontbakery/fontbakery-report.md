@@ -119,7 +119,7 @@ fontbakery version: 1.1.0
 </div>
 </details>
 
-<details><summary>[17] ElmsSans-Light.ttf</summary>
+<details><summary>[13] ElmsSans-Light.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -182,108 +182,6 @@ fontbakery version: 1.1.0
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni0313
-
-- uni0315
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0332
-
-- uni0334
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-
-- uni0358
-
-- uni1DC4
-
-- uni1DC5
-
-- uni1DC6
-
-- uni1DC7
-</code></pre>
- [code: unattached-dotted-circle-marks]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
     <div>
 
@@ -295,9 +193,7 @@ fontbakery version: 1.1.0
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -415,8 +311,6 @@ fontbakery version: 1.1.0
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 - Glyph name: uni019A	Contours detected: 2	Expected: 1
@@ -491,27 +385,6 @@ fontbakery version: 1.1.0
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
-- f_i.liga</p>
-<pre><code>- fl
-</code></pre>
- [code: incomplete-caret-pos-data]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -524,53 +397,9 @@ fontbakery version: 1.1.0
 * ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
 <pre><code>* aogonek (U+0105): L&lt;&lt;497.0,0.0&gt;--&lt;552.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* dotlessi_ogonek: L&lt;&lt;66.0,0.0&gt;--&lt;121.0,0.0&gt;&gt; has the same coordinates as a previous segment.
-
 * iogonek (U+012F): L&lt;&lt;66.0,0.0&gt;--&lt;121.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-hyphen">soft_hyphen</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font has a 'Soft Hyphen' character.</p>
- [code: softhyphen]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- dotlessi_ogonek
-
-- l.alt
-
-- t.alt
-</code></pre>
- [code: unreachable-glyphs]
 
 
 
@@ -614,21 +443,21 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, todhri, malayalam, old-permic, duployan, syriac, math, tai-le, canadian-aboriginal, coptic, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, duployan, coptic, malayalam, syriac, old-permic, canadian-aboriginal, todhri, tai-le, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -636,8 +465,8 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, caucasian-albanian, sunuwar, syriac, gothic, cherokee, tifinagh</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, thai, tifinagh, syriac, cherokee, sunuwar, gothic</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -645,12 +474,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
+<li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: elbasan, greek, math</li>
 <li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: elbasan, greek, math</li>
 <li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
 <li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
 <li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
@@ -734,7 +564,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: hanifi-rohingya, saurashtra, syriac, symbols, tai-viet, dogra, kharoshthi, tifinagh, balinese, chakma, syloti-nagri, yi, tagalog, tai-tham, warang-citi, hebrew, thai, armenian, siddham, elbasan, sogdian, telugu, gunjala-gondi, new-tai-lue, mahajani, modi, khmer, tibetan, myanmar, manichaean, osage, psalter-pahlavi, batak, brahmi, wancho, masaram-gondi, phags-pa, bhaiksuki, thaana, kayah-li, bassa-vah, javanese, buginese, mongolian, ahom, pahawh-hmong, soyombo, sundanese, lepcha, canadian-aboriginal, rejang, limbu, malayalam, old-permic, bengali, oriya, miao, grantha, adlam, gurmukhi, caucasian-albanian, marchen, sharada, devanagari, khojki, hanunoo, kaithi, tamil, tagbanwa, nko, math, mandaic, mende-kikakui, kannada, gujarati, zanabazar-square, takri, tai-le, cham, lao, duployan, buhid, sinhala, tirhuta, meetei-mayek, khudawadi, newa, music, coptic</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: math, caucasian-albanian, elbasan, tai-viet, bengali, malayalam, masaram-gondi, syriac, balinese, myanmar, mongolian, tirhuta, armenian, tagbanwa, soyombo, phags-pa, symbols, telugu, takri, limbu, batak, psalter-pahlavi, gurmukhi, khojki, bassa-vah, hanifi-rohingya, saurashtra, adlam, hanunoo, khudawadi, modi, osage, buhid, lao, music, hebrew, sundanese, javanese, duployan, tagalog, gunjala-gondi, kannada, gujarati, chakma, kayah-li, old-permic, sharada, grantha, tifinagh, thaana, marchen, tai-le, manichaean, zanabazar-square, kharoshthi, newa, yi, warang-citi, kaithi, sogdian, buginese, mende-kikakui, devanagari, syloti-nagri, mandaic, oriya, meetei-mayek, khmer, dogra, rejang, bhaiksuki, pahawh-hmong, coptic, ahom, mahajani, brahmi, wancho, tai-tham, thai, lepcha, sinhala, cham, tibetan, miao, canadian-aboriginal, siddham, nko, new-tai-lue, tamil</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -1230,7 +1060,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[14] ElmsSans-Italic.ttf</summary>
+<details><summary>[9] ElmsSans-Italic.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -1293,108 +1123,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni0313
-
-- uni0315
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0332
-
-- uni0334
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-
-- uni0358
-
-- uni1DC4
-
-- uni1DC5
-
-- uni1DC6
-
-- uni1DC7
-</code></pre>
- [code: unattached-dotted-circle-marks]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
     <div>
 
@@ -1406,9 +1134,7 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -1526,8 +1252,6 @@ definitions.</p>
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 - Glyph name: uni019A	Contours detected: 2	Expected: 1
@@ -1602,89 +1326,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
-- f_i.liga</p>
-<pre><code>- fl
-</code></pre>
- [code: incomplete-caret-pos-data]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
-<pre><code>* dotlessi_ogonek: L&lt;&lt;26.0,0.0&gt;--&lt;94.0,0.0&gt;&gt; has the same coordinates as a previous segment.
-</code></pre>
- [code: overlapping-path-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-hyphen">soft_hyphen</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font has a 'Soft Hyphen' character.</p>
- [code: softhyphen]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- dotlessi_ogonek
-
-- l.alt
-
-- t.alt
-</code></pre>
- [code: unreachable-glyphs]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
     <div>
 
@@ -1721,21 +1362,21 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, todhri, malayalam, old-permic, duployan, syriac, math, tai-le, canadian-aboriginal, coptic, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, duployan, coptic, malayalam, syriac, old-permic, canadian-aboriginal, todhri, tai-le, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -1743,8 +1384,8 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, caucasian-albanian, sunuwar, syriac, gothic, cherokee, tifinagh</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, thai, tifinagh, syriac, cherokee, sunuwar, gothic</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -1752,12 +1393,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
+<li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: elbasan, greek, math</li>
 <li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: elbasan, greek, math</li>
 <li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
 <li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
 <li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
@@ -1841,7 +1483,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: hanifi-rohingya, saurashtra, syriac, symbols, tai-viet, dogra, kharoshthi, tifinagh, balinese, chakma, syloti-nagri, yi, tagalog, tai-tham, warang-citi, hebrew, thai, armenian, siddham, elbasan, sogdian, telugu, gunjala-gondi, new-tai-lue, mahajani, modi, khmer, tibetan, myanmar, manichaean, osage, psalter-pahlavi, batak, brahmi, wancho, masaram-gondi, phags-pa, bhaiksuki, thaana, kayah-li, bassa-vah, javanese, buginese, mongolian, ahom, pahawh-hmong, soyombo, sundanese, lepcha, canadian-aboriginal, rejang, limbu, malayalam, old-permic, bengali, oriya, miao, grantha, adlam, gurmukhi, caucasian-albanian, marchen, sharada, devanagari, khojki, hanunoo, kaithi, tamil, tagbanwa, nko, math, mandaic, mende-kikakui, kannada, gujarati, zanabazar-square, takri, tai-le, cham, lao, duployan, buhid, sinhala, tirhuta, meetei-mayek, khudawadi, newa, music, coptic</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: math, caucasian-albanian, elbasan, tai-viet, bengali, malayalam, masaram-gondi, syriac, balinese, myanmar, mongolian, tirhuta, armenian, tagbanwa, soyombo, phags-pa, symbols, telugu, takri, limbu, batak, psalter-pahlavi, gurmukhi, khojki, bassa-vah, hanifi-rohingya, saurashtra, adlam, hanunoo, khudawadi, modi, osage, buhid, lao, music, hebrew, sundanese, javanese, duployan, tagalog, gunjala-gondi, kannada, gujarati, chakma, kayah-li, old-permic, sharada, grantha, tifinagh, thaana, marchen, tai-le, manichaean, zanabazar-square, kharoshthi, newa, yi, warang-citi, kaithi, sogdian, buginese, mende-kikakui, devanagari, syloti-nagri, mandaic, oriya, meetei-mayek, khmer, dogra, rejang, bhaiksuki, pahawh-hmong, coptic, ahom, mahajani, brahmi, wancho, tai-tham, thai, lepcha, sinhala, cham, tibetan, miao, canadian-aboriginal, siddham, nko, new-tai-lue, tamil</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -1978,8 +1620,6 @@ definitions.</p>
 
 * integral (U+222B): L&lt;&lt;466.0,561.0&gt;--&lt;502.0,560.0&gt;&gt;/L&lt;&lt;502.0,560.0&gt;--&lt;467.0,563.0&gt;&gt; = 3.3079521825931653
 
-* l.alt: L&lt;&lt;157.0,183.0&gt;--&lt;120.0,183.0&gt;&gt;/L&lt;&lt;120.0,183.0&gt;--&lt;156.0,181.0&gt;&gt; = 3.1798301198641643
-
 * sterling (U+00A3): L&lt;&lt;269.0,313.0&gt;--&lt;233.0,313.0&gt;&gt;/L&lt;&lt;233.0,313.0&gt;--&lt;268.0,310.0&gt;&gt; = 4.899092453787774
 
 * sterling (U+00A3): L&lt;&lt;271.0,525.0&gt;--&lt;307.0,525.0&gt;&gt;/L&lt;&lt;307.0,525.0&gt;--&lt;272.0,528.0&gt;&gt; = 4.899092453787774
@@ -2023,7 +1663,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[16] ElmsSans-Medium.ttf</summary>
+<details><summary>[12] ElmsSans-Medium.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -2086,108 +1726,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni0313
-
-- uni0315
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0332
-
-- uni0334
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-
-- uni0358
-
-- uni1DC4
-
-- uni1DC5
-
-- uni1DC6
-
-- uni1DC7
-</code></pre>
- [code: unattached-dotted-circle-marks]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
     <div>
 
@@ -2199,9 +1737,7 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -2319,8 +1855,6 @@ definitions.</p>
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 - Glyph name: uni019A	Contours detected: 2	Expected: 1
@@ -2395,27 +1929,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
-- f_i.liga</p>
-<pre><code>- fl
-</code></pre>
- [code: incomplete-caret-pos-data]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -2428,53 +1941,9 @@ definitions.</p>
 * ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
 <pre><code>* aogonek (U+0105): L&lt;&lt;478.0,0.0&gt;--&lt;560.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* dotlessi_ogonek: L&lt;&lt;70.0,0.0&gt;--&lt;152.0,0.0&gt;&gt; has the same coordinates as a previous segment.
-
 * iogonek (U+012F): L&lt;&lt;70.0,0.0&gt;--&lt;152.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-hyphen">soft_hyphen</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font has a 'Soft Hyphen' character.</p>
- [code: softhyphen]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- dotlessi_ogonek
-
-- l.alt
-
-- t.alt
-</code></pre>
- [code: unreachable-glyphs]
 
 
 
@@ -2518,21 +1987,21 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, todhri, malayalam, old-permic, duployan, syriac, math, tai-le, canadian-aboriginal, coptic, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, duployan, coptic, malayalam, syriac, old-permic, canadian-aboriginal, todhri, tai-le, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -2540,8 +2009,8 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, caucasian-albanian, sunuwar, syriac, gothic, cherokee, tifinagh</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, thai, tifinagh, syriac, cherokee, sunuwar, gothic</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -2549,12 +2018,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
+<li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: elbasan, greek, math</li>
 <li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: elbasan, greek, math</li>
 <li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
 <li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
 <li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
@@ -2638,7 +2108,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: hanifi-rohingya, saurashtra, syriac, symbols, tai-viet, dogra, kharoshthi, tifinagh, balinese, chakma, syloti-nagri, yi, tagalog, tai-tham, warang-citi, hebrew, thai, armenian, siddham, elbasan, sogdian, telugu, gunjala-gondi, new-tai-lue, mahajani, modi, khmer, tibetan, myanmar, manichaean, osage, psalter-pahlavi, batak, brahmi, wancho, masaram-gondi, phags-pa, bhaiksuki, thaana, kayah-li, bassa-vah, javanese, buginese, mongolian, ahom, pahawh-hmong, soyombo, sundanese, lepcha, canadian-aboriginal, rejang, limbu, malayalam, old-permic, bengali, oriya, miao, grantha, adlam, gurmukhi, caucasian-albanian, marchen, sharada, devanagari, khojki, hanunoo, kaithi, tamil, tagbanwa, nko, math, mandaic, mende-kikakui, kannada, gujarati, zanabazar-square, takri, tai-le, cham, lao, duployan, buhid, sinhala, tirhuta, meetei-mayek, khudawadi, newa, music, coptic</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: math, caucasian-albanian, elbasan, tai-viet, bengali, malayalam, masaram-gondi, syriac, balinese, myanmar, mongolian, tirhuta, armenian, tagbanwa, soyombo, phags-pa, symbols, telugu, takri, limbu, batak, psalter-pahlavi, gurmukhi, khojki, bassa-vah, hanifi-rohingya, saurashtra, adlam, hanunoo, khudawadi, modi, osage, buhid, lao, music, hebrew, sundanese, javanese, duployan, tagalog, gunjala-gondi, kannada, gujarati, chakma, kayah-li, old-permic, sharada, grantha, tifinagh, thaana, marchen, tai-le, manichaean, zanabazar-square, kharoshthi, newa, yi, warang-citi, kaithi, sogdian, buginese, mende-kikakui, devanagari, syloti-nagri, mandaic, oriya, meetei-mayek, khmer, dogra, rejang, bhaiksuki, pahawh-hmong, coptic, ahom, mahajani, brahmi, wancho, tai-tham, thai, lepcha, sinhala, cham, tibetan, miao, canadian-aboriginal, siddham, nko, new-tai-lue, tamil</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -2994,7 +2464,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[16] ElmsSans-Regular.ttf</summary>
+<details><summary>[12] ElmsSans-Regular.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -3057,108 +2527,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni0313
-
-- uni0315
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0332
-
-- uni0334
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-
-- uni0358
-
-- uni1DC4
-
-- uni1DC5
-
-- uni1DC6
-
-- uni1DC7
-</code></pre>
- [code: unattached-dotted-circle-marks]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
     <div>
 
@@ -3170,9 +2538,7 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -3290,8 +2656,6 @@ definitions.</p>
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 - Glyph name: uni019A	Contours detected: 2	Expected: 1
@@ -3366,27 +2730,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
-- f_i.liga</p>
-<pre><code>- fl
-</code></pre>
- [code: incomplete-caret-pos-data]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -3397,9 +2740,7 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
-<pre><code>* dotlessi_ogonek: L&lt;&lt;68.0,0.0&gt;--&lt;136.0,0.0&gt;&gt; has the same coordinates as a previous segment.
-
-* iogonek (U+012F): L&lt;&lt;68.0,0.0&gt;--&lt;136.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+<pre><code>* iogonek (U+012F): L&lt;&lt;68.0,0.0&gt;--&lt;136.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
 * k (U+006B): L&lt;&lt;150.0,286.0&gt;--&lt;150.0,286.0&gt;&gt; has the same coordinates as a previous segment.
 
@@ -3418,48 +2759,6 @@ definitions.</p>
 * uniA741 (U+A741): L&lt;&lt;150.0,286.0&gt;--&lt;150.0,286.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-hyphen">soft_hyphen</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font has a 'Soft Hyphen' character.</p>
- [code: softhyphen]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- dotlessi_ogonek
-
-- l.alt
-
-- t.alt
-</code></pre>
- [code: unreachable-glyphs]
 
 
 
@@ -3503,21 +2802,21 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, todhri, malayalam, old-permic, duployan, syriac, math, tai-le, canadian-aboriginal, coptic, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, duployan, coptic, malayalam, syriac, old-permic, canadian-aboriginal, todhri, tai-le, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -3525,8 +2824,8 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, caucasian-albanian, sunuwar, syriac, gothic, cherokee, tifinagh</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, thai, tifinagh, syriac, cherokee, sunuwar, gothic</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -3534,12 +2833,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
+<li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: elbasan, greek, math</li>
 <li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: elbasan, greek, math</li>
 <li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
 <li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
 <li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
@@ -3623,7 +2923,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: hanifi-rohingya, saurashtra, syriac, symbols, tai-viet, dogra, kharoshthi, tifinagh, balinese, chakma, syloti-nagri, yi, tagalog, tai-tham, warang-citi, hebrew, thai, armenian, siddham, elbasan, sogdian, telugu, gunjala-gondi, new-tai-lue, mahajani, modi, khmer, tibetan, myanmar, manichaean, osage, psalter-pahlavi, batak, brahmi, wancho, masaram-gondi, phags-pa, bhaiksuki, thaana, kayah-li, bassa-vah, javanese, buginese, mongolian, ahom, pahawh-hmong, soyombo, sundanese, lepcha, canadian-aboriginal, rejang, limbu, malayalam, old-permic, bengali, oriya, miao, grantha, adlam, gurmukhi, caucasian-albanian, marchen, sharada, devanagari, khojki, hanunoo, kaithi, tamil, tagbanwa, nko, math, mandaic, mende-kikakui, kannada, gujarati, zanabazar-square, takri, tai-le, cham, lao, duployan, buhid, sinhala, tirhuta, meetei-mayek, khudawadi, newa, music, coptic</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: math, caucasian-albanian, elbasan, tai-viet, bengali, malayalam, masaram-gondi, syriac, balinese, myanmar, mongolian, tirhuta, armenian, tagbanwa, soyombo, phags-pa, symbols, telugu, takri, limbu, batak, psalter-pahlavi, gurmukhi, khojki, bassa-vah, hanifi-rohingya, saurashtra, adlam, hanunoo, khudawadi, modi, osage, buhid, lao, music, hebrew, sundanese, javanese, duployan, tagalog, gunjala-gondi, kannada, gujarati, chakma, kayah-li, old-permic, sharada, grantha, tifinagh, thaana, marchen, tai-le, manichaean, zanabazar-square, kharoshthi, newa, yi, warang-citi, kaithi, sogdian, buginese, mende-kikakui, devanagari, syloti-nagri, mandaic, oriya, meetei-mayek, khmer, dogra, rejang, bhaiksuki, pahawh-hmong, coptic, ahom, mahajani, brahmi, wancho, tai-tham, thai, lepcha, sinhala, cham, tibetan, miao, canadian-aboriginal, siddham, nko, new-tai-lue, tamil</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -3959,7 +3259,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[14] ElmsSans-SemiBoldItalic.ttf</summary>
+<details><summary>[10] ElmsSans-SemiBoldItalic.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -4022,108 +3322,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni0313
-
-- uni0315
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0332
-
-- uni0334
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-
-- uni0358
-
-- uni1DC4
-
-- uni1DC5
-
-- uni1DC6
-
-- uni1DC7
-</code></pre>
- [code: unattached-dotted-circle-marks]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
     <div>
 
@@ -4135,9 +3333,7 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -4253,8 +3449,6 @@ definitions.</p>
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 - Glyph name: uni019A	Contours detected: 2	Expected: 1
@@ -4327,27 +3521,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
-- f_i.liga</p>
-<pre><code>- fl
-</code></pre>
- [code: incomplete-caret-pos-data]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -4367,48 +3540,6 @@ definitions.</p>
 * uni027D (U+027D): L&lt;&lt;230.0,274.0&gt;--&lt;230.0,274.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-hyphen">soft_hyphen</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font has a 'Soft Hyphen' character.</p>
- [code: softhyphen]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- dotlessi_ogonek
-
-- l.alt
-
-- t.alt
-</code></pre>
- [code: unreachable-glyphs]
 
 
 
@@ -4452,21 +3583,21 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, todhri, malayalam, old-permic, duployan, syriac, math, tai-le, canadian-aboriginal, coptic, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, duployan, coptic, malayalam, syriac, old-permic, canadian-aboriginal, todhri, tai-le, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -4474,8 +3605,8 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, caucasian-albanian, sunuwar, syriac, gothic, cherokee, tifinagh</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, thai, tifinagh, syriac, cherokee, sunuwar, gothic</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -4483,12 +3614,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
+<li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: elbasan, greek, math</li>
 <li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: elbasan, greek, math</li>
 <li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
 <li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
 <li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
@@ -4572,7 +3704,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: hanifi-rohingya, saurashtra, syriac, symbols, tai-viet, dogra, kharoshthi, tifinagh, balinese, chakma, syloti-nagri, yi, tagalog, tai-tham, warang-citi, hebrew, thai, armenian, siddham, elbasan, sogdian, telugu, gunjala-gondi, new-tai-lue, mahajani, modi, khmer, tibetan, myanmar, manichaean, osage, psalter-pahlavi, batak, brahmi, wancho, masaram-gondi, phags-pa, bhaiksuki, thaana, kayah-li, bassa-vah, javanese, buginese, mongolian, ahom, pahawh-hmong, soyombo, sundanese, lepcha, canadian-aboriginal, rejang, limbu, malayalam, old-permic, bengali, oriya, miao, grantha, adlam, gurmukhi, caucasian-albanian, marchen, sharada, devanagari, khojki, hanunoo, kaithi, tamil, tagbanwa, nko, math, mandaic, mende-kikakui, kannada, gujarati, zanabazar-square, takri, tai-le, cham, lao, duployan, buhid, sinhala, tirhuta, meetei-mayek, khudawadi, newa, music, coptic</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: math, caucasian-albanian, elbasan, tai-viet, bengali, malayalam, masaram-gondi, syriac, balinese, myanmar, mongolian, tirhuta, armenian, tagbanwa, soyombo, phags-pa, symbols, telugu, takri, limbu, batak, psalter-pahlavi, gurmukhi, khojki, bassa-vah, hanifi-rohingya, saurashtra, adlam, hanunoo, khudawadi, modi, osage, buhid, lao, music, hebrew, sundanese, javanese, duployan, tagalog, gunjala-gondi, kannada, gujarati, chakma, kayah-li, old-permic, sharada, grantha, tifinagh, thaana, marchen, tai-le, manichaean, zanabazar-square, kharoshthi, newa, yi, warang-citi, kaithi, sogdian, buginese, mende-kikakui, devanagari, syloti-nagri, mandaic, oriya, meetei-mayek, khmer, dogra, rejang, bhaiksuki, pahawh-hmong, coptic, ahom, mahajani, brahmi, wancho, tai-tham, thai, lepcha, sinhala, cham, tibetan, miao, canadian-aboriginal, siddham, nko, new-tai-lue, tamil</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -4717,8 +3849,6 @@ definitions.</p>
 
 * integral (U+222B): L&lt;&lt;438.0,543.0&gt;--&lt;492.0,543.0&gt;&gt;/L&lt;&lt;492.0,543.0&gt;--&lt;439.0,547.0&gt;&gt; = 4.316027519865585
 
-* l.alt: L&lt;&lt;196.0,197.0&gt;--&lt;143.0,197.0&gt;&gt;/L&lt;&lt;143.0,197.0&gt;--&lt;195.0,193.0&gt;&gt; = 4.398705354995508
-
 * sterling (U+00A3): L&lt;&lt;253.0,515.0&gt;--&lt;307.0,515.0&gt;&gt;/L&lt;&lt;307.0,515.0&gt;--&lt;254.0,519.0&gt;&gt; = 4.316027519865585
 
 * uni0162 (U+0162): L&lt;&lt;224.0,-101.0&gt;--&lt;228.0,-86.0&gt;&gt;/L&lt;&lt;228.0,-86.0&gt;--&lt;222.0,-101.0&gt;&gt; = 6.86999230821421
@@ -4756,7 +3886,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[14] ElmsSans-MediumItalic.ttf</summary>
+<details><summary>[10] ElmsSans-MediumItalic.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -4819,108 +3949,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni0313
-
-- uni0315
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0332
-
-- uni0334
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-
-- uni0358
-
-- uni1DC4
-
-- uni1DC5
-
-- uni1DC6
-
-- uni1DC7
-</code></pre>
- [code: unattached-dotted-circle-marks]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
     <div>
 
@@ -4932,9 +3960,7 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -5052,8 +4078,6 @@ definitions.</p>
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 - Glyph name: uni019A	Contours detected: 2	Expected: 1
@@ -5128,27 +4152,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
-- f_i.liga</p>
-<pre><code>- fl
-</code></pre>
- [code: incomplete-caret-pos-data]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -5161,8 +4164,6 @@ definitions.</p>
 * ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
 <pre><code>* aogonek (U+0105): L&lt;&lt;437.0,0.0&gt;--&lt;519.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* dotlessi_ogonek: L&lt;&lt;28.0,0.0&gt;--&lt;110.0,0.0&gt;&gt; has the same coordinates as a previous segment.
-
 * iogonek (U+012F): L&lt;&lt;28.0,0.0&gt;--&lt;110.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni027D (U+027D): L&lt;&lt;218.0,289.0&gt;--&lt;218.0,289.0&gt;&gt; has the same coordinates as a previous segment.
@@ -5170,48 +4171,6 @@ definitions.</p>
 * uni027D (U+027D): L&lt;&lt;218.0,289.0&gt;--&lt;218.0,289.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-hyphen">soft_hyphen</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font has a 'Soft Hyphen' character.</p>
- [code: softhyphen]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- dotlessi_ogonek
-
-- l.alt
-
-- t.alt
-</code></pre>
- [code: unreachable-glyphs]
 
 
 
@@ -5255,21 +4214,21 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, todhri, malayalam, old-permic, duployan, syriac, math, tai-le, canadian-aboriginal, coptic, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, duployan, coptic, malayalam, syriac, old-permic, canadian-aboriginal, todhri, tai-le, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -5277,8 +4236,8 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, caucasian-albanian, sunuwar, syriac, gothic, cherokee, tifinagh</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, thai, tifinagh, syriac, cherokee, sunuwar, gothic</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -5286,12 +4245,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
+<li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: elbasan, greek, math</li>
 <li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: elbasan, greek, math</li>
 <li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
 <li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
 <li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
@@ -5375,7 +4335,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: hanifi-rohingya, saurashtra, syriac, symbols, tai-viet, dogra, kharoshthi, tifinagh, balinese, chakma, syloti-nagri, yi, tagalog, tai-tham, warang-citi, hebrew, thai, armenian, siddham, elbasan, sogdian, telugu, gunjala-gondi, new-tai-lue, mahajani, modi, khmer, tibetan, myanmar, manichaean, osage, psalter-pahlavi, batak, brahmi, wancho, masaram-gondi, phags-pa, bhaiksuki, thaana, kayah-li, bassa-vah, javanese, buginese, mongolian, ahom, pahawh-hmong, soyombo, sundanese, lepcha, canadian-aboriginal, rejang, limbu, malayalam, old-permic, bengali, oriya, miao, grantha, adlam, gurmukhi, caucasian-albanian, marchen, sharada, devanagari, khojki, hanunoo, kaithi, tamil, tagbanwa, nko, math, mandaic, mende-kikakui, kannada, gujarati, zanabazar-square, takri, tai-le, cham, lao, duployan, buhid, sinhala, tirhuta, meetei-mayek, khudawadi, newa, music, coptic</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: math, caucasian-albanian, elbasan, tai-viet, bengali, malayalam, masaram-gondi, syriac, balinese, myanmar, mongolian, tirhuta, armenian, tagbanwa, soyombo, phags-pa, symbols, telugu, takri, limbu, batak, psalter-pahlavi, gurmukhi, khojki, bassa-vah, hanifi-rohingya, saurashtra, adlam, hanunoo, khudawadi, modi, osage, buhid, lao, music, hebrew, sundanese, javanese, duployan, tagalog, gunjala-gondi, kannada, gujarati, chakma, kayah-li, old-permic, sharada, grantha, tifinagh, thaana, marchen, tai-le, manichaean, zanabazar-square, kharoshthi, newa, yi, warang-citi, kaithi, sogdian, buginese, mende-kikakui, devanagari, syloti-nagri, mandaic, oriya, meetei-mayek, khmer, dogra, rejang, bhaiksuki, pahawh-hmong, coptic, ahom, mahajani, brahmi, wancho, tai-tham, thai, lepcha, sinhala, cham, tibetan, miao, canadian-aboriginal, siddham, nko, new-tai-lue, tamil</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -5546,8 +4506,6 @@ definitions.</p>
 
 * integral (U+222B): L&lt;&lt;454.0,553.0&gt;--&lt;497.0,553.0&gt;&gt;/L&lt;&lt;497.0,553.0&gt;--&lt;454.0,556.0&gt;&gt; = 3.9909130984297856
 
-* l.alt: L&lt;&lt;174.0,183.0&gt;--&lt;130.0,183.0&gt;&gt;/L&lt;&lt;130.0,183.0&gt;--&lt;173.0,180.0&gt;&gt; = 3.9909130984297856
-
 * sterling (U+00A3): L&lt;&lt;265.0,525.0&gt;--&lt;309.0,525.0&gt;&gt;/L&lt;&lt;309.0,525.0&gt;--&lt;266.0,528.0&gt;&gt; = 3.9909130984297856
 
 * uni0162 (U+0162): L&lt;&lt;223.0,-94.0&gt;--&lt;226.0,-84.0&gt;&gt;/L&lt;&lt;226.0,-84.0&gt;--&lt;222.0,-94.0&gt;&gt; = 5.102165252358075
@@ -5587,7 +4545,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[14] ElmsSans-BoldItalic.ttf</summary>
+<details><summary>[10] ElmsSans-BoldItalic.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -5650,108 +4608,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni0313
-
-- uni0315
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0332
-
-- uni0334
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-
-- uni0358
-
-- uni1DC4
-
-- uni1DC5
-
-- uni1DC6
-
-- uni1DC7
-</code></pre>
- [code: unattached-dotted-circle-marks]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
     <div>
 
@@ -5763,9 +4619,7 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -5881,8 +4735,6 @@ definitions.</p>
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 - Glyph name: uni019A	Contours detected: 2	Expected: 1
@@ -5955,27 +4807,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
-- f_i.liga</p>
-<pre><code>- fl
-</code></pre>
- [code: incomplete-caret-pos-data]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -5993,48 +4824,6 @@ definitions.</p>
 * uni027D (U+027D): L&lt;&lt;242.0,259.0&gt;--&lt;242.0,259.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-hyphen">soft_hyphen</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font has a 'Soft Hyphen' character.</p>
- [code: softhyphen]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- dotlessi_ogonek
-
-- l.alt
-
-- t.alt
-</code></pre>
- [code: unreachable-glyphs]
 
 
 
@@ -6078,21 +4867,21 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, todhri, malayalam, old-permic, duployan, syriac, math, tai-le, canadian-aboriginal, coptic, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, duployan, coptic, malayalam, syriac, old-permic, canadian-aboriginal, todhri, tai-le, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -6100,8 +4889,8 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, caucasian-albanian, sunuwar, syriac, gothic, cherokee, tifinagh</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, thai, tifinagh, syriac, cherokee, sunuwar, gothic</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -6109,12 +4898,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
+<li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: elbasan, greek, math</li>
 <li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: elbasan, greek, math</li>
 <li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
 <li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
 <li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
@@ -6198,7 +4988,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: hanifi-rohingya, saurashtra, syriac, symbols, tai-viet, dogra, kharoshthi, tifinagh, balinese, chakma, syloti-nagri, yi, tagalog, tai-tham, warang-citi, hebrew, thai, armenian, siddham, elbasan, sogdian, telugu, gunjala-gondi, new-tai-lue, mahajani, modi, khmer, tibetan, myanmar, manichaean, osage, psalter-pahlavi, batak, brahmi, wancho, masaram-gondi, phags-pa, bhaiksuki, thaana, kayah-li, bassa-vah, javanese, buginese, mongolian, ahom, pahawh-hmong, soyombo, sundanese, lepcha, canadian-aboriginal, rejang, limbu, malayalam, old-permic, bengali, oriya, miao, grantha, adlam, gurmukhi, caucasian-albanian, marchen, sharada, devanagari, khojki, hanunoo, kaithi, tamil, tagbanwa, nko, math, mandaic, mende-kikakui, kannada, gujarati, zanabazar-square, takri, tai-le, cham, lao, duployan, buhid, sinhala, tirhuta, meetei-mayek, khudawadi, newa, music, coptic</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: math, caucasian-albanian, elbasan, tai-viet, bengali, malayalam, masaram-gondi, syriac, balinese, myanmar, mongolian, tirhuta, armenian, tagbanwa, soyombo, phags-pa, symbols, telugu, takri, limbu, batak, psalter-pahlavi, gurmukhi, khojki, bassa-vah, hanifi-rohingya, saurashtra, adlam, hanunoo, khudawadi, modi, osage, buhid, lao, music, hebrew, sundanese, javanese, duployan, tagalog, gunjala-gondi, kannada, gujarati, chakma, kayah-li, old-permic, sharada, grantha, tifinagh, thaana, marchen, tai-le, manichaean, zanabazar-square, kharoshthi, newa, yi, warang-citi, kaithi, sogdian, buginese, mende-kikakui, devanagari, syloti-nagri, mandaic, oriya, meetei-mayek, khmer, dogra, rejang, bhaiksuki, pahawh-hmong, coptic, ahom, mahajani, brahmi, wancho, tai-tham, thai, lepcha, sinhala, cham, tibetan, miao, canadian-aboriginal, siddham, nko, new-tai-lue, tamil</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -6341,8 +5131,6 @@ definitions.</p>
 
 * integral (U+222B): L&lt;&lt;422.0,533.0&gt;--&lt;486.0,533.0&gt;&gt;/L&lt;&lt;486.0,533.0&gt;--&lt;423.0,537.0&gt;&gt; = 3.6329507394881446
 
-* l.alt: L&lt;&lt;219.0,210.0&gt;--&lt;156.0,210.0&gt;&gt;/L&lt;&lt;156.0,210.0&gt;--&lt;217.0,206.0&gt;&gt; = 3.7517290705259434
-
 * sterling (U+00A3): L&lt;&lt;241.0,505.0&gt;--&lt;304.0,505.0&gt;&gt;/L&lt;&lt;304.0,505.0&gt;--&lt;242.0,509.0&gt;&gt; = 3.6913859864512575
 
 * uni0162 (U+0162): L&lt;&lt;225.0,-109.0&gt;--&lt;229.0,-88.0&gt;&gt;/L&lt;&lt;229.0,-88.0&gt;--&lt;222.0,-109.0&gt;&gt; = 7.650650955359453
@@ -6380,7 +5168,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[16] ElmsSans-Thin.ttf</summary>
+<details><summary>[12] ElmsSans-Thin.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -6443,108 +5231,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni0313
-
-- uni0315
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0332
-
-- uni0334
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-
-- uni0358
-
-- uni1DC4
-
-- uni1DC5
-
-- uni1DC6
-
-- uni1DC7
-</code></pre>
- [code: unattached-dotted-circle-marks]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
     <div>
 
@@ -6556,9 +5242,7 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -6680,8 +5364,6 @@ definitions.</p>
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 - Glyph name: uni019A	Contours detected: 2	Expected: 1
@@ -6756,27 +5438,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
-- f_i.liga</p>
-<pre><code>- fl
-</code></pre>
- [code: incomplete-caret-pos-data]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -6791,53 +5452,9 @@ definitions.</p>
 
 * aogonek (U+0105): L&lt;&lt;515.0,0.0&gt;--&lt;543.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* dotlessi_ogonek: L&lt;&lt;61.0,0.0&gt;--&lt;89.0,0.0&gt;&gt; has the same coordinates as a previous segment.
-
 * iogonek (U+012F): L&lt;&lt;61.0,0.0&gt;--&lt;89.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-hyphen">soft_hyphen</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font has a 'Soft Hyphen' character.</p>
- [code: softhyphen]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- dotlessi_ogonek
-
-- l.alt
-
-- t.alt
-</code></pre>
- [code: unreachable-glyphs]
 
 
 
@@ -6881,21 +5498,21 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, todhri, malayalam, old-permic, duployan, syriac, math, tai-le, canadian-aboriginal, coptic, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, duployan, coptic, malayalam, syriac, old-permic, canadian-aboriginal, todhri, tai-le, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -6903,8 +5520,8 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, caucasian-albanian, sunuwar, syriac, gothic, cherokee, tifinagh</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, thai, tifinagh, syriac, cherokee, sunuwar, gothic</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -6912,12 +5529,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
+<li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: elbasan, greek, math</li>
 <li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: elbasan, greek, math</li>
 <li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
 <li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
 <li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
@@ -7001,7 +5619,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: hanifi-rohingya, saurashtra, syriac, symbols, tai-viet, dogra, kharoshthi, tifinagh, balinese, chakma, syloti-nagri, yi, tagalog, tai-tham, warang-citi, hebrew, thai, armenian, siddham, elbasan, sogdian, telugu, gunjala-gondi, new-tai-lue, mahajani, modi, khmer, tibetan, myanmar, manichaean, osage, psalter-pahlavi, batak, brahmi, wancho, masaram-gondi, phags-pa, bhaiksuki, thaana, kayah-li, bassa-vah, javanese, buginese, mongolian, ahom, pahawh-hmong, soyombo, sundanese, lepcha, canadian-aboriginal, rejang, limbu, malayalam, old-permic, bengali, oriya, miao, grantha, adlam, gurmukhi, caucasian-albanian, marchen, sharada, devanagari, khojki, hanunoo, kaithi, tamil, tagbanwa, nko, math, mandaic, mende-kikakui, kannada, gujarati, zanabazar-square, takri, tai-le, cham, lao, duployan, buhid, sinhala, tirhuta, meetei-mayek, khudawadi, newa, music, coptic</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: math, caucasian-albanian, elbasan, tai-viet, bengali, malayalam, masaram-gondi, syriac, balinese, myanmar, mongolian, tirhuta, armenian, tagbanwa, soyombo, phags-pa, symbols, telugu, takri, limbu, batak, psalter-pahlavi, gurmukhi, khojki, bassa-vah, hanifi-rohingya, saurashtra, adlam, hanunoo, khudawadi, modi, osage, buhid, lao, music, hebrew, sundanese, javanese, duployan, tagalog, gunjala-gondi, kannada, gujarati, chakma, kayah-li, old-permic, sharada, grantha, tifinagh, thaana, marchen, tai-le, manichaean, zanabazar-square, kharoshthi, newa, yi, warang-citi, kaithi, sogdian, buginese, mende-kikakui, devanagari, syloti-nagri, mandaic, oriya, meetei-mayek, khmer, dogra, rejang, bhaiksuki, pahawh-hmong, coptic, ahom, mahajani, brahmi, wancho, tai-tham, thai, lepcha, sinhala, cham, tibetan, miao, canadian-aboriginal, siddham, nko, new-tai-lue, tamil</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -7377,7 +5995,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[15] ElmsSans-LightItalic.ttf</summary>
+<details><summary>[11] ElmsSans-LightItalic.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -7440,108 +6058,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni0313
-
-- uni0315
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0332
-
-- uni0334
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-
-- uni0358
-
-- uni1DC4
-
-- uni1DC5
-
-- uni1DC6
-
-- uni1DC7
-</code></pre>
- [code: unattached-dotted-circle-marks]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
     <div>
 
@@ -7553,9 +6069,7 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -7673,8 +6187,6 @@ definitions.</p>
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 - Glyph name: uni019A	Contours detected: 2	Expected: 1
@@ -7749,27 +6261,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
-- f_i.liga</p>
-<pre><code>- fl
-</code></pre>
- [code: incomplete-caret-pos-data]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -7782,53 +6273,9 @@ definitions.</p>
 * ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
 <pre><code>* aogonek (U+0105): L&lt;&lt;455.0,0.0&gt;--&lt;510.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* dotlessi_ogonek: L&lt;&lt;24.0,0.0&gt;--&lt;79.0,0.0&gt;&gt; has the same coordinates as a previous segment.
-
 * iogonek (U+012F): L&lt;&lt;24.0,0.0&gt;--&lt;79.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-hyphen">soft_hyphen</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font has a 'Soft Hyphen' character.</p>
- [code: softhyphen]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- dotlessi_ogonek
-
-- l.alt
-
-- t.alt
-</code></pre>
- [code: unreachable-glyphs]
 
 
 
@@ -7872,21 +6319,21 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, todhri, malayalam, old-permic, duployan, syriac, math, tai-le, canadian-aboriginal, coptic, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, duployan, coptic, malayalam, syriac, old-permic, canadian-aboriginal, todhri, tai-le, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -7894,8 +6341,8 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, caucasian-albanian, sunuwar, syriac, gothic, cherokee, tifinagh</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, thai, tifinagh, syriac, cherokee, sunuwar, gothic</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -7903,12 +6350,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
+<li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: elbasan, greek, math</li>
 <li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: elbasan, greek, math</li>
 <li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
 <li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
 <li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
@@ -7992,7 +6440,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: hanifi-rohingya, saurashtra, syriac, symbols, tai-viet, dogra, kharoshthi, tifinagh, balinese, chakma, syloti-nagri, yi, tagalog, tai-tham, warang-citi, hebrew, thai, armenian, siddham, elbasan, sogdian, telugu, gunjala-gondi, new-tai-lue, mahajani, modi, khmer, tibetan, myanmar, manichaean, osage, psalter-pahlavi, batak, brahmi, wancho, masaram-gondi, phags-pa, bhaiksuki, thaana, kayah-li, bassa-vah, javanese, buginese, mongolian, ahom, pahawh-hmong, soyombo, sundanese, lepcha, canadian-aboriginal, rejang, limbu, malayalam, old-permic, bengali, oriya, miao, grantha, adlam, gurmukhi, caucasian-albanian, marchen, sharada, devanagari, khojki, hanunoo, kaithi, tamil, tagbanwa, nko, math, mandaic, mende-kikakui, kannada, gujarati, zanabazar-square, takri, tai-le, cham, lao, duployan, buhid, sinhala, tirhuta, meetei-mayek, khudawadi, newa, music, coptic</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: math, caucasian-albanian, elbasan, tai-viet, bengali, malayalam, masaram-gondi, syriac, balinese, myanmar, mongolian, tirhuta, armenian, tagbanwa, soyombo, phags-pa, symbols, telugu, takri, limbu, batak, psalter-pahlavi, gurmukhi, khojki, bassa-vah, hanifi-rohingya, saurashtra, adlam, hanunoo, khudawadi, modi, osage, buhid, lao, music, hebrew, sundanese, javanese, duployan, tagalog, gunjala-gondi, kannada, gujarati, chakma, kayah-li, old-permic, sharada, grantha, tifinagh, thaana, marchen, tai-le, manichaean, zanabazar-square, kharoshthi, newa, yi, warang-citi, kaithi, sogdian, buginese, mende-kikakui, devanagari, syloti-nagri, mandaic, oriya, meetei-mayek, khmer, dogra, rejang, bhaiksuki, pahawh-hmong, coptic, ahom, mahajani, brahmi, wancho, tai-tham, thai, lepcha, sinhala, cham, tibetan, miao, canadian-aboriginal, siddham, nko, new-tai-lue, tamil</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -8341,8 +6789,6 @@ definitions.</p>
 
 * integral (U+222B): L&lt;&lt;479.0,568.0&gt;--&lt;508.0,568.0&gt;&gt;/L&lt;&lt;508.0,568.0&gt;--&lt;479.0,570.0&gt;&gt; = 3.94518622903751
 
-* l.alt: L&lt;&lt;140.0,183.0&gt;--&lt;111.0,183.0&gt;&gt;/L&lt;&lt;111.0,183.0&gt;--&lt;139.0,181.0&gt;&gt; = 4.085616779974888
-
 * sterling (U+00A3): L&lt;&lt;257.0,305.0&gt;--&lt;229.0,305.0&gt;&gt;/L&lt;&lt;229.0,305.0&gt;--&lt;257.0,303.0&gt;&gt; = 4.085616779974888
 
 * sterling (U+00A3): L&lt;&lt;277.0,525.0&gt;--&lt;306.0,525.0&gt;&gt;/L&lt;&lt;306.0,525.0&gt;--&lt;277.0,527.0&gt;&gt; = 3.94518622903751
@@ -8386,7 +6832,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[16] ElmsSans-Bold.ttf</summary>
+<details><summary>[12] ElmsSans-Bold.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -8449,108 +6895,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni0313
-
-- uni0315
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0332
-
-- uni0334
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-
-- uni0358
-
-- uni1DC4
-
-- uni1DC5
-
-- uni1DC6
-
-- uni1DC7
-</code></pre>
- [code: unattached-dotted-circle-marks]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
     <div>
 
@@ -8562,9 +6906,7 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -8680,8 +7022,6 @@ definitions.</p>
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 - Glyph name: uni019A	Contours detected: 2	Expected: 1
@@ -8754,27 +7094,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
-- f_i.liga</p>
-<pre><code>- fl
-</code></pre>
- [code: incomplete-caret-pos-data]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -8788,48 +7107,6 @@ definitions.</p>
 <pre><code>* aogonek (U+0105): L&lt;&lt;436.0,0.0&gt;--&lt;558.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-hyphen">soft_hyphen</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font has a 'Soft Hyphen' character.</p>
- [code: softhyphen]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- dotlessi_ogonek
-
-- l.alt
-
-- t.alt
-</code></pre>
- [code: unreachable-glyphs]
 
 
 
@@ -8873,21 +7150,21 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, todhri, malayalam, old-permic, duployan, syriac, math, tai-le, canadian-aboriginal, coptic, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, duployan, coptic, malayalam, syriac, old-permic, canadian-aboriginal, todhri, tai-le, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -8895,8 +7172,8 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, caucasian-albanian, sunuwar, syriac, gothic, cherokee, tifinagh</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, thai, tifinagh, syriac, cherokee, sunuwar, gothic</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -8904,12 +7181,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
+<li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: elbasan, greek, math</li>
 <li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: elbasan, greek, math</li>
 <li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
 <li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
 <li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
@@ -8993,7 +7271,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: hanifi-rohingya, saurashtra, syriac, symbols, tai-viet, dogra, kharoshthi, tifinagh, balinese, chakma, syloti-nagri, yi, tagalog, tai-tham, warang-citi, hebrew, thai, armenian, siddham, elbasan, sogdian, telugu, gunjala-gondi, new-tai-lue, mahajani, modi, khmer, tibetan, myanmar, manichaean, osage, psalter-pahlavi, batak, brahmi, wancho, masaram-gondi, phags-pa, bhaiksuki, thaana, kayah-li, bassa-vah, javanese, buginese, mongolian, ahom, pahawh-hmong, soyombo, sundanese, lepcha, canadian-aboriginal, rejang, limbu, malayalam, old-permic, bengali, oriya, miao, grantha, adlam, gurmukhi, caucasian-albanian, marchen, sharada, devanagari, khojki, hanunoo, kaithi, tamil, tagbanwa, nko, math, mandaic, mende-kikakui, kannada, gujarati, zanabazar-square, takri, tai-le, cham, lao, duployan, buhid, sinhala, tirhuta, meetei-mayek, khudawadi, newa, music, coptic</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: math, caucasian-albanian, elbasan, tai-viet, bengali, malayalam, masaram-gondi, syriac, balinese, myanmar, mongolian, tirhuta, armenian, tagbanwa, soyombo, phags-pa, symbols, telugu, takri, limbu, batak, psalter-pahlavi, gurmukhi, khojki, bassa-vah, hanifi-rohingya, saurashtra, adlam, hanunoo, khudawadi, modi, osage, buhid, lao, music, hebrew, sundanese, javanese, duployan, tagalog, gunjala-gondi, kannada, gujarati, chakma, kayah-li, old-permic, sharada, grantha, tifinagh, thaana, marchen, tai-le, manichaean, zanabazar-square, kharoshthi, newa, yi, warang-citi, kaithi, sogdian, buginese, mende-kikakui, devanagari, syloti-nagri, mandaic, oriya, meetei-mayek, khmer, dogra, rejang, bhaiksuki, pahawh-hmong, coptic, ahom, mahajani, brahmi, wancho, tai-tham, thai, lepcha, sinhala, cham, tibetan, miao, canadian-aboriginal, siddham, nko, new-tai-lue, tamil</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -9301,7 +7579,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[14] ElmsSans-ThinItalic.ttf</summary>
+<details><summary>[10] ElmsSans-ThinItalic.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -9364,108 +7642,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni0313
-
-- uni0315
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0332
-
-- uni0334
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-
-- uni0358
-
-- uni1DC4
-
-- uni1DC5
-
-- uni1DC6
-
-- uni1DC7
-</code></pre>
- [code: unattached-dotted-circle-marks]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
     <div>
 
@@ -9477,9 +7653,7 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -9601,8 +7775,6 @@ definitions.</p>
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 - Glyph name: uni019A	Contours detected: 2	Expected: 1
@@ -9677,27 +7849,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
-- f_i.liga</p>
-<pre><code>- fl
-</code></pre>
- [code: incomplete-caret-pos-data]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -9711,52 +7862,8 @@ definitions.</p>
 <pre><code>* Eng (U+014A): L&lt;&lt;547.0,0.0&gt;--&lt;547.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
 * aogonek (U+0105): L&lt;&lt;473.0,0.0&gt;--&lt;501.0,0.0&gt;&gt; has the same coordinates as a previous segment.
-
-* dotlessi_ogonek: L&lt;&lt;19.0,0.0&gt;--&lt;47.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-hyphen">soft_hyphen</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font has a 'Soft Hyphen' character.</p>
- [code: softhyphen]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- dotlessi_ogonek
-
-- l.alt
-
-- t.alt
-</code></pre>
- [code: unreachable-glyphs]
 
 
 
@@ -9800,21 +7907,21 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, todhri, malayalam, old-permic, duployan, syriac, math, tai-le, canadian-aboriginal, coptic, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, duployan, coptic, malayalam, syriac, old-permic, canadian-aboriginal, todhri, tai-le, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -9822,8 +7929,8 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, caucasian-albanian, sunuwar, syriac, gothic, cherokee, tifinagh</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, thai, tifinagh, syriac, cherokee, sunuwar, gothic</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -9831,12 +7938,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
+<li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: elbasan, greek, math</li>
 <li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: elbasan, greek, math</li>
 <li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
 <li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
 <li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
@@ -9920,7 +8028,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: hanifi-rohingya, saurashtra, syriac, symbols, tai-viet, dogra, kharoshthi, tifinagh, balinese, chakma, syloti-nagri, yi, tagalog, tai-tham, warang-citi, hebrew, thai, armenian, siddham, elbasan, sogdian, telugu, gunjala-gondi, new-tai-lue, mahajani, modi, khmer, tibetan, myanmar, manichaean, osage, psalter-pahlavi, batak, brahmi, wancho, masaram-gondi, phags-pa, bhaiksuki, thaana, kayah-li, bassa-vah, javanese, buginese, mongolian, ahom, pahawh-hmong, soyombo, sundanese, lepcha, canadian-aboriginal, rejang, limbu, malayalam, old-permic, bengali, oriya, miao, grantha, adlam, gurmukhi, caucasian-albanian, marchen, sharada, devanagari, khojki, hanunoo, kaithi, tamil, tagbanwa, nko, math, mandaic, mende-kikakui, kannada, gujarati, zanabazar-square, takri, tai-le, cham, lao, duployan, buhid, sinhala, tirhuta, meetei-mayek, khudawadi, newa, music, coptic</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: math, caucasian-albanian, elbasan, tai-viet, bengali, malayalam, masaram-gondi, syriac, balinese, myanmar, mongolian, tirhuta, armenian, tagbanwa, soyombo, phags-pa, symbols, telugu, takri, limbu, batak, psalter-pahlavi, gurmukhi, khojki, bassa-vah, hanifi-rohingya, saurashtra, adlam, hanunoo, khudawadi, modi, osage, buhid, lao, music, hebrew, sundanese, javanese, duployan, tagalog, gunjala-gondi, kannada, gujarati, chakma, kayah-li, old-permic, sharada, grantha, tifinagh, thaana, marchen, tai-le, manichaean, zanabazar-square, kharoshthi, newa, yi, warang-citi, kaithi, sogdian, buginese, mende-kikakui, devanagari, syloti-nagri, mandaic, oriya, meetei-mayek, khmer, dogra, rejang, bhaiksuki, pahawh-hmong, coptic, ahom, mahajani, brahmi, wancho, tai-tham, thai, lepcha, sinhala, cham, tibetan, miao, canadian-aboriginal, siddham, nko, new-tai-lue, tamil</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -10075,8 +8183,6 @@ definitions.</p>
 
 * integral (U+222B): L&lt;&lt;504.0,583.0&gt;--&lt;518.0,583.0&gt;&gt;/L&lt;&lt;518.0,583.0&gt;--&lt;504.0,584.0&gt;&gt; = 4.085616779974888
 
-* l.alt: L&lt;&lt;106.0,183.0&gt;--&lt;92.0,183.0&gt;&gt;/L&lt;&lt;92.0,183.0&gt;--&lt;106.0,182.0&gt;&gt; = 4.085616779974888
-
 * sterling (U+00A3): L&lt;&lt;234.0,290.0&gt;--&lt;220.0,290.0&gt;&gt;/L&lt;&lt;220.0,290.0&gt;--&lt;234.0,289.0&gt;&gt; = 4.085616779974888
 
 * sterling (U+00A3): L&lt;&lt;289.0,525.0&gt;--&lt;303.0,525.0&gt;&gt;/L&lt;&lt;303.0,525.0&gt;--&lt;289.0,526.0&gt;&gt; = 4.085616779974888
@@ -10122,7 +8228,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[14] ElmsSans-ExtraLightItalic.ttf</summary>
+<details><summary>[10] ElmsSans-ExtraLightItalic.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -10185,108 +8291,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni0313
-
-- uni0315
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0332
-
-- uni0334
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-
-- uni0358
-
-- uni1DC4
-
-- uni1DC5
-
-- uni1DC6
-
-- uni1DC7
-</code></pre>
- [code: unattached-dotted-circle-marks]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
     <div>
 
@@ -10298,9 +8302,7 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -10418,8 +8420,6 @@ definitions.</p>
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 - Glyph name: uni019A	Contours detected: 2	Expected: 1
@@ -10494,27 +8494,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
-- f_i.liga</p>
-<pre><code>- fl
-</code></pre>
- [code: incomplete-caret-pos-data]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -10532,48 +8511,6 @@ definitions.</p>
 * uni027D (U+027D): L&lt;&lt;171.0,304.0&gt;--&lt;171.0,304.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-hyphen">soft_hyphen</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font has a 'Soft Hyphen' character.</p>
- [code: softhyphen]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- dotlessi_ogonek
-
-- l.alt
-
-- t.alt
-</code></pre>
- [code: unreachable-glyphs]
 
 
 
@@ -10617,21 +8554,21 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, todhri, malayalam, old-permic, duployan, syriac, math, tai-le, canadian-aboriginal, coptic, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, duployan, coptic, malayalam, syriac, old-permic, canadian-aboriginal, todhri, tai-le, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -10639,8 +8576,8 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, caucasian-albanian, sunuwar, syriac, gothic, cherokee, tifinagh</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, thai, tifinagh, syriac, cherokee, sunuwar, gothic</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -10648,12 +8585,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
+<li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: elbasan, greek, math</li>
 <li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: elbasan, greek, math</li>
 <li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
 <li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
 <li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
@@ -10737,7 +8675,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: hanifi-rohingya, saurashtra, syriac, symbols, tai-viet, dogra, kharoshthi, tifinagh, balinese, chakma, syloti-nagri, yi, tagalog, tai-tham, warang-citi, hebrew, thai, armenian, siddham, elbasan, sogdian, telugu, gunjala-gondi, new-tai-lue, mahajani, modi, khmer, tibetan, myanmar, manichaean, osage, psalter-pahlavi, batak, brahmi, wancho, masaram-gondi, phags-pa, bhaiksuki, thaana, kayah-li, bassa-vah, javanese, buginese, mongolian, ahom, pahawh-hmong, soyombo, sundanese, lepcha, canadian-aboriginal, rejang, limbu, malayalam, old-permic, bengali, oriya, miao, grantha, adlam, gurmukhi, caucasian-albanian, marchen, sharada, devanagari, khojki, hanunoo, kaithi, tamil, tagbanwa, nko, math, mandaic, mende-kikakui, kannada, gujarati, zanabazar-square, takri, tai-le, cham, lao, duployan, buhid, sinhala, tirhuta, meetei-mayek, khudawadi, newa, music, coptic</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: math, caucasian-albanian, elbasan, tai-viet, bengali, malayalam, masaram-gondi, syriac, balinese, myanmar, mongolian, tirhuta, armenian, tagbanwa, soyombo, phags-pa, symbols, telugu, takri, limbu, batak, psalter-pahlavi, gurmukhi, khojki, bassa-vah, hanifi-rohingya, saurashtra, adlam, hanunoo, khudawadi, modi, osage, buhid, lao, music, hebrew, sundanese, javanese, duployan, tagalog, gunjala-gondi, kannada, gujarati, chakma, kayah-li, old-permic, sharada, grantha, tifinagh, thaana, marchen, tai-le, manichaean, zanabazar-square, kharoshthi, newa, yi, warang-citi, kaithi, sogdian, buginese, mende-kikakui, devanagari, syloti-nagri, mandaic, oriya, meetei-mayek, khmer, dogra, rejang, bhaiksuki, pahawh-hmong, coptic, ahom, mahajani, brahmi, wancho, tai-tham, thai, lepcha, sinhala, cham, tibetan, miao, canadian-aboriginal, siddham, nko, new-tai-lue, tamil</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -10906,8 +8844,6 @@ definitions.</p>
 
 * integral (U+222B): L&lt;&lt;491.0,576.0&gt;--&lt;513.0,575.0&gt;&gt;/L&lt;&lt;513.0,575.0&gt;--&lt;491.0,577.0&gt;&gt; = 2.591866705234931
 
-* l.alt: L&lt;&lt;123.0,183.0&gt;--&lt;102.0,183.0&gt;&gt;/L&lt;&lt;102.0,183.0&gt;--&lt;123.0,182.0&gt;&gt; = 2.726310993906212
-
 * sterling (U+00A3): L&lt;&lt;246.0,298.0&gt;--&lt;224.0,298.0&gt;&gt;/L&lt;&lt;224.0,298.0&gt;--&lt;245.0,296.0&gt;&gt; = 5.4403320310054815
 
 * sterling (U+00A3): L&lt;&lt;283.0,525.0&gt;--&lt;304.0,525.0&gt;&gt;/L&lt;&lt;304.0,525.0&gt;--&lt;283.0,527.0&gt;&gt; = 5.4403320310054815
@@ -10953,7 +8889,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[14] ElmsSans-BlackItalic.ttf</summary>
+<details><summary>[10] ElmsSans-BlackItalic.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -11016,108 +8952,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni0313
-
-- uni0315
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0332
-
-- uni0334
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-
-- uni0358
-
-- uni1DC4
-
-- uni1DC5
-
-- uni1DC6
-
-- uni1DC7
-</code></pre>
- [code: unattached-dotted-circle-marks]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
     <div>
 
@@ -11129,9 +8963,7 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -11251,8 +9083,6 @@ definitions.</p>
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 - Glyph name: uni019A	Contours detected: 2	Expected: 1
@@ -11329,27 +9159,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
-- f_i.liga</p>
-<pre><code>- fl
-</code></pre>
- [code: incomplete-caret-pos-data]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -11369,48 +9178,6 @@ definitions.</p>
 * uni027D (U+027D): L&lt;&lt;265.0,229.0&gt;--&lt;265.0,229.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-hyphen">soft_hyphen</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font has a 'Soft Hyphen' character.</p>
- [code: softhyphen]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- dotlessi_ogonek
-
-- l.alt
-
-- t.alt
-</code></pre>
- [code: unreachable-glyphs]
 
 
 
@@ -11454,21 +9221,21 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, todhri, malayalam, old-permic, duployan, syriac, math, tai-le, canadian-aboriginal, coptic, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, duployan, coptic, malayalam, syriac, old-permic, canadian-aboriginal, todhri, tai-le, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -11476,8 +9243,8 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, caucasian-albanian, sunuwar, syriac, gothic, cherokee, tifinagh</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, thai, tifinagh, syriac, cherokee, sunuwar, gothic</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -11485,12 +9252,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
+<li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: elbasan, greek, math</li>
 <li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: elbasan, greek, math</li>
 <li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
 <li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
 <li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
@@ -11574,7 +9342,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: hanifi-rohingya, saurashtra, syriac, symbols, tai-viet, dogra, kharoshthi, tifinagh, balinese, chakma, syloti-nagri, yi, tagalog, tai-tham, warang-citi, hebrew, thai, armenian, siddham, elbasan, sogdian, telugu, gunjala-gondi, new-tai-lue, mahajani, modi, khmer, tibetan, myanmar, manichaean, osage, psalter-pahlavi, batak, brahmi, wancho, masaram-gondi, phags-pa, bhaiksuki, thaana, kayah-li, bassa-vah, javanese, buginese, mongolian, ahom, pahawh-hmong, soyombo, sundanese, lepcha, canadian-aboriginal, rejang, limbu, malayalam, old-permic, bengali, oriya, miao, grantha, adlam, gurmukhi, caucasian-albanian, marchen, sharada, devanagari, khojki, hanunoo, kaithi, tamil, tagbanwa, nko, math, mandaic, mende-kikakui, kannada, gujarati, zanabazar-square, takri, tai-le, cham, lao, duployan, buhid, sinhala, tirhuta, meetei-mayek, khudawadi, newa, music, coptic</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: math, caucasian-albanian, elbasan, tai-viet, bengali, malayalam, masaram-gondi, syriac, balinese, myanmar, mongolian, tirhuta, armenian, tagbanwa, soyombo, phags-pa, symbols, telugu, takri, limbu, batak, psalter-pahlavi, gurmukhi, khojki, bassa-vah, hanifi-rohingya, saurashtra, adlam, hanunoo, khudawadi, modi, osage, buhid, lao, music, hebrew, sundanese, javanese, duployan, tagalog, gunjala-gondi, kannada, gujarati, chakma, kayah-li, old-permic, sharada, grantha, tifinagh, thaana, marchen, tai-le, manichaean, zanabazar-square, kharoshthi, newa, yi, warang-citi, kaithi, sogdian, buginese, mende-kikakui, devanagari, syloti-nagri, mandaic, oriya, meetei-mayek, khmer, dogra, rejang, bhaiksuki, pahawh-hmong, coptic, ahom, mahajani, brahmi, wancho, tai-tham, thai, lepcha, sinhala, cham, tibetan, miao, canadian-aboriginal, siddham, nko, new-tai-lue, tamil</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -11719,8 +9487,6 @@ definitions.</p>
 
 * integral (U+222B): L&lt;&lt;391.0,513.0&gt;--&lt;474.0,513.0&gt;&gt;/L&lt;&lt;474.0,513.0&gt;--&lt;392.0,518.0&gt;&gt; = 3.489324905796376
 
-* l.alt: L&lt;&lt;263.0,237.0&gt;--&lt;181.0,237.0&gt;&gt;/L&lt;&lt;181.0,237.0&gt;--&lt;262.0,232.0&gt;&gt; = 3.532294583890835
-
 * sterling (U+00A3): L&lt;&lt;217.0,485.0&gt;--&lt;300.0,485.0&gt;&gt;/L&lt;&lt;300.0,485.0&gt;--&lt;218.0,490.0&gt;&gt; = 3.489324905796376
 
 * uni0162 (U+0162): L&lt;&lt;226.0,-124.0&gt;--&lt;232.0,-94.0&gt;&gt;/L&lt;&lt;232.0,-94.0&gt;--&lt;222.0,-124.0&gt;&gt; = 7.125016348901757
@@ -11760,7 +9526,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[16] ElmsSans-SemiBold.ttf</summary>
+<details><summary>[12] ElmsSans-SemiBold.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -11823,108 +9589,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni0313
-
-- uni0315
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0332
-
-- uni0334
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-
-- uni0358
-
-- uni1DC4
-
-- uni1DC5
-
-- uni1DC6
-
-- uni1DC7
-</code></pre>
- [code: unattached-dotted-circle-marks]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
     <div>
 
@@ -11936,9 +9600,7 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -12054,8 +9716,6 @@ definitions.</p>
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 - Glyph name: uni019A	Contours detected: 2	Expected: 1
@@ -12128,27 +9788,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
-- f_i.liga</p>
-<pre><code>- fl
-</code></pre>
- [code: incomplete-caret-pos-data]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -12162,48 +9801,6 @@ definitions.</p>
 <pre><code>* aogonek (U+0105): L&lt;&lt;457.0,0.0&gt;--&lt;559.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-hyphen">soft_hyphen</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font has a 'Soft Hyphen' character.</p>
- [code: softhyphen]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- dotlessi_ogonek
-
-- l.alt
-
-- t.alt
-</code></pre>
- [code: unreachable-glyphs]
 
 
 
@@ -12247,21 +9844,21 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, todhri, malayalam, old-permic, duployan, syriac, math, tai-le, canadian-aboriginal, coptic, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, duployan, coptic, malayalam, syriac, old-permic, canadian-aboriginal, todhri, tai-le, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -12269,8 +9866,8 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, caucasian-albanian, sunuwar, syriac, gothic, cherokee, tifinagh</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, thai, tifinagh, syriac, cherokee, sunuwar, gothic</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -12278,12 +9875,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
+<li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: elbasan, greek, math</li>
 <li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: elbasan, greek, math</li>
 <li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
 <li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
 <li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
@@ -12367,7 +9965,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: hanifi-rohingya, saurashtra, syriac, symbols, tai-viet, dogra, kharoshthi, tifinagh, balinese, chakma, syloti-nagri, yi, tagalog, tai-tham, warang-citi, hebrew, thai, armenian, siddham, elbasan, sogdian, telugu, gunjala-gondi, new-tai-lue, mahajani, modi, khmer, tibetan, myanmar, manichaean, osage, psalter-pahlavi, batak, brahmi, wancho, masaram-gondi, phags-pa, bhaiksuki, thaana, kayah-li, bassa-vah, javanese, buginese, mongolian, ahom, pahawh-hmong, soyombo, sundanese, lepcha, canadian-aboriginal, rejang, limbu, malayalam, old-permic, bengali, oriya, miao, grantha, adlam, gurmukhi, caucasian-albanian, marchen, sharada, devanagari, khojki, hanunoo, kaithi, tamil, tagbanwa, nko, math, mandaic, mende-kikakui, kannada, gujarati, zanabazar-square, takri, tai-le, cham, lao, duployan, buhid, sinhala, tirhuta, meetei-mayek, khudawadi, newa, music, coptic</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: math, caucasian-albanian, elbasan, tai-viet, bengali, malayalam, masaram-gondi, syriac, balinese, myanmar, mongolian, tirhuta, armenian, tagbanwa, soyombo, phags-pa, symbols, telugu, takri, limbu, batak, psalter-pahlavi, gurmukhi, khojki, bassa-vah, hanifi-rohingya, saurashtra, adlam, hanunoo, khudawadi, modi, osage, buhid, lao, music, hebrew, sundanese, javanese, duployan, tagalog, gunjala-gondi, kannada, gujarati, chakma, kayah-li, old-permic, sharada, grantha, tifinagh, thaana, marchen, tai-le, manichaean, zanabazar-square, kharoshthi, newa, yi, warang-citi, kaithi, sogdian, buginese, mende-kikakui, devanagari, syloti-nagri, mandaic, oriya, meetei-mayek, khmer, dogra, rejang, bhaiksuki, pahawh-hmong, coptic, ahom, mahajani, brahmi, wancho, tai-tham, thai, lepcha, sinhala, cham, tibetan, miao, canadian-aboriginal, siddham, nko, new-tai-lue, tamil</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -12697,7 +10295,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[16] ElmsSans-ExtraBold.ttf</summary>
+<details><summary>[12] ElmsSans-ExtraBold.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -12760,108 +10358,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni0313
-
-- uni0315
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0332
-
-- uni0334
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-
-- uni0358
-
-- uni1DC4
-
-- uni1DC5
-
-- uni1DC6
-
-- uni1DC7
-</code></pre>
- [code: unattached-dotted-circle-marks]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
     <div>
 
@@ -12873,9 +10369,7 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -12995,8 +10489,6 @@ definitions.</p>
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 - Glyph name: uni019A	Contours detected: 2	Expected: 1
@@ -13073,27 +10565,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
-- f_i.liga</p>
-<pre><code>- fl
-</code></pre>
- [code: incomplete-caret-pos-data]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -13107,48 +10578,6 @@ definitions.</p>
 <pre><code>* aogonek (U+0105): L&lt;&lt;415.0,0.0&gt;--&lt;557.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-hyphen">soft_hyphen</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font has a 'Soft Hyphen' character.</p>
- [code: softhyphen]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- dotlessi_ogonek
-
-- l.alt
-
-- t.alt
-</code></pre>
- [code: unreachable-glyphs]
 
 
 
@@ -13192,21 +10621,21 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, todhri, malayalam, old-permic, duployan, syriac, math, tai-le, canadian-aboriginal, coptic, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, duployan, coptic, malayalam, syriac, old-permic, canadian-aboriginal, todhri, tai-le, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -13214,8 +10643,8 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, caucasian-albanian, sunuwar, syriac, gothic, cherokee, tifinagh</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, thai, tifinagh, syriac, cherokee, sunuwar, gothic</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -13223,12 +10652,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
+<li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: elbasan, greek, math</li>
 <li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: elbasan, greek, math</li>
 <li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
 <li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
 <li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
@@ -13312,7 +10742,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: hanifi-rohingya, saurashtra, syriac, symbols, tai-viet, dogra, kharoshthi, tifinagh, balinese, chakma, syloti-nagri, yi, tagalog, tai-tham, warang-citi, hebrew, thai, armenian, siddham, elbasan, sogdian, telugu, gunjala-gondi, new-tai-lue, mahajani, modi, khmer, tibetan, myanmar, manichaean, osage, psalter-pahlavi, batak, brahmi, wancho, masaram-gondi, phags-pa, bhaiksuki, thaana, kayah-li, bassa-vah, javanese, buginese, mongolian, ahom, pahawh-hmong, soyombo, sundanese, lepcha, canadian-aboriginal, rejang, limbu, malayalam, old-permic, bengali, oriya, miao, grantha, adlam, gurmukhi, caucasian-albanian, marchen, sharada, devanagari, khojki, hanunoo, kaithi, tamil, tagbanwa, nko, math, mandaic, mende-kikakui, kannada, gujarati, zanabazar-square, takri, tai-le, cham, lao, duployan, buhid, sinhala, tirhuta, meetei-mayek, khudawadi, newa, music, coptic</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: math, caucasian-albanian, elbasan, tai-viet, bengali, malayalam, masaram-gondi, syriac, balinese, myanmar, mongolian, tirhuta, armenian, tagbanwa, soyombo, phags-pa, symbols, telugu, takri, limbu, batak, psalter-pahlavi, gurmukhi, khojki, bassa-vah, hanifi-rohingya, saurashtra, adlam, hanunoo, khudawadi, modi, osage, buhid, lao, music, hebrew, sundanese, javanese, duployan, tagalog, gunjala-gondi, kannada, gujarati, chakma, kayah-li, old-permic, sharada, grantha, tifinagh, thaana, marchen, tai-le, manichaean, zanabazar-square, kharoshthi, newa, yi, warang-citi, kaithi, sogdian, buginese, mende-kikakui, devanagari, syloti-nagri, mandaic, oriya, meetei-mayek, khmer, dogra, rejang, bhaiksuki, pahawh-hmong, coptic, ahom, mahajani, brahmi, wancho, tai-tham, thai, lepcha, sinhala, cham, tibetan, miao, canadian-aboriginal, siddham, nko, new-tai-lue, tamil</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -13672,7 +11102,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[16] ElmsSans-Black.ttf</summary>
+<details><summary>[12] ElmsSans-Black.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -13735,108 +11165,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni0313
-
-- uni0315
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0332
-
-- uni0334
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-
-- uni0358
-
-- uni1DC4
-
-- uni1DC5
-
-- uni1DC6
-
-- uni1DC7
-</code></pre>
- [code: unattached-dotted-circle-marks]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
     <div>
 
@@ -13848,9 +11176,7 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -13970,8 +11296,6 @@ definitions.</p>
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 - Glyph name: uni019A	Contours detected: 2	Expected: 1
@@ -14048,27 +11372,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
-- f_i.liga</p>
-<pre><code>- fl
-</code></pre>
- [code: incomplete-caret-pos-data]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -14082,48 +11385,6 @@ definitions.</p>
 <pre><code>* aogonek (U+0105): L&lt;&lt;394.0,0.0&gt;--&lt;556.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-hyphen">soft_hyphen</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font has a 'Soft Hyphen' character.</p>
- [code: softhyphen]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- dotlessi_ogonek
-
-- l.alt
-
-- t.alt
-</code></pre>
- [code: unreachable-glyphs]
 
 
 
@@ -14167,21 +11428,21 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, todhri, malayalam, old-permic, duployan, syriac, math, tai-le, canadian-aboriginal, coptic, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, duployan, coptic, malayalam, syriac, old-permic, canadian-aboriginal, todhri, tai-le, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -14189,8 +11450,8 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, caucasian-albanian, sunuwar, syriac, gothic, cherokee, tifinagh</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, thai, tifinagh, syriac, cherokee, sunuwar, gothic</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -14198,12 +11459,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
+<li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: elbasan, greek, math</li>
 <li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: elbasan, greek, math</li>
 <li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
 <li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
 <li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
@@ -14287,7 +11549,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: hanifi-rohingya, saurashtra, syriac, symbols, tai-viet, dogra, kharoshthi, tifinagh, balinese, chakma, syloti-nagri, yi, tagalog, tai-tham, warang-citi, hebrew, thai, armenian, siddham, elbasan, sogdian, telugu, gunjala-gondi, new-tai-lue, mahajani, modi, khmer, tibetan, myanmar, manichaean, osage, psalter-pahlavi, batak, brahmi, wancho, masaram-gondi, phags-pa, bhaiksuki, thaana, kayah-li, bassa-vah, javanese, buginese, mongolian, ahom, pahawh-hmong, soyombo, sundanese, lepcha, canadian-aboriginal, rejang, limbu, malayalam, old-permic, bengali, oriya, miao, grantha, adlam, gurmukhi, caucasian-albanian, marchen, sharada, devanagari, khojki, hanunoo, kaithi, tamil, tagbanwa, nko, math, mandaic, mende-kikakui, kannada, gujarati, zanabazar-square, takri, tai-le, cham, lao, duployan, buhid, sinhala, tirhuta, meetei-mayek, khudawadi, newa, music, coptic</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: math, caucasian-albanian, elbasan, tai-viet, bengali, malayalam, masaram-gondi, syriac, balinese, myanmar, mongolian, tirhuta, armenian, tagbanwa, soyombo, phags-pa, symbols, telugu, takri, limbu, batak, psalter-pahlavi, gurmukhi, khojki, bassa-vah, hanifi-rohingya, saurashtra, adlam, hanunoo, khudawadi, modi, osage, buhid, lao, music, hebrew, sundanese, javanese, duployan, tagalog, gunjala-gondi, kannada, gujarati, chakma, kayah-li, old-permic, sharada, grantha, tifinagh, thaana, marchen, tai-le, manichaean, zanabazar-square, kharoshthi, newa, yi, warang-citi, kaithi, sogdian, buginese, mende-kikakui, devanagari, syloti-nagri, mandaic, oriya, meetei-mayek, khmer, dogra, rejang, bhaiksuki, pahawh-hmong, coptic, ahom, mahajani, brahmi, wancho, tai-tham, thai, lepcha, sinhala, cham, tibetan, miao, canadian-aboriginal, siddham, nko, new-tai-lue, tamil</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -14675,7 +11937,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[14] ElmsSans-ExtraBoldItalic.ttf</summary>
+<details><summary>[10] ElmsSans-ExtraBoldItalic.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -14738,108 +12000,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni0313
-
-- uni0315
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0332
-
-- uni0334
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-
-- uni0358
-
-- uni1DC4
-
-- uni1DC5
-
-- uni1DC6
-
-- uni1DC7
-</code></pre>
- [code: unattached-dotted-circle-marks]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
     <div>
 
@@ -14851,9 +12011,7 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -14973,8 +12131,6 @@ definitions.</p>
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 - Glyph name: uni019A	Contours detected: 2	Expected: 1
@@ -15051,27 +12207,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
-- f_i.liga</p>
-<pre><code>- fl
-</code></pre>
- [code: incomplete-caret-pos-data]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -15085,48 +12220,6 @@ definitions.</p>
 <pre><code>* aogonek (U+0105): L&lt;&lt;373.0,0.0&gt;--&lt;515.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-hyphen">soft_hyphen</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font has a 'Soft Hyphen' character.</p>
- [code: softhyphen]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- dotlessi_ogonek
-
-- l.alt
-
-- t.alt
-</code></pre>
- [code: unreachable-glyphs]
 
 
 
@@ -15170,21 +12263,21 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, todhri, malayalam, old-permic, duployan, syriac, math, tai-le, canadian-aboriginal, coptic, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, duployan, coptic, malayalam, syriac, old-permic, canadian-aboriginal, todhri, tai-le, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -15192,8 +12285,8 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, caucasian-albanian, sunuwar, syriac, gothic, cherokee, tifinagh</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, thai, tifinagh, syriac, cherokee, sunuwar, gothic</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -15201,12 +12294,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
+<li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: elbasan, greek, math</li>
 <li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: elbasan, greek, math</li>
 <li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
 <li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
 <li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
@@ -15290,7 +12384,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: hanifi-rohingya, saurashtra, syriac, symbols, tai-viet, dogra, kharoshthi, tifinagh, balinese, chakma, syloti-nagri, yi, tagalog, tai-tham, warang-citi, hebrew, thai, armenian, siddham, elbasan, sogdian, telugu, gunjala-gondi, new-tai-lue, mahajani, modi, khmer, tibetan, myanmar, manichaean, osage, psalter-pahlavi, batak, brahmi, wancho, masaram-gondi, phags-pa, bhaiksuki, thaana, kayah-li, bassa-vah, javanese, buginese, mongolian, ahom, pahawh-hmong, soyombo, sundanese, lepcha, canadian-aboriginal, rejang, limbu, malayalam, old-permic, bengali, oriya, miao, grantha, adlam, gurmukhi, caucasian-albanian, marchen, sharada, devanagari, khojki, hanunoo, kaithi, tamil, tagbanwa, nko, math, mandaic, mende-kikakui, kannada, gujarati, zanabazar-square, takri, tai-le, cham, lao, duployan, buhid, sinhala, tirhuta, meetei-mayek, khudawadi, newa, music, coptic</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: math, caucasian-albanian, elbasan, tai-viet, bengali, malayalam, masaram-gondi, syriac, balinese, myanmar, mongolian, tirhuta, armenian, tagbanwa, soyombo, phags-pa, symbols, telugu, takri, limbu, batak, psalter-pahlavi, gurmukhi, khojki, bassa-vah, hanifi-rohingya, saurashtra, adlam, hanunoo, khudawadi, modi, osage, buhid, lao, music, hebrew, sundanese, javanese, duployan, tagalog, gunjala-gondi, kannada, gujarati, chakma, kayah-li, old-permic, sharada, grantha, tifinagh, thaana, marchen, tai-le, manichaean, zanabazar-square, kharoshthi, newa, yi, warang-citi, kaithi, sogdian, buginese, mende-kikakui, devanagari, syloti-nagri, mandaic, oriya, meetei-mayek, khmer, dogra, rejang, bhaiksuki, pahawh-hmong, coptic, ahom, mahajani, brahmi, wancho, tai-tham, thai, lepcha, sinhala, cham, tibetan, miao, canadian-aboriginal, siddham, nko, new-tai-lue, tamil</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -15433,8 +12527,6 @@ definitions.</p>
 
 * integral (U+222B): L&lt;&lt;407.0,523.0&gt;--&lt;480.0,523.0&gt;&gt;/L&lt;&lt;480.0,523.0&gt;--&lt;408.0,528.0&gt;&gt; = 3.9724959407506057
 
-* l.alt: L&lt;&lt;241.0,224.0&gt;--&lt;168.0,224.0&gt;&gt;/L&lt;&lt;168.0,224.0&gt;--&lt;240.0,219.0&gt;&gt; = 3.9724959407506057
-
 * sterling (U+00A3): L&lt;&lt;229.0,495.0&gt;--&lt;302.0,495.0&gt;&gt;/L&lt;&lt;302.0,495.0&gt;--&lt;230.0,500.0&gt;&gt; = 3.9724959407506057
 
 * uni0162 (U+0162): L&lt;&lt;225.0,-116.0&gt;--&lt;231.0,-91.0&gt;&gt;/L&lt;&lt;231.0,-91.0&gt;--&lt;222.0,-116.0&gt;&gt; = 6.303143073729064
@@ -15472,7 +12564,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[16] ElmsSans-ExtraLight.ttf</summary>
+<details><summary>[12] ElmsSans-ExtraLight.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
@@ -15535,108 +12627,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- dotbelowcomb
-
-- gravecomb
-
-- hookabovecomb
-
-- tildecomb
-
-- uni0302
-
-- uni0304
-
-- uni0306
-
-- uni0307
-
-- uni0308
-
-- uni030A
-
-- uni030B
-
-- uni030C
-
-- uni030F
-
-- uni0310
-
-- uni0311
-
-- uni0312
-
-- uni0313
-
-- uni0315
-
-- uni031B
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni0327
-
-- uni0328
-
-- uni0329
-
-- uni032D
-
-- uni032E
-
-- uni032F
-
-- uni0330
-
-- uni0331
-
-- uni0332
-
-- uni0334
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-
-- uni0358
-
-- uni1DC4
-
-- uni1DC5
-
-- uni1DC6
-
-- uni1DC7
-</code></pre>
- [code: unattached-dotted-circle-marks]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
     <div>
 
@@ -15648,9 +12638,7 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-- Glyph name: Eth	Contours detected: 3	Expected: 2
+<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -15768,8 +12756,6 @@ definitions.</p>
 
 - Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
 - Glyph name: uni019A	Contours detected: 2	Expected: 1
@@ -15844,27 +12830,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret positioning values for these ligature glyphs:
-- f_i.liga</p>
-<pre><code>- fl
-</code></pre>
- [code: incomplete-caret-pos-data]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -15882,48 +12847,6 @@ definitions.</p>
 * iogonek (U+012F): L&lt;&lt;63.0,0.0&gt;--&lt;105.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-hyphen">soft_hyphen</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font has a 'Soft Hyphen' character.</p>
- [code: softhyphen]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- dotlessi_ogonek
-
-- l.alt
-
-- t.alt
-</code></pre>
- [code: unreachable-glyphs]
 
 
 
@@ -15967,21 +12890,21 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, todhri, malayalam, old-permic, duployan, syriac, math, tai-le, canadian-aboriginal, coptic, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, duployan, coptic, malayalam, syriac, old-permic, canadian-aboriginal, todhri, tai-le, hebrew</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -15989,8 +12912,8 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, caucasian-albanian, sunuwar, syriac, gothic, cherokee, tifinagh</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, thai, tifinagh, syriac, cherokee, sunuwar, gothic</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -15998,12 +12921,13 @@ definitions.</p>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
+<li>U+035F COMBINING DOUBLE MACRON BELOW: not included in any glyphset definition</li>
 <li>U+0398 GREEK CAPITAL LETTER THETA: try adding one of: elbasan, greek, math</li>
 <li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: elbasan, greek, math</li>
 <li>U+03B8 GREEK SMALL LETTER THETA: try adding one of: greek, math</li>
 <li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
 <li>U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1DC4 COMBINING MACRON-ACUTE: not included in any glyphset definition</li>
@@ -16087,7 +13011,7 @@ definitions.</p>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: hanifi-rohingya, saurashtra, syriac, symbols, tai-viet, dogra, kharoshthi, tifinagh, balinese, chakma, syloti-nagri, yi, tagalog, tai-tham, warang-citi, hebrew, thai, armenian, siddham, elbasan, sogdian, telugu, gunjala-gondi, new-tai-lue, mahajani, modi, khmer, tibetan, myanmar, manichaean, osage, psalter-pahlavi, batak, brahmi, wancho, masaram-gondi, phags-pa, bhaiksuki, thaana, kayah-li, bassa-vah, javanese, buginese, mongolian, ahom, pahawh-hmong, soyombo, sundanese, lepcha, canadian-aboriginal, rejang, limbu, malayalam, old-permic, bengali, oriya, miao, grantha, adlam, gurmukhi, caucasian-albanian, marchen, sharada, devanagari, khojki, hanunoo, kaithi, tamil, tagbanwa, nko, math, mandaic, mende-kikakui, kannada, gujarati, zanabazar-square, takri, tai-le, cham, lao, duployan, buhid, sinhala, tirhuta, meetei-mayek, khudawadi, newa, music, coptic</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: math, caucasian-albanian, elbasan, tai-viet, bengali, malayalam, masaram-gondi, syriac, balinese, myanmar, mongolian, tirhuta, armenian, tagbanwa, soyombo, phags-pa, symbols, telugu, takri, limbu, batak, psalter-pahlavi, gurmukhi, khojki, bassa-vah, hanifi-rohingya, saurashtra, adlam, hanunoo, khudawadi, modi, osage, buhid, lao, music, hebrew, sundanese, javanese, duployan, tagalog, gunjala-gondi, kannada, gujarati, chakma, kayah-li, old-permic, sharada, grantha, tifinagh, thaana, marchen, tai-le, manichaean, zanabazar-square, kharoshthi, newa, yi, warang-citi, kaithi, sogdian, buginese, mende-kikakui, devanagari, syloti-nagri, mandaic, oriya, meetei-mayek, khmer, dogra, rejang, bhaiksuki, pahawh-hmong, coptic, ahom, mahajani, brahmi, wancho, tai-tham, thai, lepcha, sinhala, cham, tibetan, miao, canadian-aboriginal, siddham, nko, new-tai-lue, tamil</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math</li>
@@ -16420,8 +13344,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 18 | 0 | 37 | 218 | 1839 | 109 | 1738 | 0 | 
-| 0% | 0% | 1% | 6% | 46% | 3% | 44% | 0% | 
+| 18 | 0 | 19 | 163 | 1839 | 109 | 1811 | 0 | 
+| 0% | 0% | 0% | 4% | 46% | 3% | 46% | 0% | 
 
 
 
